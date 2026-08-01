@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fox Finance Group — GHL Delivery Plan</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Montserrat:wght@400;600;700;800;900&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            display: ['Montserrat', 'sans-serif'],
+            body: ['Nunito', 'sans-serif'],
+            mono: ['JetBrains Mono', 'monospace'],
+          },
+          colors: {
+            njin: {
+              bg: '#0d0d0d',
+              card: '#141414',
+              muted: '#262626',
+              border: '#333333',
+              magenta: '#ed1d8c',
+              'magenta-glow': '#f55aaa',
+              cyan: '#00bfff',
+              green: '#00e64d',
+              orange: '#ff9500',
+              text: '#fafafa',
+              'text-muted': '#a6a6a6',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Nunito', sans-serif; background: #0d0d0d; color: #fafafa; overflow-x: hidden; }
+    h1, h2, h3, h4 { font-family: 'Montserrat', sans-serif; }
+
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: #333; border-radius: 3px; }
+
+    .ambient-bg { position: fixed; inset: 0; pointer-events: none; z-index: 0; overflow: hidden; }
+    .ambient-orb { position: absolute; border-radius: 50%; filter: blur(120px); animation: drift 20s ease-in-out infinite; }
+    .ambient-orb:nth-child(1) { width: 600px; height: 600px; background: radial-gradient(circle, hsla(328,88%,52%,0.05), transparent 70%); top: 5%; left: -10%; }
+    .ambient-orb:nth-child(2) { width: 500px; height: 500px; background: radial-gradient(circle, hsla(190,100%,50%,0.04), transparent 70%); top: 45%; right: -15%; animation-delay: -7s; }
+    .ambient-orb:nth-child(3) { width: 400px; height: 400px; background: radial-gradient(circle, hsla(145,100%,45%,0.03), transparent 70%); bottom: 10%; left: 20%; animation-delay: -14s; }
+    @keyframes drift { 0%,100%{transform:translate(0,0) scale(1)} 33%{transform:translate(30px,-20px) scale(1.05)} 66%{transform:translate(-20px,30px) scale(0.95)} }
+
+    .gradient-text-cyber { background: linear-gradient(135deg,#00bfff,#ed1d8c); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; }
+    .gradient-text-primary { background: linear-gradient(135deg,#ed1d8c,#f55aaa); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; }
+    .gradient-text-accent { background: linear-gradient(135deg,#00e64d,#00bfff); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; }
+
+    .card { background: #141414; border: 1px solid #262626; border-radius: 16px; padding: 24px; transition: all 0.3s; }
+    .card:hover { border-color: #333; transform: translateY(-2px); }
+
+    .card-magenta { border-left: 3px solid #ed1d8c; }
+    .card-cyan { border-left: 3px solid #00bfff; }
+    .card-green { border-left: 3px solid #00e64d; }
+    .card-orange { border-left: 3px solid #ff9500; }
+
+    .tag { display: inline-flex; align-items: center; gap: 6px; font-family: 'JetBrains Mono',monospace; font-size: 11px; font-weight: 600; padding: 4px 10px; border-radius: 6px; text-transform: uppercase; letter-spacing: 0.08em; }
+    .tag-magenta { background: rgba(237,29,140,0.1); color: #ed1d8c; border: 1px solid rgba(237,29,140,0.25); }
+    .tag-cyan { background: rgba(0,191,255,0.1); color: #00bfff; border: 1px solid rgba(0,191,255,0.25); }
+    .tag-green { background: rgba(0,230,77,0.1); color: #00e64d; border: 1px solid rgba(0,230,77,0.25); }
+    .tag-orange { background: rgba(255,149,0,0.1); color: #ff9500; border: 1px solid rgba(255,149,0,0.25); }
+    .tag-muted { background: rgba(166,166,166,0.08); color: #a6a6a6; border: 1px solid #333; }
+
+    .section { position: relative; z-index: 1; padding: 72px 24px; max-width: 1200px; margin: 0 auto; }
+
+    .stat-card { background: linear-gradient(135deg, rgba(237,29,140,0.08), rgba(0,191,255,0.04)); border: 1px solid #262626; border-radius: 16px; padding: 28px; }
+
+    table { width: 100%; border-collapse: collapse; }
+    th, td { text-align: left; padding: 14px 16px; border-bottom: 1px solid #262626; font-size: 14px; }
+    th { font-family: 'JetBrains Mono', monospace; font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: #a6a6a6; font-weight: 600; }
+    tr:last-child td { border-bottom: none; }
+
+    .check::before { content: '✓'; color: #00e64d; margin-right: 8px; font-weight: bold; }
+    .cross::before { content: '✕'; color: #ff9500; margin-right: 8px; font-weight: bold; }
+    .bullet::before { content: '●'; color: #ed1d8c; margin-right: 10px; font-size: 10px; }
+
+    .footer { border-top: 1px solid #262626; padding: 32px 24px; text-align: center; color: #666; font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: 0.05em; }
+
+    .pulse-dot { width: 8px; height: 8px; border-radius: 50%; background: #00e64d; box-shadow: 0 0 12px #00e64d; animation: pulse 2s ease-in-out infinite; }
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
+  </style>
+</head>
+<body>
+
+<div class="ambient-bg">
+  <div class="ambient-orb"></div>
+  <div class="ambient-orb"></div>
+  <div class="ambient-orb"></div>
+</div>
+
+<!-- HERO -->
+<section class="section" style="padding-top: 120px;">
+  <div class="flex items-center gap-3 mb-6">
+    <div class="pulse-dot"></div>
+    <span class="font-mono text-xs tracking-widest text-njin-text-muted uppercase">Fox Finance Group · Playbook Delivery Plan · 16 Apr 2026</span>
+  </div>
+  <h1 class="text-5xl md:text-7xl font-black leading-tight mb-6">
+    Cross-Sell + SDR.<br/>
+    <span class="gradient-text-cyber">Built inside GHL.</span>
+  </h1>
+  <p class="text-xl text-njin-text-muted max-w-3xl leading-relaxed">
+    GHL is the confirmed delivery platform for both playbooks. This doc covers the scope,
+    the known limits, and the path to implementation.
+  </p>
+
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-12">
+    <div class="stat-card">
+      <div class="text-xs font-mono text-njin-text-muted uppercase tracking-wider mb-2">Revenue Constraint</div>
+      <div class="text-2xl font-bold gradient-text-primary">Monetisation</div>
+      <div class="text-sm text-njin-text-muted mt-2">Cross-sell across FFG, FHL, UMI</div>
+    </div>
+    <div class="stat-card">
+      <div class="text-xs font-mono text-njin-text-muted uppercase tracking-wider mb-2">Playbook Package</div>
+      <div class="text-2xl font-bold gradient-text-accent">Cross-Sell + SDR</div>
+      <div class="text-sm text-njin-text-muted mt-2">Plus long-term nurture &amp; reactivation</div>
+    </div>
+    <div class="stat-card">
+      <div class="text-xs font-mono text-njin-text-muted uppercase tracking-wider mb-2">Platform</div>
+      <div class="text-2xl font-bold gradient-text-cyber">GHL</div>
+      <div class="text-sm text-njin-text-muted mt-2">Single account, confirmed</div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY GHL -->
+<section class="section">
+  <div class="mb-10">
+    <span class="tag tag-magenta">01 · Why GHL</span>
+    <h2 class="text-4xl md:text-5xl font-black mt-4 mb-4">Why this is the right platform for Fox.</h2>
+    <p class="text-lg text-njin-text-muted max-w-3xl">
+      GHL is purpose-built for the kind of long-term nurture, reactivation and cross-sell
+      automation that Fox's playbooks depend on. Four reasons it fits.
+    </p>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+    <div class="card card-cyan">
+      <span class="tag tag-cyan">Proven</span>
+      <h3 class="text-xl font-bold mt-4 mb-2">Battle-tested in financial services</h3>
+      <p class="text-njin-text-muted text-sm leading-relaxed">
+        Pipelines, workflows, SMS, email, call tracking and booking are all native.
+        Nothing here is experimental. We're deploying proven tooling, not building it.
+      </p>
+    </div>
+    <div class="card card-green">
+      <span class="tag tag-green">Nurture-Native</span>
+      <h3 class="text-xl font-bold mt-4 mb-2">Built for long-term lifecycle</h3>
+      <p class="text-njin-text-muted text-sm leading-relaxed">
+        A large part of the Cross-Sell and SDR playbooks is the long-term nurture
+        and reactivation sequences we're devising — this is exactly what GHL is
+        designed to run at scale.
+      </p>
+    </div>
+    <div class="card card-orange">
+      <span class="tag tag-orange">Speed</span>
+      <h3 class="text-xl font-bold mt-4 mb-2">Fast path to first cross-sell</h3>
+      <p class="text-njin-text-muted text-sm leading-relaxed">
+        Cross-Sell Playbook can be live inside GHL in weeks, not months. Faster
+        validation of the monetisation strategy, faster revenue return on the work.
+      </p>
+    </div>
+    <div class="card card-magenta">
+      <span class="tag tag-magenta">Focus</span>
+      <h3 class="text-xl font-bold mt-4 mb-2">Less platform, more playbook</h3>
+      <p class="text-njin-text-muted text-sm leading-relaxed">
+        No custom build distractions. All the engagement effort goes into the
+        strategy, the automations, and the scripts — the parts that actually move
+        the revenue needle.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- PLAYBOOKS -->
+<section class="section">
+  <div class="mb-10">
+    <span class="tag tag-cyan">02 · Scope</span>
+    <h2 class="text-4xl md:text-5xl font-black mt-4 mb-4">Two playbooks. One delivery plan.</h2>
+    <p class="text-lg text-njin-text-muted max-w-3xl">
+      The original 19-section Njin Method structure applies to both playbooks.
+      Long-term nurture and reactivation show up inside both — these aren't bolt-ons,
+      they're core to how Fox will monetise existing contacts.
+    </p>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+    <div class="card">
+      <div class="flex items-center gap-3 mb-4">
+        <span class="tag tag-magenta">Playbook 1</span>
+        <span class="tag tag-muted">Monetisation</span>
+      </div>
+      <h3 class="text-2xl font-black mb-3">Cross-Sell &amp; Monetisation</h3>
+      <p class="text-njin-text-muted text-sm leading-relaxed mb-4">
+        Unify the customer view across FFG, FHL and UMI and build a systematic
+        cross-sell engine. Long-term nurture sits at the heart of this — keeping
+        customers warm between product windows.
+      </p>
+      <ul class="space-y-2 text-sm text-njin-text-muted">
+        <li class="check">Cross-brand customer lifecycle model</li>
+        <li class="check">Long-term nurture sequences (new for Fox)</li>
+        <li class="check">Lifecycle triggers for cross-sell windows</li>
+        <li class="check">Next-Best-Offer logic for brokers</li>
+        <li class="check">Broker-facing prompts and scripts</li>
+      </ul>
+    </div>
+    <div class="card">
+      <div class="flex items-center gap-3 mb-4">
+        <span class="tag tag-cyan">Playbook 2</span>
+        <span class="tag tag-muted">Conversion</span>
+      </div>
+      <h3 class="text-2xl font-black mb-3">Pre-Sales SDR &amp; Reactivation</h3>
+      <p class="text-njin-text-muted text-sm leading-relaxed mb-4">
+        Lifts show-up rates, speed-to-lead and qualification quality. Reactivation
+        is a big part of this — waking up cold contacts across the database and
+        moving them back into active pipelines.
+      </p>
+      <ul class="space-y-2 text-sm text-njin-text-muted">
+        <li class="check">Speed-to-lead automation (SMS + email)</li>
+        <li class="check">Reactivation sequences for dormant contacts</li>
+        <li class="check">Nurture flows per product line</li>
+        <li class="check">Qualification scripts and scorecards</li>
+        <li class="check">Handover into broker pipelines</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- INVESTMENT -->
+<section class="section">
+  <div class="mb-10">
+    <span class="tag tag-green">03 · Investment</span>
+    <h2 class="text-4xl md:text-5xl font-black mt-4 mb-4">What changes on the invoice.</h2>
+    <p class="text-lg text-njin-text-muted max-w-3xl">
+      The Njin engagement fee is unchanged. GHL adds a monthly subscription to the
+      Fox tech stack. Training is scoped as minimal onboarding — ongoing training
+      programmes can be added separately if the team wants them.
+    </p>
+  </div>
+
+  <div class="card overflow-x-auto">
+    <table>
+      <thead>
+        <tr>
+          <th>Line Item</th>
+          <th>Coverage</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="font-semibold">Njin Engagement Fee</td>
+          <td class="text-njin-text-muted">Unchanged</td>
+          <td class="text-njin-text-muted">Strategy, playbook build, configuration, automation, onboarding</td>
+        </tr>
+        <tr>
+          <td class="font-semibold">GHL Subscription</td>
+          <td class="text-njin-text-muted">Added to Fox stack</td>
+          <td class="text-njin-text-muted">Monthly, paid directly by Fox. Tier confirmed post-prototype.</td>
+        </tr>
+        <tr>
+          <td class="font-semibold">Team Onboarding</td>
+          <td class="text-njin-text-muted">Included</td>
+          <td class="text-njin-text-muted">Minimal, focused on using what we build</td>
+        </tr>
+        <tr>
+          <td class="font-semibold">Ongoing Training</td>
+          <td class="text-njin-text-muted">Optional add-on</td>
+          <td class="text-njin-text-muted">Scoped separately if the team wants deeper GHL enablement</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- LIMITATIONS -->
+<section class="section">
+  <div class="mb-10">
+    <span class="tag tag-orange">04 · Known Limits</span>
+    <h2 class="text-4xl md:text-5xl font-black mt-4 mb-4">What GHL doesn't do well.</h2>
+    <p class="text-lg text-njin-text-muted max-w-3xl">
+      Being upfront. GHL nails 90% of what the playbooks need. Here's the 10% that
+      requires workarounds, so there are no surprises later.
+    </p>
+  </div>
+
+  <div class="space-y-5">
+    <div class="card card-orange">
+      <div class="flex items-start gap-4">
+        <div class="font-mono text-3xl font-black text-njin-orange">!</div>
+        <div class="flex-1">
+          <div class="flex items-center gap-2 mb-2">
+            <h3 class="text-xl font-bold">Relational data between contacts</h3>
+            <span class="tag tag-orange">Biggest Limit</span>
+          </div>
+          <p class="text-sm text-njin-text-muted leading-relaxed mb-3">
+            GHL's contact model is flat. You can't cleanly link two contacts and
+            attach a shared record between them — the sort of thing you hit with
+            referrers, joint borrowers, introducers, partner-to-client relationships.
+            We saw this pain first-hand in a recent referral playbook build.
+          </p>
+          <p class="text-sm text-njin-green font-semibold">How we handle it</p>
+          <p class="text-sm text-njin-text-muted leading-relaxed">
+            Known workarounds: custom fields that mirror the link, tagging
+            conventions, and opportunity objects to carry shared context.
+            It works — it's just hand-rolled, not elegant.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card card-orange">
+      <div class="flex items-start gap-4">
+        <div class="font-mono text-3xl font-black text-njin-orange">!</div>
+        <div class="flex-1">
+          <h3 class="text-xl font-bold mb-2">Cross-brand data between FFG, FHL and UMI</h3>
+          <p class="text-sm text-njin-text-muted leading-relaxed mb-3">
+            Because the relational model is flat, the cross-brand view — one
+            customer holding products across all three brands — won't be native.
+            It will be hacked together using conventions rather than structure.
+          </p>
+          <p class="text-sm text-njin-green font-semibold">How we handle it</p>
+          <p class="text-sm text-njin-text-muted leading-relaxed">
+            Single GHL account with disciplined tagging and custom fields to carry
+            the brand signal. Cross-sell triggers fire from those. It's durable,
+            just not what a purpose-built cross-brand system would look like.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card card-orange">
+      <div class="flex items-start gap-4">
+        <div class="font-mono text-3xl font-black text-njin-orange">!</div>
+        <div class="flex-1">
+          <h3 class="text-xl font-bold mb-2">Complex scoring and reporting</h3>
+          <p class="text-sm text-njin-text-muted leading-relaxed mb-3">
+            Native scoring and cross-brand reporting is basic. Rich models and
+            bespoke dashboards aren't GHL's strength.
+          </p>
+          <p class="text-sm text-njin-green font-semibold">How we handle it</p>
+          <p class="text-sm text-njin-text-muted leading-relaxed">
+            Start with rule-based triggers and GHL reporting. If Fox needs deeper
+            analytics, a lightweight external layer can be added later without
+            disturbing the playbook.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PATH FORWARD -->
+<section class="section">
+  <div class="mb-10">
+    <span class="tag tag-green">05 · Path Forward</span>
+    <h2 class="text-4xl md:text-5xl font-black mt-4 mb-4">How we get from here to live.</h2>
+    <p class="text-lg text-njin-text-muted max-w-3xl">
+      Two stages, delivered sequentially. Prototyping has already started, so
+      stage one moves quickly.
+    </p>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <div class="card card-cyan">
+      <div class="flex items-center gap-3 mb-3">
+        <div class="font-mono text-2xl font-black text-njin-cyan">01</div>
+        <span class="tag tag-cyan">Stage 1</span>
+      </div>
+      <h3 class="text-2xl font-bold mb-3">Cross-Sell Playbook</h3>
+      <p class="text-sm text-njin-text-muted leading-relaxed mb-4">
+        Finalise the Cross-Sell &amp; Monetisation playbook and implement it
+        inside GHL. Build on the prototyping already in progress.
+      </p>
+      <ul class="space-y-2 text-sm text-njin-text-muted">
+        <li class="bullet">Finalise playbook content and automations</li>
+        <li class="bullet">Build inside the confirmed single GHL account</li>
+        <li class="bullet">Deploy long-term nurture sequences</li>
+        <li class="bullet">Onboard team into the new workflows</li>
+        <li class="bullet">Measure first cross-sell impact</li>
+      </ul>
+    </div>
+
+    <div class="card card-magenta">
+      <div class="flex items-center gap-3 mb-3">
+        <div class="font-mono text-2xl font-black text-njin-magenta">02</div>
+        <span class="tag tag-magenta">Stage 2</span>
+      </div>
+      <h3 class="text-2xl font-bold mb-3">Pre-Sales SDR + Reactivation</h3>
+      <p class="text-sm text-njin-text-muted leading-relaxed mb-4">
+        Once Cross-Sell is live, layer in the Pre-Sales SDR playbook with the
+        reactivation component driving dormant contacts back into pipeline.
+      </p>
+      <ul class="space-y-2 text-sm text-njin-text-muted">
+        <li class="bullet">Finalise SDR playbook and reactivation logic</li>
+        <li class="bullet">Build speed-to-lead automations</li>
+        <li class="bullet">Deploy reactivation sequences across the database</li>
+        <li class="bullet">Integrate with Cross-Sell triggers</li>
+        <li class="bullet">Hand over to the Fox team for ongoing operation</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="card mt-6" style="background: linear-gradient(135deg, rgba(0,230,77,0.05), rgba(0,191,255,0.03));">
+    <div class="flex items-start gap-4">
+      <div class="pulse-dot mt-2"></div>
+      <div>
+        <h4 class="text-lg font-bold mb-2">Confirmed already</h4>
+        <ul class="space-y-1.5 text-sm text-njin-text-muted">
+          <li class="check">Single GHL account — no architecture debate needed</li>
+          <li class="check">Prototyping underway — not starting from scratch</li>
+          <li class="check">Build executed by the Fox team, guided by Njin</li>
+          <li class="check">Minimal onboarding included, extended training is optional</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  Njin Method · Fox Finance Group · Prepared for Nathan &amp; Team · 16 Apr 2026
+</footer>
+
+</body>
+</html>

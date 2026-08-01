@@ -1,0 +1,79 @@
+Current setup
+
+Using SendGrid as a pseudo CRM with lists and “hoppers” for different lead outcomes
+
+Actual deal flow happens in the aggregator loan management systems (Ambition etc) for each team
+
+Around 50,000 contacts in total across Fox Finance Group and UME
+
+Segmentation and nurture are pretty clunky, and they cannot easily get specific with who gets what
+
+What they want from a CRM layer
+
+Proper marketing automation and segmentation
+
+Build real evergreen nurture journeys based on:
+
+Type of enquiry (asset, commercial, home loans, bad credit, SME with ABN, etc)
+
+Stage of the journey (new lead, no docs returned, unable to contact, abandoned application, settled customer)
+
+Much better list management and segmentation, so they are not just blasting broad EDMs to the whole list
+
+Ability to use engagement data to trigger different branches in the journey
+
+Lead scoring and sales handover
+
+Track opens, clicks, reply behaviour, webinar registrations, etc and turn that into a usable lead score
+
+Surface hot leads for the sales team with simple call queues, rather than having them trawl through lists
+
+Daily lists of “people to call” for sales, based on engagement score and behaviour (like BAP) 
+
+Pre sales pipeline before the loan systems
+
+An SDR pipeline like the one you built for us in GHL, that sits before their loan management systems
+
+Handle the marketing leads, then pass qualified opportunities into Ambition and their other loan CRMs
+
+Abandoned application follow up
+
+They track “started vs completed” on the Apply Now form in GA4
+
+Plan is to capture name, email and phone number on the very first step, then:
+
+Trigger immediate SMS and email when someone starts but does not complete
+
+Drop those contacts into a short, focused sequence to help them finish the application and answer common objections
+
+Ideally, this creates a queue for a salesperson or client service person to call these people quickly
+
+Client service and post settlement workflows
+
+They are thinking about a client service role similar to what Bec does for us, whose job would be to:
+
+Re engage people who stalled in the process
+
+Call customers a month after settlement to check everything went smoothly, reinforce the relationship, and remind them about the Refer a Friend program
+
+Schedule future touch points at 6, 12, 18, 24 months, supported by automated emails and SMS ahead of the call
+
+They want all of this to be driven by the CRM, with tasks and call lists generated automatically
+
+Single view across two businesses
+
+Two brands: Fox Finance Group (assets and commercial) and Fox Home Loans (mortgages)
+
+They want a way for the CRM to sit between those brands so they can see:
+
+When a customer has had both an asset loan and a home loan
+
+History of interactions across both, in one place
+
+They already know their loan systems can integrate via API or Zapier and just need to understand how GHL could be structured here
+
+Scaling for organic and paid leads
+
+Right now, most enquiry is organic inbound and referral based, with very strong conversion from repeat and referral customers
+
+They are planning to ramp up paid traffic, so they want the CRM and automations in place before they pour more volume into the top of the funnel

@@ -1,0 +1,11 @@
+
+company:
+  name: "Fox Home Loans"
+  contact_name: "Rowdie Lang"
+  industry: "Financial services"
+  customer_facing_staff: 3
+
+revenue:
+  last_12_months: 693000
+  prior_12_months: 334677
+  growth: "107%"

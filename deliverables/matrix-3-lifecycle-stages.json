@@ -1,0 +1,1017 @@
+[
+  {
+    "id": "fhl-month1-welcome",
+    "name": "Welcome + Setup Verified",
+    "timing": "month_1",
+    "applies_to": "fhl_settled",
+    "status": "confirmed",
+    "intent": "deliver_value",
+    "touchpoint_type": "call",
+    "manual_or_automated": "manual_broker",
+    "description": "Personal call from the broker who settled the loan. Confirms loan is functioning correctly (direct debits, offset working, repayments as expected). Introduces POLR portal and plants the first soft FFG cross-sell seed. This is the human anchor — establishes that Fox stays in the picture post-settlement.",
+    "internal_actions": [
+      "Broker calls client within first 2-4 weeks post-settlement",
+      "Confirm direct debits, offset accounts, and repayment schedules are correct",
+      "Walk client through POLR portal login and features",
+      "Log call outcome and any issues in POLR",
+      "Flag any setup issues for immediate resolution"
+    ],
+    "customer_outcome": "Client feels supported, knows their loan is working, and has a portal they can check anytime.",
+    "deliverables": [
+      "Personal phone call from settling broker",
+      "POLR portal access confirmation email",
+      "Welcome pack (digital via POLR)"
+    ],
+    "ctas": [
+      "Log into your POLR portal and check your loan summary",
+      "Save your broker's direct number"
+    ],
+    "ica_variation": {
+      "young_practical_motor": "Keep it simple and warm. They may be first-time borrowers. Reassure them everything is set up right. Mention that Fox also helps with car finance if they need a vehicle down the track.",
+      "established_personal_finance": "Efficient and respectful of their time. They have borrowing experience. Confirm setup, highlight POLR's tracking features, mention FFG for any personal finance needs.",
+      "prime_convenience_repeat": "Quick and easy — they value convenience. Confirm everything is running smoothly, emphasise POLR as their one-stop dashboard. Light FFG mention for vehicle upgrades.",
+      "business_asset": "Professional tone. Confirm loan structure is optimised for their business. Highlight POLR's ability to track both business and personal lending. Mention FFG for equipment or fleet finance.",
+      "prime_vehicle": "Friendly and straightforward. Confirm home loan setup, introduce POLR. Mention FFG naturally — they likely already have vehicle finance awareness."
+    },
+    "purchase_type_variation": {
+      "first_home_buyer": "Extra reassurance — this is likely their biggest financial commitment. Walk through repayment schedule carefully. Explain offset account benefits in simple terms. Celebrate the milestone.",
+      "new_purchase": "Confirm settlement went smoothly. If upgrading, acknowledge the move. Check that old property arrangements (if retained) are also in order.",
+      "refinance": "Confirm new rate is active and savings are flowing. Show the dollar difference from their old loan. Reinforce that Fox will keep watching rates for them.",
+      "investor": "Confirm investment loan structure (IO vs P&I), rental income offset setup, and tax-relevant features. Mention POLR's property tracking for portfolio view.",
+      "commercial": "Confirm commercial loan terms, any guarantor structures, and business account linkages. More formal tone. Mention FFG for any equipment finance needs."
+    },
+    "client_vs_nonclient": "N/A — this stage only applies to settled FHL clients.",
+    "handoff_trigger": "No handoff at this stage. Cross-sell seed is planted but not actioned. If client proactively asks about car/asset finance, trigger handoff HP-005 (fhl-to-ffg-cross-sell-reactive).",
+    "data_required": [
+      "settlement_date",
+      "broker_assigned",
+      "loan_type",
+      "purchase_type",
+      "ica_profile",
+      "direct_debit_details",
+      "offset_account_status",
+      "polr_portal_credentials"
+    ],
+    "compliance_notes": "No financial advice can be given during this call. Stick to factual setup confirmation. Do not use words: advice, guarantee, financial hardship. If client raises hardship concerns, follow escalation protocol (refer to lender hardship team). AFSL and ACL disclaimers in any written follow-up.",
+    "example_content": "Hi [Name], it's [Broker] from Fox Home Loans. Just calling to check in now that your loan has settled — I want to make sure everything is running smoothly. Are your repayments coming out as expected? Great. I've also set up your POLR portal — it's where you can see your loan details, property value, and equity anytime. I'll send you the login details after this call. And just so you know, if you ever need help with car finance or equipment loans, our team at Fox Finance Group can sort that out for you too. But no rush — we're here whenever you need us."
+  },
+  {
+    "id": "fhl-month3-confidence-pack",
+    "name": "90-Day Confidence Pack",
+    "timing": "month_3",
+    "applies_to": "fhl_settled",
+    "status": "confirmed",
+    "intent": "deliver_value",
+    "touchpoint_type": "email",
+    "manual_or_automated": "automated",
+    "description": "Automated delivery of the first major value piece. Pulls a Cotality valuation to establish the equity baseline. Includes ICA-segmented educational modules. This touchpoint proves Fox is watching and working for them even when they haven't asked.",
+    "internal_actions": [
+      "Trigger Cotality API to pull current property valuation",
+      "Calculate equity position (current value minus loan balance)",
+      "Generate ICA-segmented content module",
+      "Package into POLR notification + email with PDF attachment",
+      "Log delivery and open/click tracking"
+    ],
+    "customer_outcome": "Client sees their property value and equity position. Gets relevant education based on their situation. Feels Fox is proactively looking after them.",
+    "deliverables": [
+      "Cotality property valuation summary",
+      "Equity position calculation",
+      "ICA-segmented education module (PDF or POLR page)",
+      "Email with POLR portal link"
+    ],
+    "ctas": [
+      "Log into POLR to see your updated property value",
+      "Read your personalised finance guide"
+    ],
+    "ica_variation": {
+      "young_practical_motor": "Cost-to-own module — break down what their home really costs per week (mortgage, rates, insurance, maintenance). Compare to renting. Show them they're building wealth. Simple language, no jargon.",
+      "established_personal_finance": "Portfolio snapshot — show property value alongside any other known lending. Highlight equity growth trajectory. More sophisticated content, they can handle detail.",
+      "prime_convenience_repeat": "Quick equity summary — how much equity they've built in 90 days. One clear number. Link to POLR for detail. Keep it brief, they want the headline.",
+      "business_asset": "Business impact module — how property equity can support business growth (security for business lending, refinance to free up cash flow). Connect personal and business finance.",
+      "prime_vehicle": "Simple equity update with a lifestyle angle — your home is worth X, you've built Y in equity. If you're thinking about upgrading your car, that equity could help down the track."
+    },
+    "purchase_type_variation": {
+      "first_home_buyer": "Cost-to-own breakdown: weekly cost of ownership vs renting. Celebrate equity built. Explain LVR improvement. FHB-specific: show how far they've come since settlement.",
+      "new_purchase": "Property value update and equity snapshot. If they retained old property, show portfolio view. Market context for their suburb.",
+      "refinance": "Savings proof: show actual dollar savings since refinancing. Compare old vs new rate impact over 12 months. Reinforce the decision was smart.",
+      "investor": "Rental yield tracking setup. Equity position for portfolio leverage. Tax-time preparation notes. Suburb rental market data.",
+      "commercial": "Commercial property valuation update. Business equity position. Market comparison for commercial properties in their area."
+    },
+    "client_vs_nonclient": "N/A — this stage only applies to settled FHL clients.",
+    "handoff_trigger": "No direct handoff trigger. If equity position reveals opportunity for asset finance (e.g., strong equity + ICA indicates vehicle need), flag for Month 9 FFG Momentum Pack targeting.",
+    "data_required": [
+      "property_address",
+      "settlement_date",
+      "original_loan_amount",
+      "current_loan_balance",
+      "cotality_valuation",
+      "ica_profile",
+      "purchase_type",
+      "lender_name",
+      "interest_rate"
+    ],
+    "compliance_notes": "Cotality valuation is an estimate, not a formal valuation — must include disclaimer. Do not state equity figures as financial advice. Disclaimer: 'This information is general in nature and does not constitute financial advice.' No use of: advice, guarantee. Property values are indicative only.",
+    "example_content": "Subject: Your 90-day property update is ready\n\nHi [Name],\n\nIt's been 3 months since your loan settled, and we've pulled a fresh valuation on your property.\n\nYour property snapshot:\n- Current estimated value: $[X]\n- Your loan balance: $[Y]\n- Equity built: $[Z]\n\nWe've also put together a [Cost-to-Own Guide / Portfolio Snapshot / Savings Report] based on your situation. You can view it in your POLR portal.\n\n[Log in to POLR]\n\nAs always, if you have any questions, your broker [Name] is just a call away.\n\nFox Home Loans\n\n*Property valuations are estimates provided by Cotality and do not constitute a formal valuation. This information is general in nature and does not constitute financial advice.*"
+  },
+  {
+    "id": "fhl-month6-pricing-review",
+    "name": "Proactive Pricing Review",
+    "timing": "month_6",
+    "applies_to": "fhl_settled",
+    "status": "confirmed",
+    "intent": "deliver_value",
+    "touchpoint_type": "call",
+    "manual_or_automated": "hybrid",
+    "description": "Fox proactively reviews the client's rate against current market and calls the lender to reprice WITHOUT the client asking. This is the signature Fox differentiator — proving ongoing value. If repricing is achieved, the client gets a call with the good news. If not, they still get told Fox tried.",
+    "internal_actions": [
+      "Pull current rate from LMS (Finshaw's/Connective)",
+      "Compare against current lender rates and market rates",
+      "Call lender to negotiate repricing",
+      "Document outcome (repriced amount or rejection reason)",
+      "Call client with result",
+      "Update POLR with new rate if repriced",
+      "Log in CRM for compliance trail"
+    ],
+    "customer_outcome": "Client either gets a lower rate (saving real money) or knows Fox tried on their behalf. Either way, they feel looked after and are less likely to churn to another broker.",
+    "deliverables": [
+      "Rate comparison document (current vs market)",
+      "Repricing outcome notification (call + email)",
+      "Updated POLR dashboard if rate changed"
+    ],
+    "ctas": [
+      "Check your updated rate in POLR",
+      "Let us know if your circumstances have changed"
+    ],
+    "ica_variation": {
+      "young_practical_motor": "Focus on the dollar saving per week/month. Make it tangible. 'We just saved you $47 a month — that's a tank of fuel every fortnight.' Simple wins.",
+      "established_personal_finance": "Focus on the rate differential and annual savings. They appreciate the detail. Show the comparison table. Mention this is an ongoing service.",
+      "prime_convenience_repeat": "Lead with the result, not the process. 'Good news — we got your rate down. You don't need to do anything, it's already done.' They love zero-effort value.",
+      "business_asset": "Frame the saving in business terms. 'That's $X back in your cash flow this year.' Connect to business planning.",
+      "prime_vehicle": "Straightforward: 'We checked your rate, negotiated with your lender, and got you a better deal. Here's what you'll save.' Keep it simple and positive."
+    },
+    "purchase_type_variation": {
+      "first_home_buyer": "Celebrate any saving — it's meaningful to a FHB. Explain how repricing works (many FHBs don't know this exists). Frame Fox as their ongoing advocate.",
+      "new_purchase": "Standard repricing approach. Note any LVR improvement since purchase that strengthens the repricing argument.",
+      "refinance": "Careful messaging — they just refinanced. Focus on 'we're still watching your rate even after settling.' Shows the refinance wasn't a one-off.",
+      "investor": "Focus on yield improvement. Lower rate = better net yield on investment property. Frame in returns language.",
+      "commercial": "Commercial repricing is harder but still attempted. Focus on the margin reduction achieved and annual cash flow impact."
+    },
+    "client_vs_nonclient": "N/A — this stage only applies to settled FHL clients.",
+    "handoff_trigger": "No direct handoff. However, the repricing call is a natural conversation moment. If client mentions vehicle, equipment, or asset needs during the call, broker should warm-handoff to FFG using HP-005 (fhl-to-ffg-cross-sell-reactive).",
+    "data_required": [
+      "current_interest_rate",
+      "lender_name",
+      "loan_balance",
+      "lvr_current",
+      "settlement_date",
+      "property_valuation_latest",
+      "ica_profile",
+      "purchase_type",
+      "broker_assigned"
+    ],
+    "compliance_notes": "Repricing is a service, not advice. Do not recommend switching lenders during this touchpoint (that's Month 15). Rate comparisons must use current published rates. Any savings projection must include disclaimer about variable rate changes. Do not use: advice, guarantee.",
+    "example_content": "Phone: 'Hi [Name], it's [Broker] from Fox Home Loans. I've got some good news — I reviewed your rate against what [Lender] is offering new customers, and there was a gap. So I called them and negotiated a better rate for you. Your rate has dropped from [X]% to [Y]%, which saves you about $[Z] a month. You don't need to do anything — it's already done. I've updated your POLR portal too, so you can see the new figures. How's everything else going?'\n\nFollow-up email: 'Hi [Name], just confirming the rate reduction we discussed. Your new rate of [Y]% is now active. You can see the updated figures in your POLR portal. If anything changes with your situation, just let us know — we're always here.'"
+  },
+  {
+    "id": "fhl-month9-ffg-momentum",
+    "name": "FFG Momentum Pack",
+    "timing": "month_9",
+    "applies_to": "fhl_settled",
+    "status": "confirmed",
+    "intent": "cross_sell",
+    "touchpoint_type": "email",
+    "manual_or_automated": "automated",
+    "description": "The KEY cross-sell moment. By Month 9, the client trusts Fox, has seen value (repricing, valuations), and is primed for an FFG introduction. Five ICA-targeted packs plus an equity release pack. Content is educational and permission-based, not pushy. Positions FFG as a natural extension of the Fox relationship.",
+    "internal_actions": [
+      "Select ICA-targeted pack based on client profile",
+      "Generate equity release content if equity threshold met",
+      "Package cross-sell content into email + POLR notification",
+      "Set up FFG handoff tracking",
+      "Alert FFG team of warm leads who engage",
+      "Log delivery and engagement metrics"
+    ],
+    "customer_outcome": "Client discovers FFG can help with their next financial need — car, equipment, personal loan — without feeling sold to. Those who engage are warm-handed to FFG.",
+    "deliverables": [
+      "ICA-targeted FFG introduction pack (email + POLR content)",
+      "Equity release guide (if applicable)",
+      "FFG service overview relevant to their ICA"
+    ],
+    "ctas": [
+      "See what Fox Finance Group can do for you",
+      "Chat with our asset finance team — no obligation",
+      "Explore using your equity for your next move"
+    ],
+    "ica_variation": {
+      "young_practical_motor": "Car finance introduction. 'You've been building equity in your home — now let's talk about getting into the right car.' Focus on affordability, flexible terms, Fox handling everything. Mention novated leasing if employed. Tone: encouraging, simple, no pressure.",
+      "established_personal_finance": "Personal finance options. 'With your property growing in value, there are smart ways to structure your next move.' Debt consolidation, personal loans, or refinance-to-release options. Tone: informed, strategic, respectful of their experience.",
+      "prime_convenience_repeat": "Convenience angle. 'You already trust Fox with your home loan — why not let us handle your car finance too? One team, one portal, zero hassle.' Focus on ease and simplicity. Tone: effortless, time-saving.",
+      "business_asset": "Business equipment and fleet finance. 'Your property equity could support your next business investment.' Equipment finance, fleet vehicles, cash flow solutions. Tone: professional, growth-focused, strategic.",
+      "prime_vehicle": "Direct vehicle finance offer. 'Thinking about a new car? Fox Finance Group can get you a great deal — and we already know your financial picture.' Competitive rates, fast approval, seamless experience. Tone: confident, straightforward."
+    },
+    "purchase_type_variation": {
+      "first_home_buyer": "FHB equity release: 'You've been building equity since day one. Here's how that equity could help you with your next goal — whether it's a car, renovations, or something else.' Educational, not aggressive.",
+      "new_purchase": "Standard ICA pack. If they upgraded from a previous property, they likely have strong equity. Frame FFG as the next logical step in their Fox relationship.",
+      "refinance": "Refinance-specific: 'You saved money by refinancing. Now let's look at other ways to optimise your finances.' Position FFG as part of the same optimisation mindset.",
+      "investor": "Investor equity release: 'Your investment property is building equity. Here's how to put that equity to work — business assets, vehicles, or further investment.' Sophisticated, returns-focused.",
+      "commercial": "Commercial equity release: 'Your commercial property equity could fund your next equipment purchase or fleet expansion — without touching your cash flow.' Business-focused, practical."
+    },
+    "client_vs_nonclient": "N/A — this stage only applies to settled FHL clients. Non-clients would receive a different conversion-focused touchpoint.",
+    "handoff_trigger": "YES. If client engages (opens email, clicks CTA, logs into POLR to view FFG content), trigger HP-004 (fhl-to-ffg-cross-sell-proactive). Warm lead data passes to FFG team (Sam Drew or assigned broker). Client is NOT handed off without engagement signal.",
+    "data_required": [
+      "ica_profile",
+      "purchase_type",
+      "current_equity_position",
+      "property_valuation_latest",
+      "loan_balance",
+      "engagement_history",
+      "existing_ffg_relationship",
+      "broker_assigned"
+    ],
+    "compliance_notes": "Cross-sell content must not constitute financial advice. No guarantees about FFG approval or rates. Equity release content must note that accessing equity increases total debt and repayments. Disclaimer: 'This is general information only and does not constitute financial advice. Any finance application is subject to lender approval and terms.' Do not use: advice, guarantee, financial hardship.",
+    "both_settled_override": "If client is already settled with BOTH FFG and FHL, this touchpoint transforms from cross-sell to relationship deepening. Instead of introducing FFG, deliver a 'Your Fox Finance Portfolio' summary showing both loans, combined equity, and next opportunities. No cross-sell CTA needed — focus on retention and satisfaction.",
+    "example_content": "Subject: Your home equity could open new doors\n\nHi [Name],\n\nIt's been 9 months since your home loan settled, and your property has been building value. Here's where you stand:\n\n- Estimated property value: $[X]\n- Current loan balance: $[Y]\n- Available equity: $[Z]\n\nDid you know Fox Finance Group — the other side of our business — helps people just like you with [car finance / equipment loans / personal finance]?\n\nWe've put together a short guide based on your situation: [ICA-specific pack name]\n\n[View your guide in POLR]\n\nNo pressure, no obligation. Just good information from a team that already knows your financial picture.\n\nFox Home Loans\n\n*This is general information only and does not constitute financial advice. Any finance application is subject to lender approval and terms.*"
+  },
+  {
+    "id": "fhl-month12-annual-review",
+    "name": "Annual Property & Loan Strategy Review",
+    "timing": "month_12",
+    "applies_to": "fhl_settled",
+    "status": "confirmed",
+    "intent": "deliver_value",
+    "touchpoint_type": "call",
+    "manual_or_automated": "hybrid",
+    "description": "The signature annual review. Comprehensive assessment of property value movement, equity built over 12 months, loan performance, and forward strategy options. This is the most substantial touchpoint in the lifecycle. Broker-led call backed by automated data preparation.",
+    "internal_actions": [
+      "Pull fresh Cotality valuation",
+      "Calculate 12-month equity growth",
+      "Review rate competitiveness",
+      "Prepare annual review document in POLR",
+      "Broker schedules and conducts review call",
+      "Document strategy discussion and client goals",
+      "Update POLR with review outcomes"
+    ],
+    "customer_outcome": "Client gets a clear picture of their 12-month progress. Understands their options. Feels like they have a financial partner, not just a broker who settled a loan.",
+    "deliverables": [
+      "Annual review document (PDF via POLR)",
+      "12-month property value movement chart",
+      "Equity growth summary",
+      "Rate competitiveness check",
+      "Forward strategy options (personalised)"
+    ],
+    "ctas": [
+      "Book your annual review call with [Broker]",
+      "View your 12-month summary in POLR"
+    ],
+    "ica_variation": {
+      "young_practical_motor": "Celebrate their first year of home ownership. Show equity growth in simple terms. Introduce concepts like offset strategies or extra repayments. Keep it encouraging.",
+      "established_personal_finance": "Detailed portfolio review. Compare property performance against broader market. Discuss strategic options — investment property, refinance, equity release. They want substance.",
+      "prime_convenience_repeat": "Quick headline summary with a 5-minute call option. 'Here's your year in review: property up X%, equity at $Y, rate still competitive. Anything you want to chat about?' Respect their time.",
+      "business_asset": "Frame the review in business context. How does property equity support business plans for the coming year? Equipment needs? Expansion? Cash flow?",
+      "prime_vehicle": "Straightforward review. Property doing well? Rate still good? Any upcoming needs? Direct and practical."
+    },
+    "purchase_type_variation": {
+      "first_home_buyer": "First anniversary of ownership. Show LVR improvement, equity built, and what doors that equity opens. Introduce the concept of next steps (renovate, invest, upgrade) without pushing.",
+      "new_purchase": "12-month value assessment. If retained old property, show portfolio performance. Discuss whether current structure is still optimal.",
+      "refinance": "12-month savings report: total saved since refinancing. Compare current rate against market. Discuss whether a further refinance makes sense in another 6-12 months.",
+      "investor": "Investment performance review. Rental yield, equity growth, portfolio leverage position. Discuss strategy for Year 2 — hold, add, restructure.",
+      "commercial": "Commercial property performance. Valuation movement, loan structure review. Discuss business plans that may affect property strategy."
+    },
+    "client_vs_nonclient": "N/A — this stage only applies to settled FHL clients.",
+    "handoff_trigger": "If annual review conversation reveals asset finance needs (vehicle replacement, equipment, personal loan), broker warm-handoffs to FFG using HP-005 (fhl-to-ffg-cross-sell-reactive). If client expresses interest in investment property, broker handles directly within FHL.",
+    "data_required": [
+      "settlement_date",
+      "original_property_value",
+      "current_cotality_valuation",
+      "original_loan_amount",
+      "current_loan_balance",
+      "current_interest_rate",
+      "market_comparison_rates",
+      "ica_profile",
+      "purchase_type",
+      "broker_assigned",
+      "previous_touchpoint_history",
+      "ffg_cross_sell_status"
+    ],
+    "compliance_notes": "Annual review must not constitute financial advice. Strategy options are general in nature. Property valuations are estimates. If recommending structural changes (e.g., switch to IO, refinance), client must be referred through proper application process. Disclaimer on all written materials. Do not use: advice, guarantee, financial hardship.",
+    "example_content": "Phone: 'Hi [Name], it's [Broker] from Fox Home Loans. It's been 12 months since your loan settled, so I've put together your annual review. Your property has moved from $[original] to $[current], which means you've built about $[equity] in equity this year. Your rate is still competitive at [X]%, and I'll be doing another repricing check at the 18-month mark. I've loaded all the detail into your POLR portal. Are there any goals for the year ahead I should know about?'\n\nFollow-up email: 'Hi [Name], great chatting today. Your annual review is now in your POLR portal — [link]. Summary: property value $[X], equity $[Y], rate [Z]%. Let me know if you'd like to explore any of the options we discussed.'"
+  },
+  {
+    "id": "fhl-month15-refinance-pathway",
+    "name": "Refinance Pathway",
+    "timing": "month_15",
+    "applies_to": "fhl_settled",
+    "status": "confirmed",
+    "intent": "deliver_value",
+    "touchpoint_type": "email",
+    "manual_or_automated": "automated",
+    "description": "Present three clear pathways based on the client's situation and goals. Educational content that shows the pros and cons of each path with real numbers from their loan. Not pushing refinance — presenting informed options.",
+    "internal_actions": [
+      "Calculate current equity and LVR",
+      "Model three scenarios with real numbers",
+      "Generate personalised pathway document",
+      "Deliver via email + POLR notification",
+      "Track engagement for broker follow-up"
+    ],
+    "customer_outcome": "Client understands their options with real numbers. Feels empowered to make a decision (or not). Knows Fox is there when they're ready.",
+    "deliverables": [
+      "Three-pathway comparison document (personalised)",
+      "Scenario modelling with real numbers",
+      "POLR portal update with interactive calculator"
+    ],
+    "ctas": [
+      "Explore your three pathways in POLR",
+      "Book a call to discuss which path suits you"
+    ],
+    "three_pathways": {
+      "path_1_pay_down": "Accelerate repayments. Show impact of extra $100/week. Time saved. Interest saved. Best for: clients who want to be mortgage-free faster.",
+      "path_2_invest": "Use equity to invest. Show borrowing capacity for investment property. Rental yield offset. Portfolio growth. Best for: clients ready to build wealth.",
+      "path_3_refinance": "Switch lenders for better deal. Show potential savings. Compare current vs best available. Factor in switching costs. Best for: clients on uncompetitive rates."
+    },
+    "ica_variation": {
+      "young_practical_motor": "Focus on Path 1 (pay down) and Path 3 (refinance for better rate). Investment is likely premature. Use simple comparisons: 'An extra $50 a week could save you $X over the life of your loan.'",
+      "established_personal_finance": "Present all three paths with detail. They can handle sophisticated modelling. Include tax implications for investment path. They may already be thinking about this.",
+      "prime_convenience_repeat": "Lead with whichever path requires least effort. If rate is uncompetitive, lead with Path 3 and emphasise Fox handles everything. If rate is fine, lead with 'you're in a good spot.'",
+      "business_asset": "Frame Path 2 in business terms — equity release for business investment, not just property investment. Path 1 for cash flow improvement. Path 3 if rate is poor.",
+      "prime_vehicle": "Keep it practical. Show each path in monthly dollar terms. Which path frees up the most cash? Which builds the most wealth? Let them decide."
+    },
+    "purchase_type_variation": {
+      "first_home_buyer": "Path 1 emphasis — most FHBs want to build equity faster. Path 2 introduction for those who are ready. Path 3 if their rate has drifted.",
+      "new_purchase": "All three paths equally relevant. Tailor based on whether they retained old property (if so, portfolio view).",
+      "refinance": "Sensitive — they already refinanced 15 months ago. Frame as 'checking in, not suggesting you switch again.' Path 1 and Path 2 more appropriate unless rate gap is significant.",
+      "investor": "Path 2 emphasis — they're already investors. Show how equity unlocks next property. Path 1 less relevant. Path 3 if rate is poor.",
+      "commercial": "Business-focused variants of each path. Path 2 = business expansion. Path 1 = reduce business debt exposure. Path 3 = optimise commercial rate."
+    },
+    "client_vs_nonclient": "N/A — this stage only applies to settled FHL clients.",
+    "handoff_trigger": "If client engages with Path 2 (invest) or Path 3 (refinance), trigger broker follow-up call. If Path 2 engagement includes interest in asset-backed investment, flag for FFG cross-sell via HP-004.",
+    "data_required": [
+      "current_loan_balance",
+      "current_interest_rate",
+      "current_property_valuation",
+      "current_lvr",
+      "remaining_loan_term",
+      "current_repayment_amount",
+      "market_comparison_rates",
+      "ica_profile",
+      "purchase_type"
+    ],
+    "compliance_notes": "This content must be clearly labelled as general information, not personal financial advice. Scenario modelling uses assumptions that must be disclosed. Investment pathway must include risk warnings. Refinance pathway must note switching costs and break fees. Do not use: advice, guarantee, financial hardship. Include disclaimer: 'These scenarios are illustrative only and based on current rates and assumptions. They do not constitute financial advice.'",
+    "example_content": "Subject: Three paths forward for your home loan\n\nHi [Name],\n\nYou're 15 months into your home loan, and your position has strengthened. Here's a quick look at three paths you could take from here:\n\n1. Pay down faster — An extra $[X]/week could save you $[Y] in interest and cut [Z] years off your loan.\n2. Use your equity — With $[equity] in equity, you could explore investment options that put your property to work.\n3. Refinance — Current market rates suggest you could save $[savings]/month by switching. We'd handle everything.\n\nEach path has pros and cons, and there's no rush. We've loaded a detailed comparison into your POLR portal.\n\n[View your pathways in POLR]\n\nWant to talk it through? Book a call with [Broker] — [booking link].\n\nFox Home Loans\n\n*These scenarios are illustrative only and based on current rates and assumptions. They do not constitute financial advice.*"
+  },
+  {
+    "id": "fhl-month18-action-window",
+    "name": "Action Window",
+    "timing": "month_18",
+    "applies_to": "fhl_settled",
+    "status": "confirmed",
+    "intent": "trigger_handoff",
+    "touchpoint_type": "email",
+    "manual_or_automated": "hybrid",
+    "description": "Trigger-based touchpoint. Scans for actionable events: fixed rate expiry, significant market rate movement, client goal changes logged in POLR, or lender advantage opportunities. Only fires when there's a real reason to act. If no trigger exists, a light check-in is sent instead.",
+    "internal_actions": [
+      "Scan for trigger events (fixed expiry, rate movement, goal change, lender offer)",
+      "If trigger found: generate action-specific communication",
+      "If no trigger: send light 18-month check-in",
+      "Broker review of any recommended actions",
+      "Deliver via email + POLR + broker call if action required"
+    ],
+    "customer_outcome": "Client receives timely, relevant action prompts when something actually matters. No spam. No unnecessary contact. When Fox reaches out at 18 months, it's because there's a reason.",
+    "deliverables": [
+      "Trigger-specific action communication (or light check-in)",
+      "Updated POLR dashboard with action recommendation",
+      "Broker call if action involves structural change"
+    ],
+    "ctas": [
+      "Your fixed rate expires in [X] weeks — let's plan your next move",
+      "Rates have dropped — see what this means for you",
+      "Your goals have changed — let's update your strategy"
+    ],
+    "trigger_types": {
+      "fixed_rate_expiry": "Fixed rate ending within 60 days. Present options: refix, switch to variable, refinance. Include comparison of each option.",
+      "market_rate_movement": "Significant rate drop (>0.25%) since last review. Show impact on their loan. Offer repricing or refinance assessment.",
+      "client_goal_change": "Client updated goals in POLR (e.g., planning to sell, wanting to invest, life change). Trigger strategy conversation.",
+      "lender_advantage": "Their lender is offering better deals to new customers. Trigger repricing attempt or refinance discussion.",
+      "no_trigger": "Light check-in: 'It's been 18 months. Everything is tracking well. Here's a quick update on your position. We're here if anything changes.'"
+    },
+    "ica_variation": {
+      "young_practical_motor": "Simple and action-oriented. 'Your fixed rate is ending soon — here are your options in plain English.' Guide them through the decision.",
+      "established_personal_finance": "Detailed analysis of the trigger and implications. They want to understand the 'why' behind any recommendation.",
+      "prime_convenience_repeat": "'We spotted something that needs your attention. Here's what we recommend, and we can handle it all for you.' Minimal effort required.",
+      "business_asset": "Frame trigger in business impact terms. 'This rate change affects your cash flow by $X/month. Here are your options.'",
+      "prime_vehicle": "Practical and direct. 'Something's changed with your loan situation. Here's what it means and what we can do.'"
+    },
+    "purchase_type_variation": {
+      "first_home_buyer": "Extra guidance on what fixed rate expiry means and why it matters. Many FHBs won't understand the implications without explanation.",
+      "new_purchase": "Standard trigger response. Factor in whether they have multiple properties.",
+      "refinance": "Tread carefully — they may not want to hear about refinancing again. Focus on repricing first, refinance only if significant gap.",
+      "investor": "Investment-focused analysis. How does the trigger affect yield, cash flow, tax position?",
+      "commercial": "Commercial rate triggers. Factor in business lending cycle and cash flow implications."
+    },
+    "client_vs_nonclient": "N/A — this stage only applies to settled FHL clients.",
+    "handoff_trigger": "If action window conversation reveals asset finance needs, trigger HP-005 (fhl-to-ffg-cross-sell-reactive). If refinance is recommended, this re-enters the FHL pipeline as a new application via EP-003 (fhl-refinance-return). The lifecycle resets from Month 1 after new settlement.",
+    "data_required": [
+      "fixed_rate_expiry_date",
+      "current_interest_rate",
+      "current_market_rates",
+      "loan_balance",
+      "property_valuation",
+      "client_goals_from_polr",
+      "lender_current_offers",
+      "ica_profile",
+      "purchase_type",
+      "broker_assigned"
+    ],
+    "compliance_notes": "Any recommendation to switch rates or lenders must go through proper application process. This touchpoint is informational — actual changes require formal engagement. Fixed rate expiry notifications must include comparison of options without recommending one. Do not use: advice, guarantee, financial hardship.",
+    "lifecycle_reset_note": "After Month 18, the lifecycle either resets (if refinance/new application occurs) or transitions to ongoing low-frequency nurture with annual reviews and trigger-based outreach.",
+    "example_content": "Subject: Heads up — your fixed rate expires in 8 weeks\n\nHi [Name],\n\nYour fixed rate of [X]% expires on [date]. After that, your loan will revert to the variable rate of [Y]%, which changes your repayment from $[current] to approximately $[new].\n\nHere are your three options:\n\n1. Refix — Lock in a new fixed rate. Current best: [rate]% for [term].\n2. Go variable — More flexibility, current variable rate: [rate]%.\n3. Refinance — We can check if another lender offers a better deal. Current best market rate: [rate]%.\n\nWe recommend [no specific recommendation — just the options]. Want to chat it through? Book a call with [Broker]: [link].\n\nFox Home Loans\n\n*This information is general in nature and does not constitute financial advice.*"
+  },
+  {
+    "id": "ffg-month1-welcome",
+    "name": "Welcome + Setup Verified",
+    "timing": "month_1",
+    "applies_to": "ffg_settled",
+    "status": "hypothetical",
+    "intent": "deliver_value",
+    "touchpoint_type": "call",
+    "manual_or_automated": "manual_broker",
+    "description": "Light welcome touchpoint. Confirms finance is in place, vehicle/asset delivered, and repayments are set up correctly. Introduces POLR portal. Plants soft FHL seed for those who don't already have a home loan with Fox.",
+    "internal_actions": [
+      "Broker or admin calls within 2-4 weeks of settlement",
+      "Confirm asset delivery and finance setup",
+      "Walk through POLR portal access",
+      "Check for FHL relationship flag",
+      "Log call outcome"
+    ],
+    "customer_outcome": "Client knows their finance is working and they have a portal to track it. First impression of ongoing Fox care.",
+    "deliverables": [
+      "Welcome call",
+      "POLR portal access email",
+      "Digital welcome summary"
+    ],
+    "ctas": [
+      "Log into POLR to see your loan summary",
+      "Save your broker's direct number"
+    ],
+    "ica_variation": {
+      "young_practical_motor": "Excited about their new car. Keep it celebratory and simple. 'Congrats on the new ride! Let's make sure everything is set up right.' Soft mention: 'If you ever need help with a home loan, we do that too.'",
+      "established_personal_finance": "Efficient check-in. Confirm setup, introduce POLR, mention FHL briefly. They may already have a mortgage elsewhere.",
+      "prime_convenience_repeat": "Quick and easy. 'Everything's sorted. Here's your portal. We'll check in again at 3 months.' Minimal friction.",
+      "business_asset": "Professional tone. Confirm equipment/fleet finance setup. Discuss any tax or structure considerations. Mention FHL for commercial property needs.",
+      "prime_vehicle": "Straightforward car finance confirmation. Happy energy. 'Your loan is all set up. Enjoy the new car. We're here if you need anything.'"
+    },
+    "purchase_type_variation": "N/A — FFG does not have FHL Purchase Type variations. ICA variation covers messaging differences.",
+    "client_vs_nonclient": "N/A — this stage only applies to settled FFG clients.",
+    "handoff_trigger": "No handoff at this stage. If client proactively asks about home loans, trigger HP-006 (ffg-to-fhl-cross-sell-reactive).",
+    "data_required": [
+      "settlement_date",
+      "asset_type",
+      "loan_amount",
+      "repayment_schedule",
+      "broker_assigned",
+      "ica_profile",
+      "existing_fhl_relationship"
+    ],
+    "compliance_notes": "Standard AFSL and ACL disclaimers in written follow-up. Do not provide financial advice. Confirm factual loan details only. Early payout information should NOT be provided at this stage. Do not use: advice, guarantee, financial hardship.",
+    "example_content": "Hi [Name], it's [Broker] from Fox Finance Group. Just calling to make sure your [vehicle/equipment] finance is all set up properly. Are the repayments coming out as expected? Great. I've also set up your POLR portal — you can see your loan details and track everything there. And just so you know, our sister company Fox Home Loans helps with mortgages too — so if that ever comes up, we've got you covered. Enjoy the [car/equipment]!"
+  },
+  {
+    "id": "ffg-month3-health-check",
+    "name": "Financial Health Check-In",
+    "timing": "month_3",
+    "applies_to": "ffg_settled",
+    "status": "hypothetical",
+    "intent": "nurture",
+    "touchpoint_type": "email",
+    "manual_or_automated": "automated",
+    "description": "ICA-targeted content delivery. Provides relevant financial education based on their profile. Includes a soft referral nudge — 'Know someone who needs finance?'",
+    "internal_actions": [
+      "Generate ICA-targeted content",
+      "Include referral program information",
+      "Deliver via email + POLR notification",
+      "Track engagement metrics"
+    ],
+    "customer_outcome": "Client gets useful content and knows about Fox's referral program. Feels Fox is more than a one-time transaction.",
+    "deliverables": [
+      "ICA-targeted finance education content",
+      "Referral program introduction",
+      "POLR notification"
+    ],
+    "ctas": [
+      "Read your finance tips",
+      "Know someone who needs finance? Refer them to Fox"
+    ],
+    "ica_variation": {
+      "young_practical_motor": "Car ownership tips: insurance, maintenance budgeting, fuel savings. 'Getting the most from your car and your budget.' Referral: 'Got mates looking for a car loan? We can help them too.'",
+      "established_personal_finance": "Financial planning content: debt management strategies, building credit history, preparing for next major purchase. Referral: professional network angle.",
+      "prime_convenience_repeat": "Quick tips on managing their loan — autopay, early payout options if they upgrade early. Referral: 'Love the easy experience? Share it with someone.'",
+      "business_asset": "Business finance tips: equipment depreciation, tax timing, fleet management. Referral: business network referrals.",
+      "prime_vehicle": "Vehicle value tracking: how their car's value is tracking, when to consider upgrading, gap insurance reminders. Referral: friends and family."
+    },
+    "purchase_type_variation": "N/A — FFG stages do not have FHL Purchase Type variations.",
+    "client_vs_nonclient": "N/A — this stage only applies to settled FFG clients.",
+    "handoff_trigger": "No direct handoff. Engagement tracking informs Month 9 cross-sell targeting. If client clicks FHL-related content, flag for early FHL cross-sell.",
+    "data_required": [
+      "ica_profile",
+      "asset_type",
+      "loan_term",
+      "settlement_date",
+      "existing_fhl_relationship"
+    ],
+    "compliance_notes": "Educational content only. No financial advice. Early payout information must reference loan contract terms. Do not use: advice, guarantee, financial hardship.",
+    "example_content": "Subject: 3 months in — getting the most from your finance\n\nHi [Name],\n\nIt's been 3 months since we sorted your [car/equipment] finance. Here are a few tips to help you get the most value:\n\n[ICA-specific tips]\n\nAlso — if you know anyone looking for vehicle or equipment finance, we'd love to help them too. You can refer them here: [referral link]\n\nFox Finance Group"
+  },
+  {
+    "id": "ffg-month6-next-need",
+    "name": "Next Need Detector",
+    "timing": "month_6",
+    "applies_to": "ffg_settled",
+    "status": "hypothetical",
+    "intent": "cross_sell",
+    "touchpoint_type": "email",
+    "manual_or_automated": "automated",
+    "description": "Surface the next opportunity. For homeowners without FHL, this is the FHL cross-sell moment. For non-homeowners, it's about their next asset need. Uses ICA and data signals to personalise.",
+    "internal_actions": [
+      "Check homeowner status",
+      "If homeowner + no FHL: generate FHL cross-sell content",
+      "If non-homeowner: generate next asset content",
+      "Deliver via email + POLR",
+      "Track engagement for handoff triggering"
+    ],
+    "customer_outcome": "Client discovers the next way Fox can help them — whether that's a home loan or another asset.",
+    "deliverables": [
+      "Personalised next-need content",
+      "FHL introduction (for homeowners) or next asset guide",
+      "POLR notification"
+    ],
+    "ctas": [
+      "Could Fox help with your mortgage? Find out",
+      "Planning your next vehicle or equipment? Let's chat"
+    ],
+    "ica_variation": {
+      "young_practical_motor": "If renting: 'Thinking about buying your first home? Fox Home Loans can help you get there.' If homeowner: 'Is your mortgage getting the best deal? We can check for free.'",
+      "established_personal_finance": "Sophisticated cross-sell. 'You trust Fox with your finance — have you considered what we could do with your mortgage?' Or next asset: debt consolidation, investment.",
+      "prime_convenience_repeat": "'One team for everything. Car, home, business — Fox handles it all.' Convenience angle for cross-sell.",
+      "business_asset": "Business expansion focus. 'Need more equipment? Planning to buy commercial property? Let's talk about what's next for your business.'",
+      "prime_vehicle": "Vehicle upgrade focus. 'Thinking about upgrading? We can pre-approve your next vehicle loan now.' Or FHL: 'Own a home? Let us check your rate.'"
+    },
+    "purchase_type_variation": "N/A — FFG stages do not have FHL Purchase Type variations.",
+    "client_vs_nonclient": "N/A — this stage only applies to settled FFG clients.",
+    "handoff_trigger": "YES — if client engages with FHL cross-sell content, trigger HP-006 (ffg-to-fhl-cross-sell-proactive). Warm lead data passes to FHL team (Bill Robb or assigned broker). If engagement is with next FFG need, route back to FFG pipeline.",
+    "data_required": [
+      "ica_profile",
+      "homeowner_status",
+      "existing_fhl_relationship",
+      "asset_type_current",
+      "loan_term_remaining",
+      "engagement_history"
+    ],
+    "compliance_notes": "Cross-sell to FHL must not constitute mortgage advice. No guarantees about approval or rates. Do not use: advice, guarantee, financial hardship.",
+    "both_settled_override": "If client is already settled with BOTH FFG and FHL, skip the cross-sell element. Instead, deliver a combined portfolio view: 'Here's your full Fox Finance picture.' Focus on retention and satisfaction.",
+    "example_content": "Subject: What's next for your finances?\n\nHi [Name],\n\nSix months ago, we helped you with your [car/equipment] finance. Since then, we've been thinking about what else we can do for you.\n\n[If homeowner without FHL]: Did you know Fox Home Loans — our sister company — helps people refinance and save? We already know your financial picture, which means we can move fast. Want us to check your rate? No obligation.\n\n[If non-homeowner]: Planning your next move? Whether it's another vehicle, equipment for the business, or your first home, Fox can help.\n\n[See your options in POLR]\n\nFox Finance Group"
+  },
+  {
+    "id": "ffg-month9-value-delivery",
+    "name": "Value Delivery + Cross-Sell Moment",
+    "timing": "month_9",
+    "applies_to": "ffg_settled",
+    "status": "hypothetical",
+    "intent": "cross_sell",
+    "touchpoint_type": "email",
+    "manual_or_automated": "hybrid",
+    "description": "Loan health summary delivery. Shows loan progress, remaining balance, and payout options. For homeowners, this is the second FHL cross-sell attempt. Includes early payout information for those nearing end of loan or wanting to upgrade.",
+    "internal_actions": [
+      "Generate loan health summary",
+      "Calculate remaining balance and payout figure",
+      "Check for FHL cross-sell opportunity",
+      "Deliver via email + POLR",
+      "If homeowner + no FHL: include FHL CTA",
+      "Track engagement"
+    ],
+    "customer_outcome": "Client sees clear progress on their loan. Understands payout options. Homeowners get another chance to explore FHL.",
+    "deliverables": [
+      "Loan health summary (POLR + email)",
+      "Early payout guide (if relevant)",
+      "FHL introduction (for homeowners without FHL)"
+    ],
+    "ctas": [
+      "View your loan progress in POLR",
+      "Thinking about paying out early? Here's how",
+      "Ready for a home loan health check?"
+    ],
+    "ica_variation": {
+      "young_practical_motor": "Show loan progress visually — 'You've paid off $X of your $Y loan.' If approaching end: 'Planning your next car? We can get you pre-approved now.' FHL: 'Ready to buy a home? Let's talk.'",
+      "established_personal_finance": "Detailed loan performance. Interest paid vs principal. Comparison to original amortisation schedule. Strategic options for remaining term.",
+      "prime_convenience_repeat": "Quick summary: 'Your loan is tracking well. $X remaining. Estimated payout date: [date]. Need anything? We're here.'",
+      "business_asset": "Equipment depreciation vs loan balance comparison. Tax implications of early payout. Next equipment cycle planning.",
+      "prime_vehicle": "Vehicle value vs loan balance. 'Your car is worth approximately $X and you owe $Y.' Upgrade timing suggestions."
+    },
+    "purchase_type_variation": "N/A — FFG stages do not have FHL Purchase Type variations.",
+    "client_vs_nonclient": "N/A — this stage only applies to settled FFG clients.",
+    "handoff_trigger": "If homeowner engages with FHL content, trigger HP-006 (ffg-to-fhl-cross-sell-proactive). If client requests early payout, route to FFG payout process. If client wants to refinance asset loan, route back to FFG pipeline.",
+    "data_required": [
+      "current_loan_balance",
+      "original_loan_amount",
+      "loan_term_remaining",
+      "repayment_history",
+      "early_payout_figure",
+      "ica_profile",
+      "homeowner_status",
+      "existing_fhl_relationship",
+      "asset_type",
+      "estimated_asset_value"
+    ],
+    "compliance_notes": "Early payout figures must reference loan contract terms. Payout figure is indicative and may differ from final statement. Do not provide financial advice on whether to pay out early. Vehicle valuations are estimates. Do not use: advice, guarantee, financial hardship.",
+    "both_settled_override": "If client is settled with both FFG and FHL, deliver combined portfolio view instead of cross-sell. 'Your Fox Finance snapshot: Home loan $X, Asset finance $Y, Total equity $Z.'",
+    "early_payout_reference": "Reference Doc 11 (Early Payout Guide) from extracted-content.md for payout process details. Key points: payout figure request to lender, discharge process, potential break costs on fixed rates.",
+    "example_content": "Subject: Your loan at 9 months — here's where you stand\n\nHi [Name],\n\nHere's your 9-month loan snapshot:\n\n- Original loan: $[X]\n- Current balance: $[Y]\n- Paid off so far: $[Z]\n- Estimated payout figure: $[payout]\n\n[For homeowners without FHL]: By the way — our team at Fox Home Loans could save you money on your mortgage. Since we already know your financial picture, we can move quickly. Want us to take a look? [Learn more]\n\nYour full details are in your POLR portal: [link]\n\nFox Finance Group"
+  },
+  {
+    "id": "ffg-month12-annual-checkin",
+    "name": "Annual Check-In + Renewal Detector",
+    "timing": "month_12",
+    "applies_to": "ffg_settled",
+    "status": "hypothetical",
+    "intent": "retain",
+    "touchpoint_type": "email",
+    "manual_or_automated": "hybrid",
+    "description": "Annual milestone. Reviews loan status, detects replacement cycle timing (vehicles typically 3-5 years, equipment varies), and pushes referral program. For eligible clients, surfaces renewal/repeat finance opportunity.",
+    "internal_actions": [
+      "Generate annual loan summary",
+      "Calculate replacement cycle timing based on asset type",
+      "Include referral program push",
+      "Deliver via email + POLR",
+      "Flag clients approaching replacement cycle for broker follow-up"
+    ],
+    "customer_outcome": "Client gets their annual snapshot. Knows when their replacement cycle is approaching. Remembers the referral program.",
+    "deliverables": [
+      "Annual loan summary",
+      "Replacement cycle indicator",
+      "Referral program reminder"
+    ],
+    "ctas": [
+      "View your annual summary in POLR",
+      "Planning to upgrade? Let us know",
+      "Refer a friend and get rewarded"
+    ],
+    "ica_variation": {
+      "young_practical_motor": "Celebrate the milestone. 'One year down! Here's how your loan is tracking.' Referral push: 'Got mates who need a car loan?' Replacement: 'When you're ready for an upgrade, we'll be here.'",
+      "established_personal_finance": "Comprehensive annual review. Total interest paid, principal reduction, comparison to schedule. Forward planning for next 12 months.",
+      "prime_convenience_repeat": "Quick annual summary. 'Year one done. Everything's on track. Here's your snapshot.' Referral: 'Love the Fox experience? Spread the word.'",
+      "business_asset": "Business asset review. Depreciation schedule, tax implications, replacement planning. 'When do you need to upgrade this equipment?'",
+      "prime_vehicle": "Vehicle-focused annual review. Market value of vehicle, loan progress, upgrade timing. 'Your car is a year old now — here's where you stand.'"
+    },
+    "purchase_type_variation": "N/A — FFG stages do not have FHL Purchase Type variations.",
+    "client_vs_nonclient": "N/A — this stage only applies to settled FFG clients.",
+    "handoff_trigger": "If client indicates replacement interest, route to FFG new application pipeline. If client asks about home loans, trigger HP-006 (ffg-to-fhl-cross-sell-reactive).",
+    "data_required": [
+      "loan_balance",
+      "original_loan_amount",
+      "loan_term_total",
+      "loan_term_remaining",
+      "asset_type",
+      "asset_age",
+      "ica_profile",
+      "referral_history",
+      "replacement_cycle_estimate"
+    ],
+    "compliance_notes": "Annual summary is informational only. Replacement cycle timing is indicative. Do not provide financial advice on timing of replacement. Do not use: advice, guarantee, financial hardship.",
+    "example_content": "Subject: Happy anniversary — your loan at 12 months\n\nHi [Name],\n\nOne year ago, we helped you finance your [vehicle/equipment]. Here's how you're tracking:\n\n- Paid off: $[X] of $[Y]\n- Remaining: $[Z]\n- On track to finish: [date]\n\nPlanning an upgrade in the next year or two? Let us know and we'll get the ball rolling early.\n\nAnd if you know anyone who needs finance — car, equipment, or even a home loan — we'd love to help them too: [referral link]\n\nFox Finance Group"
+  },
+  {
+    "id": "ffg-month18-replacement-cycle",
+    "name": "Replacement Cycle Prompt",
+    "timing": "month_18",
+    "applies_to": "ffg_settled",
+    "status": "hypothetical",
+    "intent": "retain",
+    "touchpoint_type": "email",
+    "manual_or_automated": "automated",
+    "description": "Proactive replacement cycle prompt. For vehicles (typically 3-5 year cycles) and equipment (varies by type), this surfaces the upgrade conversation. Includes pre-approval offer and trade-in guidance.",
+    "internal_actions": [
+      "Calculate asset age and estimated replacement window",
+      "Generate replacement/upgrade content",
+      "Include pre-approval CTA",
+      "Deliver via email + POLR",
+      "Track engagement for broker follow-up"
+    ],
+    "customer_outcome": "Client starts thinking about their next asset. Knows Fox can handle the upgrade seamlessly.",
+    "deliverables": [
+      "Replacement cycle guide",
+      "Pre-approval offer",
+      "Trade-in value estimate (if vehicle)"
+    ],
+    "ctas": [
+      "Get pre-approved for your next vehicle",
+      "See your trade-in estimate",
+      "Chat with your broker about upgrading"
+    ],
+    "ica_variation": {
+      "young_practical_motor": "Exciting upgrade content. 'Thinking about your next car? Here's what you could step into.' Show pre-approval amount and what it buys.",
+      "established_personal_finance": "Strategic upgrade timing. 'When is the optimal time to replace? Here's the financial analysis.' Depreciation curves, net cost of ownership.",
+      "prime_convenience_repeat": "'Ready for an upgrade? We can have you pre-approved in 24 hours. Same great experience, new car.' Zero hassle angle.",
+      "business_asset": "Equipment replacement planning. 'Tax-effective timing for your next equipment purchase. End of financial year considerations.' Fleet planning.",
+      "prime_vehicle": "Direct upgrade offer. 'Your car is 18 months old. Here's what an upgrade could look like — and we already know your financial picture, so it'll be quick.'"
+    },
+    "purchase_type_variation": "N/A — FFG stages do not have FHL Purchase Type variations.",
+    "client_vs_nonclient": "N/A — this stage only applies to settled FFG clients.",
+    "handoff_trigger": "If client engages with upgrade content, route back to FFG new application pipeline via EP-002 (ffg-repeat-return). Lifecycle resets from Month 1 after new settlement.",
+    "data_required": [
+      "asset_type",
+      "asset_age",
+      "loan_balance",
+      "estimated_asset_value",
+      "ica_profile",
+      "replacement_cycle_estimate",
+      "previous_engagement_history"
+    ],
+    "compliance_notes": "Pre-approval is indicative and subject to full application. Trade-in estimates are indicative only. Do not use: advice, guarantee, financial hardship.",
+    "lifecycle_reset_note": "After Month 18, transitions to Year 2-3+ low-frequency nurture unless replacement cycle triggers a new application.",
+    "example_content": "Subject: Time for an upgrade?\n\nHi [Name],\n\nYour [vehicle/equipment] is 18 months old now. If you're starting to think about what's next, we can help.\n\nHere's where you stand:\n- Current loan balance: $[X]\n- Estimated [vehicle/equipment] value: $[Y]\n- Potential equity: $[Z]\n\nWe can pre-approve your next loan quickly — since we already have your financial picture, there's minimal paperwork.\n\n[Get pre-approved] | [Chat with your broker]\n\nFox Finance Group"
+  },
+  {
+    "id": "ffg-year2-plus-nurture",
+    "name": "Low-Frequency Nurture",
+    "timing": "ongoing",
+    "applies_to": "ffg_settled",
+    "status": "hypothetical",
+    "intent": "retain",
+    "touchpoint_type": "email",
+    "manual_or_automated": "automated",
+    "description": "After the active 18-month lifecycle, clients move to low-frequency nurture. Quarterly content drops with occasional trigger-based escalation. Keeps Fox top of mind without overwhelming.",
+    "internal_actions": [
+      "Quarterly automated content delivery",
+      "Monitor for trigger events (loan payout approaching, market changes)",
+      "Annual anniversary check-in",
+      "Track engagement — any spike triggers broker outreach"
+    ],
+    "customer_outcome": "Client stays connected to Fox. When they need finance again, Fox is the first call.",
+    "deliverables": [
+      "Quarterly content (market updates, tips, seasonal finance content)",
+      "Annual anniversary email",
+      "Trigger-based outreach when relevant"
+    ],
+    "ctas": [
+      "Need finance? We're here",
+      "Refer a friend",
+      "Update your details in POLR"
+    ],
+    "ica_variation": {
+      "young_practical_motor": "Lifestyle content: car maintenance tips, driving cost savings, insurance renewal reminders. Light and engaging.",
+      "established_personal_finance": "Market insights: rate trends, economic updates, strategic finance content. More depth.",
+      "prime_convenience_repeat": "Minimal: quarterly summary only. Don't over-communicate. One email, one POLR notification, done.",
+      "business_asset": "Business finance content: EOFY planning, equipment trends, fleet management tips. Industry-relevant.",
+      "prime_vehicle": "Vehicle market updates: new model releases, trade-in market trends, fuel efficiency comparisons. Practical."
+    },
+    "purchase_type_variation": "N/A — FFG stages do not have FHL Purchase Type variations.",
+    "client_vs_nonclient": "N/A — this stage only applies to settled FFG clients in the post-lifecycle nurture phase.",
+    "handoff_trigger": "Trigger-based: if loan is within 6 months of full payout, trigger replacement cycle content. If engagement spikes (multiple POLR logins, email clicks), trigger broker outreach.",
+    "data_required": [
+      "ica_profile",
+      "loan_term_remaining",
+      "last_engagement_date",
+      "referral_history",
+      "existing_fhl_relationship"
+    ],
+    "compliance_notes": "Standard disclaimers on all content. Educational only. Do not use: advice, guarantee, financial hardship.",
+    "example_content": "Subject: Your quarterly Fox update\n\nHi [Name],\n\n[Seasonal/relevant content based on ICA]\n\nYour loan snapshot: $[balance] remaining, on track for [payout date].\n\nNeed anything? Your broker [Name] is always a call away: [number].\n\nFox Finance Group"
+  },
+  {
+    "id": "nc-polr-onboarding",
+    "name": "POLR Onboarding Sequence",
+    "timing": "first_7_days",
+    "applies_to": "non_client",
+    "status": "proposed",
+    "intent": "educate",
+    "touchpoint_type": "email",
+    "manual_or_automated": "automated",
+    "description": "Welcome sequence for non-clients who register for POLR. 3-4 emails over 7 days that introduce the platform, build trust, and start profiling the user for eventual conversion. These are people who haven't settled with Fox yet — either prospects, referrals, or organic sign-ups.",
+    "internal_actions": [
+      "Trigger welcome email on registration",
+      "Day 1: Welcome + value proposition",
+      "Day 3: Profile building (what are you interested in?)",
+      "Day 5: First value delivery (calculator, market content)",
+      "Day 7: Soft CTA (book a chat, explore your options)",
+      "Track engagement and profile completion"
+    ],
+    "customer_outcome": "Non-client understands what POLR offers, has started building their profile, and received enough value to consider Fox when they need finance.",
+    "deliverables": [
+      "4-email onboarding sequence",
+      "POLR profile setup prompts",
+      "First value content piece"
+    ],
+    "ctas": [
+      "Complete your POLR profile",
+      "Try our borrowing calculator",
+      "Book a free chat with a Fox broker"
+    ],
+    "ica_variation": {
+      "young_practical_motor": "Focus on car buying and first-time borrowing content. Simple language. 'Not sure how car finance works? We'll explain it in plain English.'",
+      "established_personal_finance": "Focus on rate comparison tools and financial optimisation. 'See how your current finance stacks up.'",
+      "prime_convenience_repeat": "Focus on speed and ease. 'Get pre-approved in minutes. See your options instantly.'",
+      "business_asset": "Focus on business finance tools. 'Explore equipment and fleet finance options for your business.'",
+      "prime_vehicle": "Focus on vehicle finance options. 'Find out what you could borrow and what it would cost.'"
+    },
+    "purchase_type_variation": {
+      "first_home_buyer": "FHB-specific onboarding: stamp duty calculators, borrowing capacity tools, FHB grant information.",
+      "new_purchase": "Property search tools, borrowing capacity, pre-approval pathway.",
+      "refinance": "Rate comparison tool, savings calculator, 'could you save?' messaging.",
+      "investor": "Investment property calculators, rental yield tools, portfolio planning content.",
+      "commercial": "Commercial lending options, business borrowing capacity, case studies."
+    },
+    "client_vs_nonclient": "This stage is ONLY for non-clients. Clients are already in FHL or FFG lifecycle tracks.",
+    "handoff_trigger": "If non-client completes profile AND engages with conversion content (e.g., uses calculator, clicks 'book a chat'), trigger EP-006 (nc-polr-to-fhl-conversion) or EP-007 (nc-polr-to-ffg-conversion) depending on their expressed interest.",
+    "data_required": [
+      "registration_date",
+      "registration_source",
+      "expressed_interest",
+      "profile_completion_percentage",
+      "engagement_metrics"
+    ],
+    "compliance_notes": "Non-client content must not constitute financial advice. Calculators must include disclaimers about indicative results. Do not collect sensitive financial information without proper consent. Privacy policy must be prominent. Do not use: advice, guarantee, financial hardship.",
+    "example_content": "Day 1 email — Subject: Welcome to POLR — your finance dashboard\n\nHi [Name],\n\nWelcome to POLR, your personal finance dashboard from Fox Finance Group.\n\nPOLR gives you:\n- Borrowing calculators (see what you could afford)\n- Market rate tracking (know when rates move)\n- Finance tools (plan your next move)\n\nFirst step: complete your profile so we can personalise your dashboard.\n\n[Complete your profile]\n\nWe're Fox Finance Group — we've helped thousands of Australians with car, equipment, and home finance. POLR is our way of giving you the tools to make smart decisions, whether you work with us or not.\n\nFox Finance Group"
+  },
+  {
+    "id": "nc-value-delivery",
+    "name": "Ongoing Value Delivery",
+    "timing": "ongoing",
+    "applies_to": "non_client",
+    "status": "proposed",
+    "intent": "educate",
+    "touchpoint_type": "email",
+    "manual_or_automated": "automated",
+    "description": "Regular value delivery to non-clients who have registered for POLR. Monthly content drops that educate, build trust, and keep Fox top of mind. Content is personalised based on expressed interest and engagement patterns.",
+    "internal_actions": [
+      "Monthly content delivery based on interest profile",
+      "Market updates (rate movements, industry news)",
+      "Educational content (how finance works, tips, guides)",
+      "Tool updates (new calculators, features in POLR)",
+      "Track engagement for conversion signal detection"
+    ],
+    "customer_outcome": "Non-client receives ongoing value from POLR. Builds trust with Fox brand. When ready to borrow, Fox is the obvious choice.",
+    "deliverables": [
+      "Monthly content emails",
+      "POLR notifications for new tools/content",
+      "Market update summaries"
+    ],
+    "ctas": [
+      "Read this month's market update",
+      "Try our new calculator",
+      "Ready to get started? Book a chat"
+    ],
+    "ica_variation": {
+      "young_practical_motor": "Budgeting tips, car buying guides, first-time borrower education. Friendly, accessible.",
+      "established_personal_finance": "Market analysis, rate trends, strategic finance content. More sophisticated.",
+      "prime_convenience_repeat": "Quick updates only. Don't over-email. Monthly summary with one key insight.",
+      "business_asset": "Business finance trends, equipment market updates, tax planning content.",
+      "prime_vehicle": "Vehicle market updates, new model information, finance comparison tools."
+    },
+    "purchase_type_variation": {
+      "first_home_buyer": "Property market updates for their target area. FHB-specific guides. Grant and scheme updates.",
+      "new_purchase": "Property market trends, borrowing capacity updates, pre-approval information.",
+      "refinance": "Rate comparison updates. 'Rates moved this month — here's what it means for you.'",
+      "investor": "Investment market updates, rental yield data, portfolio strategy content.",
+      "commercial": "Commercial market updates, business lending trends, case studies."
+    },
+    "client_vs_nonclient": "This stage is ONLY for non-clients.",
+    "handoff_trigger": "Engagement scoring: if a non-client hits a conversion threshold (e.g., uses calculator 3+ times, opens 5+ consecutive emails, clicks 'book a chat'), trigger conversion signal detection.",
+    "data_required": [
+      "interest_profile",
+      "engagement_score",
+      "content_preferences",
+      "last_engagement_date",
+      "profile_completion_percentage"
+    ],
+    "compliance_notes": "Educational content only. No personalised financial advice. Rate information must be current and sourced. Do not use: advice, guarantee, financial hardship.",
+    "example_content": "Subject: Your monthly POLR update\n\nHi [Name],\n\nHere's what's happening in finance this month:\n\n[Market update relevant to their interest]\n\nNew in POLR: [New tool or feature]\n\n[ICA-specific tip or guide]\n\nReady to chat about your options? [Book a free call with a Fox broker]\n\nFox Finance Group"
+  },
+  {
+    "id": "nc-conversion-signal",
+    "name": "Conversion Signal Detection",
+    "timing": "ongoing",
+    "applies_to": "non_client",
+    "status": "proposed",
+    "intent": "trigger_handoff",
+    "touchpoint_type": "polr_notification",
+    "manual_or_automated": "hybrid",
+    "description": "Behaviour-based conversion triggering. Monitors non-client engagement patterns and triggers personalised outreach when conversion signals are detected. This is not a scheduled touchpoint — it fires when the data says someone is ready.",
+    "internal_actions": [
+      "Monitor engagement signals (calculator usage, content consumption, POLR logins)",
+      "Score conversion readiness based on behaviour patterns",
+      "When threshold met: generate personalised conversion outreach",
+      "Alert assigned broker or SDR for follow-up",
+      "Deliver POLR notification + email"
+    ],
+    "customer_outcome": "Non-client receives a perfectly timed, relevant offer to explore finance with Fox. Feels natural, not pushy, because it's based on their actual behaviour.",
+    "deliverables": [
+      "Conversion-trigger email",
+      "POLR notification with personalised CTA",
+      "Broker/SDR alert with lead context"
+    ],
+    "ctas": [
+      "You've been exploring [topic] — ready to take the next step?",
+      "Book a free chat with a Fox broker",
+      "Get pre-approved in minutes"
+    ],
+    "conversion_signals": {
+      "high_intent": [
+        "Calculator used 3+ times in 7 days",
+        "Pre-approval page visited",
+        "Broker profile page viewed",
+        "Contact form started but not submitted"
+      ],
+      "medium_intent": [
+        "5+ consecutive email opens",
+        "3+ POLR logins in 14 days",
+        "Multiple content pieces consumed on same topic"
+      ],
+      "low_intent": [
+        "Regular but passive engagement",
+        "Profile partially complete",
+        "Occasional calculator use"
+      ]
+    },
+    "ica_variation": {
+      "young_practical_motor": "Encouraging, no-pressure. 'We noticed you've been checking out car finance options. Want to see what you could get? It takes 2 minutes and there's no commitment.'",
+      "established_personal_finance": "Respectful, data-driven. 'Based on what you've been exploring, it looks like you might be ready to compare your options. Here's a personalised summary.'",
+      "prime_convenience_repeat": "Speed and ease. 'Ready to go? We can have you pre-approved in under an hour. One application, one conversation, done.'",
+      "business_asset": "Professional, opportunity-focused. 'Looks like you're exploring equipment finance. Let's chat about the best structure for your business.'",
+      "prime_vehicle": "Direct and confident. 'You've been looking at vehicle finance options. Let's get you a number — no obligation, no hassle.'"
+    },
+    "purchase_type_variation": {
+      "first_home_buyer": "'Taking the first step is the hardest part. You've already done the research — let's see what you could afford.'",
+      "new_purchase": "'Found a property you love? Let's get your borrowing sorted so you can move fast when it counts.'",
+      "refinance": "'You've been checking rates — looks like you might be paying too much. Want us to run the numbers?'",
+      "investor": "'Ready to add to your portfolio? Let's look at your borrowing capacity and investment options.'",
+      "commercial": "'Exploring commercial finance? Let's talk about the best structure for your situation.'"
+    },
+    "client_vs_nonclient": "This stage is ONLY for non-clients. It triggers the transition from non-client to prospect/applicant.",
+    "handoff_trigger": "YES — this IS the handoff trigger. When conversion signal fires, route to EP-006 (nc-polr-to-fhl-conversion) or EP-007 (nc-polr-to-ffg-conversion) based on expressed interest. Lead context (engagement history, calculator results, content consumed) passes to the assigned broker.",
+    "data_required": [
+      "engagement_history",
+      "calculator_results",
+      "content_consumption_pattern",
+      "interest_profile",
+      "profile_data",
+      "conversion_score"
+    ],
+    "compliance_notes": "Conversion outreach must not be misleading. Do not imply pre-approval without application. Calculator results are indicative. Privacy considerations around behavioural tracking — must be disclosed in POLR terms. Do not use: advice, guarantee, financial hardship.",
+    "example_content": "Subject: You've been doing your homework — ready to see real numbers?\n\nHi [Name],\n\nWe noticed you've been exploring [car finance / home loan / equipment finance] options in POLR. Looks like you're getting serious — nice work on the research.\n\nWant to see what Fox can actually do for you? Here's what happens next:\n\n1. Quick chat with a Fox broker (10 minutes, no obligation)\n2. We run the numbers based on your actual situation\n3. You get a clear answer — what you can borrow, what it costs, and how it works\n\n[Book a free chat] | [Get pre-approved online]\n\nNo pressure. We're here when you're ready.\n\nFox Finance Group"
+  },
+  {
+    "id": "both-portfolio-sync",
+    "name": "Portfolio Sync (Both-Settled Override)",
+    "timing": "quarterly",
+    "applies_to": "both_settled",
+    "status": "proposed",
+    "intent": "retain",
+    "touchpoint_type": "email",
+    "manual_or_automated": "automated",
+    "description": "Quarterly portfolio view for clients settled with BOTH FFG and FHL. Replaces duplicate communications from separate lifecycles with a unified view. Shows all Fox lending in one snapshot. Coordinates timing so FFG and FHL touchpoints don't stack.",
+    "internal_actions": [
+      "Aggregate data from both FFG and FHL lifecycles",
+      "Generate combined portfolio dashboard in POLR",
+      "Deliver quarterly summary email",
+      "Coordinate with both lifecycle tracks to suppress duplicate touchpoints in same week",
+      "Track engagement"
+    ],
+    "customer_outcome": "Client sees their complete Fox relationship in one view. Feels valued as a whole-of-business client. No communication fatigue from duplicate touchpoints.",
+    "deliverables": [
+      "Quarterly portfolio summary (email + POLR)",
+      "Combined equity and loan status view",
+      "Unified POLR dashboard"
+    ],
+    "ctas": [
+      "View your full Fox portfolio in POLR",
+      "Anything changing? Let us know"
+    ],
+    "ica_variation": {
+      "young_practical_motor": "Simple combined view. 'Here's everything Fox is helping you with — home and car, all in one place.'",
+      "established_personal_finance": "Detailed portfolio analysis. Total debt position, equity, net worth trajectory. Sophisticated.",
+      "prime_convenience_repeat": "Quick summary. 'Your Fox snapshot: Home loan $X, Car loan $Y, Total equity $Z. All good.'",
+      "business_asset": "Business + personal combined view. 'Your Fox Finance portfolio: property, equipment, and everything in between.'",
+      "prime_vehicle": "Clear, practical combined view. Both loans at a glance."
+    },
+    "purchase_type_variation": "N/A — this is a combined view that transcends individual purchase types.",
+    "client_vs_nonclient": "This stage ONLY applies to clients settled with both FFG and FHL.",
+    "handoff_trigger": "No handoff — client is already with both businesses. Focus is purely retention and satisfaction. If client mentions new needs (additional property, additional vehicle), route to appropriate pipeline.",
+    "communication_coordination": {
+      "rule": "When a both-settled client has touchpoints from both FFG and FHL falling within the same 2-week window, suppress the lower-priority touchpoint and include its content in the portfolio sync.",
+      "priority_order": [
+        "Broker calls (always take priority — human touchpoints are not suppressed)",
+        "Cross-sell moments (already converted to portfolio deepening for both-settled)",
+        "Value delivery (Cotality valuations, pricing reviews)",
+        "Nurture content (can be combined or deferred)"
+      ]
+    },
+    "data_required": [
+      "all_ffg_loan_data",
+      "all_fhl_loan_data",
+      "combined_equity_position",
+      "property_valuations",
+      "asset_valuations",
+      "ica_profile",
+      "engagement_history_both_tracks"
+    ],
+    "compliance_notes": "Combined portfolio view must not constitute financial advice. All valuations are estimates. Do not aggregate data in ways that imply net worth calculations (that's financial advice territory). Do not use: advice, guarantee, financial hardship.",
+    "example_content": "Subject: Your Fox Finance portfolio — quarterly update\n\nHi [Name],\n\nHere's your complete Fox Finance picture:\n\nHome Loan (Fox Home Loans):\n- Property value: $[X]\n- Loan balance: $[Y]\n- Equity: $[Z]\n\nAsset Finance (Fox Finance Group):\n- [Vehicle/Equipment]: $[balance] remaining\n- On track for: [payout date]\n\nEverything is tracking well. Your full dashboard is in POLR: [link]\n\nAnything changing in your world? Your team at Fox is always here.\n\nFox Finance Group & Fox Home Loans"
+  }
+]

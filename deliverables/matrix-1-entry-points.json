@@ -1,0 +1,197 @@
+[
+  {
+    "id": "ffg-website-phone-enquiry",
+    "name": "FFG Website or Phone Enquiry",
+    "source": "organic",
+    "person_type": "new_prospect",
+    "data_captured_at_entry": [
+      "full_name", "phone", "email", "enquiry_type", "asset_type_requested",
+      "approximate_finance_amount", "business_or_personal", "source_channel"
+    ],
+    "ica_assignment_method": "algorithmic",
+    "ica_assignment_detail": "Loan purpose (motor vs equipment vs personal) plus business flag determines ICA 1/2/4/5. Confirmed at settlement via Ambition API data (loan type, amount, term).",
+    "initial_polr_position": "POLR record created immediately. Lead enters FFG pre-sales pipeline (4-day call cadence) as primary action. POLR lifecycle paused until settlement or decline.",
+    "immediate_handoff_eligible": true,
+    "handoff_target": "ffg",
+    "example_scenario": "Sarah calls FFG about a car loan. Receptionist captures her details into Ambition. POLR record is created in parallel. She enters the FFG 4-day call cadence immediately. Once settled, she returns to POLR lifecycle as an FFG client."
+  },
+  {
+    "id": "fhl-website-phone-enquiry",
+    "name": "FHL Website or Phone Enquiry",
+    "source": "organic",
+    "person_type": "new_prospect",
+    "data_captured_at_entry": [
+      "full_name", "phone", "email", "enquiry_type", "property_type",
+      "purchase_or_refinance", "approximate_property_value", "first_home_buyer_flag", "source_channel"
+    ],
+    "ica_assignment_method": "inferred",
+    "ica_assignment_detail": "Purchase type (FHB, investor, refinance, commercial) inferred from enquiry. No API from Finshaw's/Connective — CSV export matched manually. ICA confirmed at settlement when FHL Purchase Type is known.",
+    "initial_polr_position": "POLR record created immediately. Lead enters FHL pre-sales pipeline (10-day call cadence) as primary action. POLR lifecycle paused until settlement or decline.",
+    "immediate_handoff_eligible": true,
+    "handoff_target": "fhl",
+    "example_scenario": "James enquires about refinancing via the FHL website form. His details are entered into Finshaw's. POLR record created. He enters FHL 10-day call cadence. Once settled, he returns to POLR lifecycle as an FHL client with ICA confirmed from settlement data."
+  },
+  {
+    "id": "polr-direct-has-mortgage",
+    "name": "POLR Direct Signup — Has Mortgage Elsewhere",
+    "source": "polr_direct",
+    "person_type": "non_client",
+    "data_captured_at_entry": [
+      "full_name", "email", "phone", "current_lender", "property_owner_flag",
+      "approximate_property_value", "vehicle_or_asset_needs", "interests_selected"
+    ],
+    "ica_assignment_method": "self_declared",
+    "ica_assignment_detail": "Onboarding questionnaire captures property ownership, current lender, and interest areas. ICA assigned based on self-declared needs. Likely ICA 3 (Prime Convenience-Led Repeat) or ICA 5 (Prime Vehicle) given existing mortgage.",
+    "initial_polr_position": "Enters POLR value journey as non-client. Receives education-first content (property insights via Cotality integration, market updates, financial literacy). No immediate business handoff — nurture until intent signal detected.",
+    "immediate_handoff_eligible": false,
+    "handoff_target": "none",
+    "example_scenario": "Maria has a mortgage with CBA but signs up to POLR for the free property valuation tool. She receives monthly Cotality-powered property insights. After 4 months she clicks on an FFG car finance article — intent signal triggers a warm FFG handoff."
+  },
+  {
+    "id": "polr-direct-renter-no-loans",
+    "name": "POLR Direct Signup — Renting, No Current Loans",
+    "source": "polr_direct",
+    "person_type": "non_client",
+    "data_captured_at_entry": [
+      "full_name", "email", "phone", "renting_flag", "savings_status",
+      "first_home_buyer_interest", "vehicle_needs", "interests_selected"
+    ],
+    "ica_assignment_method": "self_declared",
+    "ica_assignment_detail": "Onboarding questionnaire identifies renter status and aspirations. Likely ICA 1 (Young Practical Motor) if vehicle-focused, or pre-ICA if primarily FHB-aspirational. ICA confirmed when first transaction occurs.",
+    "initial_polr_position": "Enters POLR value journey as non-client. Receives FHB education content, savings tips, borrowing capacity tools. Longest nurture path — building trust and financial literacy before any product conversation.",
+    "immediate_handoff_eligible": false,
+    "handoff_target": "none",
+    "example_scenario": "Josh is 24 and renting. He signs up to POLR after seeing a social post about first home buyer grants. He receives FHB education content monthly. 8 months later he completes the borrowing capacity calculator — intent signal triggers warm FHL introduction."
+  },
+  {
+    "id": "referral-partner-ffg-aligned",
+    "name": "Referral Partner Lead — FFG Aligned",
+    "source": "referral",
+    "person_type": "new_prospect",
+    "data_captured_at_entry": [
+      "full_name", "phone", "email", "referring_partner_name", "referring_partner_type",
+      "asset_type_needed", "urgency", "business_or_personal", "partner_notes"
+    ],
+    "ica_assignment_method": "inferred",
+    "ica_assignment_detail": "Partner type indicates likely ICA. Car dealer referrals map to ICA 1 or 5. Accountant referrals map to ICA 4 (Business Asset). Equipment supplier referrals map to ICA 4. Confirmed at settlement via Ambition.",
+    "initial_polr_position": "POLR record created. Lead enters FFG pre-sales pipeline (4-day call cadence) immediately — referral leads are warm and time-sensitive. Partner relationship context tagged on POLR record.",
+    "immediate_handoff_eligible": true,
+    "handoff_target": "ffg",
+    "example_scenario": "A car dealership refers Mike who needs $45K vehicle finance. The dealer submits via their referral form. Mike enters FFG 4-day call cadence with dealer context noted. POLR record created with partner attribution for lifecycle tracking."
+  },
+  {
+    "id": "referral-partner-fhl-aligned",
+    "name": "Referral Partner Lead — FHL Aligned",
+    "source": "referral",
+    "person_type": "new_prospect",
+    "data_captured_at_entry": [
+      "full_name", "phone", "email", "referring_partner_name", "referring_partner_type",
+      "property_type", "purchase_or_refinance", "approximate_value", "partner_notes"
+    ],
+    "ica_assignment_method": "inferred",
+    "ica_assignment_detail": "Partner type indicates context. Real estate agent referrals suggest purchase. Accountant referrals may indicate investment or commercial (ICA 4/5). Conveyancer referrals — already in process. Confirmed at settlement via Finshaw's CSV.",
+    "initial_polr_position": "POLR record created. Lead enters FHL pre-sales pipeline (10-day call cadence) immediately. Bill Robb manages partner relationships — partner context and warm intro details captured.",
+    "immediate_handoff_eligible": true,
+    "handoff_target": "fhl",
+    "example_scenario": "A conveyancer refers Lisa who is purchasing her first home. Bill Robb receives the referral and routes to FHL 10-day call cadence. POLR record created with partner attribution. Once settled, Lisa enters POLR lifecycle as FHL client (FHB journey)."
+  },
+  {
+    "id": "reactivation-ffg-declined",
+    "name": "Reactivation Lead — FFG Declined (49K Lead Market)",
+    "source": "reactivation",
+    "person_type": "reactivation",
+    "data_captured_at_entry": [
+      "full_name", "phone", "email", "original_enquiry_date", "original_decline_reason",
+      "original_asset_type", "original_loan_amount", "time_since_decline", "ambition_record_id"
+    ],
+    "ica_assignment_method": "algorithmic",
+    "ica_assignment_detail": "Historical Ambition data provides original loan type and amount. ICA assigned from historical data. Decline reason determines re-engagement approach (credit issues vs timing vs rate vs withdrew).",
+    "initial_polr_position": "Enters POLR value journey as reactivation lead after mandatory 3-month cooling period from decline date. Receives education-first content relevant to their original need. No hard sell — trust rebuilding phase.",
+    "immediate_handoff_eligible": false,
+    "handoff_target": "none",
+    "example_scenario": "Tom was declined for a truck loan 4 months ago due to credit score. He enters POLR reactivation flow with credit improvement content. After 3 months of engagement and a credit score check tool interaction, an intent signal triggers a warm FFG re-introduction with Sam Drew."
+  },
+  {
+    "id": "reactivation-fhl-declined",
+    "name": "Reactivation Lead — FHL Declined",
+    "source": "reactivation",
+    "person_type": "reactivation",
+    "data_captured_at_entry": [
+      "full_name", "phone", "email", "original_enquiry_date", "original_decline_reason",
+      "original_property_type", "original_loan_amount", "time_since_decline", "finshaws_record_reference"
+    ],
+    "ica_assignment_method": "inferred",
+    "ica_assignment_detail": "Historical Finshaw's CSV data provides original enquiry type. ICA inferred from property type and buyer status. Limited data compared to FFG due to no API access. May require UMI pathway if sub-prime.",
+    "initial_polr_position": "Enters POLR value journey as reactivation lead after mandatory 3-month cooling period. Receives property market updates and financial education content. If decline was credit-related, UMI pathway flagged as alternative.",
+    "immediate_handoff_eligible": false,
+    "handoff_target": "none",
+    "example_scenario": "Rachel was declined for a home loan 5 months ago. She enters POLR reactivation flow and receives property market updates for her suburb. After engaging with a borrowing capacity calculator, an intent signal triggers a warm FHL re-introduction."
+  },
+  {
+    "id": "ffg-settled-client-return",
+    "name": "FFG Settled Client Returning to POLR Lifecycle",
+    "source": "internal_crosssell",
+    "person_type": "existing_ffg_client",
+    "data_captured_at_entry": [
+      "full_name", "phone", "email", "ambition_client_id", "settlement_date",
+      "loan_type", "loan_amount", "loan_term", "asset_type", "broker_assigned",
+      "ica_confirmed", "fhl_purchase_type_mapping"
+    ],
+    "ica_assignment_method": "algorithmic",
+    "ica_assignment_detail": "Settlement data from Ambition API confirms ICA. Loan type + amount + business flag determines ICA 1-5. FHL Purchase Type cross-reference applied for cross-sell targeting.",
+    "initial_polr_position": "Enters POLR lifecycle at Month 1 (Welcome + Settlement Verified). Full 18-month lifecycle begins. Cross-sell targeting active based on confirmed ICA and FHL Purchase Type mapping.",
+    "immediate_handoff_eligible": false,
+    "handoff_target": "none",
+    "example_scenario": "Brad settles a $35K car loan. Ambition API confirms ICA 1 (Young Practical Motor Borrower). POLR creates his lifecycle record. Month 1 welcome call completed by FFG team. At Month 9, he receives the FFG Momentum Pack targeted to his ICA."
+  },
+  {
+    "id": "fhl-settled-client-return",
+    "name": "FHL Settled Client Returning to POLR Lifecycle",
+    "source": "internal_crosssell",
+    "person_type": "existing_fhl_client",
+    "data_captured_at_entry": [
+      "full_name", "phone", "email", "finshaws_client_reference", "settlement_date",
+      "loan_type", "loan_amount", "property_value", "property_address", "lender",
+      "fhl_purchase_type", "broker_assigned", "ica_confirmed", "trail_commission_active"
+    ],
+    "ica_assignment_method": "algorithmic",
+    "ica_assignment_detail": "Settlement data from Finshaw's CSV confirms FHL Purchase Type (FHB, Investor, Refinancer, Commercial). ICA mapped from Purchase Type. Cotality integration enables ongoing property valuation tracking.",
+    "initial_polr_position": "Enters POLR lifecycle at Month 1 (Welcome + Setup Verified). Full 18-month FHL lifecycle begins. Cotality property tracking activated. FFG cross-sell targeting active.",
+    "immediate_handoff_eligible": false,
+    "handoff_target": "none",
+    "example_scenario": "Paige settles a $620K home loan for a first home buyer. Finshaw's CSV confirms FHL Purchase Type: FHB. POLR creates her lifecycle record with Cotality tracking on the property. Month 3 she receives the 90-Day Confidence Pack."
+  },
+  {
+    "id": "content-education-lead",
+    "name": "Content or Education Lead (Blog, Social, Search)",
+    "source": "organic",
+    "person_type": "new_prospect",
+    "data_captured_at_entry": [
+      "email", "first_name", "content_topic_engaged", "source_channel",
+      "utm_parameters", "interests_selected"
+    ],
+    "ica_assignment_method": "inferred",
+    "ica_assignment_detail": "Content topic determines initial ICA inference. Car finance content suggests ICA 1/5. Home buying content suggests FHB pathway. Business finance content suggests ICA 4. Progressively profiled through POLR engagement.",
+    "initial_polr_position": "Enters POLR value journey as non-client with minimal data. Progressive profiling through content engagement builds their profile over time. Lightest-touch nurture sequence — education-first, zero sales pressure.",
+    "immediate_handoff_eligible": false,
+    "handoff_target": "none",
+    "example_scenario": "Emma reads a Fox blog post about first home buyer grants and subscribes to the POLR newsletter. Over 6 weeks she opens 4 FHB-related emails and clicks on the borrowing capacity tool. Progressive profiling captures her phone number. Intent score reaches threshold — warm FHL introduction triggered."
+  },
+  {
+    "id": "google-ads-lead",
+    "name": "Google Ads Lead",
+    "source": "ads",
+    "person_type": "new_prospect",
+    "data_captured_at_entry": [
+      "full_name", "phone", "email", "ad_campaign", "ad_group", "keyword",
+      "landing_page", "enquiry_type", "asset_or_property_type", "approximate_amount", "gclid"
+    ],
+    "ica_assignment_method": "inferred",
+    "ica_assignment_detail": "Ad campaign and keyword determine initial ICA. FFG campaigns (car loan, truck finance, equipment finance) map to ICA 1/4/5. FHL campaigns (home loan, refinance, first home buyer) map by purchase type.",
+    "initial_polr_position": "POLR record created. Immediate handoff to relevant business pipeline based on ad campaign alignment. FFG campaigns route to FFG 4-day call cadence. FHL campaigns route to FHL 10-day call cadence. Speed-to-contact critical.",
+    "immediate_handoff_eligible": true,
+    "handoff_target": "ffg",
+    "handoff_target_note": "Dynamic — FFG campaigns hand off to FFG, FHL campaigns hand off to FHL. Determined by ad campaign alignment.",
+    "example_scenario": "Dave searches 'car loan Melbourne' and clicks an FFG Google Ad. He completes the landing page form. POLR record created with full UTM tracking. He enters FFG 4-day call cadence within 60 seconds via Instant Reply Agent."
+  }
+]

@@ -1,0 +1,2125 @@
+# ============================================
+# CLIENT OPERATING SYSTEM (COS) v2.0
+# Fox Finance Group, Fox Home Loans & UMI Loans
+# Single source of truth - Read before every decision
+# ============================================
+
+# ============================================
+# COMPANY SNAPSHOT
+# ============================================
+company:
+  name: "Fox Finance Group"
+  trading_names:
+    - "Fox Finance Group (FFG) - Asset finance, commercial lending, personal loans, debt consolidation"
+    - "Fox Home Loans (FHL) - Mortgages, refinancing, investment property lending"
+    - "UMI Loans (UMI) - Sub-prime secured car lending (LENDER, not broker)"
+  industry: "Financial services"
+  primary_service: "Asset finance, home lending, and sub-prime secured lending across three brands"
+  revenue_model: "Commission-based (FFG/FHL brokerage) + interest-based (UMI lending) + lead market revenue"
+  target_market: "B2C (all three brands) + B2B commercial (FFG)"
+  average_customer_profile: "5-profile ICA framework (data-driven from settlement dataset): Young Practical Motor Borrower, Established Personal Finance Borrower, Prime Convenience-Led Repeat Borrower, Business Asset Borrower, Prime Vehicle Borrower. Maps to FHL Purchase Types for cross-sell. Strong repeat and referral base across group."
+  active_customers: "~50,000+ contacts across Fox businesses + UMI database (separate)"
+  customer_facing_staff: 33  # ~15 Fox end + ~18 UMI end
+  website:
+    ffg: "foxfinancegroup.com.au"
+    fhl: "foxhomeloans.com.au"
+    umi: "umeloans.com.au"
+  locale: "AU"
+  group_vision: "Through genuine relationships and tech-enabled, customer-first solutions, building a connected network of businesses where each brand stands on its own as a trusted guide in the customer's hero journey."
+
+# ============================================
+# BUSINESSES
+# ============================================
+businesses:
+  fox_finance_group:
+    type: "Asset finance brokerage"
+    brand_hero_story: "Helping you say yes to the life you want."
+    brand_positioning: "Lifestyle Partner - lifestyle lending to fund dreams, experiences, and passions"
+    staff: 15
+    focus: "Car loans, personal loans, equipment finance, debt consolidation, commercial lending, cash flow"
+    customer_type: "Near-prime to prime (B2C + B2B commercial)"
+    lms: "Ambition"
+    lms_api: "Has API to push out information"
+    website: "foxfinancegroup.com.au"
+    annual_settled_deals: "90-108/month (FFG alone, validated 2026-03-06)"
+    average_commission_aim: "$2,300 per settled loan"
+    youtube_series: "Live the Life"
+    ltv_levers:
+      - "Repeat lending (12-18 month automated touchpoints, milestone rewards)"
+      - "Cross-sell to FHL (renters to first home buyers, property owners to refinance)"
+      - "Cross-sell to UMI (if reset needed)"
+      - "Affiliate monetisation (Trusted by Fox partner introductions)"
+      - "Education-as-retention (micro-content, YouTube series)"
+      - "Customer dashboard + tools integration"
+
+  fox_home_loans:
+    type: "Mortgage brokerage"
+    brand_hero_story: "Guiding you toward long-term wealth and family security."
+    brand_positioning: "Wealth & Security Partner - property solutions for stability and generational wealth"
+    focus: "Home loans, investment properties, refinancing, commercial property"
+    customer_type: "First home buyers, upgraders, investors, downsizers (B2C)"
+    lms: "Infynity"
+    lms_api: "Hopeless - no API capability. CSV/PDF export only. CONSIDERING SWITCH to LMG (Lone Market Group) aggregator. Meeting 2026-03-28 9am to evaluate API capabilities. Decision expected end of March 2026."
+    website: "foxhomeloans.com.au"
+    youtube_series: "Build Your Dreams"
+    # Financial metrics (validated 2026-03-06)
+    monthly_settlements: "16-17"
+    monthly_leads: 55
+    income_per_deal: "$4,750-$5,225"
+    average_loan_size: "~$600K"
+    trail_commission: "0.65% of NAF"
+    clawback_rate: "~1-2/month"
+    conveyancer_referral_fee: "$200/deal"
+    broker_fee: "$990 vanilla"
+    commercial_mandate: "~$2K"
+    split: "70% residential / 30% commercial"
+    team:
+      - "Bill Robb (Head of Home Loans / Partnerships)"
+      - "Paige Beveridge (Lending Specialist)"
+      - "Angel (Lending Specialist - new, added 2026-03-06)"
+    strengths:
+      - "18-month customer lifecycle plan (documented by Rowdie)"
+      - "Repricing every 3 months (massive value-add)"
+      - "Cotality property valuation tool (being integrated)"
+      - "Strong post-settlement nurture framework"
+    value_add_services:
+      repricing:
+        description: "Go back to current bank to negotiate better rate"
+        frequency: "Every 3 months"
+        effort: "Log into lender system, submit repricing request, 1 day turnaround"
+        commission: "None - builds massive value and keeps client"
+      property_valuation:
+        description: "Free market appraisal showing equity growth"
+        tool: "Subscription service (already paid for)"
+        effort: "Can send within 1 minute"
+        trigger: "6-12 months post-settlement"
+      refinance:
+        description: "Move to different bank for better deal"
+        trigger: "After 18-month clawback period"
+        commission: "Full new commission opportunity"
+        clawback: "12-18 months depending on lender. 100% clawback if refinanced within period."
+    ltv_levers:
+      - "Refinance & rate review strategy (annual check-ins, RBA movement nudges)"
+      - "Milestone-based re-engagement (loan anniversaries, family changes, equity growth)"
+      - "Equity unlock & investment pathway (renovation, investment property, upsize/downsize)"
+      - "Cross-sell to FFG (personal loans, car loans, deposit GAP funding, debt consolidation)"
+      - "Trusted affiliate activation (buyers agents, conveyancers, insurance, estate planners)"
+      - "Educational empowerment (micro-content, YouTube series)"
+
+  umi_loans:
+    type: "LENDER (not broker)"
+    brand_hero_story: "When life doesn't go to plan, we help you get back on track."
+    brand_positioning: "Second-chance lending for personal or business needs"
+    founded: "Post-GFC (~2009)"
+    founder: "Dan Fox"
+    loans_outstanding: "$28M"
+    focus: "Secured car loans, sub-prime customers, second-chance lending"
+    staff: "~18"
+    lms: "Proprietary system built by CTO"
+    website: "umeloans.com.au (recently rebranded)"
+    ai_visibility: "Best of the three brands"
+    youtube_series: "The Second Chance Series"
+    broker_referred_restriction: "Cannot cross-sell FFG/FHL to broker-referred UMI customers. Must maintain referral integrity and compliance."
+    ltv_levers:
+      - "Milestone-based retention & recognition (3, 6, 12 month celebrations)"
+      - "Early refinance or exit pathways (rate reduction, internal refinance)"
+      - "Smart top-up or second facility offers (data-driven pre-qualification)"
+      - "Education that builds financial confidence (credit scores, early repayment)"
+      - "Customer dashboard & credit health tools (progress, milestones, payoff simulators)"
+      - "Progression & brand mobility (direct clients only to FFG/FHL when ready)"
+
+# ============================================
+# IDEAL CUSTOMER AVATARS (ICAs)
+# ============================================
+icas:
+  # ============================================
+  # 5-PROFILE ICA FRAMEWORK (Updated 2026-03-23)
+  # Source: Rowdy's data-driven analysis from FFG settlement dataset
+  # Replaces the earlier Taylor/Alex model with 5 behavioural profiles
+  # Full detail: docs/updated-docs/fox-finance-group-ica-matrix.docx
+  #              docs/updated-docs/fox-finance-group-updated-ica-definitions.docx
+  # ============================================
+  framework_version: "v2.0 - 5-profile data-driven (2026-03-23)"
+  note: "Derived from conservative probabilistic repeat-customer match on settlement dataset. Use as strong directional segmentation logic rather than exact customer-level truth."
+
+  # Journey-based strategy still applies on top of ICA profiles
+  journey_based_strategy:
+    note: "ICAs map to FHL Purchase Types for cross-sell routing. 1st home buyer stays FHB until buying 2nd property."
+    rule: "1st home buyer stays classified as FHB ICA until they buy their 2nd property. Then reclassify as Investor or Upgrader."
+
+  # ICA → FHL Purchase Type Mapping (confirmed by Rowdy 2026-03-16)
+  fhl_purchase_type_mapping:
+    young_practical_motor: ["First Home Buyer"]
+    established_personal_finance: ["New Purchase", "Refinance"]
+    prime_convenience_repeat: ["New Purchase", "Refinance", "Investor"]
+    business_asset: ["Commercial"]
+    prime_vehicle: ["New Purchase", "Refinance", "Investor"]
+
+  # FHL Purchase Type Writing Guidance
+  fhl_writing_guidance:
+    first_home_buyer: "Explain fundamentals, deposit/LVR basics, up-front costs, pre-approval flow, confidence-building next steps"
+    new_purchase: "Focus on readiness, borrowing power, offer/contract timing, pre-approval, reducing friction"
+    refinance: "Focus on triggers, what to compare (rate/fees/features), equity/LVR, 'health check' style decision path"
+    investor: "Cash flow language, long-term strategy, structure/features, risk management WITHOUT giving advice"
+    commercial: "Documentation, timelines, deal structure variables, clear 'what to prepare' checklists"
+
+  # Routing hierarchy (recommended by Rowdy)
+  routing_priority:
+    - "1. Business Asset Borrower"
+    - "2. Prime Vehicle Borrower"
+    - "3. Young Practical Motor Borrower"
+    - "4. Prime Convenience-Led Repeat Borrower"
+    - "5. Established Personal Finance Borrower"
+
+  # Recommended CRM tags per contact
+  crm_tags:
+    - "Primary ICA"
+    - "Age band"
+    - "Residential status"
+    - "Credit strength"
+    - "Likely next finance type"
+
+  profiles:
+    young_practical_motor:
+      name: "Young Practical Motor Borrower"
+      what: "Younger/earlier-stage consumer borrower financing a practical vehicle need with affordability focus"
+      app_type: "Consumer"
+      loan_type: "Consumer Loan (motor/car)"
+      demographics:
+        age: "Under 30, 30-39"
+        employment: "Full-time, then casual/part-time"
+        residential: "Renting or living with parents"
+        relationship: "More often single, then de facto"
+        dependants: "Low"
+      credit_profile: "Mixed to weaker-than-prime. Broader score spread. Repayment-sensitive."
+      financial_history: "Light credit file. Usually 0 credit cards, 0 personal loans, 0 existing secured debt."
+      messaging_priorities: "Reassurance, affordability, simplicity, speed, confidence"
+      likely_next_need: "Another motor loan, or later shift into unsecured personal finance"
+      triggers: "Vehicle replacement, budget pressure, household second car, work/travel change"
+      fhl_cross_sell: ["First Home Buyer"]
+      # Maps to legacy ICA: Taylor (consumer segment)
+
+    established_personal_finance:
+      name: "Established Personal Finance Borrower"
+      what: "Mainstream consumer borrower using personal/unsecured lending for broader life-stage needs"
+      app_type: "Consumer"
+      loan_type: "Personal Loan (unsecured)"
+      demographics:
+        age: "30-59"
+        employment: "Mostly full-time"
+        residential: "Renting or mortgaged"
+        relationship: "Mixed single/married/de facto"
+      credit_profile: "Mixed but more stable than early-stage. Mainstream near-prime to solid consumer."
+      financial_history: "Moderate footprint. 0-1 credit cards. More likely to hold 1+ personal loan or 1 existing secured loan."
+      messaging_priorities: "Flexibility, practicality, trust, broad capability, 'we can help again'"
+      likely_next_need: "Another personal loan, debt consolidation, home improvement, planned spending"
+      triggers: "Life-stage change, cashflow need, larger planned purchase, debt reshaping"
+      fhl_cross_sell: ["New Purchase", "Refinance"]
+      # Maps to legacy ICA: Taylor Plus (consolidator/upgrader segment)
+
+    prime_convenience_repeat:
+      name: "Prime Convenience-Led Repeat Borrower"
+      what: "Stronger-credit, established personal-finance borrower valuing simplicity, speed, and repeat convenience"
+      highest_value_ica: true  # Confirmed by Rowdie 2026-03-26. Best ROI: fastest settlement, smoothest experience, easiest to create raving fans. Unsecured $30K+ loans. No third parties involved. Quick turnaround. Decent commission + brokerage fee (lender-funded). Time-efficient for brokers.
+      app_type: "Consumer"
+      loan_type: "Personal Loan (unsecured, prime tier)"
+      demographics:
+        age: "30-59"
+        employment: "Strongly full-time"
+        residential: "Heavily mortgaged, then stable renting"
+        relationship: "More often married/de facto"
+      credit_profile: "Strongest consumer credit profile. Clearly prime or near-prime."
+      financial_history: "Controlled but active. 1 credit card common. 0-1 personal loans. Some secured exposure, well-managed."
+      messaging_priorities: "Fast-track, loyalty, ease, tailored support, reduced friction"
+      likely_next_need: "Another unsecured/personal loan, fast repeat, low-friction convenience"
+      triggers: "Planned spending, speed, convenience, existing relationship, timing-sensitive need"
+      fhl_cross_sell: ["New Purchase", "Refinance", "Investor"]
+
+    business_asset:
+      name: "Business Asset Borrower"
+      what: "Commercially minded, self-employed borrower using asset finance for operations and growth"
+      app_type: "Commercial"
+      loan_type: "Chattel Mortgage"
+      demographics:
+        age: "30-59"
+        employment: "Overwhelmingly self-employed"
+        residential: "Often mortgaged, then renting"
+        relationship: "More often married/de facto"
+        assets: "Car, equipment, trailer, other business-use"
+      credit_profile: "Generally stronger than distressed consumer but more variable. Lite doc/asset-backed logic matters more than pure score."
+      financial_history: "Very light personal-loan history. 0 personal loans, 0-1 credit cards. Light recorded household debt relative to business profile."
+      messaging_priorities: "Commercial outcomes, tax timing, asset upgrade, growth support, preserve working capital"
+      likely_next_need: "Another commercial asset loan, replacement vehicle/equipment, expansion asset"
+      triggers: "EOFY, replacement cycle, growth, additional vehicle/equipment, cashflow preservation"
+      fhl_cross_sell: ["Commercial"]
+      # Maps to legacy ICA: Alex (commercial segment)
+
+    prime_vehicle:
+      name: "Prime Vehicle Borrower"
+      what: "Stronger-credit, established vehicle borrower expecting smoother, more efficient borrowing experience"
+      app_type: "Consumer"
+      loan_type: "Consumer Loan (car, prime tier)"
+      demographics:
+        age: "40-59"
+        employment: "Mainly full-time"
+        residential: "Mainly mortgaged, then renting"
+        relationship: "More often married, then de facto"
+      credit_profile: "Stronger than younger motor cohort. Clearly prime tier. Expects certainty and smooth execution."
+      financial_history: "More active but controlled. 1 credit card common. 0 personal loans typical. Some secured exposure."
+      messaging_priorities: "Ease, certainty, quality of experience, efficient process, trusted relationship"
+      likely_next_need: "Another vehicle, upgrade/replacement, or shift into broader personal finance"
+      triggers: "Upgrade cycle, replacement timing, household vehicle change, convenience-led borrowing"
+      fhl_cross_sell: ["New Purchase", "Refinance", "Investor"]
+
+  # Legacy ICAs retained for reference (rich demographic data still useful)
+  legacy_icas:
+    note: "Original Taylor/Alex ICAs from early discovery. Rich demographic and psychographic data. The 5-profile framework above is the primary segmentation model going forward."
+    taylor:
+      name: "Taylor - The Stretched but Solid QLD Borrower"
+      maps_to: "young_practical_motor + established_personal_finance"
+      demographics:
+        age: "30-45 (median birth year 1986)"
+        location: "QLD - Sunshine Coast + SEQ/regional postcodes"
+        employment: "~81% full-time PAYG, ~11% casual, ~8% part-time"
+        income: "Net monthly $4.2K-$7.3K, most common ~$4,333/month"
+        housing: "~50% renting, ~25% mortgaged"
+        credit: "CRA comp mid-high 600s, median ~686"
+      loan_profile:
+        amount_range: "$10K-$30K core, tail to $30K-$50K"
+      pain_points:
+        - "Too many debts and due dates"
+        - "Fear of being declined"
+        - "Low financial confidence"
+        - "Cash-flow pressure"
+    alex:
+      name: "Alex - The Growing QLD Business Owner"
+      maps_to: "business_asset"
+      demographics:
+        age: "35-50"
+        location: "QLD - SEQ (Sunshine Coast, Brisbane, Gold Coast, Toowoomba)"
+        business_type: "Self-employed trades, construction, transport, professional services"
+      loan_profile:
+        amount_range: "$100K-$200K total facilities"
+      pain_points:
+        - "Lumpy income, lenders don't understand self-employed"
+        - "Messy stack of separate loans"
+        - "Time-poor"
+
+# ============================================
+# CUSTOMER JOURNEY (TAYLOR POST-SETTLEMENT)
+# ============================================
+customer_journey:
+  name: "Taylor 2.0 Post-Settlement Journey"
+  core_positioning:
+    ffg: "Lifestyle Partner - upgrade lifestyle today with better car, clearer debts, more breathing room"
+    fhl: "Wealth & Security Partner - build and protect long-term wealth and security"
+
+  stages:
+    - stage: 0
+      name: "Just Settled"
+      timing: "Week 1-4"
+      emotion: "Relieved but nervous - did I do the right thing?"
+      ffg_role: "Reframe loan as lifestyle upgrade (safer car, fewer bills, simpler money). Make repayments feel clear and manageable."
+      fhl_role: "Soft seed - getting on top of this loan is first step toward future security/home goals"
+      touchpoints:
+        - "Welcome email (FFG): loan summary, first repayment, tips, one-line FHL intro"
+        - "SMS check-in: How's everything feeling with your new loan?"
+
+    - stage: 1
+      name: "Stabilise & Enjoy Life Again"
+      timing: "Month 1-6"
+      emotion: "I can manage this - would like breathing room and to enjoy life"
+      ffg_role: "Position as Lifestyle Partner. Help use structure to reduce stress and create room for fun."
+      fhl_role: "Introduce FHL as Security Partner. Invite to explore whether home could be 2-5 year goal."
+      touchpoints:
+        - "Email (FFG): Make Your New Loan Work for Your Lifestyle - budgeting, fun money, avoiding relapse"
+        - "Email (FHL via FFG intro): Could a Home Be in Your 2-5 Year Plan? - Home Readiness Check invite"
+        - "Optional 15-min Loan Check-Up Call (FFG)"
+
+    - stage: 2
+      name: "Lifestyle Under Control to Security Plan"
+      timing: "Month 6-24"
+      emotion: "I'm on top of things. Could owning a place actually be possible?"
+      ffg_role: "Stay go-to for lifestyle finance. Always frame as keeping home goals alive."
+      fhl_role: "Turn home dream into concrete security plan - deposit target, debt paydown, borrowing power, timeline."
+      touchpoints:
+        - "Mini-series (co-branded): Path to Your Place - deposit, debt vs borrowing power, 24-month plan"
+        - "Annual Finance Health Check (FFG + FHL)"
+        - "Triggered message when FFG loan ~60-80% repaid: what this means for home-buying power"
+
+    - stage: 3
+      name: "Get / Upgrade the Home"
+      timing: "Year 2-5+"
+      emotion: "We're ready. Want stability without feeling broke."
+      ffg_role: "Supporting lifestyle finance around the home. Always check against home-loan safety."
+      fhl_role: "Lead on home loan strategy, pre-approval, settlement, optimisation."
+      touchpoints:
+        - "Pre-approval & purchase process (FHL): framed as securing your home base"
+        - "Post-settlement series (FHL): offset/redraw, building buffers"
+        - "Cross-sell nudges (FFG): car for new commute, modest renos, structured safely"
+
+    - stage: 4
+      name: "Security Achieved to Wealth Building"
+      timing: "Year 5+"
+      emotion: "We're stable. How do we protect this and maybe grow?"
+      ffg_role: "Fund lifestyle upgrades inside safe boundaries - aligned with wealth plan."
+      fhl_role: "Drive long-term wealth: home loan reviews, refinances, potential investment property."
+      touchpoints:
+        - "Annual Family Security & Wealth Review (co-branded)"
+        - "Segmented campaigns: equity-rich (investment + renos) vs security-focused (extra repayments, buffers)"
+
+# ============================================
+# AFFILIATE ECOSYSTEM
+# ============================================
+affiliate_ecosystem:
+  name: "Trusted by Fox"
+  description: "Curated network of one trusted expert per field, based on shared values and consistent service quality"
+  partners:
+    - field: "Accountants"
+      use_case: "Tax, cash flow, business advisory"
+    - field: "Insurance Brokers"
+      use_case: "Personal and business asset protection"
+    - field: "Property Buyers Agents"
+      use_case: "Strategic buying support"
+    - field: "Conveyancers"
+      use_case: "Seamless post-purchase transactions"
+    - field: "Family Lawyers"
+      use_case: "Estate planning, family asset protection"
+    - field: "Business Coaches"
+      use_case: "Mentorship and structure for SME growth"
+    - field: "Human Resources"
+      use_case: "HR general advice, support, and recruitment"
+  benefits_to_partners: "Brand halo, lead flow, co-branded education content, shared campaign opportunities"
+  benefits_to_customers: "Confidence, ease, long-term relationships that support success"
+  referral_fee_philosophy: "No cash - just look after each other's customers"
+  new_partners:
+    - field: "Equity Tracking App"
+      partner: "Nick / Quantum"
+      use_case: "Property equity tracking and wealth visualisation for FHL customers"
+      status: "Mentioned in meeting 2026-03-06 - details TBC"
+      notes: "Referenced in lifecycle plan as affiliate partner. Need details on integration and referral arrangement."
+
+# ============================================
+# ENGAGEMENT DETAILS
+# ============================================
+engagement:
+  offer_package: "Custom - Cross-selling & Monetisation Playbook + Pre-sales SDR Playbook. RE-LOCKED 2026-04-27: Both playbooks delivered via GoHighLevel (GHL) plus integrations with Fox's existing providers. POLR custom build paused 2026-04-16 per Mati decision (not killed - may resume if GHL surfaces real gaps during build). Six-milestone, 10-week project plan (6 build + 4 support). Cross-sell timing locked at 9-12 months post-settlement plus at-settlement trigger."
+  contract_start: "2025-12-16"
+  contract_length: "Project-based (approx 8-12 weeks per playbook)"
+  setup_fee: "TBC - between $12,000-$20,000 total for both playbooks"
+  monthly_fee: "N/A - project-based"
+  payment_terms: "3 installments: upfront, delivery of playbook 1, delivery of playbook 2"
+  playbook_focus:
+    primary: "Cross-Selling & Monetisation Playbook - FFG post-settlement nurture across 5 ICA journeys, with FHL cross-sell embedded in every journey. 12-month, 12-touchpoint quarterly cadence. Source: docs/updated-docs/Draft of FFG Post-Settlement Nurture Strategy.pdf (v2.0, April 2026)."
+    secondary: "Pre-Sales SDR Playbook - Re-activated 2026-04-27. James writes both master playbooks. Focuses on hot lead handling, no-show recovery, and reactivation."
+  delivery_approach: "Six-milestone, 10-week plan (6 build + 4 support). Njin owns playbook authorship + nurture content production. Fox owns bullet points, business logic, ICA data, and final approval. Weekly Friday 15-min catch-up + weekly PMO status email."
+  notes: "GHL is the build platform (re-locked 2026-04-16 + 2026-04-27 alignment meeting). Nathan and Rowdie are primary implementation team. POLR custom build paused (not killed). Discovery started Dec 2025. Black Friday discount applied. Reframe: GHL covers ~80% out of the box (pipelines, nurture, SMS/email, tagging, scoring); Njin layers Claude + integrations on top for the 20% (advanced ICA routing, AI personalisation via Fox-MIS EDM Creator Agent). Five ICAs now drive segmentation: Young Practical Motor, Established Personal Finance, Prime Convenience-Led Repeat, Business Asset, Prime Vehicle. Cross-sell timing locked: 9-12 months post-settlement + at-settlement."
+
+# ============================================
+# CORE SERVICES INCLUDED
+# ============================================
+core_services:
+  included:
+    - service: "Cross-Selling & Monetisation Playbook (Master)"
+      status: "in_progress"
+      delivery_date: null
+      notes: "12-month, 12-touchpoint post-settlement nurture across 5 ICA journeys. FHL cross-sell embedded in every journey. Quarterly cadence with behavioural branching. Built in GHL with Fox-MIS as the content engine. Master playbook authoring in progress (4 of 19 sections drafted as of 2026-03-12; sections 01/02/04 require rewrite to align with GHL pivot per 2026-05-05 review)."
+    - service: "Pre-Sales SDR Playbook (Master)"
+      status: "queued"
+      delivery_date: null
+      notes: "Re-activated 2026-04-27. Hot lead handling, no-show recovery, reactivation. James writes alongside cross-sell playbook."
+    - service: "GHL Implementation"
+      status: "queued"
+      delivery_date: null
+      notes: "Build platform. Master Entry Workflow + 5 ICA sub-workflows + Behavioural Branch Workflows + FHL Referral Workflow + Broker Handoff Workflow. Xavier-led build. Sub-account, custom fields, pipeline, workflows, segmentation already prototyped Mar 30. Awaiting Project Plan v1 sign-off before formal kickoff."
+    - service: "Data Migration & Integration"
+      status: "pending"
+      delivery_date: null
+      notes: "FFG via Ambition CSV. FHL via Infynity CSV. LMG off the table (decided 2026-04-27). SendGrid pathway confirmed - access method to be finalised by Xavier."
+
+# ============================================
+# TORQUE PHASE TRACKING
+# ============================================
+torque:
+  current_phase: "Observe"
+  phase_history:
+    - phase: "Transform"
+      started: "2025-11-24"
+      completed: "2026-02-06"
+      exit_criteria_met: "Yes"
+    - phase: "Observe"
+      started: "2026-02-06"
+      completed: null
+      exit_criteria_met: "No"
+
+# ============================================
+# THE 12 CORE NUMBERS
+# ============================================
+# Note: FFG metrics are primary. FHL and UMI noted separately where available.
+# CRITICAL: These must be client-confirmed. Never infer.
+
+baseline_metrics:
+  # Revenue (Numbers 1-2)
+  revenue_last_12_months:
+    value: 2643000  # FFG: $1,950,000 + FHL: $693,000. UMI: Not specified. Combined brokerage only.
+    status: "client_estimate"
+    source: "Njin Onboarding Agent - collected 2026-02-04"
+    breakdown:
+      ffg: 1950000
+      fhl: 693000
+      umi: "Not specified - lending interest revenue model"
+      lead_market: "48000-144000"  # $4K-$12K/month variable
+  revenue_prior_12_months:
+    value: 2034677  # FFG: $1,700,000 + FHL: $334,677
+    status: "client_estimate"
+    source: "Njin Onboarding Agent - collected 2026-02-04"
+  revenue_trajectory:
+    value: "Growing"
+    percentage_change: "+15% (FFG), +107% (FHL)"
+
+  # Acquisition (Numbers 3-5)
+  leads_per_month:
+    value: 430  # FFG 375 + FHL 55
+    status: "validated"
+    source: "Activation meeting 2026-02-06 + Meeting 2026-03-06"
+    breakdown:
+      ffg_total: 375  # Updated from 401 - Rowdie confirmed 2026-03-06
+      ffg_organic_website: 254
+      ffg_phone: 98
+      ffg_other: 23
+      fhl: 55  # Validated 2026-03-06
+      umi: "Separate - not specified"
+    notes: "98% organic. Minimal paid spend. 49,000 leads/year total sent to lead market (34K UMI, 15K Fox). FFG leads corrected from 401 to 375/month."
+  cost_per_lead:
+    value: "Near zero (organic). Google Ads: ~$47/valid lead"
+    status: "validated"
+    source: "Activation meeting 2026-02-06"
+    notes: "Google Ads ROI is net negative. Organic is primary channel. Only 2.5% of paid leads settle."
+  cost_to_acquire_customer:
+    value: "100-150"
+    status: "client_estimate"
+    source: "Njin Onboarding Agent"
+
+  # Conversion (Numbers 6-9) - DETAILED FUNNEL
+  lead_to_appointment_rate:
+    value: "75% target, 65% actual this month"
+    status: "validated"
+    source: "Activation meeting 2026-02-06"
+    notes: "This is getting them ON THE PHONE, not an appointment. Once on phone, 95%+ do application."
+  show_rate:
+    value: "95%+ once on phone do application. 80%+ return docs."
+    status: "validated"
+    source: "Activation meeting 2026-02-06"
+  close_rate:
+    value: "~30% approval rate from full applications. ~98% settlement rate after approval."
+    status: "validated"
+    source: "Activation meeting 2026-02-06"
+    notes: "20% of 90-day plan follow-ups also convert. Repeat customers convert at 40-45% vs organic 5-10%."
+  average_deal_size:
+    value: 2300
+    status: "validated"
+    source: "Activation meeting 2026-02-06"
+    notes: "Team aim is $2,300. Secured can be $3-4K. Unsecured can be $990. Referral converts 40%+ vs organic 5-10%."
+
+  # FHL-Specific Financial Metrics (validated 2026-03-06)
+  fhl_metrics:
+    monthly_settlements: "16-17"
+    monthly_leads: 55
+    income_per_deal: "$4,750-$5,225"
+    average_home_loan_size: "~$600K"
+    trail_commission: "0.65% of NAF (net amount financed)"
+    clawback_rate: "~1-2 per month"
+    conveyancer_referral_fee: "$200 per deal"
+    broker_fee: "$990 vanilla"
+    commercial_mandate: "~$2K"
+    split: "70% residential / 30% commercial"
+    source: "Meeting 2026-03-06 (Rowdie)"
+
+  # FFG Settlement Volume (updated 2026-03-06)
+  ffg_settlements:
+    value: "90-108/month"
+    status: "validated"
+    source: "Meeting 2026-03-06"
+    notes: "Previously reported as ~170/month across group. FFG alone is 90-108/month."
+
+  # Monetisation & Retention (Numbers 10-12)
+  mrr_or_contract_length:
+    value: "One-time per loan (brokerage). Interest-based (UMI lending). Repeat usage: 2-6 loans per customer lifecycle."
+    status: "client_estimate"
+    source: "Njin Onboarding Agent + activation meeting"
+  churn_rate:
+    value: "20-30%"
+    status: "client_estimate"
+    source: "Njin Onboarding Agent"
+  customer_lifetime_value:
+    value: "unknown"
+    status: "unknown"
+    source: "Not currently tracked. LTV data exists in LMS but not consolidated."
+
+  # Additional Revenue Metrics
+  lead_market_revenue:
+    value: "$48K-$144K/year"
+    leads_per_year: 49000
+    breakdown:
+      umi: 34000
+      fox: 15000
+    average_lead_price: "$24-26 per lead sold"
+    last_month: "4,197 people sent, 764 sold"
+    reactivation_status: "Zero - never re-engaged after selling"
+    reactivation_potential: "$1M/year compounding if properly recycled"
+    notes: "Can legally reactivate and resell after 3 months. Must re-engage ethically."
+
+  repeat_referral_rate:
+    value: "70-80% of settlements"
+    breakdown: "60-65% repeat + refer-a-friend. Remainder: dealership/partner referral (minimal)"
+    source: "Activation meeting 2026-02-06"
+
+  customer_nurture_leads:
+    value: 41
+    notes: "41 new inquiries last month from outbound customer care calls alone - no automation"
+
+  # Data Quality Summary
+  data_quality:
+    confirmed_count: 0
+    validated_count: 12  # leads_per_month (FFG+FHL), cost_per_lead, lead_to_appointment, show_rate, close_rate, average_deal_size, repeat_referral_rate, fhl_settlements, fhl_income_per_deal, fhl_loan_size, ffg_settlements
+    unknown_count: 1  # CLV
+    estimate_count: 4
+    validation_required: "Yes - need CRM/accounting data for confirmed status"
+    validation_notes: "12 metrics validated from activation meeting + 2026-03-06 meeting. FHL financial metrics now validated. Need CRM/accounting data for full confirmation. UMI metrics still incomplete."
+
+# ============================================
+# CALCULATED METRICS
+# ============================================
+calculated_metrics:
+  ltv_cac_ratio:
+    value: "unknown"
+    assessment: "Cannot calculate - LTV unknown"
+  revenue_per_lead:
+    value: "~$433"
+    notes: "FFG: $1.95M / (375 leads x 12 months) = ~$433 per lead. FHL: $693K / (55 leads x 12 months) = ~$1,050 per lead."
+  conversion_efficiency:
+    value: "~15-20%"
+    calculation: "75% contact x 95% application x 80% docs x 30% approval = ~17% end-to-end"
+    notes: "Significantly better than original estimate (11-13%) after detailed funnel data"
+  pipeline_velocity:
+    value: "unknown"
+    notes: "Not currently tracked"
+
+# ============================================
+# DEMAND VS SUPPLY VALIDATION
+# ============================================
+demand_supply_validation:
+  constraint_type: "demand"
+
+  capacity_check:
+    can_handle_10_new_clients: "Yes"
+    current_capacity_utilisation: "unknown"
+    turning_away_business: "No"
+    waitlist_length: "None"
+
+  validation_questions:
+    q1_10_leads_tomorrow: "Yes - teams can handle more"
+    q2_new_clients_next_week: "Capacity exists in all teams"
+    q3_bottleneck_type: "Don't have enough quality leads AND not leveraging existing database AND no cross-sell automation"
+
+  supply_constraint_indicators:
+    turning_away_regularly: "No"
+    long_waitlist: "No"
+    stopped_marketing: "No - but spend is minimal ($3K/month total)"
+    staff_overtime: "No"
+    customer_delay_complaints: "No"
+
+  validation_conclusion: "Confirmed demand-constrained"
+  validation_notes: "While they have ~50K contacts, they are not leveraging them. Additionally, 49K leads/year are sold to lead market and never re-engaged. Repeat customers convert at 40-45% vs 5-10% for organic new. The constraint is monetisation of existing relationships, cross-sell between three businesses, and lead market reactivation."
+
+# ============================================
+# CONSTRAINT DIAGNOSIS
+# ============================================
+constraint:
+  primary_pillar: "Monetisation"
+  primary_constraint: "Three businesses operate in silos with no unified view of customer relationships. Cross-sell between FFG, FHL, and UMI (direct clients) is manual, inconsistent, and untracked. 49K leads/year sold to lead market and never re-engaged. Post-settlement nurture is basic time-based triggers with no lifecycle scoring."
+  primary_evidence:
+    - "Three separate systems (Ambition, Infynity, Proprietary UMI) with no data sharing"
+    - "No unified customer view across any of the three businesses"
+    - "Cross-sell is ad hoc - depends on individual team member initiative"
+    - "Internal cross-sell target: 20/month (10 each way) - currently underperforming"
+    - "Repeat customers convert at 40-45% vs 5-10% organic - massive untapped value"
+    - "Lead market: 49K leads/year generated and sold with zero reactivation ($1M/year potential)"
+    - "Referral partner database: 1,050+ businesses but only 3-4 actively referring"
+    - "Post-settlement nurture: basic time-based triggers, no lifecycle scoring"
+    - "Customer care calls generated 41 new inquiries last month without any automation"
+    - "Home loans repricing/valuation services: 'best kept secret' - customers don't know about them"
+    - "EDMs sent to ~1K customers get only 2-3 responses due to poor targeting"
+    - "UMI broker-referred clients cannot be cross-sold to FFG/FHL - restricts portion of lead pool"
+    - "No defined pipeline owner for cross-sell between FFG and FHL (who handles the handoff?)"
+    - "FHL lifecycle plan exists on paper (Rowdie) but no automation or CRM tooling to execute it"
+    - "Financial wellness positioning (proactive repricing, valuations) is the core differentiator but not systematically delivered"
+
+  secondary_pillar: "Retention"
+  secondary_constraint: "Post-settlement lifecycle nurture is the real gap. Current sequence is basic time-based triggers (3 days, 1 month, 6 months, 12 months, 18 months, 2 years, 3 years) with generic messaging. No lifecycle scoring, no value-based triggers, no customer journey alignment."
+  secondary_evidence:
+    - "Post-settlement nurture assessed as 'all messaging needs to be re-looked at'"
+    - "Home loans has repricing (quarterly), valuation (6-12 month), refinance (18+ month) value-adds that aren't systematically delivered"
+    - "Automation engagement drops off at 6 months. Open rates fall from 50-75% initial to 15-20%"
+    - "No customer dashboard or tools for ongoing engagement"
+    - "No lead scoring or opportunity triggers based on lifecycle events"
+
+  tertiary_note: "Pre-sales/conversion is NOT a gap. Sales process is already very strong (95%+ conversion once on phone, 80%+ doc return, 30% approval). The original pre-sales playbook may need to pivot."
+
+  constraint_hypothesis: "The primary revenue opportunity is in monetising the existing database through: (1) lead market reactivation ($1M/year potential), (2) cross-sell automation between all three brands, (3) lifecycle-based nurture with real value triggers, and (4) referral partner activation (1,050 in database, 3-4 active). Secondary priority is redesigning post-settlement nurture from time-based to lifecycle/value-based."
+
+  client_perception:
+    what_they_think: "They correctly identify cross-sell, database utilisation, and lifecycle nurture as priorities. Nathan articulated the lead market opportunity clearly ($1M/year)."
+    aligned_with_diagnosis: "Yes - strongly aligned"
+    education_needed: "No - client is well-aligned. Additional education on POLR MVP scope and implementation approach."
+
+# ============================================
+# 4 CRITICAL QUALITATIVE QUESTIONS
+# ============================================
+qualitative:
+  biggest_money_leak:
+    answer: "49K leads/year sold to lead market and never re-engaged ($1M/year potential). Poor segmentation and lack of cross-selling between three businesses. 1,050+ referral partners with only 3-4 active. Post-settlement nurture drops off at 6 months."
+    follow_up: "Lead market reactivation is the single biggest quick win. Ethical re-engagement via SMS/email after 3-month cooling period."
+
+  twelve_month_goal:
+    answer: "$2,350,000 (FFG)"
+    gap_from_current: "$400,000 (~21% increase from $1.95M)"
+    realistic_assessment: "Achievable - especially with lead market reactivation and cross-sell automation"
+
+  next_milestone:
+    answer: "$200K monthly income by June"
+    target_date: "2026-06-30"
+    consequences_if_missed: "Growth plateau if cross-sell and nurture systems aren't operational"
+
+  ninety_day_priority:
+    answer: "Lifecycle-based nurture program + lead market reactivation + POLR MVP scoping"
+    aligned_with_constraint: "Yes"
+    notes: "Directly addresses the monetisation constraint. Building segmented nurture journeys tied to customer lifecycle events and cross-sell triggers."
+
+# ============================================
+# IMMERSION FINDINGS
+# ============================================
+immersion:
+  completed: "Yes"
+  completed_date: "2026-02-06"
+
+  current_state:
+    sales_process_summary: "Highly regimented sales process. 401 leads/month (FFG). 75% contact rate target (65% actual). 95%+ of contacted complete application. 80%+ return docs. ~30% approved. Average commission $2,300. Manual 4-day outbound cadence (not automated). 80%+ of unreached complete online form. 90-day plan for declined customers converts at 20%. Process is STRONG - not the primary gap."
+
+    marketing_channels: "98% organic (primarily SEO-driven website traffic). Google Ads $1,500/month FFG + $1,500/month UMI (FFG net negative ROI). Facebook minimal retargeting (5-year-old creative). Radio considering 3-month push at $7.5K/month. No LinkedIn activity. No YouTube. No lead magnets."
+
+    tech_stack_observations: "Ambition (FFG) has API. Infynity (FHL) has NO API - hopeless. 3CX phone system integrated with Ambition. TypeForm with conditional logic (70% completion rate). Zapier routing leads. UMI has proprietary system built by CTO. CTO is AI-capable software engineer. Considering vibe-coded NextJS websites to replace WordPress."
+
+    team_observations: "Jared RESIGNED - marketing gap. Nathan/Rowdie primary implementation team. Bill = new Head of Growth/Partnerships. Mason = ops manager (UMI). CTO available for tech consultation. Brad = top broker (80% repeat/referral). Team is well-scripted, well-monitored (weekly KPI reviews, Looker Studio dashboards). Nathan eyeballs everyone - doesn't want offshore."
+
+  key_discoveries:
+    - finding: "UMI Loans is a third business (lender, not broker) with $28M loans out"
+      implication: "Scope is broader than originally understood. Potential cross-sell across THREE businesses (direct clients only)."
+    - finding: "49,000 leads/year sent to lead market and never re-engaged"
+      implication: "Reactivation + resale could generate $1M/year. Massive quick win."
+    - finding: "Sales process is already very strong - 95%+ on-phone conversion"
+      implication: "Pre-sales playbook may not be needed as standalone. Pivot to lifecycle/nurture."
+    - finding: "Home loans has repricing (3-month), valuation (6-12 month), refinance (18+ month) value-adds"
+      implication: "Quarterly touchpoint strategy with real value, not just check-ins."
+    - finding: "800+ FFG + 250 FHL referral partners in database but only 3-4 actively referring"
+      implication: "Massive referral partner activation opportunity."
+    - finding: "Brokers don't need another system - Ambition handles sales"
+      implication: "Custom POLR MVP for post-settlement/nurture only. Not replacing LMS."
+    - finding: "CTO is AI-capable software engineer building proprietary systems"
+      implication: "In-house tech capability exists for POLR MVP maintenance and iteration."
+    - finding: "Customer journey documented (Taylor 2.0) with 5-stage lifecycle from settlement to wealth building"
+      implication: "Client has already mapped the ideal journey. Our job is to automate and operationalise it."
+    - finding: "Beacon on the Hill vision document exists with detailed LTV strategies for all 3 brands"
+      implication: "Client has strategic clarity. POLR MVP must align with this vision."
+    - finding: "Two detailed ICAs exist (Taylor consumer, Alex commercial) with rich data"
+      implication: "Segmentation and personalisation strategy has strong foundations."
+    - finding: "Customer care calls generated 41 new inquiries last month without any automation"
+      implication: "Automating this with AI could multiply results significantly."
+
+  stakeholder_interviews:
+    - name: "Nathan Drew"
+      role: "MD / Business Owner"
+      key_insights: "MD across Fox and UMI. Bought remaining 50% ~1 year ago. Vision: scalable business not reliant on him producing. Champions AI but worried about team feeling replaced. 'AI handles admin, you handle relationships.' Anti-offshore. Lead market = $1M opportunity. Wants POLR/ecosystem vision long-term."
+    - name: "Rowdie Lang"
+      role: "Operations & Marketing"
+      key_insights: "6 years with Nathan. Swiss army knife. Runs Fox end day-to-day. Tech-comfortable (GHL experience from previous role). Excited about SMS and AI. Managing 15 people. Building internal AI agent system for Fox operations (marketing orchestrator, SEO reporting agent, EDM agent, social agent, strategic intelligence agent, memory agent) plus separate operational function agents (leadership, HR, L&D). Using Claude/Cowork and vibe coding. Strong AI adoption internally — supports case for custom POLR over GHL."
+    - name: "Dan Fox"
+      role: "Founder (Board level)"
+      key_insights: "Founded UMI post-GFC with $300K. Now board-level contributor. Still around UMI. Nathan bought 100% ownership."
+
+  quick_wins_identified:
+    - "Lead market reactivation campaign (49K leads/year, SMS-based, 3-month cooling period)"
+    - "Facebook ad creative update (5-year-old 'Keep Calm' banner still running)"
+    - "Lookalike audiences from successful applications for Meta ads"
+    - "Lead market revenue to offset increased ad spend"
+    - "Home loans repricing check automation (quarterly)"
+    - "Property valuation trigger (6-12 months post-settlement)"
+    - "Customer care call list prioritisation via data analysis"
+    - "AI content agent to replace Jared's marketing function"
+    - "Referral partner warm-up campaign (1,050 in database)"
+
+  risks_identified:
+    - risk: "Marketing gap from Jared's departure"
+      likelihood: "High (confirmed)"
+      impact: "Medium - blogs, EDMs, SEO updates will stall"
+      mitigation: "AI content agent could replace. Absorb into existing team member."
+    - risk: "Infynity (FHL LMS) has no API"
+      likelihood: "Confirmed"
+      impact: "Medium - home loans data integration will be manual"
+      mitigation: "CSV/PDF export. Build reader to parse into POLR database."
+    - risk: "Broker resistance to automation (Adrian, Ryan)"
+      likelihood: "Medium"
+      impact: "Medium"
+      mitigation: "Position as 'AI handles admin, you handle relationships'"
+    - risk: "Scope creep - UMI Loans, POLR vision, websites, marketing creates massive scope"
+      likelihood: "High"
+      impact: "High - could delay core playbook delivery"
+      mitigation: "POLR MVP scope defined. Websites are post-playbook."
+    - risk: "UMI broker-referred clients restrict cross-sell pool"
+      likelihood: "Confirmed"
+      impact: "Medium - portion of UMI database cannot receive FFG/FHL cross-sell"
+      mitigation: "Clear segmentation in POLR. Tag broker-referred vs direct clients."
+    - risk: "Nathan's resistance to offshore/full automation"
+      likelihood: "Medium"
+      impact: "Low - limits some efficiency options but aligns with brand values"
+      mitigation: "Focus on AI augmentation, not replacement. Human-led approach."
+
+# ============================================
+# LEAD CONTACT PROCESS
+# ============================================
+lead_contact_process:
+  inbound:
+    auto_sms: "Inquiry received, lending specialist will be in touch"
+    auto_email: "Inquiry received, here's next steps + landing page"
+
+  outbound_cadence:
+    day_1: "3 attempts (morning, lunch, 5pm)"
+    day_2: "2 attempts"
+    day_3: "2 attempts"
+    day_4: "1 attempt (breakup)"
+    automation: "NONE - all manual template clicks"
+
+  if_no_contact:
+    options_provided: "Call us back, tell us a time, complete application online"
+    online_completion: "80%+ of unreached people complete form online"
+
+  no_contact_hopper:
+    email_open_rate: "40-50%"
+    content: "Reviews, top 5 tips, why bank statements needed, overcoming concerns"
+
+# ============================================
+# POST-SETTLEMENT NURTURE (CURRENT STATE)
+# ============================================
+post_settlement_nurture:
+  current_sequence:
+    - "3 days: thank you email + review reminder"
+    - "1 month: reminder"
+    - "6 months: refer a friend program"
+    - "12 months: home lending/refinancing/different things"
+    - "18 months: something else"
+    - "2 years: something else"
+    - "3 years: something else"
+  assessment: "All messaging needs to be re-looked at. Time-based triggers only. No lifecycle scoring. No value-based triggers."
+  target_state: "Lifecycle-based journey aligned to Taylor 2.0 customer journey with value triggers at each stage"
+  fhl_lifecycle_plan: "Rowdie has documented a comprehensive 18-month FHL customer lifecycle plan (see fhl_customer_lifecycle section). This replaces generic approach with proactive, segmented touchpoints at 1/3/6/9/12/15/18 months. Each touchpoint has specific deliverables, CTAs, and CRM logging requirements. This is now the target framework for FHL post-settlement nurture."
+
+# ============================================
+# SENDGRID AUTOMATION INVENTORY
+# ============================================
+# Source: docs/edms/ (EDM Automations PDF + 14 stat PDFs)
+# Stats measured from last edit date, not creation date
+# Data uses Head of Department versions for consistency
+sendgrid_automations:
+  ffg:
+    - name: "New Customer Database Entry"
+      emails: 6
+      schedule: "Day 3, 91, 182, 365, 30, 730"
+      sender: "Sam Drew / Jess"
+      triggered: 5456
+      open_rate: "58.1%"
+      click_rate: "3.5%"
+      unsubscribe_rate: "0.87%"
+      notes: "Highest volume automation. Welcome + lifecycle touchpoints."
+
+    - name: "No Customer Contact"
+      emails: 5
+      schedule: "Instant, Day 2, 3, 4, 7"
+      sender: "Jess"
+      triggered: 4178
+      open_rate: "58.0%"
+      click_rate: "3.1%"
+      unsubscribe_rate: "0.43%"
+      notes: "Pre-sales chase sequence for unreached leads."
+
+    - name: "No Docs Returned"
+      emails: 4
+      schedule: "Instant, Day 1, 1, 3"
+      sender: "Andrew Glen"
+      triggered: 1487
+      open_rate: "63.4%"
+      click_rate: "4.4%"
+      unsubscribe_rate: "0.88%"
+
+    - name: "90-Day Plan"
+      emails: 2
+      schedule: "Instant, Day 90"
+      sender: "Bradley Robb"
+      triggered: 474
+      open_rate: "90.2%"
+      click_rate: "18.6%"
+      unsubscribe_rate: "0%"
+      notes: "BEST PERFORMER. Declined customers given 90-day credit improvement plan. 20% convert on follow-up."
+
+    - name: "Introducers / Referrals"
+      emails: 1
+      schedule: "Instant"
+      sender: "Andrew Glen"
+      triggered: 39
+      open_rate: "66.7%"
+      click_rate: "11.1%"
+      unsubscribe_rate: "0%"
+      notes: "Tiny sample size. Referral partner thank-you automation."
+
+  fhl:
+    - name: "New Customer Database Entry"
+      emails: 8
+      schedule: "Day 5, 90, 182, 350, 455, 547, 637, 727"
+      sender: "Bill Robb / Paige Beveridge"
+      triggered: 881
+      open_rate: "62.4%"
+      click_rate: "5.2%"
+      unsubscribe_rate: "1.31%"
+      notes: "Welcome + long lifecycle touchpoints (up to 2 years)."
+
+    - name: "No Customer Contact"
+      emails: 5
+      schedule: "Instant, Day 2, 5, 9, 16"
+      sender: "Paige Beveridge"
+      triggered: 789
+      open_rate: "52.0%"
+      click_rate: "2.5%"
+      unsubscribe_rate: "0.26%"
+      notes: "Lowest open rate across all automations."
+
+    - name: "No Docs Returned"
+      emails: 4
+      schedule: "Instant, Day 1, 3, 3"
+      sender: "Paige Beveridge"
+      triggered: 235
+      open_rate: "58.8%"
+      click_rate: "3.4%"
+      unsubscribe_rate: "0.85%"
+
+    - name: "Nurture Up to 6 Months"
+      emails: 7
+      schedule: "Day 30, 60, 90, 120, 150, 180, 210"
+      sender: "Paige Beveridge"
+      triggered: 733
+      open_rate: "67.4%"
+      click_rate: "3.7%"
+      unsubscribe_rate: "0.82%"
+      notes: "Best FHL performer by open rate."
+
+    - name: "Nurture Up to 3 Months"
+      emails: 7
+      schedule: "Day 14, 30, 45, 75, 90, 91, 120"
+      sender: "Paige Beveridge"
+      triggered: 634
+      open_rate: "61.6%"
+      click_rate: "2.3%"
+      unsubscribe_rate: "0.63%"
+
+    - name: "Nurture Cold Lead"
+      emails: 7
+      schedule: "Day 30, 90, 180, 270, 365, 540, 730"
+      sender: "Paige Beveridge"
+      triggered: 405
+      open_rate: "55.7%"
+      click_rate: "2.4%"
+      unsubscribe_rate: "1.73%"
+      notes: "Highest unsubscribe rate. Long-term cold nurture up to 2 years."
+
+  lms_templates:
+    ambition_ffg:
+      description: "Pre-sales contact sequence and post-settlement follow-ups"
+      sequences:
+        - "4-day pre-sales contact (calls + emails + texts)"
+        - "12-month follow-up"
+        - "24-month follow-up"
+        - "36-month follow-up"
+
+    infynity_fhl:
+      description: "Pre-sales, post-settlement, and cross-sell templates"
+      sequences:
+        - "Pre-sales contact sequence"
+        - "Repricing email"
+        - "Refinance email"
+        - "Equity/top-up email"
+        - "Cross-sell: FFG to FHL (5 scenarios)"
+      notes: "Cross-sell templates already exist in Infynity for FFG-to-FHL referrals."
+
+  upcoming:
+    - "FHL 18-month post-settlement templates - RECEIVED 2026-03-06 (see fhl_customer_lifecycle section)"
+    - "Customer Care call scripts - RECEIVED 2026-03-06 (see ffg_sales_process_scripts Doc 2)"
+
+  data_notes:
+    - "Stats measured from last edit date, not creation date"
+    - "Different team members send from same automations (data varies)"
+    - "Stats shown are Head of Department versions for consistency"
+    - "SendGrid automation link: https://docs.google.com/document/d/1ovL5OXNvT43E0liygCNNZrGLF0mwMk7LP2REG3ccGhQ/edit"
+
+# ============================================
+# BRANDING
+# ============================================
+branding:
+  guide_location: "docs/branding/Fox Finance Group Branding Guide.pdf"
+  primary_colours:
+    orange: "#ED9B33 (Pantone 2011 C)"
+    cool_gray: "#63666A (Cool Gray 10 C)"
+  secondary_colour:
+    black: "#101820 (Pantone Black 6 C)"
+  primary_font: "Muli (Google Font)"
+  secondary_font: "Helvetica Neue"
+  tagline: "Everything Financial (Muli Italic, standalone)"
+  mascot:
+    name: "Alex the Fox"
+    primary: "Business Alex"
+    secondary: "Smart Casual Alex"
+  photography: "Full colour, authentic feel, not cheesy posed"
+
+# ============================================
+# REFERRAL PARTNERS
+# ============================================
+referral_partners:
+  ffg:
+    database_size: "800+ businesses in hopper"
+    active_referring: "3-4 regularly"
+    process: "Gravity form > SendGrid automation > thank you email > Bill follows up"
+    status: "Very cold. Minimal nurture. Team too busy with pipeline to maintain relationships."
+  fhl:
+    database_size: "~250 businesses"
+    active_referring: "Handful"
+  desired_partner_types:
+    - "Accountants"
+    - "Financial planners"
+    - "Real estate agents"
+    - "Builders"
+    - "Buyers agents"
+    - "Conveyancers"
+    - "Developers (e.g., Stockland)"
+  head_of_partnerships: "Bill"
+
+# ============================================
+# GOOGLE ADS PERFORMANCE
+# ============================================
+google_ads:
+  ffg:
+    monthly_spend: "$1,500"
+    last_quarter_results:
+      leads: 116
+      valid_leads: 96
+      applications: "50%"
+      approved: "3%"
+      settled: "2.5% (2 deals)"
+      revenue: "$3,600"
+      net_result: "-$900 (spent ~$4,500)"
+    cost_per_click: "$12"
+    daily_budget: "~$40"
+    campaigns: "2 (Performance Max)"
+    status: "Running unmanaged since November"
+  umi:
+    monthly_spend: "$1,500"
+    status: "Running"
+  facebook:
+    status: "Minimal retargeting"
+    creative: "5-year-old 'Keep Calm' banner still running"
+    spend: "Very limited"
+
+# ============================================
+# CUSTOMER GEOGRAPHY
+# ============================================
+customer_geography:
+  ffg:
+    sunshine_coast: "~15%"
+    southeast_qld: "~70-75%"
+    nsw: "Remaining"
+    other_states: "Small percentage"
+  notes: "Primarily QLD-based. Strong concentration in Sunshine Coast + SEQ growth corridors."
+
+# ============================================
+# MARKETING STRATEGY NOTES
+# ============================================
+marketing_strategy_notes:
+  radio:
+    considering: "3-month push on C FM Sunshine Coast"
+    cost: "$7,500/month"
+    purpose: "Support Bill's local business outreach"
+    show: "Brekie show, Monday-Friday + off slots"
+  youtube_podcast:
+    interest: "High - Nathan interested in podcast concept"
+    approach: "Conversational style, cut to shorts for Instagram/YouTube"
+    purpose: "Authority building for generative search (ASO)"
+    branded_series:
+      - "The Second Chance Series (UMI)"
+      - "Live the Life (FFG)"
+      - "Build Your Dreams (FHL)"
+  linkedin:
+    interest: "High - especially for B2B/commercial division"
+    current: "Exists but inactive"
+    opportunity: "Leadership content, referral partner outreach"
+  lead_magnets:
+    current: "Almost none"
+    opportunity: "One for every loan purpose, every value-add, every customer journey stage"
+  website_rebuild:
+    needed: "All 3 websites"
+    reason: "Neil Patel outsourced to India, WordPress themes causing issues"
+    approach: "Considering vibe coding with NextJS"
+    umi_status: "Full rebrand complete, ready for new site"
+    fox_status: "Brand refresh planned"
+    priority: "After POLR MVP and playbook work"
+  content_strategy:
+    blog_target: "2 blogs per month minimum"
+    seo_insight: "Comparison content outperforms blog posts for SEO (e.g., 'lender A vs lender B')"
+    tools: "Rowdie has a custom GPT for content creation"
+    source: "Meeting 2026-03-06"
+  education_strategy:
+    format: "3-5 minute explainer videos, short-form podcasts, how-to blog posts"
+    branding: "Per business, unified in tone, trust, and accessibility"
+    influencers: "Feature micro-influencers in finance, credit, small business"
+    customer_stories: "Invite customers to share stories of progress"
+
+# ============================================
+# PLAYBOOKS TRACKER
+# ============================================
+playbooks:
+  master_playbook_location: "playbooks/master-playbook/"
+  current_active: "Cross-Sell & Monetisation"
+
+  queue:
+    - playbook: "Customer Success & Nurture (POLR V1)"
+      letter_suffix: "a"
+      status: "in_progress"
+      specialist: "retention-specialist"
+      started: "2026-03-26"
+      target_completion: null
+      sections_created: []
+      current_week: 1
+      current_phase: "Prototype"
+      notes: "FHL 18-month nurture sequence. Agreed 2026-03-26 as V1 focus. Prevents loan book drop-off and creates cross-sell opportunities into FFG."
+    - playbook: "Cross-Sell & Monetisation (POLR V2)"
+      letter_suffix: "b"
+      status: "queued"
+      specialist: "cross-sell-specialist"
+      started: null
+      target_completion: null
+      sections_created: []
+      current_week: 0
+      current_phase: null
+      notes: "FFG cross-sell features. Deferred to V2 after V1 proves value. 9-month mark is key cross-sell trigger. Originally primary playbook, now V2."
+    - playbook: "Pre-Sales"
+      letter_suffix: "c"
+      status: "shelved"
+      specialist: "pre-sales-specialist"
+      started: null
+      target_completion: null
+      sections_created: []
+      current_week: 0
+      current_phase: null
+      notes: "Shelved 2026-03-26. Not needed unless ads pursued. Reactivation (biggest opportunity) now sits within customer success playbook. Calculator-based lead magnets identified as future entry point."
+
+  shared_sections_created: "No"
+  shared_sections_list:
+    - section: "1"
+      name: "Sales Philosophy"
+      status: "pending"
+    - section: "2"
+      name: "Ideal Client Profiles & Avatars"
+      status: "pending"
+      notes: "Rich ICA data now available (Taylor consumer, Alex commercial). Ready for section creation."
+
+# ============================================
+# OWNERSHIP & CONTACTS
+# ============================================
+ownership:
+  client_contacts:
+    primary:
+      name: "Rowdie Lang"
+      role: "Operations & Marketing Manager"
+      responsibility: "Main Contact"
+      email: "[To be confirmed]"
+      phone: "[To be confirmed]"
+      communication_preference: "Microsoft Teams"
+
+    crm_owner:
+      name: "Rowdie Lang"
+      role: "Operations & Marketing Manager"
+      email: "[To be confirmed]"
+      access_level: "Admin"
+
+    decision_maker:
+      name: "Nathan Drew"
+      role: "MD / Business Owner (Fox + UMI)"
+      responsibility: "Decision Maker / Approver"
+      email: "[To be confirmed]"
+      notes: "Bought remaining 50% ~1 year ago. Wants scalable business not reliant on him producing."
+
+    additional:
+      - name: "Dan Fox"
+        role: "Founder (Board level)"
+        responsibility: "Board-level contributor, UMI origins"
+        email: "[To be confirmed]"
+      - name: "CTO (Matty)"
+        role: "CTO / Software Engineer"
+        responsibility: "Technology / AI / UMI system"
+        location: "UMI end"
+        notes: "AI-capable software engineer. Built proprietary UMI system. Available for tech consultation."
+      - name: "Mason"
+        role: "Operations Manager (UMI)"
+        responsibility: "UMI day-to-day operations"
+      - name: "Bill Robb"
+        role: "Head of Home Loans / Partnerships"
+        responsibility: "Home loans leadership, referral partner management, business development"
+        notes: "Identified as Head of Home Loans (sends FHL welcome emails). Also manages 800+ FFG + 250 FHL referral partner database."
+      - name: "Brad"
+        role: "Top Performing Broker (FFG)"
+        responsibility: "Sales / Lending"
+        notes: "70-80% repeat/referral. Benchmark for process excellence."
+      - name: "Jess"
+        role: "Lending Specialist"
+        responsibility: "Sales / Lending"
+        notes: "Potential promotion to home loans or keep as nurture/SDR role - decision pending."
+      - name: "Sam Drew"
+        role: "Head of Asset & SME"
+        responsibility: "Asset finance leadership, FFG welcome emails"
+        notes: "Identified from SendGrid EDM automations - sends FFG New Customer Database Entry emails."
+      - name: "Andrew Glen"
+        role: "Lending Specialist (FFG)"
+        responsibility: "Sales / Lending"
+        notes: "Sends FFG No Docs Returned and Introducer/Referral automation emails."
+      - name: "Paige Beveridge"
+        role: "Home Loan Lending Specialist (FHL)"
+        responsibility: "Sales / Lending"
+        notes: "Sends majority of FHL automation emails (No Contact, No Docs, all 3 Nurture sequences)."
+      - name: "Bradley Robb"
+        role: "Lending Specialist (FFG)"
+        responsibility: "Sales / Lending"
+        notes: "Sends FFG 90-Day Plan automation emails."
+      - name: "Ben"
+        role: "Marketing"
+        responsibility: "Facebook creative, marketing support"
+      - name: "Angel"
+        role: "Lending Specialist (FHL)"
+        responsibility: "Home loan lending"
+        notes: "New team member identified 2026-03-06. Added to FHL team."
+
+  njin_contacts:
+    qualification_analyst: "James Killick"
+    activation_specialist: "James Killick"
+    fulfilment_specialist: "Raul (Sales Specialist)"
+    customer_success_am: "[To be assigned]"
+
+  referrer:
+    name: "Emma"
+    role: "CEO Mentor / BAP / LBT client"
+    notes: "Referred Fox to Njin. Key consultant to Nathan. Involved in POLR MVP decision (2026-02-06)."
+
+# ============================================
+# TECH STACK
+# ============================================
+tech_stack:
+  crm:
+    platform: "GoHighLevel (GHL)"
+    admin_access: "Sub-account being provisioned for Njin team. Xavier-led build."
+    version_or_tier: "Sub-account under Fox parent account"
+    description: "GHL is the build platform for both master playbooks. Covers ~80% of needs out of the box (pipelines, nurture, SMS/email, tagging, scoring). Njin layers Claude + integrations on top for the 20% (advanced ICA routing, AI personalisation via Fox-MIS EDM Creator Agent)."
+    status: "Provisioned, awaiting Project Plan v1 sign-off before formal build kickoff"
+    decision_date: "2026-04-16"
+    decision_makers: "James, Rowdie, Nathan (Mati alignment)"
+    paused_alternative: "POLR custom build (paused 2026-04-16 - may resume if GHL surfaces real gaps during build, not killed). Original target was custom vibe-coded headless database as foundation for long-term Beacon on the Hill ecosystem."
+
+  marketing:
+    email_platform: "SendGrid (current FFG sequence) + GHL email (new post-settlement nurture). SendGrid access pathway being finalised by Xavier."
+    email_templates: "Ambition (FFG pre-sales) + Infynity (FHL pre-sales + cross-sell)"
+    ad_platforms: "Google ($3K/month total: $1.5K FFG + $1.5K UMI). Facebook (minimal retargeting)."
+    analytics: "GA4"
+
+  office_suite: "Microsoft 365"
+  communication: "Microsoft Teams"
+  automation: "Zapier (current) - moving to N8N/Make.com for AI integrations"
+  phone_system: "3CX - all calls recorded, linked to Ambition"
+
+  existing_ai_tools:
+    - tool: "Custom GPT (Rowdie)"
+      purpose: "Content creation and marketing assistance. Rowdie has built a custom GPT for content."
+    - tool: "None else currently deployed"
+      purpose: "CTO is AI-capable. Exploring options."
+
+  industry_specific:
+    - tool: "Ambition"
+      purpose: "Loan Management System - FFG (asset lending). Has API."
+    - tool: "Infynity (formerly Infynity)"
+      purpose: "Aggregator/LMS - FHL (mortgages). FHL data flows to GHL via Infynity CSV export (locked 2026-04-27). LMG switch is off the table."
+    - tool: "Proprietary UMI System"
+      purpose: "Built by CTO for UMI Loans lending operations"
+    - tool: "TypeForm"
+      purpose: "Multiple conditional logic forms (bad credit, vehicle, commercial, home loans, personal). 70% completion rate."
+    - tool: "Gravity Forms"
+      purpose: "Referral partner hopper and some website forms"
+    - tool: "Looker Studio"
+      purpose: "KPI dashboards from aggregator data"
+    - tool: "Calendly"
+      purpose: "Testing in home loans (not widely used)"
+    - tool: "Cotality"
+      purpose: "Property valuation tool for FHL. Used for 90-day confidence pack and annual reviews. Subscription already paid. Can send valuation within 1 minute. To be integrated with GHL for dynamic delivery."
+    - tool: "Lead Market Platform"
+      purpose: "Selling unqualified leads. 49K/year. $4-12K/month revenue."
+
+# ============================================
+# PLATFORM STRATEGY
+# ============================================
+# 2026-04-16: GHL locked as build platform. POLR custom build paused (not killed).
+# This block retained as historical context + future-state reference if GHL surfaces real gaps.
+# ============================================
+polr_mvp:
+  status: "PAUSED 2026-04-16 (Mati decision). May resume if GHL implementation surfaces real gaps. Both master playbooks now build in GHL."
+  delivery_mechanism: "GoHighLevel (GHL) is the platform through which both master playbooks are implemented and delivered. Njin layers Claude + integrations on top for advanced ICA routing and AI personalisation (Fox-MIS EDM Creator Agent)."
+  scope_document: "deliverables/polr-mvp-scope-of-work-2026-02-13.md (historical reference)"
+  vision: "Long-term Beacon on the Hill ecosystem vision intact - customer portal, unified group view, lifecycle delivery. Currently delivered through GHL + integrations rather than a custom headless database."
+  replaces: "POLR custom build was the original direction (Feb 2026). GHL locked as the build platform 2026-04-16."
+  v1_scope: "FHL 18-month nurture sequence only. Customer-facing interface for intro packs (5 packs per purchase type) and lifecycle deliverables. Prevents loan book drop-off and creates FFG cross-sell opportunities."
+  v2_scope: "Add FFG cross-sell features, data enrichment from both platforms, more custom personalisation."
+  rationale:
+    - "Brokers don't need another system - Ambition handles sales"
+    - "Only real CRM need is post-settlement nurture and lifecycle management"
+    - "Can't control SMS through aggregator platform"
+    - "Custom solution can be foundation for long-term POLR vision"
+    - "CTO available for ongoing maintenance and iteration"
+
+  core_mvp_modules:
+    database_integrations:
+      - "Supabase (PostgreSQL) - 9 core tables including contact_tags"
+      - "Ambition API integration (FFG)"
+      - "CSV import (FHL - Infynity)"
+      - "UMI system integration (CTO collaboration)"
+      - "SendGrid API (email delivery)"
+      - "Twilio API (SMS)"
+    automations:
+      - "10 priority N8N workflows (post-settlement, lifecycle, cross-sell, reactivation, care calls, referral partner)"
+    dashboard:
+      - "7-tab Next.js team dashboard (cross-sell, lifecycle, automation, lead market, care calls, referral partners, email marketing)"
+    email_management:
+      - "Template editor (SendGrid dynamic templates, merge fields, basic formatting)"
+      - "Bulk email blast interface with audience segmentation"
+      - "Nurture sequence content editing (editable via dashboard, stored in Supabase)"
+    tagging_overlap:
+      - "Contact tagging system (custom + system tags)"
+      - "Multi-business overlap identification (derived from loans table)"
+      - "Multi-brand indicators on contact records"
+
+  build_phases:
+    core_mvp: "Database, integrations, automations, basic dashboard - fits within original budget"
+    email_marketing_module: "Template editor, blast interface, segmentation, tag management - additional scope"
+
+  customer_portal:
+    confirmed: true
+    confirmed_date: "2026-03-06"
+    description: "POLR confirmed as customer-facing portal (not just internal tool). Dynamic links instead of static PDFs for lifecycle deliverables."
+    features:
+      - "Dynamic link delivery for lifecycle touchpoints (replaces PDF one-pagers)"
+      - "Cotality property valuation integration"
+      - "Staged security implementation"
+      - "Customer-facing dashboard"
+
+  future_vision:
+    - "Customer dashboard with financial tools (budgeting, credit score, savings goals)"
+    - "Wealth tracking and borrowing capacity estimators"
+    - "Property valuation integration (Cotality - confirmed 2026-03-06)"
+    - "Bank statement integration"
+    - "Education content library integration"
+    - "Milestone recognition system (especially UMI)"
+    - "AI content agent for marketing"
+    - "Retargeting integration (Facebook, Google)"
+    - "Full drag-and-drop email builder"
+    - "Client-facing portal (CONFIRMED as direction)"
+    - "Referral partner portal"
+    - "Fox's own AI product / AI monetisation"
+    - "Dynamic links for all lifecycle deliverables (replace static PDFs)"
+
+  technical_approach: "Supabase + Next.js + N8N (self-hosted on Railway) + SendGrid + Twilio"
+  owner: "James Killick"
+  cto_involvement: "Available for consultation and ongoing maintenance"
+
+# ============================================
+# STATUS & HEALTH
+# ============================================
+status:
+  health: "Yellow-Green"
+  health_reason: "27 Apr alignment meeting cleared the air on scope and ownership. Rowdie + Nathan flagged fatigue from pre-kickoff phase; James owned the miscommunication (AI-summarised email dot point misread as a deliverable, drove Rowdie to build a full nurture sequence after-hours). Reset agreed: Njin writes both playbooks + all nurture content; Fox provides bullet points, ICAs, business logic, final approval. George presented six-milestone PMO plan (10 weeks: 6 build + 4 support). Rowdie's outstanding inputs delivered post-meeting (ICA fields, FFG nurture PDF, cross-sell timing, data sources, lead magnets). Project now ready to formally kick off on Project Plan v1 sign-off."
+
+  blockers:
+    - "Project Plan v1 needs to be issued by Xavier + George within 48h of inputs (received 27 Apr). BLOCKING formal kickoff."
+    - "Privacy + value filter on Rowdie's 31-field ICA list — needs Njin review then Rowdie sign-off before GHL migration. List as-supplied includes sensitive PII (DOB, credit cards + balances + limits, mortgage balance, dependents)."
+    - "Routing matrix logic — Rowdie's response addressed cross-sell timing (9-12 months + at-settlement) not the if-X-and-Y matrix. Likely embedded in FFG nurture PDF; James to draft from PDF, Rowdie to validate. Do NOT ask Rowdie to redo."
+    - "SendGrid access for Xavier — method not finalised (shared login vs own). Xavier to confirm preferred approach with Rowdie."
+    - "AI / Marketing & Intelligence capability story vs GHL — still open from Rowdie's Sat 24 Apr email. To be addressed inside the playbook."
+    - "Cross-sell pipeline ownership undefined (who owns FFG<>FHL referral handoff?)"
+    - "Privacy policy check for cross-business data sharing still pending"
+    - "Settlement Calls script still incomplete — Doc 6 was originally blank, replacement (Settlement Calls Key Points.docx, 2026-03-25) is dealer-facing bullet points only, not a full customer or broker script. Need full settlement call scripting for nurture sequence."
+
+  resolved_27_apr:
+    - "GHL vs custom decision — locked. GHL is the build platform. POLR paused (not killed)."
+    - "Scope and ownership — Njin writes both playbooks + nurture content; Fox provides bullets, ICAs, business logic, final approval."
+    - "Project structure — six-milestone PMO plan adopted. 10 weeks total (6 build + 4 support)."
+    - "Cadence — weekly Friday 15-min catch-up during build, weekly PMO status email, calendar invites in advance for demos."
+    - "Data sources — FFG via Ambition CSV, FHL via Infynity CSV. LMG decision: off the table."
+    - "Cross-sell timing — locked at 9-12 months post-settlement + at-settlement trigger if opportunity identified."
+    - "Lead magnet shortlist — commercial vehicle, commercial equipment, consumer personal loans, consumer vehicle."
+    - "Communication rule — future emails to Fox that ask them to do work must be human-written (not AI-summarised) and confirmed via phone before they act. Nathan calls = same-day callback from James."
+    - "Email deliverability — Rowdie sending via Engine + Teams going forward (was being filtered as spam at James's end)."
+
+  risks:
+    - risk: "Fox team fatigue — they have not formally started but are already worn down from pre-kickoff effort. Risk that first 2 weeks of formal kickoff feels heavy and they pull back."
+      likelihood: "Medium"
+      impact: "High - could slow or derail the engagement"
+      mitigation: "First 2 weeks must feel light on Fox's side. Bullets only. No content homework. PMO drives cadence, James drafts everything. Demo wins early."
+      source: "Meeting 2026-04-27"
+    - risk: "Future AI-summarised emails misread as deliverables"
+      likelihood: "Medium"
+      impact: "High - directly caused current situation. Erodes trust if repeated."
+      mitigation: "Human-written emails when work is being requested. Any client homework confirmed via phone before sending. Rule logged in CLAUDE.md zero-fabrication section."
+      source: "Meeting 2026-04-27"
+    - risk: "Nathan watching for signs James's enthusiasm has waned post-GHL decision"
+      likelihood: "Medium"
+      impact: "Medium - could colour his read on every interaction"
+      mitigation: "Same-day callback on Nathan's calls. Active visible engagement on the project. James reaffirmed in meeting that frustration ≠ disengagement."
+      source: "Meeting 2026-04-27"
+    - risk: "Marketing gap from Jared's departure"
+      likelihood: "High (confirmed)"
+      impact: "Medium - blogs, EDMs, SEO updates will stall"
+      mitigation: "AI content agent could replace. Absorb into existing team member."
+    - risk: "Scope creep - UMI, POLR, websites, marketing creates massive scope"
+      likelihood: "High"
+      impact: "High - could delay core playbook delivery"
+      mitigation: "V1/V2 iterative approach agreed 2026-03-26. Focus exclusively on FHL nurture first."
+    - risk: "UMI broker-referred clients restrict cross-sell pool"
+      likelihood: "Confirmed"
+      impact: "Medium"
+      mitigation: "Clear segmentation in POLR. Tag broker-referred vs direct."
+
+  last_updated: "2026-05-19"
+  last_updated_by: "Claude Code (fulfilment-specialist session — shared-ICA decision locked, playbooks leaned out)"
+
+  next_milestone:
+    description: "1. James sends recap email CC Xavier + George (within 2h of meeting). 2. James briefs Xavier + George on outcome + forwards inputs. 3. Xavier + George issue Project Plan v1 within 48h (target Wed 29 Apr). 4. Rowdie + Nathan sign off on Project Plan. 5. Formal kickoff begins (Milestone 1: Customer onboarding). 6. James writes both master playbooks (Cross-sell + Pre-sales SDR). 7. GHL implementation. 8. Go-live + business readiness. 9. Training + 4 weeks support. 10. Closure report."
+    target_date: "2026-05-02"
+    owner: "James Killick (with Xavier as PM, George as PMO oversight)"
+
+  cadence_post_kickoff:
+    weekly_catchup: "Friday 15-minute project catch-up during build phase"
+    status_email: "Weekly PMO status email (outstanding items, blockers, ownership)"
+    demos: "Calendar invites issued in advance for walkthroughs + testing"
+    support_phase: "Catch-ups every 4 weeks during 4-week support phase (logged tickets handled by Njin support)"
+
+  project_plan_milestones:
+    - milestone: 1
+      name: "Customer onboarding"
+      description: "Artefact gathering + sign-off on inputs"
+    - milestone: 2
+      name: "Master playbooks build"
+      description: "James writes both Cross-sell and Pre-sales SDR playbooks. Sign-off after each."
+    - milestone: 3
+      name: "GHL implementation"
+      description: "Build + walkthrough + demo + testing"
+    - milestone: 4
+      name: "Go-live + business readiness"
+      description: "Few days of business readiness, then go-live"
+    - milestone: 5
+      name: "Training + support"
+      description: "4 weeks of training + ticket-based support"
+    - milestone: 6
+      name: "Closure report"
+      description: "End of week 10"
+  project_plan_total: "6 weeks build + 4 weeks support = 10 weeks"
+
+# ============================================
+# DATA ACCESS STATUS
+# ============================================
+data_access:
+  crm_access:
+    status: "PENDING - GHL sub-account access required for Njin team (Xavier-led build). POLR custom paused 16 Apr per Mati decision."
+    access_level: "TBD"
+    granted_date: null
+    granted_by: null
+
+  historical_data:
+    status: "Pending"
+    date_range_available: "unknown"
+    quality_assessment: "Poor - SendGrid has limited segmentation. LMS data is rich but siloed across 3 systems."
+
+  team_interviews:
+    scheduled: "Completed"
+    completed: "3 of 4"  # Nathan, Rowdie, and Dan Fox (via meeting) interviewed
+
+  data_access_gate:
+    passed: "No"
+    passed_date: null
+    days_waiting: 0
+    escalation_triggered: "No"
+
+# ============================================
+# BLOCKING GATES
+# ============================================
+gates:
+  tone_of_voice:
+    created: "PASSED"
+    path: "tone-of-voice.md"
+    source_document: "docs/branding/Fox Tone of Voice.docx"
+    created_date: "2026-03-05"
+    last_validated: "2026-03-05"
+    notes: "tone-of-voice.md v1.0 created 2026-03-05 by Tone of Voice Agent. 16 sections, 568 lines. Five core pillars. Gate PASSED."
+
+  data_access:
+    complete: "No"
+    completed_date: null
+    notes: "Need SendGrid access, Ambition API docs, sample Infynity exports."
+
+  baseline_validated:
+    complete: "Partial"
+    validated_date: "2026-03-06"
+    validated_by: "Activation meeting + 2026-03-06 meeting data"
+    notes: "12 metrics validated from meeting data (7 original + 5 FHL financial metrics from 2026-03-06). Need CRM/accounting confirmation for full sign-off."
+
+  stakeholder_approval:
+    strategy_approved: "No"
+    approved_date: null
+    approved_by: null
+
+  immersion_complete:
+    complete: "Yes"
+    completed_date: "2026-02-06"
+
+# ============================================
+# VOICE GUIDE STATUS
+# ============================================
+voice_guide:
+  status: "Active - v1.0 Created"
+  location: "tone-of-voice.md"
+  source_document: "docs/branding/Fox Tone of Voice.docx"
+  created_date: "2026-03-05"
+  last_validated: "2026-03-05"
+
+  extraction_status:
+    samples_collected: "Yes"
+    sample_count: 5  # From playbook discovery + Beacon on the Hill document
+    stakeholder_interview: "Completed (activation meeting)"
+    analysis_complete: "Yes"
+    client_tov_document: "First draft received 2026-02-18 (docs/branding/Fox Tone of Voice.docx)"
+    formal_tov_created: "2026-03-05 - tone-of-voice.md v1.0 (16 sections, 568 lines)"
+
+  client_voice_pillars:
+    - pillar: "Clear Not Clever"
+      description: "Simple, jargon-free language. If a customer needs to re-read it, rewrite it."
+    - pillar: "Calm and Reassuring"
+      description: "Steady, professional tone. No urgency, no pressure. Finance is stressful enough."
+    - pillar: "Empowering Not Controlling"
+      description: "Give customers the info they need to feel in charge. We guide, they decide."
+    - pillar: "Human and Relatable"
+      description: "Real language, real scenarios. Not robotic or corporate."
+    - pillar: "Optimistic but Grounded"
+      description: "Positive without making promises. Confident without overselling."
+
+  words_to_lean_into:
+    - "Guide"
+    - "Support"
+    - "Clarity"
+    - "Options"
+    - "Confidence"
+    - "Progress"
+    - "Next step"
+    - "Fit"
+    - "Understanding"
+    - "Momentum"
+
+  words_to_avoid:
+    - "You should (directive/advisory)"
+    - "Best deal guaranteed (overpromise)"
+    - "Fastest approval in Australia (unsubstantiated)"
+    - "Urgency language (Act now, Limited time, Don't miss out)"
+    - "Jargon without explanation (LVR, DTI, offset)"
+
+  situational_tones:
+    introducing: "Confident and supportive - We're here to help you explore your options"
+    application: "Reassuring and clear - Here's exactly what happens next"
+    presenting_options: "Balanced and honest - Here's what we found and what it means for you"
+    not_possible: "Respectful and solutions-focused - This one didn't work but here's what we can do"
+
+  ultimate_test: "Does this make the customer feel clearer, calmer, and more confident than before they read it?"
+
+  key_characteristics:
+    personality_adjectives: ["Advisory", "Guiding", "Trustworthy", "Aspirational but grounded", "Optimistic yet accountable", "Clear Not Clever", "Calm and Reassuring", "Empowering Not Controlling", "Human and Relatable"]
+    formality_level: "Semi-formal"
+    framework: "StoryBrand - customer as hero, Fox as guide"
+    key_phrases_to_use:
+      - "We do the heavy lifting and leg work"
+      - "Compare 100s of options from 50+ lenders"
+      - "This process doesn't impact your credit score or commit you to anything"
+      - "You are in control the entire way"
+      - "Helping you say yes to the life you want (FFG)"
+      - "Guiding you toward long-term wealth and family security (FHL)"
+      - "When life doesn't go to plan, we help you get back on track (UMI)"
+    forbidden_phrases:
+      - "advice (compliance - cannot offer financial advice)"
+      - "guarantee/guaranteeing"
+      - "financial hardship"
+      - "You should"
+      - "Best deal guaranteed"
+      - "Act now / Limited time / Don't miss out"
+
+  notes: "tone-of-voice.md v1.0 created 2026-03-05 by Tone of Voice Agent. 16 sections, 568 lines. Based on client first draft (received 2026-02-18) + existing samples. Five core pillars. Aligns with Beacon on the Hill voice. Human-led cross-sell approach preferred over explicit sales messaging."
+
+# ============================================
+# OUTSTANDING DECISIONS
+# ============================================
+outstanding_decisions:
+  - decision: "Pre-sales playbook: standalone, combine into end-to-end, or pivot to lifecycle nurture?"
+    owner: "James"
+    deadline: "Before Week 2 strategy presentation"
+    status: "Resolved"
+    resolution: "Shelved. Pre-sale not needed unless ads pursued. Focus on customer success nurture (V1) then cross-sell (V2). Agreed 2026-03-26."
+
+  - decision: "Jared marketing replacement: AI content agent vs hire vs agency?"
+    owner: "Nathan/James"
+    deadline: "Week 2"
+    status: "Open"
+    notes: "Don't want external agency (compliance nightmare). AI agent preferred."
+
+  - decision: "Jess: promote to home loans or keep as nurture/SDR role?"
+    owner: "Nathan"
+    deadline: "TBD"
+    status: "Open"
+
+  - decision: "Equipment replacement cycle length (for trigger campaigns)"
+    owner: "Nathan"
+    deadline: "TBD"
+    status: "Open"
+
+  - decision: "Google Ads: keep, modify, or kill?"
+    owner: "James (ads specialist review)"
+    deadline: "Week 2"
+    status: "Open"
+
+  - decision: "Radio: commit to 3-month C FM push?"
+    owner: "Nathan"
+    deadline: "TBD"
+    status: "Open"
+
+  - decision: "Privacy policy update for cross-business data sharing"
+    owner: "Rowdie"
+    deadline: "ASAP"
+    status: "Open"
+
+  - decision: "Cross-sell pipeline ownership: who owns FFG<>FHL referral handoff?"
+    owner: "Nathan/Rowdie"
+    deadline: "Before playbook implementation"
+    status: "Open"
+    notes: "Critical for cross-sell automation. Need clear ownership of handoff process between brands. Added 2026-03-11."
+
+  - decision: "Client services role: dedicated person for lifecycle management?"
+    owner: "Nathan"
+    deadline: "TBD"
+    status: "Open"
+    notes: "FHL lifecycle plan requires dedicated touchpoint execution. Who handles proactive calls? Added 2026-03-11."
+
+  - decision: "Cotality API integration for POLR"
+    owner: "James/CTO"
+    deadline: "TBD"
+    status: "Open"
+    notes: "Cotality property valuations are core to 3-month and 12-month FHL touchpoints. Need API docs to plan POLR integration. Added 2026-03-11."
+
+  - decision: "Nick/Quantum equity tracking app partnership"
+    owner: "Rowdie/Bill"
+    deadline: "TBD"
+    status: "Open"
+    notes: "Referenced in lifecycle plan as affiliate partner. Need details on integration, referral arrangement, customer benefit. Added 2026-03-11."
+
+  - decision: "GHL vs Custom system for POLR V1"
+    owner: "Nate (final decision) / James (recommendation)"
+    deadline: "After prototype review"
+    status: "Open"
+    notes: "James strongly recommends custom. GHL PoC built by Xavier (Mar 30) — sub-account, custom fields, pipeline, workflows, segmentation done. ~70% complete. Side-by-side comparison with vibe-coded prototype planned for Thursday Apr 3 review meeting with Rowdie. Nate wants GHL for quick wins. James offered: prototype custom V1, if Nate rejects it, build in GHL at no extra cost. Updated 2026-03-31."
+
+  - decision: "FHL aggregator switch — Infynity to LMG (Lone Market Group)"
+    owner: "Nate/Rowdie"
+    deadline: "End of March 2026"
+    status: "Open"
+    notes: "LMG meeting occurred 2026-03-28. Outcome TBC — need to confirm API capabilities result. Current aggregator (Infynity) has no API. Switch would take ~1 month. BLOCKING POLR V1 data integration. Updated 2026-03-31."
+
+# ============================================
+# CLIENT DOCUMENTATION RECEIVED
+# ============================================
+client_documents:
+  received:
+    - name: "Fox Finance Group Strategic One-Pager"
+      path: "docs/onboarding-docs/Fox_Finance_Group_Strategic_OnePager.txt"
+      content: "Brand purpose, ideal customer journey, LTV growth levers, 5-year roadmap, team integration"
+
+    - name: "Fox Home Loans Strategic One-Pager"
+      path: "docs/onboarding-docs/Fox_Home_Loans_Strategic_OnePager.txt"
+      content: "Brand purpose, ideal customer journey, LTV growth levers, 5-year roadmap, team integration"
+
+    - name: "Consumer ICA - Taylor (Stretched but Solid)"
+      path: "docs/onboarding-docs/Consumer ICA for stretched but solid borrower.txt"
+      content: "Data-backed consumer ICA with demographics, psychographics, buying journey. Includes Taylor Plus ($30-50K) micro-ICA and marketing acquisition guidance."
+
+    - name: "Commercial ICA - Alex (High-Value Growth)"
+      path: "docs/onboarding-docs/Commercial ICA for high value growth customer FFG.txt"
+      content: "Commercial ICA for self-employed QLD business owners. $100K-$200K facilities. Demographics, business profile, goals, buying journey."
+
+    - name: "Customer Journey - Taylor 2.0 Post-Settlement"
+      path: "docs/onboarding-docs/Customer Journey Taylor.txt"
+      content: "5-stage post-settlement journey (Week 1 to Year 5+). FFG as Lifestyle Partner, FHL as Wealth & Security Partner. Detailed touchpoints, emails, triggers at each stage."
+
+    - name: "The Beacon on the Hill (Master Vision)"
+      path: "docs/onboarding-docs/The Beacon on the Hill Final Draft Version July25.txt"
+      content: "Master strategic vision document. Group vision, brand hero stories, education strategy, financial tools, Trusted by Fox affiliate ecosystem, detailed LTV strategies for all 3 brands (FFG, FHL, UMI). Includes UMI broker-referred client restrictions."
+
+    - name: "Fox Tone of Voice (First Draft)"
+      path: "docs/branding/Fox Tone of Voice.docx"
+      received_date: "2026-02-18"
+      content: "Five core voice pillars (Clear Not Clever, Calm and Reassuring, Empowering Not Controlling, Human and Relatable, Optimistic but Grounded). Words to lean into/avoid. Situational tones. Ultimate test question."
+
+    - name: "Fox Finance Group Branding Guide"
+      path: "docs/branding/Fox Finance Group Branding Guide.pdf"
+      received_date: "2026-02-18"
+      content: "Logo usage, colour palette (#ED9B33 orange, #63666A gray, #101820 black), typography (Muli primary, Helvetica Neue secondary), mascot (Alex the Fox), tagline (Everything Financial), photography guidelines."
+
+    - name: "EDM Automations - Content (FFG & FHL)"
+      path: "docs/edms/EDM Automations (FFG & FHL).pdf"
+      received_date: "2026-02-18"
+      content: "61-page PDF with complete visual templates for all 12 SendGrid automations across FFG (5 automations, 18 emails) and FHL (6 automations, 38 emails). Full email content, design, and send schedules."
+
+    - name: "EDM Automations - Engagement Stats (14 reports)"
+      path: "docs/edms/"
+      received_date: "2026-02-18"
+      content: "14 individual PDF reports with per-email engagement data (open rate, click rate, unsubscribe rate, triggered count) for all SendGrid automations. Comprehensive performance baseline."
+
+    - name: "POLR MVP Scope of Work"
+      path: "deliverables/polr-mvp-scope-of-work-2026-02-13.md"
+      received_date: "2026-02-13"
+      content: "924-line scope document. 13 core tables, 10 N8N workflows, 7-tab dashboard, email marketing module. Build Option A (~240 hours) + Build Option B (~90 hours)."
+
+    - name: "FFG Sales Process Scripts & Documents (11 docs)"
+      path: "docs/updated-docs/extracted-content.md"
+      received_date: "2026-03-06"
+      content: "11 documents covering full FFG sales lifecycle: Loan Packaging, Customer Care Script, Approval Call, Insurance Intro, Lender Options, Settlement Calls (EMPTY), Contract Sign-Up, Voicemail Scripts, Private Seller, FHL 18-Month Lifecycle Playbook, Early Payout Guide."
+
+    - name: "FHL 18-Month Customer Lifecycle Playbook"
+      path: "docs/updated-docs/extracted-content.md#10"
+      received_date: "2026-03-06"
+      content: "Comprehensive 18-month post-settlement lifecycle plan for FHL. 7 touchpoints with segmented content by customer type. Includes FFG cross-sell packs at 9 months, Cotality valuations, repricing reviews."
+
+  still_needed:
+    - "SendGrid access / export of contact database"
+    - "Ambition API documentation"
+    - "Sample Infynity data export (CSV/PDF)"
+    - "Settlement Calls script content (Doc 6 was empty - need from Rowdie)"
+    - "Google Ads account access"
+    - "Facebook Ads account access"
+    - "Lead market platform access/documentation"
+    - "Sample UMI system data export"
+    - "Privacy policy (current version)"
+    - "Referral partner database export (800 FFG + 250 FHL)"
+    - "3CX call data sample"
+    - "TypeForm response data sample"
+    - "Looker Studio dashboard access"
+    - "Competitor list (for competitive analysis)"
+    - "Cotality API documentation (for POLR integration)"
+    - "Nick/Quantum equity tracking app details (for affiliate partnership)"
+    - "Rowdy's Miro nurture journey map (hand-drawn A3, being digitised into Miro)"
+    - "Mock customer data from Rowdie (all key data points for system design) — requested 2026-03-26"
+    - "LMG aggregator API documentation (pending meeting 2026-03-28)"
+
+# ============================================
+# FHL 18-MONTH CUSTOMER LIFECYCLE PLAN
+# ============================================
+# Source: Rowdie Lang, Meeting 2026-03-06
+# Full document: docs/updated-docs/extracted-content.md (Doc 10)
+fhl_customer_lifecycle:
+  overview: "18-month post-settlement lifecycle plan for Fox Home Loans customers. Designed by Rowdie. Each touchpoint is proactive, outcome-based, and segmented by customer type."
+  segmentation_tags:
+    customer_type: ["New Purchase", "First Home Buyer (FHB)", "Investor", "Refinancer"]
+    employment: ["PAYG", "Self-employed"]
+    household: ["Single", "Couple", "Dependants"]
+    likely_next_needs: ["Vehicle", "Travel", "Wedding", "Reno/Solar", "Debt consolidation", "Business finance"]
+    affiliate_partners: ["Quantum", "Stockland", "FTA/Wardle", "Compass"]
+    product: ["Fixed", "Variable", "Split", "Offset", "IO", "OO"]
+
+  consistency_checklist:
+    - "Clear reason for the touchpoint (why contacting now)"
+    - "Concrete outcome (what was checked/produced/improved before reaching out)"
+    - "Simple deliverable (one page or less, plus optional attachments/tools)"
+    - "Single CTA dependent on the deliverable"
+    - "CRM log entry: status + outcomes + lead score + next trigger"
+
+  tone_guide: "Proactive. Calm, reassuring, personable, protective, helpful. (You are in control. We did the work, here's how things are progressing, you're on the best deal)"
+
+  touchpoints:
+    - month: 1
+      name: "Welcome + Setup Verified"
+      purpose: "Prevent early friction, reduce anxiety, confirm loan functioning as expected"
+      internal_actions:
+        - "Confirm key dates (moving in, property acquisition, funds usage)"
+        - "Confirm first repayment date and expected amount"
+        - "Validate offset account active and linked (if applicable)"
+        - "Check notes for future finance/partner opportunities"
+        - "Check settlement conditions or follow-ups"
+      customer_outcome:
+        - "Everything set up correctly, we're here to support you"
+        - "Access to FFG and asset team"
+        - "Refer-a-friend program introduced"
+        - "Affiliate partner network access"
+        - "Next touchpoint confirmed"
+      deliverable: "Phone call + short email/SMS. If no contact: one-pager (Your Loan Setup Snapshot)"
+      cta: "Reply to this text or email if you have any questions"
+      post_call_outcomes: ["Setup verified", "Issues identified with path to rectify", "FFG introduced", "Refer-a-friend reminded", "Expectations set"]
+
+    - month: 3
+      name: "90-Day Confidence Pack (with valuation benchmark)"
+      purpose: "Show ongoing value, turn uncertainty into confidence, establish equity tracking benchmark"
+      internal_actions:
+        - "Valuation benchmark (Cotality - estimate/benchmark, not refinance trigger)"
+        - "Equity and buffer baseline"
+        - "Quick wins identification"
+        - "Next 12 months roadmap"
+      deliverable: "1-page PDF: Your Property Position and Loan Health"
+      deliverable_content:
+        - "Property valuation (Cotality)"
+        - "Local growth rate/forecast report"
+        - "Equity position baseline (plain English)"
+        - "Next milestones and 12-month roadmap"
+        - "Calculator link for additional repayment impact"
+      modules_by_segment:
+        fhb: "First-Year Homeowner Plan - valuation benchmark + cost-to-own baseline"
+        investor: "Investor 90-Day File Check - valuation benchmark + rent/expense tracking setup"
+        refinancer: "Savings Proof + Equity Baseline - valuation benchmark + refinance results to date"
+      cta: "Reply to this text or email if you have any questions"
+
+    - month: 6
+      name: "Proactive Pricing Review"
+      purpose: "Demonstrate advocacy - we've done the work and checked without you needing to do anything"
+      internal_actions:
+        - "Run repricing review (per lender policy)"
+        - "If unavailable, document eligibility timing and next action date"
+      customer_outcome: "If improved: communicate in plain English. If no change: explain why and what we do next."
+      deliverable: "Phone call + email/SMS. If no contact: one-pager showing repricing review"
+      cta_dual:
+        - "Reply if you have any questions"
+        - "Everything is ready to finalise, I just need your permission to proceed"
+      internal_logging: ["Pricing request submitted/approved/declined", "Rate/discount notes", "Next pricing eligibility date", "One-pager provided"]
+
+    - month: 9
+      name: "FFG Momentum and Opportunity Pack (proactive, segmented)"
+      purpose: "Anticipate next wave of purchases/needs and position FFG or affiliates as next step"
+      golden_rule: "Must NOT feel like lead generation. Must feel like: We prepared options based on what customers like you typically need next."
+      packs_ffg:
+        new_purchase:
+          name: "New Home Momentum Pack"
+          scenarios: ["Car upgrade", "Furniture/appliances", "Solar/home upgrades", "Small renos", "Debt consolidation"]
+          deliverable: "1-2 page PDF: Planning any home upgrades or purchases this year?"
+        fhb:
+          name: "First Home Momentum Pack"
+          scenarios: ["Car upgrade", "Furniture/appliances", "Solar/home upgrades", "Travel/wedding", "Consolidating high-interest debt"]
+          deliverable: "1-2 page PDF: Big purchase coming up? Here are the smartest ways to fund it."
+        investor:
+          name: "Investor Leverage Pack"
+          scenarios: ["Vehicle finance", "Equipment finance", "Business finance", "Consolidation guidance", "Renovation funds"]
+          deliverable: "1-2 page PDF: How to fund the next move without boxing in future goals."
+        refinancer:
+          name: "Refi Savings Accelerator Pack"
+          scenarios: ["Consolidate expensive debts", "Refinance car/personal loans", "Fund planned purchases"]
+          deliverable: "1-page PDF: Turn your refinance into extra breathing room."
+      packs_fhl_equity:
+        equity_release:
+          name: "Equity Release/Top-Up - Funds For Renovation Pack"
+          scenarios: ["Upgrades", "Small renos (non-structural)", "Debt consolidation"]
+          deliverable: "1-2 page PDF: Planning any home upgrades or renovations? Here's the smartest way to fund them."
+      delivery_mechanics:
+        - "Send pack as completed content (not an invitation to talk)"
+        - "Simple CTA (call, text or email)"
+        - "If reply: route to Options Check workflow"
+
+    - month: 12
+      name: "Annual Property and Loan Strategy Review"
+      purpose: "Signature annual review - value, strategy, direction, ongoing value delivery"
+      internal_actions:
+        - "Updated valuation"
+        - "Repricing opportunity check (if not achieved at 6 months)"
+        - "Highlight equity built"
+        - "Review loan structure, customer profile, suitability for refi"
+        - "Review progress toward original goal"
+        - "Identify next 12-month strategy"
+      deliverable: "Annual Property and Loan Strategy Review (2 pages max)"
+      deliverable_content:
+        - "Updated valuation benchmark + movement since 3 months"
+        - "Strategy recommendation (1-2 clear options)"
+        - "What we will do next and when"
+      cta: "Reply REVIEW to book your annual strategy call"
+
+    - month: 15
+      name: "Refinance Pathway"
+      purpose: "Provide simple pathway to refinance so 18-month action is fast and easy"
+      three_paths:
+        - "Pay down faster (offset/extra repayment plan)"
+        - "Invest/upgrade (readiness + timing guide)"
+        - "Refinance to lower interest, repayments or draw equity"
+      deliverable: "1-page Your Options Map (three options with pros/cons, our recommendation)"
+      cta: "Reply to this text or email if you have any questions"
+
+    - month: 18
+      name: "Action Window"
+      purpose: "Only activate when relevant - otherwise it becomes noise"
+      triggers:
+        - "Fixed expiry approaching (timed window)"
+        - "Major market movement that materially impacts them"
+        - "Customer goal change"
+        - "Lender/product change that creates clear advantage"
+      deliverable: "Action Window Plan (recommended action, timeline, checklist)"
+      cta: "Reply GO to start the action plan"
+
+# ============================================
+# FFG SALES PROCESS SCRIPTS & DOCUMENTS
+# ============================================
+# Source: Rowdie Lang, Meeting 2026-03-06
+# Full content: docs/updated-docs/extracted-content.md
+ffg_sales_process_scripts:
+  overview: "11 process scripts and documents covering the full FFG sales lifecycle from lead contact through settlement and post-settlement"
+  documents:
+    - id: 1
+      name: "Loan Packaging Call Process"
+      path: "docs/updated-docs/extracted-content.md#1"
+      stage: "Pre-Settlement (Loan Docs)"
+      summary: "Script for presenting loan packages with insurance options (comprehensive, warranty 1/3/5 year). Covers package breakdown, upsell approach, and wrap-up."
+
+    - id: 2
+      name: "Consumer Customer Care Script"
+      path: "docs/updated-docs/extracted-content.md#2"
+      stage: "Post-Settlement (Reactivation)"
+      summary: "Outbound customer care call script for past customers. Rate drop refinance hook. If yes: collect docs. If no: leave details. Cross-sell to car loans, personal loans, consolidation, home loans."
+
+    - id: 3
+      name: "Approval Call Process"
+      path: "docs/updated-docs/extracted-content.md#3"
+      stage: "Pre-Settlement (Approval)"
+      summary: "Congratulations call script. Covers hurdles overcome, selling the approval, conditions explanation, next steps, and dealer finance prevention warning."
+
+    - id: 4
+      name: "Insurance Introduction Call"
+      path: "docs/updated-docs/extracted-content.md#4"
+      stage: "Pre-Settlement (Insurance)"
+      summary: "Script for introducing comprehensive insurance and warranty quotes. Positioned as value-add service included in finance process."
+
+    - id: 5
+      name: "Lender Options Call Process"
+      path: "docs/updated-docs/extracted-content.md#5"
+      stage: "Pre-Settlement (Options)"
+      summary: "Full assessment presentation script. Credit file education, bank statement review, profile/needs matching, option presentation, brokerage explanation, verification and next steps."
+
+    - id: 6
+      name: "Settlement Calls Key Points"
+      path: "docs/updated-docs/extracted-content.md#6"
+      stage: "Settlement"
+      summary: "EMPTY - document was blank in source. Content still needed from Rowdie."
+      status: "missing_content"
+
+    - id: 7
+      name: "Contract Sign-Up Call"
+      path: "docs/updated-docs/extracted-content.md#7"
+      stage: "Pre-Settlement (Contract)"
+      summary: "Loan document talk-through script. Key points: loan amount/term, repayment amount/frequency, rate/fees, total credit, security details, first payment date, early payout penalties."
+
+    - id: 8
+      name: "FFG Voicemail Scripts"
+      path: "docs/updated-docs/extracted-content.md#8"
+      stage: "Pre-Sales (Contact)"
+      summary: "7 voicemail scripts: Day 1/2/3 messages, second follow-up same day, doc follow-up (x2), and application update. All reference 07 3505 3099."
+
+    - id: 9
+      name: "Private Seller Call Process"
+      path: "docs/updated-docs/extracted-content.md#9"
+      stage: "Pre-Settlement (Private Sale)"
+      summary: "Script for contacting private sellers to collect documents (DL, rego, bank details, 6 photos, payout letter, roadworthy). Explains process and next steps."
+
+    - id: 10
+      name: "FHL 18-Month Customer Lifecycle Playbook"
+      path: "docs/updated-docs/extracted-content.md#10"
+      stage: "Post-Settlement (Full Lifecycle)"
+      summary: "Comprehensive 18-month lifecycle plan with 7 touchpoints (1/3/6/9/12/15/18 months). Segmented by customer type. Includes FFG cross-sell packs at 9 months. See fhl_customer_lifecycle section for full detail."
+
+    - id: 11
+      name: "Early Payout Guide"
+      path: "docs/updated-docs/extracted-content.md#11"
+      stage: "Reference"
+      summary: "Lender-by-lender guide to early payout penalties. Lists 30+ lenders with penalty status (many have no penalty for early payout)."
+
+# ============================================
+# CHANGE LOG
+# ============================================
+change_log:
+  - date: "2026-02-05"
+    author: "Initialization Agent"
+    phase: "Transform"
+    change: "COS created from context files: 2 meeting transcripts, playbook discovery CSV, referrer context notes, 2 baseline data files"
+    sections_affected: ["all"]
+
+  - date: "2026-02-06"
+    author: "Orchestrator"
+    phase: "Transform > Observe"
+    change: "Processed 3.5-hour activation meeting transcript. MAJOR revelations: UMI Loans is third business (lender, $28M). Jared resigned (marketing gap). 49K leads/year to lead market untouched ($1M opportunity). Sales process already strong (pre-sales pivot needed). 33+ staff across group (not 9). Home loans value-adds identified. Referral partner database: 1,050+ but only 3-4 active."
+    sections_affected: ["company", "engagement", "baseline_metrics", "constraint", "tech_stack", "immersion", "status", "ownership"]
+    source_documents:
+      - "docs/Background/Activation Meeting - Full Transcript.md"
+
+  - date: "2026-02-06"
+    author: "Orchestrator"
+    phase: "Observe"
+    change: "COMPREHENSIVE COS REWRITE. GHL decision replaced by POLR MVP (confirmed by James, George, Emma, Maucir). Added UMI Loans as third business. Integrated 6 client onboarding documents: 2 strategic one-pagers, 2 ICAs (Taylor consumer, Alex commercial), Taylor 2.0 customer journey, Beacon on the Hill master vision. Added new sections: businesses, icas, customer_journey, affiliate_ecosystem, referral_partners, google_ads, customer_geography, marketing_strategy_notes, lead_contact_process, post_settlement_nurture, polr_mvp, outstanding_decisions, client_documents. Updated all existing sections with validated data."
+    sections_affected: ["all"]
+    source_documents:
+      - "docs/Background/Activation Meeting - Full Transcript.md"
+      - "docs/onboarding-docs/Fox_Finance_Group_Strategic_OnePager.txt"
+      - "docs/onboarding-docs/Fox_Home_Loans_Strategic_OnePager.txt"
+      - "docs/onboarding-docs/Consumer ICA for stretched but solid borrower.txt"
+      - "docs/onboarding-docs/Commercial ICA for high value growth customer FFG.txt"
+      - "docs/onboarding-docs/Customer Journey Taylor.txt"
+      - "docs/onboarding-docs/The Beacon on the Hill Final Draft Version July25.txt"
+
+  - date: "2026-02-13"
+    author: "Claude Code"
+    phase: "Observe"
+    change: "Renamed Polar to POLR throughout project. Created POLR MVP scope of work document (deliverables/polr-mvp-scope-of-work-2026-02-13.md) with new modules: email management (template editor, bulk blast, nurture content editing), contact tagging system, multi-business overlap identification. Updated polr_mvp section with core modules and build phases. Clear core vs email marketing module scope separation for developer quoting."
+    sections_affected: ["polr_mvp", "core_services", "tech_stack", "status", "engagement"]
+
+  - date: "2026-02-18"
+    author: "Claude Code"
+    phase: "Observe"
+    change: "Major documentation update. Received and processed: (1) Fox Tone of Voice first draft (5 core pillars - Clear Not Clever, Calm and Reassuring, Empowering Not Controlling, Human and Relatable, Optimistic but Grounded), (2) Fox Finance Group Branding Guide (colours, fonts, mascot Alex the Fox), (3) EDM Automations content (61-page PDF, 12 automations, 56 emails across FFG+FHL), (4) EDM engagement stats (14 PDF reports with open/click/unsub rates). Added SendGrid automation inventory with full engagement baseline. Added branding section. Updated voice_guide with client pillars and words to lean/avoid. Added 4 new team members (Sam Drew, Andrew Glen, Paige Beveridge, Bradley Robb). Updated Bill to Bill Robb (Head of Home Loans). Updated client_documents received/still_needed. Updated CLAUDE.md (TORQUE phase, project structure, tone of voice status). Key framing: playbooks delivered via POLR MVP."
+    sections_affected: ["voice_guide", "gates", "ownership", "client_documents", "status", "polr_mvp", "core_services", "engagement", "tech_stack", "sendgrid_automations (NEW)", "branding (NEW)"]
+    source_documents:
+      - "docs/branding/Fox Tone of Voice.docx"
+      - "docs/branding/Fox Finance Group Branding Guide.pdf"
+      - "docs/edms/EDM Automations (FFG & FHL).pdf"
+      - "docs/edms/ (14 engagement stat PDFs)"
+
+  - date: "2026-03-11"
+    author: "Claude Code"
+    phase: "Observe"
+    change: "Major update from 2026-03-06 meeting with Rowdie + 11 new process documents. KEY ADDITIONS: (1) FHL 18-month customer lifecycle plan (7 touchpoints, segmented by customer type, with FFG cross-sell at month 9), (2) 11 FFG sales process scripts catalogued (Loan Packaging, Customer Care, Approval, Insurance, Lender Options, Settlement [EMPTY], Contract, Voicemails, Private Seller, Lifecycle Playbook, Early Payout Guide), (3) FHL financial metrics validated (16-17 settlements/month, 55 leads/month, $4,750-$5,225 income/deal, ~$600K avg loan, 0.65% trail, $990 broker fee, 70/30 residential/commercial split), (4) FFG leads corrected to 375/month, settlements 90-108/month, (5) Tone of voice gate updated to PASSED (v1.0 created 2026-03-05), (6) POLR confirmed as customer portal with dynamic links and Cotality integration, (7) Journey-based ICA strategy added, (8) New team member Angel (FHL), (9) Nick/Quantum equity tracking app noted as potential affiliate partner, (10) 4 new outstanding decisions (pipeline ownership, client services role, Cotality API, Nick/Quantum), (11) Updated validated metrics count from 7 to 12."
+    sections_affected: ["baseline_metrics", "businesses", "calculated_metrics", "data_quality", "icas", "affiliate_ecosystem", "polr_mvp", "tech_stack", "post_settlement_nurture", "marketing_strategy_notes", "gates", "voice_guide", "status", "ownership", "constraint", "client_documents", "outstanding_decisions", "fhl_customer_lifecycle (NEW)", "ffg_sales_process_scripts (NEW)"]
+    source_documents:
+      - "docs/updated-docs/extracted-content.md (11 documents)"
+      - "Meeting notes 2026-03-06 (Rowdie)"
+
+  - date: "2026-03-23"
+    author: "Orchestrator"
+    phase: "Observe"
+    change: "Major ICA framework upgrade. Received 2 new documents from Rowdy: ICA Matrix + Updated ICA Definitions (data-driven from settlement dataset). Replaced Taylor/Alex 2-ICA model with 5-profile behavioural framework: Young Practical Motor Borrower, Established Personal Finance Borrower, Prime Convenience-Led Repeat Borrower, Business Asset Borrower, Prime Vehicle Borrower. Added ICA → FHL Purchase Type mapping, FHL writing guidance per purchase type, routing priority hierarchy, recommended CRM tags. Legacy Taylor/Alex ICAs retained for reference. Also extracted 3 new docs to extracted-content.md (Consumer Customer Care Script, ICA Matrix, ICA Definitions). New intelligence from Rowdy: Fox building internal AI tools (unknown scope), wants call to clarify playbook direction/timing, Miro nurture journey map in progress."
+    sections_affected: ["icas (MAJOR REWRITE)", "company.average_customer_profile", "client_documents.still_needed"]
+    source_documents:
+      - "docs/updated-docs/fox-finance-group-ica-matrix.docx"
+      - "docs/updated-docs/fox-finance-group-updated-ica-definitions.docx"
+      - "Rowdy message to James (received ~2026-03-16)"
+
+  - date: "2026-03-26"
+    author: "Claude Code"
+    phase: "Observe"
+    change: "Major strategic pivot from 2026-03-26 meeting (James + Rowdie). KEY CHANGES: (1) Scope simplified to iterative V1/V2 approach — V1 = FHL 18-month nurture sequence only, V2 = FFG cross-sell features. (2) Pre-sale playbook SHELVED (not needed unless ads pursued). (3) POLR recognised as two separate playbooks: customer success + cross-selling. (4) GHL vs custom system debate still live — Nate wants GHL (risk-averse, burned by past tech partners), James recommends custom (GHL can't handle dynamic personalisation). James offered risk-free guarantee: build custom prototype, if Nate rejects it, build in GHL at no extra cost. (5) FHL aggregator switch under evaluation — LMG meeting 2026-03-28 at 9am to confirm API capabilities. BLOCKING POLR V1 data integration. (6) Prime convenience borrower confirmed as highest-value ICA (fastest settlement, best experience, easiest to create raving fans, unsecured $30K+). (7) 9-month mark confirmed as key cross-sell trigger (credit score recovery + data shows most common time for second loan). (8) Reactivation identified as biggest untapped opportunity (lead reactivation + client reactivation). (9) Rowdie building comprehensive internal AI agent system (marketing, leadership, HR, L&D) using Claude/Cowork — supports case for custom POLR. (10) Nate's trust concerns noted — two weeks of limited progress plus scope complexity raising doubts. Need quick wins via prototype."
+    sections_affected: ["engagement", "core_services", "playbooks", "polr_mvp", "status", "blockers", "risks", "outstanding_decisions", "icas", "stakeholder_interviews", "client_documents", "tech_stack"]
+    source_documents:
+      - "docs/meeting-transcripts/24-mar-26.txt"
+
+  - date: "2026-04-16"
+    author: "Claude Code"
+    phase: "Observe"
+    change: "GHL DECISION FINALISED. Joint decision (James, Rowdie, Nate) to proceed with GHL as the build platform for both playbooks. POLR custom build paused (not killed — may resume if GHL surfaces real gaps during build). Fox is happy with GHL as the chosen path. Reframe: GHL covers ~80% out of the box (pipelines, nurture, SMS/email, tagging, scoring); Njin layers Claude + integrations on top for the 20% (advanced ICA routing, AI personalisation). Rewrite playbook sections to align to GHL delivery."
+    sections_affected: ["engagement", "tech_stack", "playbooks", "polr_mvp", "status"]
+
+  - date: "2026-04-20"
+    author: "Claude Code"
+    phase: "Observe"
+    change: "Strategy + ops alignment call (James + Rowdie). KEY OUTCOMES: (1) Xavier (Njin) introduced as PM. George (Njin) overseeing. (2) Rowdie confirmed marketing system pulling SEMrush + GA4 + GSC, generating weekly content + EDM across ICAs. (3) James recommended micro lead magnets (calculators, guides, videos) as CTAs in each weekly content topic — high-value lead magnets drive engagement, not AI content alone. (4) Pre-sales nurture sequences will be triggered by lead magnet opt-ins; multiple sequences across funnel stages. (5) EV loan qualifications search up 161% since Feb — high-intent BoFu opportunity. (6) Cross-sell pipeline triggered by email replies — instant SMS/call within 10-15 mins or calendar booking. (7) Differentiated nurture: Home Loans = 18-month with cross-sell to FFG at 9-12 months; Finance Group = shorter post-settlement, identify purchase type at settlement call to seed home loans transition. (8) Data integration: SendGrid initial source, enriched with Ambition CSV exports matched on email + name. Privacy first — only necessary fields migrated. (9) Reactivation campaign: target 6-12 month dormant leads, start with 12-month to test before 6-month sweet spot. (10) GHL subscription link to be sent (separate from standard onboarding). SMS via Twilio (different number, standard practice). (11) ROWDIE OWES (locked actions): ICA data audit (key / nice-to-have / not needed) + routing logic matrices (if X AND Y → sequence A) + SendGrid + Ambition field map. (12) Project scope meeting locked Thursday 24 Apr 10am AEST with Rowdie, Nathan, George, James, Xavier. (13) James offered free Fathom workshop (normally 27k) over dinner. (14) James not receiving emails from non-Engine addresses (spam) — Rowdie sending via Engine + Teams going forward."
+    sections_affected: ["status", "ownership", "engagement", "tech_stack", "marketing_strategy_notes", "post_settlement_nurture", "polr_mvp"]
+    source_documents:
+      - "Fathom: https://fathom.video/calls/640401553 (Rowdie < > James | Njin x Fox | 2026-04-20)"
+
+  - date: "2026-04-27"
+    author: "Claude Code"
+    phase: "Observe"
+    change: "Pre-meeting status update. Thursday 24 Apr scope meeting was pushed to Monday 27 Apr 11am AEST because Rowdie could not deliver his three locked inputs in time. As of Mon 27 Apr morning, still not delivered. Rowdie sent Saturday 24 Apr email raising 5 concerns (Claude for ICAs, where his line vs Njin sits, simple nurture vs personalised journeys, GHL capability perception, honest where-are-we conversation). James replied Mon morning — confirmed meeting, asked Rowdie to CC Xavier + George going forward, flagged that draft project plan is incomplete because info still missing, asked for inputs by 9am. ORCHESTRATOR PREP COMPLETE: warm-but-firm bottleneck reframe. Project parked on Rowdie's inputs, not Njin delivery. Offer 90-min working session this week to extract logic live (whiteboard + Claude). Walk in with 30-sec opener, 5 answers, bottleneck reframe, two-option close (working session OR solo by Friday). DO NOT commit new timeline until inputs land. Recap email within 2h post-meeting CC Xavier + George."
+    sections_affected: ["status", "blockers", "next_milestone"]
+    source_documents:
+      - "Saturday 24 Apr email from Rowdie (5 concerns)"
+      - "Mon 27 Apr morning email from James (re-contracting + 9am request)"
+      - "Fathom: https://fathom.video/calls/640401553 (20 Apr context for Rowdie's 3 locked deliverables)"
+
+  - date: "2026-04-27"
+    author: "Claude Code"
+    phase: "Observe → ready to enter Roadmap on Project Plan v1 sign-off"
+    change: "27 Apr alignment meeting outcome (James + George + Xavier briefly | Rowdie + Nathan). Rowdie called the meeting in response to fatigue + miscommunication. RESOLUTIONS: (1) Scope locked — Njin writes both playbooks + all nurture content; Fox provides bullets, ICAs, business logic, final approval. (2) George presented six-milestone PMO plan — 10 weeks total (6 build + 4 support). (3) Cadence agreed — weekly Friday 15-min catch-ups, weekly PMO status email. (4) Cross-sell timing locked — 9-12 months post-settlement + at-settlement trigger. (5) Data sources locked — FFG via Ambition CSV, FHL via Infynity CSV, LMG off the table. (6) Lead magnets shortlisted — commercial vehicle + commercial equipment + consumer personal loans + consumer vehicle. INPUTS DELIVERED post-meeting via email from Rowdie: 31-field ICA list, FFG Post-Settlement Nurture Strategy PDF (heavy after-hours work by Rowdie), cross-sell timing answer, data source confirmations, lead magnet shortlist, SendGrid access pathway. ROOT CAUSE OF MISCOMMUNICATION: James's wrap-up email after 21 Apr call was AI-summarised from Fathom transcript. Dot point read 'FFG nurture sequence documented — leaner version to pair with the FHL one we already have' which Rowdie interpreted as a deliverable he owed. He spent hours after work building the full sequence with branching per ICA. James only needed bullets. Nathan was direct: 'if you are going to put something in writing, it has to be factual.' COMMITMENTS GOING FORWARD: human-written emails when work is requested; phone confirmation of any client homework before they act; same-day callback on Nathan's calls. Relationship intact — meeting ended warmly, both parties reaffirmed long-term partnership intent."
+    sections_affected: ["status", "blockers", "risks", "next_milestone", "cadence_post_kickoff (NEW)", "project_plan_milestones (NEW)", "data_access"]
+    source_documents:
+      - "docs/meetings/27-04-26.txt (Fathom transcript)"
+      - "docs/meetings/27-04-26-recap.md (recap doc)"
+      - "docs/comms/RE: Confirming Monday's Meeting And Points To Cover.txt (Rowdie's reply with inputs delivered)"
+      - "Fathom: https://fathom.video/share/biaV1vzDWX_ZEWi-CHKknGgLbFK7MLRi"
+
+  - date: "2026-05-05"
+    author: "Claude Code (fulfilment-specialist review)"
+    phase: "Observe"
+    change: "MASTER PLAYBOOK FRESHNESS REVIEW + COS CLEANUP. Reviewed 4 built sections (01-04, last touched 2026-03-12) against newer source docs. Findings: sections 01, 02, 04 reference POLR as the product/platform — stale post 2026-04-16 GHL lock. Section 03 likely safe. Cos.yaml body still carried POLR-era language despite the 2026-04-16 change_log entry that recorded the GHL decision. CLEANUP APPLIED: (1) engagement.offer_package rewritten — both playbooks delivered via GHL, six-milestone 10-week plan, cross-sell timing 9-12 months + at-settlement. (2) engagement.notes + delivery_approach + playbook_focus updated to reflect 27 Apr scope lock. (3) core_services consolidated to 4 items: Cross-Sell Master Playbook, Pre-Sales Master Playbook, GHL Implementation, Data Migration. POLR V1/V2 service entries removed. (4) tech_stack.crm.platform changed to GoHighLevel; Infynity (Infynity) entry updated to reflect Infynity CSV path locked, LMG off the table. (5) polr_mvp block headed PAUSED 2026-04-16 with delivery_mechanism redirected to GHL; historical context retained for future reference. NEXT: rewrite playbook sections 01, 02, 04 against the Apr 21 + Apr 27 source docs (FFG Post-Settlement Nurture Strategy v2.0, ICA matrix, updated ICA definitions)."
+    sections_affected: ["engagement", "core_services", "tech_stack", "polr_mvp"]
+    source_documents:
+      - "docs/updated-docs/Draft of FFG Post-Settlement Nurture Strategy.pdf (v2.0, April 2026)"
+      - "docs/updated-docs/fox-finance-group-ica-matrix.docx (2026-04-27)"
+      - "docs/updated-docs/fox-finance-group-updated-ica-definitions.docx (2026-04-21)"
+      - "docs/meetings/27-04-26-recap.md"
+
+  - date: "2026-05-02"
+    author: "Fia (portfolio reorg)"
+    phase: "Observe → Roadmap (Project Plan v1 sign-off pending)"
+    change: "Reclaim portfolio reorg — Fox James-side scope simplified to 2 tasks: (1) Build Pre-Sale Strategy Playbook (P1, 8 chunks, due Mon 12 May — Milestone 2 first half); (2) Build Cross-Sell Strategy Playbook (P1, 8 chunks, due Mon 19 May — Milestone 2 second half). Total James time on Fox = ~16 chunks (~4 hrs) over 3 weeks. Post-kickoff recap email was originally a James task (12856431) but handed to George 2 May. James now writes only the master playbooks; everything else is George (PMO) + Xavier (PM/build). RATIONALE: previous proposed task list (11 items) violated new portfolio Reclaim rules — calendar events shouldn't be mirrored as tasks (Maddy catch-up, working session), sub-5-min items get actioned not tasked (data access push, lock working session date), sign-offs aren't Reclaim work (Xavier scope doc, 12 Core Numbers baseline), team-owned work isn't James personal exec (sprint planning, kickoff transcript processing, cross-sell pipeline ownership). Project Plan v1 sign-off still pending Xavier + George + Rowdie + Nathan handshake. ToV gate already PASSED. Data access gate still OPEN — Xavier-led, James not blocking."
+    sections_affected: ["last_updated", "data_access.crm_access", "next_milestone (no change, already current)"]
+    source_documents:
+      - "Reclaim task IDs 12856431 (Recap), 12856432 (Pre-Sale Playbook), 12856434 (Cross-Sell Playbook)"
+      - "memory/reclaim-task-rules.md (Five Rules locked 2026-04-28)"
+
+  - date: "2026-05-15"
+    author: "Claude Code (orchestrator session)"
+    phase: "Observe"
+    change: "Voice + compliance pass on all 8 nurture playbook files. 60+ edits across FFG/FHL pre-sales (07c) + cross-sell (07e) developer guides, handbooks (08e), and scripts (10c). Fixes: 3 compliance 'best' claims (FFG 07e), 9 Spam Act 2003 Reply STOP additions (FHL 07c + FHL 07e), 5 T1 credit-score disclaimers (FFG 07c), 1 unsubstantiated stat softened ('half the time' → 'a fair few'), opener variations across PCLRB/PVB/EPFB (broke P5 milestone chains), broker name generalisations (later reverted after cos.yaml verification confirmed Sam Drew, Bill Robb, Paige Beveridge, Angel are all verified team members). Decision logged: ACR/ACL disclaimer 'does not constitute financial advice' is the documented exception to the no-advice voice rule — standard regulatory boilerplate, keep as-is. CLAUDE.md verified stakeholder list updated to include full Fox broker team."
+    sections_affected: ["status (no change)", "change_log", "voice_guide", "playbooks (master-playbook content)"]
+    source_documents:
+      - "playbooks/master-playbook/tone-of-voice.md"
+      - "docs/edms/FFG Ambition Templates.pdf"
+      - "docs/edms/FHL Infynity Templates.pdf"
+      - "docs/updated-docs/Draft of FFG Post-Settlement Nurture Strategy.pdf"
+    tags:
+      - "decision_logged: ACR carve-out"
+      - "voice_pass"
+      - "compliance_audit"
+
+  - date: "2026-05-19"
+    author: "Claude Code (fulfilment-specialist session)"
+    phase: "Observe"
+    change: "Shared-ICA decision locked. FFG and FHL share the same five ICAs (YPMB, EPFB, PCLRB, BAB, PVB), defined once in Section 2 of the master playbook (02-ideal-client-profiles-avatars.md). Only the purchase differs. FHL keeps Purchase Type (FHB, New Purchase, Refinance, Investor, Commercial) as its operating overlay and points back to Section 2 for the human profile. Section 2 TODO ('separate FHL ICA framework required, does not yet exist') removed and replaced with the locked decision. Cross-sell and pre-sales playbooks leaned out: ICA redefinition prose replaced with code plus a Section 2 pointer. Copy library, per-ICA scripts, and operational tagging rules preserved untouched. Convention note added to FFG and FHL 07c and 08c. Worst offender fixed: FFG 08c 'ICA Best-Guess at Qualification' re-description table replaced with a lean operational tag table plus pointer."
+    sections_affected: ["change_log", "playbooks (master-playbook section 2)", "playbooks (ffg 07c, 08c)", "playbooks (fhl 07c, 08c, 07e, 08e)"]
+    source_documents:
+      - "playbooks/master-playbook/02-ideal-client-profiles-avatars.md"
+      - "playbooks/master-playbook/ffg/07c-pre-sales-developer-guide.md"
+      - "playbooks/master-playbook/ffg/08c-pre-sales-handbook.md"
+      - "playbooks/master-playbook/fhl/07c-pre-sales-developer-guide.md"
+      - "playbooks/master-playbook/fhl/08c-pre-sales-handbook.md"
+      - "playbooks/master-playbook/fhl/07e-cross-sell-developer-guide.md"
+      - "playbooks/master-playbook/fhl/08e-cross-sell-handbook.md"
+    tags:
+      - "decision_logged: shared-ICA (FFG=FHL, purchase differs)"
+      - "playbook_leanout"

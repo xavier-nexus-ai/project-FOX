@@ -1,0 +1,31 @@
+source:
+  collected_via: Njin Onboarding Agent
+  collected_date: 2026-02-04
+
+company:
+  name: Fox Finance Group
+  contact_name: Rowdie Lang
+  industry: Financial services
+  customer_facing_staff: 6
+  revenue_model: One-time per loan
+
+baseline_metrics:
+  revenue_last_12_months: 1950000
+  revenue_prior_12_months: 1700000
+  growth_trend: Growing (~15%)
+
+  leads_per_month: 350-400
+  cost_to_acquire_customer: 100-150
+
+  lead_to_application_rate: 70-75%
+  application_to_proceed_rate: 70-75%
+  close_rate: 20-25%
+  average_deal_size: 2200
+
+  repeat_usage: 2-6 loans
+  churn_rate: 20-30%
+
+goals:
+  twelve_month_goal: 2350000
+  next_milestone: 200k monthly income by June
+  ninety_day_priority: Lifecycle-based nurture program

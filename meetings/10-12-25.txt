@@ -1,0 +1,316 @@
+Impromptu Microsoft Teams Meeting - December 10
+VIEW RECORDING - 44 mins (No highlights): https://fathom.video/share/RQKML1aMgfVWqFXKDz5Z-LD42ZRT_e2B
+
+---
+
+0:03 - James Killick (Devwiz)
+  Hello, hello. Hi, James. Can you hear us?
+
+0:08 - Rowdie Lang
+  Gotcha. So sorry about that.
+
+0:10 - James Killick (Devwiz)
+  No, you're okay, mate. Busy morning.
+
+0:12 - Rowdie Lang
+  Oh, mate.
+
+0:13 - James Killick (Devwiz)
+  Yeah, I've had back-to-backs-to-backs, people coming in the office. And just then I was on the phone to our sales specialist saying that something wasn't working for a key client in one of the CRMs we've set up.  And so I was scurrying between him and the developers. And then I was like, , five past 12. Sorry, you just sorted it out.  Yeah, it's all sorted. Yeah. That's always can be sorted. There's no real, you know, we're not doctors, right? No one's dying on the table.  But often people feel that way. That's fair enough. All right. Okay. So that information was great, by the way.  And my sales guys started going through it. I've gone through it. It's painted quite a clear picture of what we need to do.  And so I kind of just want to talk you through how the process will be if we're still going to go for this dual playbook around the cross-selling and monetization piece for both of the businesses.  What does that look like in terms of timelines? Obviously, we've talked about the price and the Black Friday discount on that.  then kind of getting an understanding from you as to kind of where you are with it. And if you're keen to move forward, what your timelines are.  Cool. Sounds good. Awesome. Okay. So let me share. I've got a big- presentation, but I'll just go to the key parts because we've already had lots of discussions.  All right. So can you see my screen? Yep. Fantastic. All right. So we are looking at this monetization package.  So this is all about building in the kind of critical, like, what's our core product? You'll give us all of that information.  How can we add continuity? How can we add cross-selling? What are the triggers that are at play that we need to have in mind to get your clients to actually take action?  So the way that a playbook works for us is... It's this one. Most customers that we deal with in this situation, they're leaving money on the table because they've got this database of ready to buy individuals or people that have already purchased, and they're just not leveraging it to the max.  That's actually where one of our core products, the reactivation campaign, has really started to work well. It's reactivating hold leads that are in your database, just with a simple text, and then we add some conversational AI.  Right. Yeah, so we can definitely get that set up. It's just working really, really well. We're going to make it a core product in 2026.  But in terms of the cross-selling monetization, we're going to look at the money models that you're employing. What's that core offer?  What's your upsell, downsell, cross-sell? How are you also using your... Are you giving them the right type of leads?  What's that kind of qualification process that goes into that? We'll look at all of the key part in this, and it's the thing that you highlighted that you really wanted to do, is understanding your clients.  How can we segment them so that both we're giving the information to you, your sales staff, your SDRs, but also it's feeding the right information into the CRM system, the automations and the AI that we are using.  We'll have a look to see if there's offers that we can employ. So we don't do too much on the marketing side, and I know that you guys are hot on that one.  But we will work with you to see, right, is there some sort of offer that we can give? How can we design some sort of like funnel page so that we can get the people on your network, your warm network into that?  Get them validated and into a call. What are the different funnels that we can employ in that? We will do all of the scripting.  Again, like this is done in conjunction with you. So it's like we'll propose some stuff. We'll talk to you about strategy and we'll get your tone of voice.  We'll look at the content that's already been working. Now, what are the scripts that your sales guys are using?  What is the emails and the SMSs that are resonating? It's very much a collaborative process, but we've got years of experience, especially with our sales specialist on what actually works.  So we'll be putting forward these things. And usually after a bit of collaboration, we'll come up with the final playbook.  That will be both the content that's used in the automations and the stuff like a handbook that's used by your team.  Yep, we'll pop together the CRM automation. So in this case, we're obviously going to get And we need to talk a little bit deeper if that's going to be two separate CRM systems or one CRM system, need to understand the operational side of it a little bit more.  But we can either way, we'll do a two for one deal on your subscription there. So you're only paying for one regardless.  Yeah, cool. And then it's about tracking, you know, what's the profit out of this? What's the revenue per customer?  You know, like, how can we track the cross selling journey, essentially? Does that make sense? Yep. Great. Okay. So typically, the first eight weeks look like this.  So the first week will be immersion. We're going to go deep with you. We're going to go deep on your data.  Start mapping this. All out. We'll start then in the second week to actually put a methodology in place, some initial scripts, get a feeling as to whether that's resonating with you.  By week three, it's everything over to you. And we're looking for final approval on all of that. So this is just a check in week two to make sure we're on the right track.  This is the final delivery. Then we turn that strategy and that content into your CRM implementation. That also will include bringing anything over from your from SendGrid.  Yes. And also from we want to extract as much data as we can from your industry CRM platforms. Yeah.  We had to do that from each individual one and feed it into CRM. Yeah, for sure. Exactly. Yeah. And then once that's implemented, it's really training.  And then we will do. Like a review process. Is it working? Is there anything that we need to reiterate?  And we can kind of look after that, if you want, at either another playbook or just a bit of a continuity service where we do some ongoing coaching and training.  Because sometimes these things take a bit of time to be properly adopted by the business to start seeing the results that you need.  And it's really good for us to be on hand to get your verbal feedback just as much as analyzing the data.  Because sometimes the data doesn't tell the whole picture. Yep. Makes sense. And yeah, that's really it for this playbook.  Any questions on it, on how it will work? No, it all makes sense.
+
+8:46 - Rowdie Lang
+  You've answered a couple of our questions already around timelines. Going through this, if everything works out and looks the way it's supposed to, we were thinking of kicking off in Jan.  Like when you say, where are we at?
+
+8:56 - James Killick (Devwiz)
+  We're ready to go. Yep. And we'd probably want to try
+
+9:00 - Rowdie Lang
+  Trying to use this period now as we wrap up the end of December, while it's a bit more quiet, to do any organisation and bits and pieces we can do to make that whole process come together smoother.  Yeah. Yeah, because we're keen to get it going, obviously. Yeah, cool.
+
+9:14 - James Killick (Devwiz)
+  Would you consider starting before Jan? It doesn't have to be something that we, we don't have to be like that heavy, like week by week.  But if we kick off, I don't know, next week, say, then we can have a lighter version of the run up to Christmas where we do a little bit more of an information exchange.  Maybe there's a point where you guys are not so busy and it's a good time to actually hop on and have a few hour workshop because you're not with clients.  And then after Christmas, then we can actually start presenting things. It's probably a good way to look at it.
+
+9:47 - Rowdie Lang
+  I'd have to double check with Nath, obviously, because he's not here right now. But that kind of sounds like what we were thinking of anyway, which is using how to do the information gathering and the kind of structuring for what we're going to need.  And then we can focus on delivering. and all that kind of stuff coming into the new year.
+
+10:02 - James Killick (Devwiz)
+  Yep. Okay, fantastic. Is there anything that isn't meeting your expectations at this moment? Is there anything in that that you were expecting more from, or is there anything that isn't what you expected?  No, it's nice and broad.
+
+10:17 - Rowdie Lang
+  We're pretty detailed people, so we've got a lot more detail. We're looking to be able to give over and pass on to you and your team to make this the best that it possibly can be.  So my only feedback would probably be that it's just a really, you know, it's a high-level flyover of what that project's going to look like, which is good because it maps things out for us.  Yep. I do have some more specific questions. It'd be good if I could nail down with you in this session because then I can get my feedback from Nathan.  We can move ahead pretty quickly if that's the case. Yeah, please go ahead. Well, I'm happy to save them until the end if you've got more things that you want to go through.  No, no, let's jump in.
+
+10:54 - James Killick (Devwiz)
+  All right, cool.
+
+10:54 - Rowdie Lang
+  I'm going to use – I've put this as a little thing in my planner so I don't miss any of these questions.
+
+11:00 - James Killick (Devwiz)
+  So just bear with me while I pull it up. All right, cool.
+
+11:04 - Rowdie Lang
+  So coming from Nath, one of the questions he had was just on the cost, because I think there's two main playbooks that we want to be able to move ahead with, which was what we're talking about now with the CRM build and the cross-sell.
+
+11:17 - James Killick (Devwiz)
+  And I think using it as almost like a system.
+
+11:20 - Rowdie Lang
+  I'm just going to take a screen, a photo here, so I can put you back to full screen. I think using the system so that we can try and have a full-time person operate out of it to create more opportunity as well was the other playbook, if that sounds right.  You want to do the pre-sales SDR playbook as well?
+
+11:39 - James Killick (Devwiz)
+  I think that was the other one we were looking at, in memory.
+
+11:43 - Rowdie Lang
+  So Nath's question in there was just around with pricing and those sorts of things, if that was considering the other playbook or if that was just for this first one, that was his first question?
+
+11:52 - James Killick (Devwiz)
+  No, that was just considering the 9,600, it's usually 12K, was... Just considering the cross-selling playbook, the money models playbook.  But if you want to do both, and for both businesses. Yeah, it's all for both businesses. Talk me through, again, sorry, just to refresh my memory.  The two businesses, how they're structured, are the sales teams completely separated?
+
+12:29 - Rowdie Lang
+  Yeah, so to kind of give you an idea, we're all in the same building. But what you've got is over in one area, the asset team sits with all the lending specialists and their leader.  And then over in the other area, all of the mortgage brokers sit with their leader. Asset team operates out of a system called Ambition.  Mortgage team operates out of something called Infinity. They don't talk or communicate those two systems. They're totally separate. SendGrid sits in the middle.  Yeah.
+
+12:59 - James Killick (Devwiz)
+  The only way that the team...
+
+13:00 - Rowdie Lang
+  Teams collaborate on if they're cross-selling or doing anything like that is if they physically get up and go and talk to the other person or send an email, and there's no way to see where that customer is up to in any kind of journey.  So if they've started an asset, gone to home loans, then come back to asset, we don't have any notes or understanding of what's going on in home loans, and there's no way to figure that out unless they go over and they talk to that team.  So they are totally separate.
+
+13:23 - James Killick (Devwiz)
+  And you would, is there anyone, so is there a person that needs to look over both sets of businesses and have both of the data to hand at any given time?
+
+13:45 - Rowdie Lang
+  Realistically, it's the team members, because what we're trying to create is somewhere where if that customer has settled over here originally with Brad in FFG, it sits in as his customer in the CRM and you can see.  But if they then come through within the CRM and through the automation and they reapply and they go to home loans, it's all still in the one spot, if that makes sense.  And who should be the ultimate owner of that? There's not really one person that stays as an ultimate owner because what we do over in home loans, we can't do an asset.  So there's like one person that will be that customer's specialist in home loans and one person that would be that customer's specialist in asset.
+
+14:27 - James Killick (Devwiz)
+  They really are completely separate, right? Yeah.
+
+14:32 - Rowdie Lang
+  So we should really treat them in terms of CRMs.
+
+14:36 - James Killick (Devwiz)
+  They should have two separate CRMs.
+
+14:39 - Rowdie Lang
+  Will that still allow us to have them talk to each other, though, and have the asset team be able to see what's going on?  Because that's the main thing we're trying to achieve.
+
+14:49 - James Killick (Devwiz)
+  Yeah.
+
+14:50 - Rowdie Lang
+  They're two separate businesses, but realistically, what we're saying is every customer that settles in home loans is a potential asset customer.  And every customer that settles in asset is a potential. Of course, yeah, mean, that's the whole point.
+
+15:03 - James Killick (Devwiz)
+  I mean, there's two ways to do this. Either we have one centralized CRM system. I still haven't worked out which one's the best.  We have one centralized CRM system. Now the problem, so that means all of the contacts will be in one place.  You can't really give certain people access to certain contacts and others others. So the people that, yep, so they'll say they'll be able to see every every person in there, regardless of whether they're relevant to their business or not.  Now, it's very easy for us to tag or highlight which business is the the primary business for that contact.  We can also have a tagging system if they've got that kind of like jewel there. They're working with both businesses at the same time.  We can definitely in the same CRM system have separate pipelines. That's very easy. And we can track the flow of money.  we can have, like with your CEO mentor, that essentially is one CRM system with two, at the moment, two products in it.  BAP, and LBT. And now the clientele, the ICP for both of those are different. BAPs are obviously business owners.  LBTs are managers and leaders within business. And so the whole process, there are mirrors. There are certain things that can be replicated.  When you're doing SDR, which is qualification, we can have similar lead magnets. We can have similar pieces of content.  But in the end, they'll never be identical because you're targeting different people. Well, they are. So from your perspective, although there's an overlap in terms of how you do your marketing...  ... ... You're targeting different personas for each business, right? Yeah. And you qualify them differently. Yeah. So, yeah, go on.  Oh, that's all good. Oh, so it could go either way. It's kind of like, for instance, in the other scenario where we have two different CRM systems, you would obviously have your two different databases.  And what you would do is when somebody is right for a referral is we would build an automation so that that triggered from one CRM into the other.  So it would essentially leave, the information would leave, it would go to like a Zapier and it would ping back and pop in a list.  So in this, the potential issue with this is you're going to have two segregated lists, some that have the same contacts in.  one, tag, of we're we're Thank you. But the good part about this is the CRM for the asset, that contact will just have the notes related to assets.  Home loans will just have the notes related to home loans. Is there a chance that one of these businesses will be sold and the others won't?  No, they're going to run as a group forever.
+
+18:26 - Rowdie Lang
+  If anything, what needs to happen is they need to run more together as one. That's the whole thing is they've been running very separately as two different businesses with minimal collaboration.  And it's been kind of left up to chance, more or less, as you would have picked up from the notes in the sheet.  There's things that they do, but it's not. It's off their whim when they remember to do it and if they do it.  Whereas what we're trying to do is create this, it's a group, but this one product that a customer basically gets access to when they settle a loan, where it almost is together as one, if that makes sense.  So if anything, it's going to get closer together because one of our unique, it's not a unique selling point, but one of the things that puts us in an area that's different to a lot of our competitors is that we have those two businesses because ordinarily to work well in a mortgage space, you need a very particular kind of person, kind of team, different education and qualifications to do that really well versus an asset broker is totally different.  And lots of businesses try and do both with the one kind of person on one setup and they kind of do like an average job all around.  But to have two specialised teams that do both those things very well and then to be able to combine them so a customer gets access to both, that's kind of what we're trying to create more as an USA.
+
+19:43 - James Killick (Devwiz)
+  And it's going to be really valuable for somebody in the other business to be on a call to see the notes of the other business and be like, oh, I can see that you talked about this.  It's Bob. That's fantastic. You know, I could say, I just had a baby. And it's like, ah, congratulations. I see Bob put a note here.  Nailed it. Nailed it.
+
+20:04 - Rowdie Lang
+  Like, what I was sort of picturing in my head is like, you know, we settled a customer, an asset 12 months ago.  They've gone to home loans, gone into a plan. Home loans are talking to them and helping them. And in the CRM, you can see that.  You can see, like, what the most recent conversations were or what's happening with that person. And it's all in one spot.  And you could see, you know, if we're doing lead scoring and that sort of stuff, you could see where they sit in and amongst that.  So if the team are about to call out and do a 12-month follow-up, they can go, yeah, this person spoke to home loans recently.  They've been engaged in these EDMs. I reckon I've got a really good shot when I call out to this customer and I can go down this avenue, for example.
+
+20:44 - James Killick (Devwiz)
+  Yeah. Cool. All right. That makes sense. We're open.
+
+20:48 - Rowdie Lang
+  We're not the experts, right? So we're just trying to take the thing that's inside both of our heads and in Nate's head as well and figure out how we can put this into a feasible system that's going to get, um, make...  The impact we want it to have and return, have the ROI. So if you've got an idea of how you think we can structure that better, we're always going to hear you out on that.
+
+21:07 - James Killick (Devwiz)
+  Are there any legal or compliance implications of two separate businesses seeing the same customer information? I don't believe so.
+
+21:17 - Rowdie Lang
+  I've spoken to Nathan about this before, and there's been nothing that's flagged. Because what happens is when we do anything in finance, we have to have a customer sign of privacy and consent form, which is a customer saying they consent to their information being shared with third parties, bits and pieces involved in the loan and other things like that.  And I think the way we've managed this in the past is that although it might be Fox Finance Group that they settled the loan with and they're going to end up in Fox Home Loans, is we don't reach out to the customer from Fox Home Loans.  We still reach out from Fox Finance Group and take them and introduce them to home loans, if that makes sense.  Yeah, that makes a lot of sense.
+
+21:56 - James Killick (Devwiz)
+  And that would be one part of what we would highly recommend. The handoff process is just so critical for cross-selling.  And you mentioned in the notes that there's a signed privacy and consent that covers both businesses anyway, right? Yeah, absolutely.  So as long as there's nothing beyond that, that could crop us up, or crop you up, as it were.
+
+22:20 - Rowdie Lang
+  I think unsolicited, if we didn't introduce, even if we slightly mentioned home loans, then we just started banging out emails from Fox Home Loans to them, that would get us in some  pretty quickly, I would say.  But as you've said, and this is part of what I'm trying to work on with the team right now, is that if we package this up from the get-go, and say I'm talking to a customer on the phone about a car loan, and throughout the app I realize they're renting, they don't have a mortgage, and they don't have an investment property, I'm letting them know that part of what we do here is we've got our home loans team that will reach out and put a plan in place so they can start working towards their first home.  And then at the settlement call, when we're saying congrats, your loan is settled. I'm going to say to them along the lines of, you know, I mentioned to you earlier on, we've got this team.
+
+23:04 - James Killick (Devwiz)
+  I'm serious about that.
+
+23:06 - Rowdie Lang
+  I'm going to lock in a time this next week suits you morning or afternoon and get it locked in so that they can try and get their foot in there with that cross-referral in a natural kind of way, but in an assumptive way, if that makes sense.  So that there isn't that weird pushback of why am talking to Fox Home Loans now? We want the customer to be taken on that journey.  And that's the best way I can get the team to kind of facilitate it, because then if a customer says, no, I don't want to, the automation in this system will still lead them down that journey.  Yeah, yeah.
+
+23:38 - James Killick (Devwiz)
+  Hopefully it's not over. No, no. These kind of things are really fun, like understanding the journeys and the touch points.  There's, there's, there's just so many different ways you can do it and, and so many little, little things that you can do just to adjust the automations here.  But, um, yeah, that's what I'm excited about.
+
+24:00 - Rowdie Lang
+  And you've got the experience first, you had an awesome outcome with it too, so I'm keen to see. Yeah, there's so much we can do.
+
+24:07 - James Killick (Devwiz)
+  So, okay, I think it's going to be one CRM. I'm like 99% sure now after this conversation. I will just follow the same or similar structure to LBT, to your CEO, Mentor.  Yeah, with the two products effectively, yeah. Yeah, yeah, we'll treat them as two products.
+
+24:28 - Rowdie Lang
+  Well, because in that system, if I go through and I've done LBT, and then for whatever reason, I'd go through and I'd click on the back stuff, that system would track that I've been through LBT and gone through this journey, and now I'm engaging with that.  Is that how it would work? Say that again. If I exist in the CRM for your CEO, Mentor, if I've gone through LBT, clicked on that, done the course, and been through that journey, I'll be lead, scored.
+
+24:59 - James Killick (Devwiz)
+  So, that's big what
+
+25:00 - Rowdie Lang
+  Accordingly to that, what I've engaged with, if I then open up and start looking at BAP stuff, it's still going to know what I've done in LBT and been engaged with here?  Or is it totally separate?
+
+25:13 - James Killick (Devwiz)
+  Yeah, they see the same contact. The difference is the opportunity for referral between theirs is more tenuous. Because realistically, somebody that goes through LBT, just because they go through it, does not make them relevant to BAP.  What could happen is, you know, like a key manager could go through LBT and then, you know, kind of refer the boss into BAP.  What's more likely to happen is the boss is likely to go through BAP and then see the value and pop their key leadership into LBT.  So that's kind of the way that it goes more often. And they're very different businesses. BAP is not. It's scalable because there's a lot of face time with Marty and Emma.  There's lots of one-on-one strategy stuff. Obviously, there's the group sessions as well, whereas LBT is done much more at scale.  So I would say it's weird. I think the value of BAP is much higher, but revenue-wise, it's way bigger.  Anyway, sharing Emma's secrets. She'll kill you. Okay, so what we need to do is give a new proposal that includes two times pre-sales playbook, two times money models and cross-selling playbook for both of those businesses, essentially.  It's not going to be – so we obviously pitched a 9,600 with a discount. It's not going to be double that.  I just need to know, work out what it's going to be. It's definitely going to be more than – so if we base it off the also do  The core price of $12,000, and we'll apply the discount afterwards. It's definitely going to be more than $12,000 as a base, but it's definitely going to be less than $20,000.  But that's for two, right?
+
+27:13 - Rowdie Lang
+  That's for the two playbooks?
+
+27:15 - James Killick (Devwiz)
+  That's for cross-selling and pre-sale playbook for both businesses. The thing is, the pre-sale playbook will actually be... The cross-selling playbook, when you've got two separate businesses, it's slightly more.  With pre-sale playbook, when you've got two separate businesses, it's a lot. Even two products, it can be a lot more because the different ICP, the different way that you do business, the different marketing that comes in, there's actually a lot more to the pre-sale playbook.  But there is this value-based thing. The work that we've done, one, we don't restart it with the other. Yeah, get you.  Economy of scale.
+
+28:03 - Rowdie Lang
+  The best thing to do would be we'll proceed, I'd say, based on what we've spoken about, and I'll just confirm it with Nate, but at the very least with the playbook for the cross-sell.  And then I think he was just curious to understand pricing if it included one or if it included both, because what he'd probably want to do is get one nailed down right with the idea that there's another one that we're all on board for doing once this is delivered, and then we'd look at that.  So if you want to include the price for both, that's cool, but I think it's probably still at this stage he would commit to doing the first playbook and get that done, and then we'd come on to the next.  We have a tendency here to bite things off in pretty large chunks and then try and chew like crazy, and then we don't fully realise the value in something or deliver it.  So we'd like to make sure we deliver this one well, because it's going to be critical.
+
+28:54 - James Killick (Devwiz)
+  There will be an advantage to doing them together. We won't do it all simultaneously. It will be like the first stage will be simultaneous.  So we'll collect all of the information. And because we'll delve into how you qualify and how you pre-sell, how you get those leads over, we will learn more about potential referral, cross-sell.  Yeah, I get you. It's just we won't do all of the information and all of the content, right? So what we would do is the discovery would happen at the start.  would extend that discovery period. And then we would work on one playbook and then we would work on another.
+
+29:38 - Rowdie Lang
+  I think that's probably a good way to do it because there's a lot in our automation. We think about the different segments of customers and the different journeys they can go on.  And I get that if you understand the actual way that the team sells in there and that looks, that that would help.  So maybe can you chuck that together for us and then I can share it with Nate and we can figure out which way we're going to go.  I get the value in that.
+
+30:01 - James Killick (Devwiz)
+  There's a third option, which I don't have to chuck in at all. It might muddy the waters a bit, but it's essentially the package that Emma is on.  So she's on a monthly retainer. And so we've done the playbooks and then we've done some AI and then we've done like different lead magnets.  With the retainer, obviously, it's not outcome based as much as it's hours tracked. And we track all of our time.  We provide reports. That is the other way that we can look at it. So that's usually a $10,000 per month retainer, but we could apply the same discount.  We usually do it, have a minimum contract of three months. Yeah. Did you want me to include that or do you think that will muddy the waters a bit?
+
+30:50 - Rowdie Lang
+  For the moment, I think, because I've got Nathan understanding how we've already sort of structured it.
+
+30:55 - James Killick (Devwiz)
+  If we just keep it between the first two options, I can get that through with him. But appreciate it.  The third option.
+
+31:01 - Rowdie Lang
+  That interests me, but I know that he'll look at it and go, Rowd, it's just.
+
+31:05 - James Killick (Devwiz)
+  Yeah, I mean, there's pros and cons to that, right? Like anything. Like with Emma, it took us longer to implement the playbooks because we were chipping and changing.  We were jumping in on this thing and that thing. The flip side is that she got us consulting on a lot of different things.  There's little bits that got added that were nothing to do with playbooks. We did ads audits and all of that kind of stuff.  So it's six of one, half a dozen of the other. If Nate's the kind of guy that's just like  focus and gets  delivered, I think you're exactly right.  We should just do the playbooks. We'll combine the two and that should be the route that we go. And then we can look at that down the track.  Okay, that's a good idea.
+
+31:51 - Rowdie Lang
+  Let's do that. And we are the kind of people where if we're going through it and we see that there's opportunity or you see something that's outside the scope of the playbook and go, you guys should consider that.  Yeah. Thank We would still do that. If it came to implementing AI in something and you go, like, that's a no-brainer.  We don't normally do it, but I can see it would be a really good opportunity for you guys.
+
+32:11 - James Killick (Devwiz)
+  We're open to making it the best we can. And we're also, like, once we've got a client, we'll go above and beyond.  So if you want me to come in and do a session with you guys, just a general, like, learn chat GBT session, just for fun, as like a lunch and learn.  And that's something that I'd throw in. And just do come to the office as a bit of a value add.  Things like that, always. If you want to ring me up and be like, I've seen this thing. Is it any good?  Should we consider it? Or what do you think of this platform? Like, you've got a direct line to me, and I'm always on hand to help with those things.  That's awesome, man. Thanks, James.
+
+32:44 - Rowdie Lang
+  I know that you cover a lot of ground, you know, when you talk about doing the paid side of things and everything else that sits in there.  Like, we would look to continue working with you on that stuff, because that all sits in, like, a stack.  Like, we've triaged all these things. We need to make sure we... We start to spend more time on, and they're all in that.  So we're kind of just tackling this part up front. But that other stuff, that is bits and pieces we'd lean in on as well.
+
+33:08 - James Killick (Devwiz)
+  Yeah. I know you would. Yeah. Yeah, cool. Did you have any other questions?
+
+33:17 - Rowdie Lang
+  I'll try and rapid fire him because you've given us heaps of time already. So hold on.
+
+33:21 - James Killick (Devwiz)
+  Oh, that's all right. Take as much time as you need, especially since I was late. So you should really take everything you can from me now.  We were stressing.
+
+33:30 - Rowdie Lang
+  We thought we were numpties and didn't know how to open the link. And I was what's going on here?  I was pressing.
+
+33:34 - James Killick (Devwiz)
+  I was pressing. Oh, man. was like, this is supposed to be a meets link. Why is it going to a Google document?  was like, oh. And because I was running late as well, I got flustered. And I was like, what's going on?  Yeah. We did the same thing. It's all good.
+
+33:48 - Rowdie Lang
+  I had a question in here, which was around whether people would be able to look into the CRM and see if I'm Sam and I've got all my several customers in that CRM.  If he'd be able to go in there and search. Like, for the customer to sell it under his name and then see all of them sitting in there.  Yes, 100%.
+
+34:05 - James Killick (Devwiz)
+  So there's two ways we could, sorry, I'll give you a little bit of detail. There's two ways we can do that.  So every customer has an opportunity aside to it. The opportunity is the deal. A mortgage for this house, blah, blah, blah.  Every opportunity is assigned to a member. And you can also assign individual contacts to a member. That's what's the native inbuilt stuff into the CRM.  Now, we can also create dropdowns for anything else. So we could have who's your mortgage broker, who's your asset account manager.  We can have these different sections. They're a little bit harder to, not impossible to switch for, but they're a little bit harder because they're custom values.  But the whole, like, filter by member, like, is a native feature of all CRMs, yeah. Sweet.
+
+34:50 - Rowdie Lang
+  And then just a quick one within that. If those customers get any content, would the lending specialist or someone be able to see, like, the leads?  There's... There's... Thank
+
+35:11 - James Killick (Devwiz)
+  And we would train you and your staff on how to use it. Sweet. Awesome.
+
+35:30 - Rowdie Lang
+  It helps us a lot.
+
+35:32 - James Killick (Devwiz)
+  And I've got a community as well on school, just a community platform. But inside there, there is like a self-serve how to use GoHighLevel.  So anyone, and it's free community anyway, anyone that wants to go like get self-serve training, like they can access that.  Okay, perfect. Cool. Good to know there's support.
+
+35:54 - Rowdie Lang
+  A question I had was around, you know, the notes in the application. of information. We've We've We've got a lot lot  In both of the teams' LMSs, there's an option in there for them to put notes in the deal, which they all have to do so that we can keep track of where it's at.  Yep. Just wondering, like, if there would be something that we'd be able to do at Settlement to kind of, like, push the notes that are in the deal into the CRM so they sat under that customer or how that could potentially look.
+
+36:23 - James Killick (Devwiz)
+  If there's an API from your system, then yes, 100%. It's just feed it into a webhook. We can manage it with Make.com or Zapier.  And, like, GoHighLevel is, like, the most integrated CRM. You can do pretty much anything from Zapier and Make.com. So it will depend on your system, to be honest.  Yeah, yeah, that's fair.
+
+36:46 - Rowdie Lang
+  And, look, there's probably some limitations in both of them when it comes to exporting that specific field. So we'd probably need to put some thought into maybe how we could get it out and then get it into the other system.  But that's cool. I mean, one thing that one of our...
+
+37:00 - James Killick (Devwiz)
+  Clients that does is similar, like a system that doesn't have great APIs. So we're on a retainer with them to manage their CRM system.  They're a crazy coaching service that changes their offers a million times. They get loads of leads. So we're actually literally just on hand doing their CRM every  day.  And every two weeks, we just manually download CSV and upload it. It doesn't matter that it tracks duplicates, right?  So it's not going to add extra people to your CRM. It'll add the new people. And what it can do as well is you can just merge it.  So it won't, again, add duplicates. But if there's new information against that, it can update the record. That's a manual process, but it's something that we can do or we can train your guys to do.  Thanks. That's great.
+
+37:57 - Rowdie Lang
+  Reallocating of data segments in there. So if we had a... A lending specialist that goes into a different role and no longer has a pipeline of customers, they become a leader or something like that?  Yeah. Is it easy to reallocate that segment to another lending specialist that exists? Yep. thought it would be pretty easy.
+
+38:13 - James Killick (Devwiz)
+  Cool.
+
+38:14 - Rowdie Lang
+  Journey tracking we've already spoken about, so that's cool. Probably this is one that's more, I would say, for the second part of the playbook that's around the pre-sale pipeline or what did you call it?  Sorry, James. Yeah, the pre-sales playbooks for your SDRs, yeah. I'm wondering if this ends up being where when we're talking about customer acquisition and retention, so like the customers that have settled calling out to them and the new ones that don't make it through the form and those sorts of things, would the team be calling out of the CRM?  Would it kind of be like they would live out of that CRM instead of this one over here? Or this one over here, I mean the LMS?
+
+38:56 - James Killick (Devwiz)
+  They most definitely can, yeah. That's pretty That's pretty pretty cool. It's calling recorded for sure. That's really cool.
+
+39:05 - Rowdie Lang
+  And sorry to cut you off, but right now, like if the team go through in their LMS and they settle, I don't know, 300 customers in a year, the only way for them to go back and check that they've contacted those customers is they'll set a task in the system that pops up with like a notification.  But then there's no way for them to easily see if the customer replies or anything like that. So if they were living out of a different system to do that whole part of like the process, that's awesome.
+
+39:33 - James Killick (Devwiz)
+  Yeah, no problem. And we can record the calls and you can go check the calls and yeah. Awesome.
+
+39:41 - Rowdie Lang
+  And I think we've covered this estimated timeline. That's all sorted. Suggested kickoff. That's all sorted. The one other question Nate had, classic business owner question was with the invoice, if it could be split up over like the three months or if it needed to be paid all up front.  I'm not sure. He just wanted me to ask the question and check.
+
+40:00 - James Killick (Devwiz)
+  Usually we do upfront and then on delivery, 50-50, being as we're piling in more things to this. So we'll probably do three, one upfront, one in the middle on a key delivery.  Yeah. So let's say one upfront and then one on delivery of the first playbook and then one on delivery of the second playbook for both businesses.  Cool. That works well.
+
+40:22 - Rowdie Lang
+  It's not a large chunk that just disappears in one hit, which you'll be happy to hear about.
+
+40:26 - James Killick (Devwiz)
+  Yep.
+
+40:27 - Rowdie Lang
+  And that satisfies all the questions, James, because you covered off everything else with what you've already spoken about. Did you have anything else?  No. Everything else got answered. So thanks so much. Thank you, guys.
+
+40:38 - James Killick (Devwiz)
+  I'm getting more and more excited about it, to be honest. Us too.
+
+40:42 - Rowdie Lang
+  That's we talk about most days.
+
+40:44 - James Killick (Devwiz)
+  Yeah.
+
+40:44 - Rowdie Lang
+  To give you an idea of the impact this is going to have, I'm sitting in check-ins today with some of the people in the asset team and we're forecasting for next year.
+
+40:54 - James Killick (Devwiz)
+  Yeah.
+
+40:54 - Rowdie Lang
+  And we're seeing that year on year, they're having about an additional somewhere 50 to 60 customers. So I was like, you know, you can see right now if you don't change anything else next year, you'll probably have growth of what you settled by about that much because it's just, it's compounding.  But that's without them actually having a CRM system that helps to nurture and without them being able to clearly see where customers are up to in their journey and without the clear cross sell.  So when I'm talking to them about what this looks like, it doesn't seem real to them, right? Because they're used to just making the most of the system that's not built for it.  So, yeah, pretty cool.
+
+41:36 - James Killick (Devwiz)
+  It's great. mean, you're kind of using SEO. mean, you've got your own industry version and you're using SendGrid. Sometimes we have clients that have not touched it at all.  And it's like, blows their minds just the fact that something can come in and they get an instant reply.  Most people aren't great at replying, especially quickly. But it becomes a massive stress, especially on the business founders. like, you know, I know these leads are coming in and I'm not doing anything about it.  And the longer they take to not do anything about it, the harder it gets to do something about it.  And these kind of pressures alleviate because, you know, at least there's an instant message going out to them. At least you've got your foot in the door.  And then when you combine that with the data you can collect, you know, like we next thing on our list for Emma is a full.  Business Intelligence Dashboard, bringing in all of the different data points, her ads, her CRM, her website traffic, her marketing stuff.  Later.
+
+42:44 - Rowdie Lang
+  I believe he's already mentioned wanting to build a business in literally the same wording. So I don't reckon it's a coincidence that he hangs out with them and that's what they're doing.
+
+42:54 - James Killick (Devwiz)
+  Yes, it's great. And we because of AI, we vibe code it now. Used to be Power BI, boring. agree.  And it looks like . Sorry, excuse my language. I think this is the second time I've sworn. Getting excited.  That's what always happens. But now you can vibe code it. So you can get it to look however you want it to look.  can get the interaction to be however you want it to be. One for Nate, Nathan. One for you guys.  Another for your sales team. Do know what mean? You have it exactly how you want. Yeah, that is exciting.
+
+43:22 - Rowdie Lang
+  That's pretty cool. Okay, cool.
+
+43:24 - James Killick (Devwiz)
+  I will get something over to you official by tomorrow. And then I hope that we can start before Christmas.  There'll be no pressure on timelines, but it just means we can all get the ball rolling.
+
+43:38 - Rowdie Lang
+  I'll try and see if I can get things sorted with Nate tomorrow so that we can come back to you on Friday.  Because if we're locking it all in, then we can look to schedule a catch up early next week to try and do a big deal.  One load of some information and get stuff started.
+
+43:53 - James Killick (Devwiz)
+  Perfect. Yeah. Awesome. Sounds great. All right. Thank you very much. Yeah. Thank you. See you.
+
+44:00 - Rowdie Lang
+  Take it easy. Bye. Oh, man. I just want to do it now. I just want to do it now, J-Roll.

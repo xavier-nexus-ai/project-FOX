@@ -1,0 +1,262 @@
+Impromptu Microsoft Teams Meeting - November 24
+VIEW RECORDING - 53 mins (No highlights): https://fathom.video/share/D69-8hLBMEfHNFcMPAsUBTBxzRUhi-z-
+
+---
+
+0:06 - James Killick (Devwiz)
+  Hello, hello, how's it going?
+
+0:18 - Rowdie Lang
+  Are you there, James?
+
+0:20 - James Killick (Devwiz)
+  Lost you. Go again? Ah, there we go.
+
+0:26 - Rowdie Lang
+  Got you. Hello, hello.
+
+0:29 - James Killick (Devwiz)
+  Hello.
+
+0:31 - Rowdie Lang
+  Thanks for catching up with us today. Pleasure. How's it going?
+
+0:36 - James Killick (Devwiz)
+  Good. Pretty good.
+
+0:37 - Rowdie Lang
+  We had a session with Em last week, so we're all excited. We should do when we finish a session with Em.
+
+0:44 - James Killick (Devwiz)
+  Yeah.
+
+0:45 - Rowdie Lang
+  There's lots of ideas and thoughts, and we've been thinking for a while around, you what platform is going to be right for our business currently using SendGrid, but there's so many other ones out there.  And Em's kind of steered us your way to sort of... Talk about what that might look like. And I know you're not a representative of Go High Level or anything, but you have a lot of experience in that space, but also the AI automation.  we're keen to hear from you on that. And then also, you know, you can ask us questions about what we're doing.  There might be something we can continue to work on as we go through it. Yeah, of course.
+
+1:21 - James Killick (Devwiz)
+  So I know Em mentioned, and we've had a couple of, like, mortgage broker clients, I guess, play in a similar space.  You're using an industry standard CRM system, like, for the end part of the process, right, for the actual fulfillment?
+
+1:42 - Rowdie Lang
+  Yeah, so we use an aggregate alone management system. And then from there, we're manually putting those details into SendGrid and then automation off the back of that.  Right.
+
+1:55 - James Killick (Devwiz)
+  And that's because the automations built into that system aren't very good, is that right? Correct, yeah.
+
+2:01 - Rowdie Lang
+  So we've got two businesses we're talking about specifically today. One's the mortgage broking side of the business, one's like an asset side of the business.  So car loans, personal loans, that sort of thing as well. Run as two separate entities and two different databases as well.  Right, okay.
+
+2:18 - James Killick (Devwiz)
+  And do you want them completely separate or would you have them in the same CRM system and just have the customers segmented and allow for cross-selling?
+
+2:30 - Rowdie Lang
+  That would be the latter, would be the thing to go through, I think. But it'd be good, like I've met you briefly on one of the BAP sessions as well, but these guys, I don't know a lot about them, so maybe give them a bit of a heads up on what you do and what you're passionate about.  Fair enough, yeah.
+
+2:49 - James Killick (Devwiz)
+  So I've been in AI now for probably about eight years. So I co-founded a software development agency. I'm a product specialist.  I come from a marketing background. And I've helped people launch mobile apps, web applications. And the first things I was doing with AI was implementing features like facial recognition, Google Natural Language for categorization, and so on.  And I was using no-code tools like Make.com six or seven years ago when it was called IntegroMap. So it gave me quite a leg up on all of those AI specialists that are out there saying that they've been doing it for a year, single year.  So we started up Engine. It's probably a year old now. Actually, it's over a year old now. I went full-time as of April.  We were a bit all over the place when we started, trying to be the everything AI business for everyone.  And then we quite quickly found our niche, which was sales. So we help build sales strategies. We help... We of put those into CRM systems with automations.  We help build AI-powered automations on the top of CRM systems, things like instant reply, conversational AI, and then really supplement on the other parts of the processing.  Like, for instance, we've got a few clients, actually, that we've built proposal generations. Anything that kind of streamlines that from lead all the way to conversion and quick delivery.  That makes sense.
+
+4:29 - Rowdie Lang
+  You wrap?
+
+4:32 - James Killick (Devwiz)
+  Okay, so do you guys want to give me a bit of an intro to you two, what you do in the business?  What's that, Joe? Yeah, yeah, I'll start.
+
+4:40 - Rowdie Lang
+  So I'm in the marketing department. I'm basically the digital content creator. So any updates and landing pages, blogs, emails that we send out and everything, I'm basically putting all that together and getting it set up.  Been with the business for, it'll be two years in January. I actually started in the sales. Team out here, then moved into the marketing role probably March or April of this year.  Yep. So been kind of learning along the way and everything. So it's been pretty eye-opening on some of the stuff we do.  And with us all talking together a lot, we've decided, like, yeah, we might need to start looking at some other avenues with what we have going at the moment.  Yep. Awesome. And I take care of operations across the two businesses we're talking about today. So across the asset business and the home lending business as well.  Yeah. Part of that involves being in and around our teams and making sure that they're supported and led the right way.  Part of that's working with Gerard when it comes to marketing and bits and pieces. Part of that's working with Nathan on bigger strategic ideas and the overall direction of those two businesses as well and trying to kind of pull it together.  Nice. Okay, cool.
+
+5:51 - James Killick (Devwiz)
+  So, I mean, I did jump in quite quickly there. Sorry. It's been a long day. I started at 4.30 a.m.  So I was just... I a bit of a one-track mind, apologize for that. I usually get started just to understand where the biggest blocker is.  So would you guys say that either of the two businesses or both businesses are demand constrained right now, i.e.  your biggest goal is to get new clients? Or if there was a big influx of clients right here or leads right here right now, would that break the system?  So are you supply constrained?
+
+6:32 - Rowdie Lang
+  I'd say our issue at the moment that we're trying to solve is that we've got two teams that do a really good job with customers and both businesses have been around for a long time.  So we've got quite a large database. And the biggest goal for our business sits in repeat, referral, referrer, all those sorts of things.  And in particular, repeat customers. We focus on the lifetime value of a customer rather than just doing a loan today.  We're trying to make sure we can take care of them in the future for all their other needs financially.  And a CRM is pretty instrumental in making sure that that happens not just kind of occasionally or sometimes in the right order.  It happens consistently and it happens in a way that actually adds value and gets the customer to come on a journey with us.  At the moment, SendGrid is pretty limited in the way that we can do more specific segmentation. It's a bit limited in the way that we can store information in there around a customer.  If we've got a customer that settles in Fox Finance Group in the asset lending business and then they go to, let's say, the home lending business, help them out.  If that customer calls back in, the asset team can only see what's in the asset system about the customer.  They don't have any information around what happened last time they came through and what the home lending team have done with them.  So it makes it a bit disjointed. And the big picture value of what those two businesses offer is that they can work together to help customers the whole way throughout their financial life cycle.  And if we've got a system that sits in the middle. And can facilitate that with the right kind of messaging and automations and those sorts of things and keeping data in the right place.  That's going to be instrumental to us being able to do that. Because at the moment, it's we do it, we just we haven't actually been able to sit down and plan it properly and really make make it what it could be, I suppose is the best way to put it.
+
+8:23 - James Killick (Devwiz)
+  So you're saying then you have enough lead stroke clients in the pipeline to grow the business significantly, what you really need is the systems in the background so that you can better cross sell, you can better communicate with your clients.  Is that right?
+
+8:42 - Rowdie Lang
+  We're always happy to bring more customers in and help more customers because ultimately acquisition feeds the retention side of things in the back end.  But the best way to think of it is if we go out and we chase a whole bunch of new inquiry, the percentage that that converts at versus what our repeat customers and those sorts of customers convert at.  Very different. It goes from being around sort of like 10% through organic and what comes through that way versus our repeat settles around 45%, 40% somewhere like that.  So we still want to chase the new customers coming in, but as far as getting the best kind of ROI and the best use of time, particularly for the team, that's where we would focus, if that makes sense.
+
+9:22 - James Killick (Devwiz)
+  Yeah, it does 100%. So the way that we often do this is we create, and this is what we've done for Emma, is we create a playbook.  And the playbook is the strategy, it's the content templates, and is the basis for the automations. So I think what you're talking about there is essentially a cross-selling referral playbook, and it would allow us to kind of map out.  How we would automate these things, as well as notify, like think of automations, not just as the the inhuman AI powered communications that go out, but also things like lead scoring so that we can highlight, hey, there's an opportunity.  Let's push a notification over to somebody in the sales team so that they can actually reach out or, hey, you know, it's been X amount of time since, you know, that transaction happened.  And you need to touch base as a customer success or account manager or whatever it is to actually kind of work out where they're at.  If they're if that thing that you provided them is actually adding value, if they need to have another look at it or need to have a look at a second product.  So we we try not to, I say, mindlessly build technology. We really do want to get to the point where, like, we're really understanding how the human element works just as much as, you know, like the automation.  Does that make sense? Yep. Is that kind of aligned with what you were expecting to hear from me? A little bit.
+
+11:10 - Rowdie Lang
+  I would say there's probably still some more features to what we're ideally looking to be able to get out of it that kind of intertwine with what we've already spoken about.  You touched just briefly then around lead scoring and being able to send notifications to sales teams and those sorts of things.  Because something we started to get a clearer picture of when we spoke to Em last time was around the fact that there's actually a full-time role for someone in like a client services role from within our team that could operate out of what GHL looked like as far as having a pipeline where if customers start on the online form, for example, and then drop off for whatever reason, they can be pushed through into it because we can capture their details up front.  And then we can use that as kind of like a pre-application submission pipeline for someone to be able to help us convert more.  Okay. Yeah, that's the SDR pipeline.
+
+12:04 - James Killick (Devwiz)
+  So the way that that operates, and that's part of the pre-sales playbook. So we understand where your leads are coming from.  I know that Emma mentioned that you might be looking to ramp up some ads. So it's like, okay, we've got ads, we've got referrals from other customers, we've got organic content.  It's okay, what is the intensity? What is the how primed are they for one of your services? How you know, are they just problem aware?  Or they actually brand aware? And depending on where they come from, and how qualified they are, how intense do we want our communications to be both again, from an automated perspective, and from a human perspective.  So and that's and look, typically, when we work with a client, we we start with one playbook, the one that is that is is is is is is is  Most pressing that's going to bring you the most value. We do that end to end. We test it. And then we look at another one after that.  So it might be that we start like, for instance, if you're just about to crank up ads, it may well be that the pre-sales playbook is the best route to go.  Then we can have a look at GHL funnels, quiz funnels, all of these things that we built for Emma and work out, again, the strategy with the automations.  It could be that you say, no, that's actually not going to happen until March, whatever, next year. And what we really want to have a look at is how to leverage our existing client base as we start the conversation, in which case we would go for the referrals playbook.  But one thing that we're quite keen not to do is to try and do too many things all at the same time.  We want to nail one thing, get that working for you, analyze it. We want to collect the data. So it's not just a gut reaction from you or from us.  We're actually monitoring to see. See the positive effects of the strategy that we're employing. And we're not moving on to the next thing until you are happy that you've got the desired result.  Might be that we only, you know, at the start, marginally increase, for instance, conversion rates. And you say, well, you know, we were actually expecting a little bit more.  So before we move on to the next thing, we actually go back, analyze, what do we need to pivot?  What do we need to double down on? so on. Makes sense.
+
+14:26 - Rowdie Lang
+  Good.
+
+14:27 - James Killick (Devwiz)
+  So next phase for me really would be, well, first, would you like to see how we set up things in Go High Level?  you want me to show you what it looks like? Yeah. Yeah. We'll start there. Just pull this up. Okay.  Okay. All right, I'll show you ours for ease. And so I don't get in trouble with any clients. Can you see my screen?  Yeah, yeah, yeah. So, yeah, as I said, as you as you mentioned, actually, go high level is a pretty well known CRM system.  It's it's loved because it does a lot of things all in one place. And that allows people like us to resell it.  We put our own twist. We set it up in our own way. And in our case, we overlay different AI automations.  But just at a glance, it does a lot of things. So conversations are like your universal mailbox. So you can get your social media DMs, your WhatsApp and SMS and your emails, calendar systems.  So you can create this is essentially your Calendly, right? You can have as many different calendar systems as you want.  You can have them as groups. Round Robins. There's lots of different ways to utilize it, but just think of it essentially like built-in Calendly.  The contact section is the core CRM. So I'll just find a test user. Is there one? Or find myself, maybe.  Can I just ask a question on the calendar as we go?
+
+16:22 - Rowdie Lang
+  Can we just ask five questions as we go? Yeah, five. Well, the calendar, would that be an example like we're sending out a communication for a home loan sort of customer potentially, and it's a book your appointment here with your home loan specialist, and then they just log it through that, and then we notify that home loan specialist that somebody's booked an appointment with them?
+
+16:47 - James Killick (Devwiz)
+  Yeah, mean, though, you probably wouldn't need to notify them because that will happen automatically. So probably the advantage of what GoHighLevel has here over Calendly.  Because it's all interlinked with your CRM system, you can build a load of automation. So for instance, we have email and SMS going out.  We're pretty hectic, I'll be honest. But we're like, okay, you book the meeting and then 24 hours before email and SMS.  Hey, you got a meeting in 24 hours. An hour before, make sure you're prepared. And probably in the 24 hour one, we'll do, here's your homework.  Here's what you need to look at. Here's a quick video. That just makes the meeting more productive. You can use that as a way to handle objections.  The one hour before is more like a pure reminder. And then we'll probably hit them with a, hey, your meeting's about to start.  You didn't get any of that, actually, because you didn't book in through my calendar. I think I set it up manually.  But if you had have done, you would have seen all of that. Now, if you hadn't have turned up for the meeting, I could also go and go no show.  And that would, that would also automate a whole no show pipeline. And which is like, oh, sorry, we missed you.  But if you want, you can book in here. Let me know if there was an issue. Do you know what mean?  And all of that gets automated. Makes sense.
+
+18:10 - Rowdie Lang
+  Yeah. Thank you. No problem.
+
+18:14 - James Killick (Devwiz)
+  So the CRM looks like this. And this becomes your feed of all of the communications that's gone out. It also is your way in which you can quickly communicate with SMS.  I don't know why the SMS isn't showing up here, but you can choose SMS. You can just talk to them, whatever you want to do right here.  You'll get your full activity. How did they get into the funnel? Like, where did they go? What appointments were booked?  And then all of the different feeds, all of the different information, info boxes and stuff. So if you if we've got forms, if they filled out ads and if we.  Doing things like scoring, so all of these go in into these custom fields here, and so you can fill them out.  However, this is the customizable aspect of it. It really becomes exactly what you need, right? We create the... Sorry, one sec.  There we go. I don't know whether you can hear that, but that was my focus music telling me to focus.  yeah. So... Say again, sorry? We were humming away to the music. was nice. Opportunities. So usually the playbooks link to pipelines.  So the SDR pipeline is the one we were talking about. This is the pre-sales. So... Usually you have like a setter or an SDR that goes in and qualifies.  So in this, this is ours. You'll see that initially from sales, instant replies are the big thing because 78% of customers go with the very first provider.  And that, that leads to about a 391% conversion boost. If you have some sort of instant reply that happens within the first minute.  So we always start with that instant reply and that will couple email and SMS usually. And sometimes we go into LinkedIn as well.  We can even do AI voice calls for those that are comfortable and where the industry and targeting is correct.  And then if they reply, then that will automatically move over to a conversational AI. So actually the AI will be doing a little bit of qualification.  try not to do too much because the human connection is really needed and people get annoyed. Again, we go to the nth degree because we're AI and we want to show our AI, but we often get like, you know, can you tell your bot to stop talking to me and things like that.  But we tailor this to our exact customer, right? If you just wanted a little bit of conversation, you wanted it to be escalated quite quickly, we would build that into the logic.  And so that's a typical pipeline in the qualification process or the contact lead process. We, in our strategies, create scripts because these are manual, right?  The little man signifies that there's no actual AI or automations powered here. So this is what the humans would be doing, but we build it into the CRM system so they know when this is assigned to them, when they have to take action.  And in the strategy, we build all of the templates so that they know what to text, the scripts that they have to do if they're jumping on a call, or even if they're going to leave a voicemail.  All in all, like we're positioning them and the business to have a lot of touch points because I think it's 80% of sales happen after the fifth touch point.  But most companies won't try and speak to people more than five or six times, really.
+
+22:20 - Rowdie Lang
+  Are you going to get to integrations and that sort of stuff as well with external systems like Salesforce? Is that sort of down the list, James?  Or can I fire a question away now? Fire away, please.
+
+22:32 - James Killick (Devwiz)
+  I'm still getting under.
+
+22:34 - Rowdie Lang
+  That's reasonable. Thinking the same thing. Yeah, yeah. Okay. I'll wait till Jared has his questions. But yeah, I can see that.  I can see in the left hand side. Sorry, I've ambushed the meeting. I have a habit of doing that.  No, no, that's fine.
+
+22:52 - James Killick (Devwiz)
+  So go on. Okay. Fire away, Jared.
+
+22:58 - Rowdie Lang
+  Yeah. So like some of the things. Thank So obviously when we talked about how we have our asset team and then we have our home loans team, within that, is there something in there where they both can see everything that's going on?  So if a customer settles, let's say for a car loan, they go into home loans then, home loans team can then see like, okay, they settled a car loan this long ago for this much, vice versa.  Is that possible?
+
+23:25 - James Killick (Devwiz)
+  Yeah, so we have an IT business that has lots of different products. So we actually have a pre-sales, like an SDR pipeline for every core product.  Again, like I can't on this call tell you that that's the best approach for you. That will be something that we do when we look at the pre-sales playbook.  And it might well be, again, that you say, right, these are the core products that we actually want to have a look at right here, right now.  But yeah, we can visualize that, however, is going to be best for you in the business. That's the... The great flexibility of Go High Level.  It's really easy to manipulate. And then in terms of integrations, we use the tools like Mate.com and, in fact, NA10 for all of our AI-powered integrations.  So we can really integrate with anyone that is on either of those two platforms. Okay, awesome. That's great.
+
+24:24 - Rowdie Lang
+  Keep going with your questions, Gerald. You're on a roll. Sweet. The other one, I think you've already answered with how easy it is to do text and email automation.  So that's all good. Is it pretty easy to, like, pull reports and actually create, like, a segment for a specific targeted customer?  Because one issue we have now is we can pull a report from one system, but all of our emails and stuff go out of SendGrid.  Which I don't know if you ever use SendGrid.
+
+24:52 - James Killick (Devwiz)
+  We do.
+
+24:53 - Rowdie Lang
+  very difficult to try to actually get the proper segment. So we end up sending just broad things to almost everyone.  We rebundying it very low on open through and click through. So is that pretty easy to do to segment that, to make it specific to the customers we want to send it to?  Yeah, 100%.
+
+25:09 - James Killick (Devwiz)
+  So we'll put the custom fields that you want to use for segmentation. Then we will create smart lists for you so that you can easily view those customers, or we can easily use those smart lists to initiate campaigns.  We'll actually use your SendGrid account, being as you've got it nicely warmed up. And SendGrid will remain the sender, but you'll be able to operate those things from within GHL.  Okay, perfect.
+
+25:37 - Rowdie Lang
+  And is there any, like, when it comes to, like, templates and stuff, is there any coding that gets involved at all with GHL that you need to do?  Because I know with SendGrid, with how there are email templates and stuff, I think there's a little bit of coding involved.
+
+25:51 - James Killick (Devwiz)
+  So, unless you're sending, like, a regular newsletter, you should avoid HTML. Now, there's probably a reason why you're not getting much back, because the moment you put anything like that into an email, you'll either go to spam or close to a spam is to go into, you know, like the promotions tab in Gmail.  Yeah, it's built like that, that these email filters, systems, Gmail and Outlook, they see HTML and they assume that it's an offer of some sort.  So what we do is we're plain text, limited, limited links, one, if that, like, maybe it would just be like asking a question to get a reply that prompts you to, or either prompts the AI or prompts it to be escalated to a human being so they can take over.  I think it's the mistake that a lot of people that don't know a lot about, like, either cold email or nurture emails is, you know, they put a beautiful HTML email together and just never gets delivered to the inbox.  don't lot of of of that don And if there's no, you know this from ads, right? If there's no true CTA, no one takes any action.  Just like information. Oh, great. I'll look at this later. But what you want is a shorter email that's conversational, that's like, you know, do you agree?  That's the easiest CTA because it's a yes or no answer. And then once they reply, it's like your foot is firmly in the door, and then you can have a human conversation.
+
+27:28 - Rowdie Lang
+  Perfect. And then just the last one I had, this is probably your question, Nathan. When it comes to integrating with other systems, yeah, if we're using Salesforce, or like sometimes we'll put together our application forms through like type forms.  Is that saying that can actually work with GHL at all?
+
+27:47 - James Killick (Devwiz)
+  Yeah, can type form, type form, type form. That's a question. I'm not sure the answer to. So because it usually  Basically, we're building funnels. I'll show you one in a second. And the forms built into the funnels are native GHL.
+
+28:11 - Rowdie Lang
+  So the form your website becomes a GHL form rather than a type form or a gravity form or something like that?
+
+28:21 - James Killick (Devwiz)
+  It has all of that built in. Now, we can leave all of your type form forms and go via their API to pull the information into GHL.  But if we're creating new funnels, which is what we would like to do with you, then we'll probably use the native features just faster.
+
+28:44 - Rowdie Lang
+  And that's fully customizable with what we can put in there and the questions we can ask and all those sorts of things?  100 percent, yeah.
+
+28:54 - James Killick (Devwiz)
+  We also use, and we have with Emma, ScoreApp. That's really... It's as a lead magnet form because it's one of those ones where they fill out questions and they get a rating.  And then depending on the rating, you can have four or five different variations. It's like great rating. Now you go to the next level like this, really bad rating.  You need to urgently fix these things. And, you know, like it's there's different lead magnets that you can use.  And we'll try and suggest the best for your business and what you're looking to achieve with your marketing. And that's we love working with marketing people because they have a vision what they want.  They're going to run the ads or whatever the campaign is. And then we kind of suggest, hey, we would say that this is going to be the best lead magnet and we'll work together on it.
+
+29:39 - Rowdie Lang
+  If we were using something like to give you an example, we have Zapier at the moment that in the background, depending on the way customers answer forms, questions on form, sorry, directs them and refers them outwards to lenders that can help them when we can't.  Yeah. So how would the.
+
+29:59 - James Killick (Devwiz)
+  so. I'd it. So we would prefer, I don't know whether it's going to be 100% fit, but we'd prefer to do that in the web funnel.  So we'll have, have you seen like the click funnels, the multi-stage web funnels? Have you seen that before? Yeah.  Okay.
+
+30:26 - Rowdie Lang
+  So maybe just talk through that. Yeah.
+
+30:31 - James Killick (Devwiz)
+  Yeah. Okay, cool. Anyone follow Hormozy or Russell Brunson or so often when they put an offer together, it goes to the initial page and there's a, there's a form to fill out.  You can have qualifying criteria in that form and then you can have conditional logic. So let's say it's highly qualified.  The next stage for that highly qualified will be another web funnel. The second stage of that web funnel, which is like book a call.  Because they're highly qualified. Then you could have a middle ground that's like, you know, maybe it's a low ticket purchase, right?  And then you could have an unqualified, which is maybe like, check out this free resource, or you might prefer to go to one of our partners.  And all of that happens in the funnel. And then people like Russell Brunson, who was the founder of ClickFunnels, and essentially GHL just stole the ClickFunnels functionality and stuck it into GHL.  like they did with Calendly and all of these other systems, you can have as many steps as you want that actually make sense.  So we've designed funnels that are like a form, and then a quick, low ticket payment, and then a suggestion for a high ticket with maybe even a deposit, you know, like, we can structure these, however fits your business.  But in that sense, if it's unqualified, you can go to another funnel page that's like, here's our preferred partners, go check one of them out.
+
+32:01 - Rowdie Lang
+  So just give James an idea of the customer behavior when they land on their website. Jared, how many people apply like a conversion rate off the website organically?  Would you have that number off the top of your head? Not off the top of my head, but I know with how it doesn't convert that well a of the times.  One thing we found is like when you're going through it, it's quite a long process. I don't really think it's as user friendly.  So we have a lot of people who are going through it and they think they're potentially done and then they realize there's more to do.
+
+32:35 - James Killick (Devwiz)
+  So they start dropping off, obviously.
+
+32:39 - Rowdie Lang
+  Unless you know off the top of your head what it might be. To give you a vague idea, sort of what we're talking about is there's customers, because we can help customers that don't have fantastic credit.  But there is a limit to where we know our lenders just can't assist them when there's some specific kind of like knockouts.  If there's a certain number of defaults on their credit file, high gambling. Transactions, stuff like that. That form on a weekly basis will see, you know, it can see upwards of 400 people that will click and go through that actual conditional logic.  It's a fair bit. Yep.
+
+33:15 - James Killick (Devwiz)
+  So, well, I mean, there's a crazy stat. think it's after the typical five or six fields, you lose, is it something like 15% every extra question?  Something like that. So the way that web funnels could definitely work for you is you collect that first load of information, the typical contact information on that first field.  And then they go into a next step and you incentivize them. Hey, if you fill this out, we can give you this.  But no matter what, you've collected that first piece of information so you can nurture them. And that's where the SDR, the pre-sales playbook comes in.  So for the people that just fill out that first bit and they don't go in. They're a lower qualified lead just put by the fact that they don't have that momentum or you don't have that momentum with them.  So you'll have a low intensity follow up sequence for them, whereas the ones that go further or even get to the end, they're highly qualified, at least let's assume that they tick the right boxes for you.  They've also gone through and spent all of that time. That's a high intensity process you need to go through because they're highly qualified.  So you've got to hit them as quickly as possible because if they don't go to you, they're going to go to someone else.  Because that's how it works. Yep, get that.
+
+34:40 - Rowdie Lang
+  It's more that the customers that we're talking about, so they'll complete the form because they've got something that's not quite right with their credit, for example, because we're talking specifically about the bad credit funnel.  They will complete the form and I think the conversion rate on that form sometimes can sit anywhere from 40 to 50%.  Who starts it? Up in the 50s with them. Sometimes can be as high as 60. It depends. It fluctuates.  So it's not so much a problem of them getting to a point and then dropping off and going away.  This is more about making sure that we could still have that conditional logic that's happening each day. And because it's a large number of people, I think what Nate's talking about is if they all went into a pipeline, that'd be a very busy and difficult pipeline to be able to keep track of.  Does that make sense?
+
+35:26 - James Killick (Devwiz)
+  Yeah, but you wouldn't worry about that because the strategy would be the tire swingers would go into a low intensity pipeline that's highly automated, whereas your highly qualified ones would go into a pipeline that's high intensity and that couples your human resources, your sales team.  So that's all part of the strategy. So we would understand that. All of this is great information and going through the process of actually building the playbook out with you.  This is the key bits that we need to know. And then we. We'll yeah, we'll sort it so that the tide springers go one way, and out of that, you'll have a lower conversion rate, but we'll try over time to pull out the good threads.  Whereas what we really want is for you and your team, you know, it's like handing it over in a silver platter.  want your sales team to be getting the best possible leads based on that same conditional logic. Now, probably do that in the web funnel, but if not in the web funnel, we can build it in directly and go high level.  Like the, if they open, it can be one way. If they reply with this, it can be another way.  Do you know what mean? Like you saw how we had the pipeline with conversational AI. Somebody that responds is instantly more qualified than somebody that doesn't.  And so they go into a separate pipeline. We can have lots of different triggers and ways of working that.
+
+36:51 - Rowdie Lang
+  I think from memory, James, you had some finance background as well. Did you build and sell something in finance years ago?  I. I. We did, yeah.
+
+37:00 - James Killick (Devwiz)
+  Fintech platform. So we were doing money remittances. We built our whole platform, got an AFSL license. We did all of the OSTRAC and all of that.  And we even had the AFP come in at one point asking us about certain transactions. That was a scary moment for me.  But we weren't doing anything wrong. So we got through that. Yeah. Well, good.
+
+37:27 - Rowdie Lang
+  Well, what other information, like if we said, let's go ahead and work out what the next steps look like, James, what sort of information would we need to start thinking about to be able to prepare for a meeting and what is it so you can, I guess, put a proposal together?
+
+37:45 - James Killick (Devwiz)
+  Yeah, mean, if we wanted to go quick, you know, if you had an idea here and now or straight after the meeting of like, OK, we definitely like the sound of that pre-sales playbook, then.  The next stage would actually be to start collecting the information. We'll give you the structure of how the pre-sales playbook would work, the timelines.  Then the next meeting would be essentially an onboarding meeting. If you're not sure about how you want to proceed, which is very normal for this stage, then the next meeting would be with our sales specialist that actually constructs these playbooks.  And prior to that meeting, we would send you an email asking a load of things from marketing stats, sales stats, all of that kind of stuff that will help us understand where you're at.  And then we can have more of a kind of like a discovery session. And out of that, we'll give you our best recommendation of where we think you should start.
+
+38:47 - Rowdie Lang
+  What do you guys think? I just think it would be good. So do I kind of a discovery thing like he said personally, pull everything together to see exactly what.  We would need to do for it, because I kind of think the pre-sales thing would be us, but I almost want to just confirm that's exactly the route we should go with it.  I think it's an important decision because the CRM is going to form the basis of everything moving forward. So it would make sense to make sure that we get all the right information in front of the right people so that we can unearth things.  Like we've gone off down a tangent today around the forms because I don't think anyone was expecting that the forms potentially were integrated into GHL.  So I think it'd be good to do a proper discovery session and pull things apart, is my thoughts.
+
+39:36 - James Killick (Devwiz)
+  Yeah.
+
+39:36 - Rowdie Lang
+  And I think from there, then we would understand the lowest hanging fruit. Yeah. Yeah.
+
+39:45 - James Killick (Devwiz)
+  Just as an initial question that comes to mind and kind of looping back around to the start, and you don't have to answer this now, but have a conversation about it.  Because the two roots that you have that I see are, do you want to... Right now, spend time and effort increasing your referrals and cross-sells, which is essentially that kind of like cross-selling CSM playbook.  Or do you want to go hard on new business and kind of firm up that pre-sales playbook? We can do them both.  And I really hope that we do do them both. But these are the two options right here, right now to consider.  And then if you give me that answer via email, then I will tailor the discovery questions to one over the other.  can still have more general questions, but it can be quite overwhelming with the amount of questions that we will ask.  So I'd rather get your impression of which route you want to go. And then I will get a list of questions from my sales specialist.  I'll get him to review the notes of this meeting. And then me, him, and you guys can jump on another call after we've collected that information.  Cool.
+
+41:00 - Rowdie Lang
+  To give you a bit of context as well, we spend very little on marketing, zero and paid really a couple of grand a month, something like that, just to, I say, pay the Google tax.  But I don't know that we're, I don't know we've got our strategy right to actually go and throw the resource and the time and the money and energy into that right now, other than having, you know, 50 plus thousand people in a database that we're probably communicating poorly with right now as the opportunity.  And then I think there's, we need more time to actually work on, you know, our paid strategy and getting our  sorted there while we've got this other stuff that's happening over here and maybe miscommunicating or poor timing in our communication and lost opportunity in our current database.  Plus, there's a lot of segmentation we need to do. We haven't segmented very well in SendGrid. So I think until we have our segmentation and the map, sort of the structure set up correctly, even to funnel the new ones in.  I think we would be doubling back at some point anyway. So I think for me, my head is going to, let's set the structure up properly for how they're going to fall in anyway.  And also how are we going to actually put the ones in that we've currently got and segment them properly?  And then how are going to communicate them, communicate with them now? Right. And we, you know, so I think in my head, that's the, yeah, that structure set up first.  And I think no use going to get new ones if we haven't got the structure set up first for the existing that these guys are going to plug into sort of thing, the customers.  The pre-sales side of things really only came about when we were talking to Em last week as an opportunity, whereas what Nate's talking about with the actual proper database itself and the customer messaging is the key reason we looked into a CRM in the first place.  And part of, if we get that right, James, part of it will actually fund us being able to continue to do things.  An example is part of that funnel that Radhi was talking about before that goes, out. We a lead marketing.  We onsell that lead. The income that we generate from that helps us fund our marketing efforts. And right now, if a customer goes out there into that other space, we don't touch them again.  So there's a remarketing like in a three or six months, and they might have answered something on the way through that wasn't quite right for us right now.  But it doesn't mean in three months, six months, nine months, 12 months, whatever that looks like. But we can't try to re-engage them and bring them back into the funnel.  And the numbers that's included in that across our business is about $50,000 a year. Right. That we don't touch.
+
+43:39 - James Killick (Devwiz)
+  Yeah. Again. Yeah.
+
+43:42 - Rowdie Lang
+  So I think the opportunity is there's that outside of the opportunity. It's a huge opportunity for the ones we actually got, huge opportunity for the new ones coming in, but also that that we've left on the table as well.  Yeah.
+
+43:53 - James Killick (Devwiz)
+  I think we're also hitting that time of year where it'd be much better. Like we've just turned off our ads.  And we're thinking much more about how we can ensure that all of our clients end the year really happy and ready to refer us business.  So I think time of the year as well is perfect for this approach. Just so you know, when you do get to the point where you're looking at the digital strategy, that's something that we really like to partner up with our clients on.  running a few, we don't do often, but we are actually running ads for a few clients. But we do go all the way through all of the ads tech, like have you got all of your tags, your pixels, everything related to that so that we can track conversion.  We build, and going back to your reporting, it's not usually the thing we start with, but after we've done a few playbooks and got the ads sorted, we build dashboards so that you can actually visualize all of this data, not just from GHL, but actually pulling in information from all of the different ads platforms and from...  From like financial zero, whatever it is that's going to actually match up the finances. So all of that can be done in the pipeline.  It's just a matter of exactly as you say, let's get the thing that's going to make you the return on investment to justify the next thing and then the next thing after that.  That's it.
+
+45:17 - Rowdie Lang
+  One last question for me. What's your perfect client look like?
+
+45:22 - James Killick (Devwiz)
+  Perfect client is somebody that is running ads because when you've got somebody that has a good lead flow, then the amount of work that we have to do to make it better is much less than starting from scratch.  So the fact that you're running ads, the fact that you do have inbound is great. Our second best client is probably where you are right now.  That's where you've got a huge amount of clients, but you're not leveraging them for the different products. You're not doing the cross selling.  So like that's always our second, just because we we generally go to market for the first. But often the second category makes more money per client.  So, yes, six of one after the other. You fill both categories, so you're doubly our perfect client.
+
+46:12 - Rowdie Lang
+  Just to give you an idea, I understand the ad thing, know, trying to get eyeballs on the site and getting them into the funnel and those sorts of things as well.  Jared does a week that was, and he pumps it out to our leaders in the business as well, which does things like, for the week, total users, new users, returning users, and those sorts of things as well, to the site and how many people are completing forms and that sort of stuff as well.  In the Fox Finance Group side of things, that website would see around 5,000 people a month land on the site with about, conversion-wise, including what goes out to lead market, and I would say that's close to 2,000 inquiry.  Yeah. A month into that business. The Home Loans is a lighter website that's not quite there yet. We're getting, you know, two-fifths of bugger all onto that.  But Gerard's that went out this morning, for example, was, where were we? Data-wise, it's about, I don't know, a thousand people a month or something like that.  And bugger all people inquiring because I don't think we've got our SEO right on that. 80 or 95-plus percent of people that are inquiring are organically acquired through, as you know, and those sorts of things.  But we know, you know, that's not forever. So our paid advertising is very small, and it's actually not very high converting for us.  And it's largely because our strategy's wrong. So having the ability to get this organic stuff, the stuff that's, I guess, costing us time and expertise and being able to write content.  Gratso. Continue to bring people in and keep making sure our website's fine is one thing, but then, yeah, the paid is something on our list.  And we're also doing a, early in the new year, a branding refresh in the Fox business and new website builds.  So there's a lot going on around that. So probably a good time to be involved, I suppose, with somebody around that when we're trying to say, hey, we're going to go and build a website with this new brand now, with a new branding refresh, and we're going to do this.  And there'd be some pitfalls around that that you could probably help us with as well.
+
+48:31 - James Killick (Devwiz)
+  Yeah, we're actually building a website for one of our clients. The history of our business, or my business partner's business, was web development.  And then we transitioned into, it's still going, but we formed the new AI business. But we do it differently since AI's come about.  We vibe code websites. So they're all built in React, means that you get beautiful transitions, much faster websites hosted in Vercel.  So... Customize our own CMS systems using a combination of Superbase and essentially like Vibe Coded interface is really cool.  So when you get to that point, let's talk about it because most traditional web developers are like, I'll just use WordPress.  It's outdated technology now.
+
+49:20 - Rowdie Lang
+  Yeah, that would be music to the ears of our CIO that we have in the business. All of that stuff made sense to Matty, who's not in the room today, but none to us.  But I know that when I talk to Matty about how we're going to build these, we've got three websites to build.  He's saying, you know, he's pushing, not pushing back on WordPress, but he's saying there's so many other ways to do this now, lighter ways to do this as well.  So good to potentially have someone in the room that can help us with that as well. 100%.
+
+49:56 - James Killick (Devwiz)
+  Where to from here, James? Oh, I'll say one other thing. The other thing... That we look into, we really do try to focus on the sales stuff, but especially for ourselves, like we're building ourselves websites, so we can give feedback on that.  other one is we're looking into for 2026, ASO, generative search strategies. So we've kind of gone through all, like we don't want to do it, run it, but as a collaborative partner, as a client of ours, we'd happily share all of the things that we've learned about how to get you upon the AI search rankings, as it were.  Although it doesn't work like rankings, but you get what I'm saying. Yeah, yeah, get more visibility.
+
+50:41 - Rowdie Lang
+  Yeah, makes sense. All right. Well, we'll be guided by you on what you want next. All right. I will say that.
+
+50:47 - James Killick (Devwiz)
+  Okay, so, yeah. Awesome. Give us a couple of days. I'm going to have a chat with our sales specialist, going to get him to review the notes of the meeting, and I'll also extract the staff.  That's that you've already given me. And then we can work out what other stats we want with the context of where we're thinking of the resale referral playbook.  And yeah, he'll ask a lot of questions in email. Once we've got those answers, we can book in a meeting.  He just just so you know, he's based out of Brazil. He's actually my original business partner from the FinTech.  He's an Australian citizen, but originally from Brazil, when he had a family, he moved to Brazil. And then I started working with him again, I hired him.  A few months ago, just because I know how good he is. But it will mean that it will need to be like a pre 11am meeting.  That's all. That's all good.
+
+51:40 - Rowdie Lang
+  Yeah, that's our brain works better in the morning anyway, James, in this room. Yeah. Mine too.
+
+51:48 - James Killick (Devwiz)
+  I think if we'd done a morning meeting, I probably could have told you everything in half the time, but it's afternoon.  So I'm rambling. I can't even hear myself like shut up. It's all good. No worries.
+
+52:00 - Rowdie Lang
+  But yeah, we're happy to accommodate that. So we'll wait to hear from you. You've got our details, and we'll go from that.
+
+52:06 - James Killick (Devwiz)
+  Thank you very much. Cheers, guys. Thanks, James.
+
+52:18 - Rowdie Lang
+  Is that your Fathom free? No. Another Fathom. You need to leave the meeting otherwise.

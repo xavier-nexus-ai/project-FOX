@@ -1,0 +1,277 @@
+Impromptu Microsoft Teams Meeting - April 27
+VIEW RECORDING - 43 mins (No highlights): 
+
+---
+
+0:00 - George Votava
+  Yeah, we already used the fireplace this morning already. So yeah, it's getting cold. What area in New South Wales are you in?  In Sydney. Oh, in Sydney itself. Yeah. Okay. Yep.
+
+0:11 - Nathan Drew
+  So I'm sitting out in the country somewhere.
+
+0:13 - George Votava
+  No, no, no. Like my yard's pretty big in the city, but yeah, so I've got some, I had some big trees here, so go and cut down and then use the firewood.  Good idea.
+
+0:24 - Nathan Drew
+  Good idea.
+
+0:26 - James Killick
+  Well, thanks for setting the timer.
+
+0:28 - Nathan Drew
+  So I know we were supposed to catch up last week and we've all kind of made a move to this morning, so I appreciate it, especially George since his public holiday, mate.  Appreciate that. Yeah, no, of course.
+
+0:37 - James Killick
+  Actually for Xavier as well, he's just calling in for the meeting and then going off to enjoy his holiday.  Just me working today. Oh, thank you, Xavier. What's the holiday? He follows New South Wales public holidays.
+
+0:52 - xavier ybanez (xaviernjin@gmail.com)
+  All right. Yeah, I didn't do to you guys. Yeah.
+
+0:56 - Nathan Drew
+  What was that? He said, good.
+
+1:03 - James Killick
+  So hopefully you saw my email that I sent through.
+
+1:06 - Nathan Drew
+  And I wanted to just kick this meeting off by saying, obviously, we had other things we were going to discuss last week and other content and things like that to do with the project to go over.  But today is more around those points in that email and sort of giving us a chance to address the elephant in the room and get the dead cats on the table and everyone can talk about it and we can kind of get past it.  It's not a session. I wanted to kick off by saying it's not about just whinging or complaining or having problems and things I've tried and sent her or anything like that.  The reason I put that email together and got the points together is because these are just things that I don't want to let sit.  I don't want to get further down into what's a really critical and crucial project for both businesses and then say that because of miscommunication or differences in expectation of what's going on.  And we end up with something that doesn't meet the brief or doesn't realize. I also wanted to take a second though to say it's not all doom and gloom you know there's been some great stuff working with James so far some good ideas some good insights and those sorts of things as well.  So I'm really hoping that by being able to actually get this stuff out on the table and work through it today that it puts us in a position where we can move forward and we can deliver on the project because there is some really cool stuff that's just unrealized at the moment and I've enjoyed working with you guys as a technology partner but just these couple of things have just caused a little bit of pain and if we don't overcome them and fix them I'm just a bit fearful for what that could mean moving forward as far as missed opportunity that's all.
+
+2:41 - James Killick
+  So just to be clear and I made it clear in the email we've not officially started and we don't officially start until we get all of the documentation together.  The only reason we are here where we are is because obviously I did that extra work to give you the chance to consider the vibe coded prototype versus GHL.  I'll you guys. So typically what we do, and this was what we were preparing for, for the original on Thursday, and now today again, but we don't have the documentation is an official project kickoff.  So when we do the kickoff, you will get the full project plan from George and Xavier that outlines everything, every single step, every single deliverable, and the timeline.  But in order for us to put all of that together, we need the final pieces of the puzzle that are still owed to us, essentially.
+
+3:32 - Nathan Drew
+  Yep, I understand. And Nathan and were talking earlier about going back and forward with deciding which platform to move ahead with obviously caused us to lag a little bit and just push things back.  And understand what you're talking about right there are all the things that I'm hoping to be able to get out of the back of this meeting, which is clarity around what each step looks like moving forward.  If I could put it really simply, and I don't know if it's just because of the flow of how we've gone with going back and forward on the two platforms.  And not actually kicking the project off yet. What I'm finding is we approached you guys as a technology partner because you're experts when it comes to building all this stuff out.  And when I've been putting together like the nurture journeys and those sorts of things, I know you're saying it's part of getting all your ducks in row and getting everything ready before it goes to project kickoff.  But I haven't done those sorts of things before as in create it all from scratch and then give it across to a partner like we've done and created those journeys in the business on our own previously.  And that's the reason we approached Engine was because we wanted to get your outside and your external opinion and input on those sorts of things.  And where I feel I'm at right now is that I love spending time on creating these sorts of things and I'm invested in the business as well.  But I was a little bit fearful that it was a lot of things that I was creating and putting together and I wasn't getting the support, you know, the collaboration, the I'm not sure what I think about this.  Has this worked in the past with you guys? worked in guys? I've just been putting together all this content and then sending it across I get talking now with the flow of things when it comes to project kickoff that what happens after that sounds like what we're expecting but just have to understand that from our perspective you know we came to you guys because we wanted your input on those sorts of things not from like a business advisory perspective but because we wanted you to actually help us put that stuff together and from where we've gone so far it's been a lot of me putting that.  You know the journeys and the content and those sorts of things together and then we go away talk about it come back and there's another list of things I've got to put together and then send across and haven't experienced that collaboration yet if that makes sense.
+
+5:42 - James Killick
+  Yeah I think that's a miscommunication so after each meeting you've kind of said I'm going to give this over to you so what you've provided is a nurture sequence it's not actually.  But it's a small part of the pre-sales strategy right the pre-sales strategy has. A part of it, which is like what you call like the direct nurture, that's where, you know, you've got somebody, you want to push them, you want to qualify them and push them towards a meeting, and then you have the more rounded general nurture that goes on long term.  Now, the reason why this situation is different to what we deal with with the general with our general clients is because you've mapped out this long term nurture process over the period of that usually would be weeks for us rather than what you've got, which is months, we've had to see what you've mapped out.  Now, I apologize if you feel as though you've got done work that you didn't need to like we want to write everything.  And so we will be partly reviewing what you've done. And if there's a need to rewrite it, we will, and we will also be doing a lot of our own content based on like, based on that based on the context of what we had.  But yeah, that I was actually under the impression that a lot of this was already done in that original plan that you had, when we met up.  First, so apologies if there was a miscommunication there, but we don't want or need you to write any of the content yourself.
+
+7:08 - Nathan Drew
+  Yeah, the limited, the limitation, sorry, for the content that was already created is the email that we sent. Oh, it was a while ago now, a couple of months, which had all of our existing scripting and nurturing.  I remember there was that one with all the SendGrid in it that had the conversion percentages and those sorts of things in it as well.  That's all the stuff that was existing. Everything else you've seen, I've put together since we've been working together. So that's like when you say we haven't hit project kickoff yet.  For me, it's been kicked off for months because of being in that headspace, trying to put that stuff together and get it to the point where we can actually start to do things in the system.  And I get that we've been ankle tapped with the back and forward on which system to go with. But at the end of the day, my job in here with the two businesses is to make sure that we can deliver on all of this stuff and the project, obviously.  For. So I've just wanted to try and give as much value and get as much as I can out of it so that we can actually start to see it take shape rather than continue to kind of sit in the one spot.  So when you talk about, you know, like the FHL 18 month nurture sequence and the FFG nurture sequence, for example, that you requested in the previous email, that stuff hasn't existed.  And that's kind of where I'm going. I'm glad I've been able to have input into what that looks like.  And I enjoy that creative side, but I really would have appreciated from a partner perspective to have more assistance with that because I'm just having a crack, really.  I know what our customers want and I know what works in the business. But when it comes to putting that sort of stuff together, I'm doing the best that I can.  So there's no need for you to put it together.
+
+8:50 - James Killick
+  So all we would really need is just bullet points of kind of what kind of things you want to offer.  And then we would review it. So. There clearly is a miscommunication there. My apologies if that's on me. That was never in my intention to get you to do content work.  And we will be reviewing everything and probably changing a decent portion of it because, as you say, you're not in this field.  So it's probably not up to the industry standard that we would want to go with.
+
+9:21 - Nathan Drew
+  Yeah. See, I think Rowdy's, I know the amount of hours that he's spent on putting that content together. So part of our pain point is definitely around feeling like we're doing all the heavy lifting.  And part of today was understanding, are you guys just the people who plug it into the system? Or are you guys part of that, you know, content creation, which is what, you know, we thought it was right at the very start, which sounds like we're heading towards the same understanding again now.  Um, if you were looking for just purely bullet points, did you, did you outline that two rounds though, to say, I just need bullet points?  Or did you say, give us your nurture sequence? Probably Probably just. So I feel from our side, we're going, well, we want to do the best that we can do at our side as well, but it's probably just hit that point where we're going, man, are we just going to give these guys all the content just for Xavier to put this into a system and a structure that they can hit play on?  And that's not what we signed up for. So I'm glad to hear that it's not that, by the sounds of it.  No, not at all.
+
+10:24 - James Killick
+  So what our two big deliverables are here are two playbooks, right? So we write those playbooks. I mean, I've got drafts.  had drafts for this, like back when we started the first Polar Vibe Coded stuff. The biggest, biggest blocker I have right now on the pre-sale side is understanding what your marketing is, because the marketing directly impacts how we address the communication to the client.  So that's why I jumped into that meeting with them to discuss what that's going to look like, because. So when you have a lead magnet, for instance, that is the pre-sale.  Everything that comes after a lead magnet, anything that comes after a collection of email when it isn't done.
+
+11:13 - George Votava
+  You're still there, He might have. He'll come back.
+
+11:20 - Nathan Drew
+  He's paused at that funny moment where he looks frustrated, but he's not, right? He's got that. I hope it's like he's about to take a right shot.  Didn't you hear it? He might have to jump out and jump back in, maybe. Yeah. Yeah. So just to, look, once we get your client, there he's back.
+
+11:41 - James Killick
+  My bloody internet. Anyway, so I was saying, once, yeah, once we understand exactly what your marketing strategy is, then we can kind of determine what the pre-sale strategy, the pre-sale playbook is.  All And then, I start. past content that's relates to that because it's very safe and content can you guys still hear him uh no lost all right try this again can you hear me now maybe without the video James might be video just dropping it yeah I think I've got this thing since I moved in here I've got um what's it called uh nbn but it goes absolutely fine like it's that absolutely rapid but then every now and then it just shuts off for 30 seconds very very strange completely random when it does it anyway um third time lucky so um the pre-sale the the marketing strategy will define what the pre-sale strategy is the pre-sale playbook strategy that's because we need  So understand how we're going to get them, how we're going to receive them, what they will have signed up for, what it is that got them to where they are, and then we need to nurture them accordingly in the right direction.  Does that make sense? Yeah.
+
+13:15 - Nathan Drew
+  So that's why that one's a big blocker for us.
+
+13:20 - James Killick
+  We've sorted that, haven't we, though, James?
+
+13:24 - Nathan Drew
+  Have we?
+
+13:26 - James Killick
+  I thought we had. The last conversation with them, and I dropped off before ending that conversation, you were looking at, I might have missed an email, but you said you were going to send over the updated ICA for.  Yeah, that all went across. Okay, that's probably on me then. Let's have a look. Oh, yeah, I see it.  The ICA data. Matrix definitions. Cool. Sorry about that. Yeah, I'll look over that. So that's everything. That's your approach, agreed, internally?
+
+14:17 - xavier ybanez (xaviernjin@gmail.com)
+  What do you mean? Sorry?
+
+14:19 - Nathan Drew
+  So that's your marketing approach, agreed, internally.
+
+14:22 - James Killick
+  That's who you want to go after? Yeah. Those ICAs.
+
+14:29 - Nathan Drew
+  That's come from our real settled databases, actual customer data.
+
+14:46 - James Killick
+  Did we hone in on one? Or is there multiple here?
+
+14:52 - Nathan Drew
+  When we were talking to Em last week, we were talking about when it came to lead magnets and potentially doing anything paid with...  We highlighted a while ago that the one for FFG is the, I can't remember what the actual name of the ICA is, but it's basically our customers that come back, repeat.  They normally come through for some kind of personal loan, the debt consolidation, travel, or another purpose. It's our high value repeat customer.  You'll see it in the ICA data. Got it.
+
+15:35 - James Killick
+  All right. This is good. Right. Well, so there's no real blockers on the pre-sale, nor is there a blocker on the cross-sell.  So it's just, if you don't want, if you, regarding the stuff that we requested, you can give us that as bullet points.  You don't have to give it to us at all. We can take it from here. There's no issue from our end.  The project plan is simple enough. Like we're going to deliver one pre-sale strategy. Playbook at a time. That will have literally all of the synthesized information that we've collected over this engagement thus far, along with the proposed content.  You'll approve that. Then we will plug it directly into GoHighLevel. Makes sense.
+
+16:19 - Nathan Drew
+  And then I guess there's probably some training around GoHighLevel or...
+
+16:24 - George Votava
+  Do you want me to talk about the high level milestones, James? Yeah, go ahead. Yeah, look, there's a number of milestones in the project, which is one is customer onboarding.  This is all the artifacts. And once we get all the documents from you, we review it, we sign it off, which then goes to the master playbooks phase, which is where James will work with you and build those two playbooks.  We'll have a sign off after that as well. It's completed and ready to go to GHL implementation, which is the next phase.  We build it out in GHL. We do walkthrough, testing, demo, everything. Once the GHL is completed, signed off. Read...  Okay, by accepted, we signed that off. So we have checks, points throughout the whole project. Then we have a go-live, business readiness, go-live.  So a couple of days business readiness, go-live. And then we have training and support, which has been agreed four weeks, yeah?  After go-live and then closure. There are your six milestones. Yep, that makes sense.
+
+17:23 - Nathan Drew
+  So probably, yeah.
+
+17:24 - George Votava
+  So once we get all the documents, then it just follows that project plan, which we deliver to all our clients.  It's usually the onboarding is the most difficult, because we need to gather all the information and see what's missing at work.  And then once we get it, everything signed off, then it just follows.
+
+17:42 - Nathan Drew
+  Yeah, makes sense. Is there any sort of pain points from your side you guys want to discuss today that, you know, things that we're not delivering on or we're being too slow on or miscommunication or anything?
+
+17:57 - George Votava
+  Look, I haven't been involved, so probably more change. But the other thing is that we'll have, once the project kicks off, we'll have 15 minute catch ups each in the end of the week, just to track the project plan very quick, where we can bring up risks and issues and discuss anything that's a concern of the project.  But there will be those catch up for 15 minutes. Once we get to support and training, we'll probably have that catch up after four weeks because it's just support.  You'll be logging tickets and issues and our support team will be executing and fixing those issues or queries. I think you had some more things to get through on your side of things.
+
+18:32 - Nathan Drew
+  James, is there anything from your side?
+
+18:35 - James Killick
+  No, look, I think, you know, I get where you guys are coming from. And it's because it's been loose on our side, because we haven't put it in as an official project up until the previous conversation.  So, yeah, it's one of those situations where I've been going above and beyond to try and, you know, give that extra advice, go in the  And it's probably cost us time and definitely cost us on organization. So that's all on me. But once this project plan goes into place, and the structure will be very rigid, rigid, because, you know, I'm George and I aren't willing to deploy resources, unless it's there's a clear plan associated to it in terms of my personal time, like I will jump in wherever I, you know, get driven, like I love working with you guys love coming into the office.  Love spitballing those things love jumping in to the meetings like what we had with them. But, you know, that's, that's my own personal time.  So this is Yeah, this is on me. And I apologize. I hope I haven't come across as though I'm being ultra defensive of it.  Like, I just just want to be sure that you guys know definitively, that's not how we work generally. Generally, how we work is we have a project plan, we use the PMO team, which is essentially George, say, George Xavier, we have a couple of other project managers.  So just that's how we operate. You've just kind of had me floating around, and that's probably been the problem.
+
+20:06 - Nathan Drew
+  I think from my external, know, Rowdy's been right in the mix of this with you, James, throughout the project.  What my concern was was that your enthusiasm had waned when we went away from building a bespoke system, which you're very passionate about, and I can understand why.  It's, you know, it's a passion and a direction in the business. And when I made the decision with Rowdy to go back to our original plan of GHL, I felt that you were a bit frustrated by that, and I was just concerned that, you know, your enthusiasm to work with this may have waned.
+
+20:39 - James Killick
+  No, definitely not. Frustrated, yeah. I mean, that was going to be a really great project, and I still want to try and do it at some point.  Has my passion to work with you? No, like, honestly, I wouldn't be offering myself to hop into a meeting with Em and Rowdy and talk about marketing stuff, which is beyond scope.  Like, I love working with you guys. I think the potential. I just want to be very, very clear about these things because like I realized on reading the emails this morning and having a chat with George that clearly there's been miscommunication and as I'm the one communicating with you guys, that miscommunication has to have come from me.  So I just, I've just set this meeting as in like my, my tone of this meeting to just be very clear, very blunt, not hopefully not disrespectfully blunt, just blunt to the point where it's very clear what we're offering, what I'm supposed to be doing.  So you guys don't have any miscommunication in the future.
+
+21:36 - Nathan Drew
+  I think the strengths of a long term, you know, business relationship is being able to have direct two way communication where nobody gets offended.  We just get on with what we're trying to deliver together. And I think from, I know from Rad in my side of things, we're, we're not, it's going to be very difficult to offend us.  You know, we're married. So not as in he and I. I'm glad he did.
+
+21:59 - James Killick
+  Thank you.
+
+22:00 - Nathan Drew
+  We have wives, so it takes a bit to offend us, but Rad, you had some things on your thing, do you want just cover anything else so we can just move on from this with hopefully some clarity on what we're doing?  Yep. Probably my next biggest question, it was one of those points in the email I sent across James, is just on using the AI to segment and those sorts of things going into GHL and what that looks like moving forward and long term with the system.  I wasn't a hundred percent sure when you were talking about that, what I was trying to achieve, and then especially once GHL is up and running, what's that kind of going to look like from a usability perspective?
+
+22:42 - James Killick
+  So, are you talking about in terms of how we were proposing to use the variable fields to highlight, you know, kind of like tags, who was attributed to what, like, which clients were attributed to which segment?  Is that what you're talking about? I think so.
+
+22:57 - Nathan Drew
+  Like, the points in the email. I'll grab what you said, hold on, this is probably a good example of what I talk about because I haven't done this sort of stuff before and I'm trying to take what you're saying and then put it into the right context and make sure that what I give back is going to match what you're looking for.  It can be a bit tricky sometimes. This was for, just trying to find the right email mate, hang in there with me.  I got it. This was for talking about Claude. Yeah, routing logic being a hard matrix and not AI. She said, because I'm the only one with the full picture in my head.  The plan is to work through it with Claude, using the ICAs and nurture sequences and some example data in one folder.  Mm hmm.
+
+24:17 - James Killick
+  Which, which was the email that you're talking about?
+
+24:21 - Nathan Drew
+  This was the one you sent through on Monday last week, late Monday evening. What was the subject?
+
+24:30 - James Killick
+  Today's wrap up plus Thursday prep.
+
+24:33 - Nathan Drew
+  Okay, cool. Because we did our meeting in the afternoon on that Monday. Yeah.
+
+24:39 - James Killick
+  And I think this was what was summarized off the back of it.
+
+24:43 - Nathan Drew
+  And I think because you use AI for a lot of stuff, right? So I think that it's got some points and things in here that have probably been summarized from the AI note taker, because there are a few things that were a little bit out on context as well.  said. so
+
+25:07 - James Killick
+  Can't find it for some reason. What time was it?
+
+25:12 - Nathan Drew
+  Oh, 8.39pm, working late. That's weird.
+
+25:20 - James Killick
+  Do you want to send it back to James?
+
+25:21 - Nathan Drew
+  So he's got it fresh on his thing. I'll just order something that's easiest.
+
+25:25 - James Killick
+  Yeah, that would be great.
+
+25:27 - Nathan Drew
+  I'd hate to see your inbox in your Microsoft or your Gmail or whatever you want. Have you got a thousand just in your inbox and you run out of inbox and search or have got folders?  I have folders, but I do have quite a lot in my inbox at the moment.
+
+25:45 - James Killick
+  Yeah.
+
+25:46 - Nathan Drew
+  You'll probably see when you have a read through that email and look, this is just being direct because you said you're being direct, James.  You can probably see how there's been room for misinterpretation online with some of the stuff that's in there. Like for the Nurture Sequence, says FFG Nurture Sequence documented leaner version to pair with the FHL one we already have.  Yeah. So I'm thinking sequence, right? I'm like, that's the FFG Nurture. That's the main thing that our customers see from settlement all the way through until cross-sell.  And it's like the backbone of the whole project. So rather than just putting together like some dot points and kind of half-assing it, I want to get the best out of it.  And hence why I'm saying I put a lot of work together and I probably have overkill as far as the detail and those sorts of things in that.  And I'm pretty well known for that. But that's just because I don't want to deliver something that's going to be half-baked.  Yeah. No, fair enough.
+
+26:40 - James Killick
+  I completely understand. Like your stuff's great, by the way. Like it is great. But you're right. You know, you're putting too much time and effort into this and we're not doing enough on our end.  But yeah, I just wanted kind of what you got, what was in your head. I just didn't want to, I didn't want to recreate the wheel.  But clearly I've gone too far the other way. Um, anyway, I apologize for that.
+
+27:04 - Nathan Drew
+  Have we got the email there, James? Yeah, yeah, I'm reading it.
+
+27:08 - James Killick
+  Sorry, look at that, you've actually gone and invested. think, think that, that was, yeah, that was a point that came out of the notes.  Um, I can't tell you exactly what was said to, to make that, but I assume would have been something that you said in the thing that you were going to work it through with Claude.  Yeah. But it might, you know, like these meeting notes, things like are not always perfect.
+
+27:38 - Nathan Drew
+  I think as a business partner, especially when I sit on those emails as well, I'm reading that as factual.  Um, I think, I think, you know, the overuse of AI, that's it, um, and where it loses its context can be, you know, not, not helpful.  But certainly when I read that and sit down and meet with Rowdy, when I read that in black and white and Rowdy and I have a meeting.  I think I'm. I said, mate, why are you doing all the  heavy lifting here? Why are you having to create that?  Isn't this what those guys said they're going to do for us? We need to get on the same page again.  So if you're going to put something in writing, it has to be factual, mate. It can't be this. I mean, if you reread that and you go, actually, there's some stuff in there that probably didn't need to be there.  It's not correct. I'm going to look at it factually with Rouds and I'm holding him accountable to this as well.  All right. So hang on. You're investing all this time. James is getting you to go and build these things.  This is not what we signed up or paid for, mate. You need to be running a team over here.  You can't be doing James's work over here. So I understand he's getting pressure from me to try to understand why we're doing all the work here.  Yeah, of course. I understand that.
+
+28:50 - James Killick
+  And yeah, I did go through that email and I was just I had it summarized the Fathom transcript that I had.  And I did already cut things out that were unnecessary AI fluff. So I actually did believe that that was what was agreed.  I will make it more clear next time that this is a summarized thing from the transcript. And yeah, 100%, if there's anything that is unclear in these moments, that's why we do the emails, right?  Because if it doesn't make sense, it needs to be flagged at the moment that I sent an email.
+
+29:27 - Nathan Drew
+  And I think now we're on the, and Rowdy's done a lot of work around what you've got in your bullet points there and around creating the nurture sequence, which took a number of hours for him to go and build and a lot of headspace and took him away from the team to be able to do this as well in a critical time where we had people out of the business, key leaders out of the business, Rowdy juggling, doing stuff after hours and working his  off to try to deliver on this for you, James, as well.  So it's been challenging from our end. So having this conversation today We enjoyed working with you as well mate, I love your creative side, I love the thoughts that you bring to the table, you're not scared to table stuff with us, you're not scared to call us on our thoughts on things if you don't think it's going to work so I think all of that sort of stuff is good, just we're feeling a little bit overdone and a little bit fatigued already and when we saw that the project hasn't started yet and we're feeling a bit fatigued at this end, we're going  what's to come.  You know, this is, we haven't even hit the start line and if this is what the lead up is and the expectation of us, what we have to bring time, energy and everything to the table to a business that is the experts in this and we haven't started yet, I don't know whether or not we want to go forward.  So having this conversation has been good to sort of allow us to that time to sort of put this on the table and give you guys an understanding of the fatigue-ness that we're feeling right now in this project.  Fair enough. Fair enough. That's kind of the one we signed up for, because you guys are the experts in this, and we thought we had it okay, but we know we're near where we need to be, so we wanted you guys to come in and sharpen our tools and set us in the right direction and help create this.  Yeah, no, of course.
+
+31:20 - James Killick
+  The thing just to mention is that we are the experts in nurture sequences, pre-sale strategies, and linking it all in with AI automations, but what we can't do, we're not experts in your field, right?  So that probably the point, was just looking through the actual transcript of that meeting. And, yeah, I think I did mention to you, and I'm sure this is exactly where the AI got it from, I said the problem is that how you actually categorize these clients, that is in your head at the moment, right?  And that's where And I think you said, that's right. That's my job. And that's where we got to the point where we need to somehow extract it from your brain.  And that's where you said you were going to work with Claude. So I mean, there are things that I can say that I can do, but I, no matter, like, I'll never be a specialist in your industry, right?  I'm a, like, we are contractors, like, I try my best to understand clients as best I can, but I've got an array of them.  So I need your expertise in how you're going to deliver that. So I think the, the action point out of this is to be very, very clear with what we need you to do.  And I'll be very, very conscious about only asking for the most important things. So anything else, like I will, I will, I'll not, like, unless I desperately need it, I won't ask it of you guys, because we can handle it.  But this, this, we need, we need the, the, the, the outline of, of how things link up, how, because I've got to devise a strategy.  to make sure that all of the different inputs, all of the different things that we're highlighting as, you know, tags, whatever you want to call it, that they are right.  Because if they're not right, then the whole strategy is flawed because it's not just about how we architect GHL, but it's about how we send emails off on the back of that architecture.  What are the custom elements? And I think we've talked, I need to go back to see where we're up to.  You may well have already done this, but there's also, there's all the tags in SendGrid that you already use that can be used definitely as a basis to highlight the, the, how we're going to structure GHL, but we just need something definitive.  And that will be inside of the, of the, the strategy playbooks. And then once it's signed off, we can just attribute it to go high level.  Sure. So on the back of that email, what did you produce, Brad?
+
+34:00 - Nathan Drew
+  I've got all of the points that you've asked for, you know, all of the bits and pieces around what are must-haves and nice-to-haves when it comes to the system and those sorts of things, and every point in that email I've got ready to send across to you, but to kind of give you an idea, right, and this comes down to because I like working with you as well and I'm passionate about the project, with the dot point when I read on there around creating that journey, I've gone in because I can't spend all my time when I'm here during the day doing that.  I've got to be in and around the teams, like, I've been working on it for, like, hours every night when I go home because I wanted to put something together that was going to be, you know, sufficient to be able to hand across based on how it looks to me at the moment is what I'm creating is what we're kind of moving ahead with, which, again, after catching up today, you know, we haven't even started yet and that looks different as far as all that stuff's going to change, but hopefully you can understand from my perspective and not just from whinging or complaining, you can understand why I would have thought that.  And when I started. And put a lot of time and effort into it, like I've treated it like it's the most critical thing to the business right now outside of the teams that I'm managing and that I'm leading.  So it's, and because it's putting that dot point as being the FFG nurture sequence, I've kind of gone, okay, the FFG nurture sequence needs branching logic.  And the FFG nurture sequence needs to be individualized for each ICA. And all of the complexity that you're talking about right now around how you need to know and structure things, because I couldn't really understand where that was going to come from and how it all fitted in based on that, what I've put together has all of that in it.  So I'm hoping based on all of that effort that there's a lot of value in it and that it helps us move things forward.  But I just wanted you to understand, you know, I'm doing everything I possibly can. And I get that there might've been something in the conversation we had around using Claude and those sorts of things, but there's so much stuff we're trying to cover at the moment.  When I see it in a dot point in an email, like Nate said, I'm going to take it as fact.  that. You want. you.
+
+36:00 - James Killick
+  Yeah, no, I get it. I actually now read the transcript. I think this one was important. I think the only issue is that we probably needed to have a meeting about this specific dot point, so that it could be better clarified what exactly it is that we need so that you don't produce.  Sounds like you've gone like way, way above and beyond, which is amazing. But probably we didn't need all of it.  Just, again, it's not what you want to hear because you've done all of that time. And I respect that, that you've been working outside of ours, and I apologize that miscommunication has made that happen.  That's on me. But yeah, let's just say next time that if there's any clarification needed, that we organize a meeting and we chat about what those deliverables are.  But M4C is having these issues because I think we're at the end of the data collection process anyway, so it will all be on us now moving forward.
+
+36:52 - Nathan Drew
+  I think you said in the past, James, what we've met around, you know, we operate as a bit of a different business than some of the other ones as far as the clarity that we can probably...  We provide you with the information that we can give you around how our businesses think and how they're working together and that sort of stuff.  And it's probably another example of that that I doubt very much that any of your other clients are going to send what Rowdy's about to send over to you to be able to help you do your job.  I will say that.
+
+37:20 - James Killick
+  I'm looking forward to receiving it because your work is always top, top, top. It makes our lives much easier.
+
+37:27 - Nathan Drew
+  which is part of us getting to the, you know, getting through this next phase as quickly as we can, guess, with full clarity.  So good we've been able to have the chat. Is there anything else to go through there? I believe so.  It sounds like a lot of the heavy lifting is about to be lifted as in just as part of the natural flow of the project, which is promising to hear.  We work to those milestones that George spoke to before about. Yeah. I think that's the... That's that we needed as well to understand, okay, what do we need to do next?  What's our, what's our involvement? I think that's been lacking in this part for us as well, and we prebook resources in advance.
+
+38:12 - George Votava
+  So you'll get calendar invites when we'll do demos and everything. And also we'll be providing you weekly updates, what's outstanding, what's a requirement, who's responsible for stuff.  So you'll get that from us every Friday with the 15 minute catch up. Yeah. Okay. And in that 15 minute catch up, if there's nothing, anything not clear, just raise it so we can understand it and work it through.  Sometimes emails gets misinterpreted, best to have a conversation. Agreed. Yep.
+
+38:39 - Nathan Drew
+  So Brad, your action is to send it, send that stuff across? I'll send the email across as soon as we jump off the meeting.  James, if ever emailing back and forth and there's a point in there, I'm not sure. I think maybe if we just expect that there'll probably be a phone catch up between you and I.  Not long after the email comes across with the catch up points, just to clarify on anything. blessing. .. That's probably good practice, but it also sounds like we're probably, like Nate said, are at the end of all of the data collection and those sorts of things anyway, so it's probably pretty limited, but just in case.  Yeah, no problem at all.
+
+39:13 - James Killick
+  We know you're a busy man, mate.
+
+39:14 - Nathan Drew
+  We don't want to take up too much extra time outside of what you've allowed for for our project, so I get it as well.
+
+39:20 - James Killick
+  I don't mind doing extra work with you guys. Honestly, I really enjoy it. You guys are really great to work with.  Apologies that I haven't returned that to you. Look, I just, not an excuse, just wanted to know a bit of context, like last week was one of the most hectic weeks I've had.  was working 14-hour days because I had a couple of big events that I was preparing for and an onboarding of a big, well, two big clients, really.  So one thing that happened that I dropped the ball on is actually speaking to you on the phone. Like on Friday, we dodged each other, missed each other, and by the end, I sent a voice message, and that was the end.  So just know that that was a bit of a one-off week. Not only are going to get a lot more structure because of George and Xavier, but I don't intend to be that busy every week or else I will keel over and die pretty quickly.  You moved to the Sunshine Coast to get some balance, mate.
+
+40:16 - Nathan Drew
+  What's doing?
+
+40:19 - James Killick
+  The AI is kicking off and we're in high demand at the moment. Yeah, good position to be in. All right, great.  Well, it sounds like we're all on the same page.
+
+40:28 - Nathan Drew
+  We can move forward. Thanks, guys. think so.
+
+40:30 - George Votava
+  So just a quick, just a last thing before we move to the next phase, we've validated the data collection.  There's a sign off in that component, yeah, which is the customer onboarding. And we'll provide you then a project plan of the six weeks of the implementation with the four weeks of support.  So technically it's a six weeks program, 10 weeks with the support and the closure report after that at the end of the 10th week.  Makes sense.
+
+40:55 - Nathan Drew
+  And I'm guessing by the end of that, we'll have some other thing dreamt dreamt up that we can call.  So and work with you guys on.
+
+41:02 - George Votava
+  100%. So that'll be a change of scope of the original project. But yes, we can work through the PMO office with that.  So it's a process and we will manage that aspect. I know James loves to talk about stuff and do things, but the PMO is quite strict.  Yeah, I'm all good with that. Yep.
+
+41:20 - Nathan Drew
+  I'm talking more about whether that be marketing or websites or other things. Yep. All good.
+
+41:24 - George Votava
+  Okay. Thanks, gents.
+
+41:27 - Nathan Drew
+  Appreciate it. I'm to delivering on it. Appreciate you hearing us out. And James and I had some direct stuff to say, but I am looking forward to continuing to work together, man.  And I know you said you weren't available last week. I'm looking forward to hopefully having you more available because I like leaning in on you for these sorts of things.  I appreciate having your input and your advice. And that's something that probably with what we've been doing, I've wanted more of.  So hopefully that helps. I want to say to you, ring me anytime.
+
+41:54 - James Killick
+  And the reason why I gave you that context is because I know you did ring me last week and I didn't give you the time.  So I. Yeah. I want to reiterate, ring me every time, please do, because I'm always here, like you guys have an open group to me as and when you needed to discuss anything about this project or about anything AI related about the stuff that you're implementing internally.  I don't offer that to all clients, I just like you guys and I want to offer that. But clearly, from this meeting, the outcome is that this project is the most important thing for now, and we're going to push on and deliver it exactly as George has mentioned.  Yeah.
+
+42:34 - Nathan Drew
+  Cool. Cheers, guys.
+
+42:35 - James Killick
+  Thanks, guys. See ya.
+
+42:37 - Nathan Drew
+  See ya.

@@ -1,0 +1,437 @@
+My apologies. I have corrected the report to include the **full, word-for-word transcript** as requested, while maintaining the simple, third-grade level tone for the summary sections.
+
+**Meeting Details:**
+
+* **Title:** Playbook Catch-Up With James & Rowdz
+* **Date:** Friday, 6 March
+* **Time:** 12:30 PM – 2:00 PM
+* **Location:** Fox Finance Group (Suite 13, The Corporate Centre, 13 Norval Court, Maroochydore QLD)
+* **Attendees:** James Killick (Njin), Rowdy (Fox Group)
+
+---
+
+**Overview:**
+
+* **How the meeting went:** The meeting was very exciting! James from Njin showed Rowdy some new computer tools they are building. Rowdy shared a big 18-month plan to help customers feel happy with their home loans.
+* **Summary:** They decided to build a special computer system called **POLR**. This system will help Fox Group talk to their customers at the right time without making things too confusing.
+* **Major takeaway:** Njin can build new tools very fast (in just a weekend!) using something called "vibe coding." This means Fox Group can have their own special portal for customers to log into.
+* **Most important action point:** James needs to send Rowdy some Google Docs so they can make sure the AI knows exactly how the business works.
+
+**Topics:**
+
+* **Building a Custom Tool (POLR)**
+* They decided to build their own special software instead of using a ready-made one because it can do more cool things.
+
+
+* **The 18-Month Customer Plan**
+* Rowdy wants to keep in touch with customers for a long time so they don't leave and stay happy with their loans.
+
+
+* **Safety and Security**
+* James promised that even though they build things fast, they have expert "full-stack" builders who make sure customer information is safe from hackers.
+
+
+* **AI for Blogs and Marketing**
+* They talked about using AI to write stories for the website so more people can find Fox Group when they search on Google.
+
+
+
+**Process(es):**
+**The 18-Month Customer Journey**
+
+1. **Month 1:** A person calls the customer to say "hi" and make sure their bank accounts are working.
+2. **Month 3:** The system sends a link to a phone that shows how much the customer's house is worth now.
+3. **Month 6:** Fox Group checks if they can get the customer a cheaper price (interest rate) on their loan.
+4. **Month 9:** They suggest new things the customer might need, like a loan for a new car or a holiday.
+5. **Month 12:** They look at a "map" to see what the customer wants to do next with their money.
+6. **Month 15:** They start looking for a brand new, better loan deal (Refinance).
+
+**Stats:**
+
+* **Fox Finance Group (FFG):** They finish about **90 to 108** loans every month.
+* **Fox Home Loans (FHL):** They finish about **16 to 17** loans every month.
+* **New Leads:** FFG gets **375** new people asking for help a month, and FHL gets **55**.
+* **Home Loan Size:** The average loan is about **$600,000**.
+* **Money Made:** Fox Home Loans makes about **$4,750 to $5,225** for each loan.
+* **Referral Fee:** They get **$200** when they send a customer to a partner.
+
+**Action points:**
+
+**Client Action Points:**
+
+* **Read the Docs:** Rowdy needs to look at the Google Docs James sends and say if they are correct.
+* **Competitor List:** Rowdy needs to find a list of other companies they compete with and send it to James.
+* **Pick the Journeys:** Help James decide which types of customers (like First Home Buyers) to build for first.
+
+**Njin Action Points:**
+
+* **Send Google Docs:** James must send the business overview docs for Fox Finance and Fox Home Loans.
+* **Fix the Playbook:** James will update the "Referral Playbook" with the new information from today.
+* **Check the API:** James will check if the "Totality" tool can talk to their new software automatically.
+* **Blog Plan:** James will figure out how to make the AI write two blogs a month.
+
+---
+
+**Full Transcript:**
+
+**Njin:** We came in here about a big catch up, and then we come back and forth on, figuring out the best way to proceed with POLR, whether to use GHL, whether to go forward, building a custom. And we've overcome that now, mostly, I think, and we're just sort of saying regardless of what the mechanism is, it's still the same. Playable. So it's probably good to get an idea of like what your process is going to look like, for how you want to draft it, what you want to work on 1st, where I can give you information 1st to help with that.
+
+**Client:** Yep. So the way that we work is, I create a Google Doc for each business. Yep. Um, and the 1st 4 sections, which I'll send you over, um, extrapolate it from our calls and from the documentation you're given me there. Like just general stuff like the business overview, the ICP. I just want to get those right because essentially all of the AI tools that we use work off context, and if they're wrong, then it's going to go down the wrong path from the very beginning. So, uh, I can give you that and then, um, just make, make the comments on there. Give me the thumbs up, and then I've already had our AI actually draft the referral playbook, but I've got a load of questions to ask you. So it's going to change anyway. But then it'll be the same thing. So what we do is we have a, um, 2 sections for each playbook. One is like the developer guide. that outlines how we're going to put it together. The playbook is designed from a developer standpoint for go high level. So I'll alter that depending on, I'll leave it. What do you think? Do you think we're tending towards the custom solution or do you think we're attending still towards the go-ha level?
+
+**Njin:** I don't think that we've got like 100% either way. Right. Yeah. So the options are for the developer guide, I can keep that written up as though it was designed for go high level. Or I can write up as though it's going to plug straight into POLR.
+
+**Client:** I think Nate's biggest concern with it was just making sure that we weren't gonna, because his concerns covering the fact that we've had IT people in the business before that have just made things complicated for the sake of being complicated and they're trying to unwind that, trying to maintain that has been difficult. Yeah, yeah, yeah. So that's where his main reservations around going, building our own thing versus something that exists already is because you just we've been through that and it's been rough. It doesn't mean we won't do it. He's just very cautious. Fair enough, based off that. Because that person then left the business and we had to try and undo it all and found layers of layers of Band-Aids, and other fixes and problems and things that they're still working throughout there at the moment.
+
+**Njin:** Makes sense, yeah. To give you a bit of additional context on that. But I think what we're kind of leaning towards is if all of the functionality that we want and the way everything needs to operate is can't be built in GHL, then we've heard all of this, sorry. I mean, it... The 1st layer can be, it's the 2nd and 3rd layers that can't. When you really want, and all the, as I mentioned, all that we would end up doing, is creating this thing anyway. Yeah. Bringing the GHL data into it, along with all of your others. So it would just be like GHL would kind of become like a bit of a redundant layer. Yeah. Um, Like we, we have, have been having issues with um, our project management system. just because, you know, everyone wants something different. We've been kind of, we started off at this custom tour called Spyra, then George, my business partner likes Jira, but I'm like, oh, that's just way too techie. So we've been kind of going back and forth on it until I was like, right, what we really want is something custom. Yeah. So, like, this is just a word prototype. But, like, this is, this is essentially what I built out for this. I did this in just a weekend.
+
+**Client:** Oh, dashboard, yeah, yeah.
+
+**Njin:** Yeah. But it has everything, right? So it's got, this is your task management. So you can click on this, you can see the details of the task. Um, you can see it, um, from the perspective of the sprint board. So this is sprint six, sprint seven. Um, You can assign your backlogs into specific sprints and you can do that through the combination of the backlog and the sprint planning. This will also be attached to a client dashboard. So once this is up and running, you guys will log in here to see our progress.
+
+**Client:** Oh, cool.
+
+**Njin:** And you can log any tickets and we will pick them up here. Yep. We're building this to do full resource planning. This is all dummy data, but it's actually got a proper database behind it. This isn't this isn't just like a static figma prototype. Like this stuff actually works. I've just had AI generate a lot of crappy data. So you put in your hours, your start date, and then you start signing that person to a degree on each product and project, and then you can see, um, you know, how much allocation you've got for other stuff. Yep. So we did that, that, that, that. We can manage clients. And client projects, multiple clients could have multiple projects. Yep. These are the stuff that we usually collect. Um, I think you've done it from the GBT, like the revenue and all of that kind of stuff. Did I send you over the GBT, didn't I? This is the... maybe I didn't do that. I'll check. You talking about the GPT, the onboarding one?
+
+**Client:** Yeah. Yeah, yeah, yeah. Yeah, you did that.
+
+**Njin:** Oh, he did that before Christmas, didn't you? Nah. Did the GPT before we did our catch up in here with Nate? Um, time tracking's all built in, and then, and then we have analytics dashboards, um, then it goes down. But you can see like,
+
+**Client:** A weekend? Build all that.
+
+**Njin:** Yeah. I knew exactly what I wanted, right? So I was just describing it today. Now, it's a little bit different when we do it for a client because for this, that's all me. I've never coded before. I've designed some frameworks, specifically for us to use internally, that essentially make the code better than just if you just asked AI to do it. So I and I also I've also been doing vibe coding now for over a year. Um, so I know I know what works and what doesn't like. So I'll show you a couple of other things. Like this is, in terms of the website, because that's something that you guys are interested in.
+
+**Client:** Definitely. Yeah, I have got some other bits and pieces to talk to you about today as well, just to make things more complicated.
+
+**Njin:** Yeah, I love complicated. So, This is a program that I run for educational entrepreneurs that have like Emma, that have IP, that want to monetise it. And so I built this website, um, it has a completely in-built, um, dynamic quiz. So you don't have to use, um, like, score app or anything like that. and it will come up. with the information and it's like, and it's deep as well. So the good thing about vibe coding is Manifisure, your score. That's pretty cool. 0 out, thank you. And then it'll, it's qualified me like it said, essentially, you're not qualified. So if I was qualified, it would give me a link to a natural booking link for a phone number and said it's like go to the school community. Gotcha. We've got these inside pages built. As I click on one of these, and what I was also able to do in each one of these is create a, um, a tool that you can access. Yep. So you just stick in your email and that will that prompt will just unlock on the screen. Yep. So, this is great for like SEO and GEO. I did one for my me personally. I just found this really cool concept, last AI to put it together. But again, it's like, it's super deep. So if I go into resources, blogs, there's a whole concept around EEAT, which is about authority. So I went through the blog, found a blog post, clicked on my name as the author. And then you can kind of connect with me on all of these. Okay, here's the podcast that I run. Here's the guest appearances. Again, and then the Njin one, like this is even bigger. All of these solutions programs, services, industries, the amazing thing is that because the you're building in AI, um, It understands all of the different pages that you already have. So when I go, create a blog post and use all of the most relevant internal links. It just does it. And it puts all of the links in for you. I mean, sometimes it will work perfect, right? And you want to review certain things. But the speed at which you can do this. And I hope you think that my sites are pretty.
+
+**Client:** It is, yeah. They're all very different, right?
+
+**Njin:** Like this one is, like, this is my brand colours. and I don't have a logo, so I just did this kind of cool thing. This one is obviously more of an ethereal theme and it subtly the background is actually shifting a little bit. and then Njin is supposed to be a little bit more out there, more techie, but this thing doesn't actually do anything other than just be there, yeah. That's cool. But, I mean, the chat works, at least it did last time. I was tested. yeah. Um, and it's, it's, this is essentially an AISDR. So it's just going to try and qualify me and take me through a load of steps. And hopefully the guys fix this thing. Hopefully, of course, my fingers. Hello? Hello? Hello, hello, hello. No, I'm still not fixed. Not as quick to speak. Oh. It did say, Hello? No, not quite, no. But that was working on the previous deployment, but then it broke when we did the new deployment, but essentially you just put your voice agent into it and you could just talk to it.
+
+**Client:** Oh, yeah, cool. Very cool.
+
+**Njin:** Which is the same one that we have attached to our phone number. Yep. Um, so, like, we're just pat, like, I completely agree with Nathan's approach and concerns. It can be a real rabbit hole that you go down. But now we're at that point where things can be done so quickly.
+
+**Client:** Yeah, a lot has changed. And unfortunately, the person that gave us that example of our introduction to technology and everything, you know, they probably weren't the most technically skilled person at that time anyway. They just were very good at going, we need this, I'm going to find out a way to do it as opposed to, I know how to do that. I know that the next big thing that we would be considering that's really critical with this is if we are using POLR as being like our primary database for all of our customers information and we have some really sensitive customer information. It's from a security and cyber attack perspective. It becomes something that's a huge viability. If it's not built right. What's your thoughts on that? With vibe coding and all those sorts of things?
+
+**Njin:** Yeah, you, so we, in our business, we have full stack, full stack, devs. Yeah. So, if it was, if I was the only one doing it, and then released it to you, I would be like, you know, I wouldn't be assured. I would ask AI. Can you do all of the blah, blah, blah, blah, blah? I wouldn't be able to check in because I don't know code. Right? So that's the reason why we have full stack debs. And the reason why I said to you, um, because this is just an internal project management system where, where, you know, I can do this and we're not really going to pay too much attention at the quality of the code at this stage. When it comes to client work. So I will design all the front end and then there will be a lot of refactoring that goes in. So it's still quicker than building it from scratch, but the our devs will go through and highlight, you know, the co-quality on every single page. Okay. Some of it will be fine. Some of it will just require some tinkering. Other pages might require the devs to actually take the concept and code it themselves. Yeah. Um, and and then a part of it is down to like what technologies use. So we're going to use something that's tried and tested, like Superbase. It's just a technology that's well known that's got its own security and built. It's got all of the ISO standards. Oh, cool. George, my business partner, he's been in IT solutions. He's a program manager. So he again, like me, isn't it, a developer? But he, uh, he's run a lot of, like, government, like, um, 8 figure jobs. Yeah, like huge ones. Um, And, uh, like he's very hot on, on um, cyber. So, um, in this sense, with you guys, we would be be taking some extra steps to ensure that it is, yeah. And and then also there's stage approach here, right? There's there's getting something up and running that you can use internally, where it's lower risk. Like there's, I'm playing around with something now. Have you seen all of the agent stuff that's going around at the moment? The, like, open claw. Have you heard of any of this?
+
+**Client:** No, so...
+
+**Njin:** Like an autonomous agent and the... The premise of it was that you get it started up and then you can talk to it through telegram and slack and all that kind of stuff, which is which is cool, which is what I started to use it for. And then I just realised it's got 0 real application to my life. So what I did, instead, is I started just building out this command centre for myself. So every weekend, I just spend a few hours building out new features.
+
+**Client:** Oh, that's pretty cool.
+
+**Njin:** And so I can chat to it in different channels. All of these channels are pre-prompted. So it knows it has to do specific things in these chats. Um, use that, yeah. Um, I've given it a goal, and then given it rather than it work autonomously, because there's been loads of security issues around that, I instead ask it to give me ideas. So I've got 80 to go through, right? Shit. Um, Like, it, it, so what it's done here is I've connected my meeting transcripts fathom to it. Yep. So it's analysed it. It's actually given me a report or it should have done in the briefing and reports. Um, Post meeting. So it's given me this post-meeting report. straight away at coming out of that, and I can have that also go to Telegram if I want. And then what it's done here is it's extrapolated, um, that I need to do something out of that meeting. And it's popped in it as a task. And so I've linked this to my test management system, which is reclaimed. If I press that button now, it will automatically create a task inside their via an API. So this, like, there's shitloads, like, I've got my LinkedIn inbox linked up. I've got a...
+
+**Client:** I always wondered how people automate this stuff.
+
+**Njin:** Well, before it was really hard. Now it's actually really easy. I got a content so this is what I was playing with at the weekend. So I've added these sources of YouTube channels that I like and then it intermittently scans. And then adds, okay, here's an here's an idea out of that video. Local 1st agent loop for subminute. It doesn't make a lot of sense to me, but it's relevant to Njin because it targets our direct KPI chain adds to da da da. And so it gives me the reason, gives me the evidence. So also suggested that I could potentially create a lead magnet out of it. And so I could add this to it to, if I promote it to the pipeline, it'll start generating content. For me automatically, if I add it to a test, then it'll start building the lead magnet. Um, point being, this, serious, its local host. This is running off a VPS. And I learned all of this as I did it about a month or so ago. Like I've done VPS hardening, and so it was operating through a shell. So only this computer can access it. So, my point being is one of the things that we could do in the initial iteration is a lot, so we put it on a server for you. But we lock it down so that only this office, only your IP address can access it. Which... Obviously, you don't want to have any vulnerabilities built into it, but the moment that you can only access it through one place, it mitigates the fact that, you know, there might be a couple of issues in there. And then and then we can slowly make it more and more robust, as we're going down. So we can start with a prototype that's a little bit, you know. Yeah. Get onto it. Yeah, fun, sir.
+
+**Client:** And then I think the other question he had was just around like ongoing maintenance with it, if it's gonna be something where something gets refreshed and it's gonna break and we have to continue to do bits and pieces with it or if it's pretty safe.
+
+**Njin:** Yeah, so we'll be we'll be doing thorough, thorough UAT testing. So we'll want to highlight any of those great things. before it goes to any of your staff. And then when we do deployments, we'll be doing the same thing, so we'll have a staging environment. So we'll test it on the staging environment 1st before we deploy it over to the production environment, then we'll do a secondary test on the production environment. So we, you know, our guys are software developers, so they've been coding from scratch for years and years and years. We treat these things in exactly the same way. The only difference is, because we deploy vibe coding, we can do things at least twice as quick, if not 3 times as quick.
+
+**Client:** Yeah, probably good. And then ongoing, will it require anything as far as maintenance goes?
+
+**Njin:** It's always good to have a maintenance agreement in place. Um, usually what happens is, you know, we're in these kind of projects because this is like the 1st iteration. We'll keep working with you consistently. So it's very likely that we'll be doing some project together, so we'll just be supporting it. If, if, say, we stopped working on anything, then we would propose having some sort of maintenance agreement in place so that we would check, check the uptime. If there's any issues, we fix it, we'll also do a few like minor upgrades to it as we go as, you know, new shit comes out, new, new, new issues. Cool. issues. New scary things that AI bring out. But it's it's not like WordPress where, you know, you've got your plug-ins that are constant vulnerabilities. This is these things that we're building, we're using like next GS, which is like the most advanced react platform or what we believe to be. Um, so, uh, if we got it to a place where it was running well and it was all user user tested, um, and contested from our side, and we gave it to you guys. There's there's really no reason why it should go down. Cool. Every now and then somebody does something to some, and it might go down in that case, swingers up, let us know, even if you don't have a mating agreement, we'll jump on it.
+
+**Client:** I think this textider stuff's not going anywhere and we're looking at plugging in Njin helping us with a lot more than just the POLR platform and that bits and pieces, right? Like there's bits and pieces to our advertising and our marketing and the website and stuff like that, all that digital that we want to kind of plug you guys in for. So I, yeah, I don't think it'd ever be like a maintenance agreement to show. Yeah, just good to know. Cool. I just, uh, just to let you know, I can't be, uh, I actually have to go at like 145. Um, because we just, we just talked for quite a bit. So basically, um, I'm happy to go by what you're going to say as far as wanting to make and bits and pieces you want from me, but the main things I came in this meeting wanted to make sure I got right was that as far as ICAs go, we probably have more than just two, and not probably. We do. We definitely have more than just two. Yeah. Um, I'm happy to build those as in go through the process I did with the other ones to put them together. Or is there something that you want me to complete that you've got or what's the best way to go about that? Because really, there's probably more like 4 for each business. If we were doing it properly.
+
+**Njin:** Okay. So, Are we planning on, are they significantly enough, Different that we need to have different messaging for all four?
+
+**Client:** Not sure. Because it's probably gonna come down more so to Those ICAs from a marketing perspective are probably more important to differentiate, but when it comes to the customer nurture and the automation, it's around the different automation journeys that we could take people through. But I'd say that there'll still be more than 2 for that. Yeah. When you think about the different products, because like in home loans, for instance, there's an automation journey for a new purchase. There's an automation journey for refly. There's an automation journey for an investor. In FFG, there's an automation journey to take someone across to home loans. There's probably an automation journey for them to go from buying a car to consolidating debt. So that's probably what we need to kind of figure out. 1st when you think about it. Yeah. And the reason this has come up and I've got it in my head is because I sat down and put together... I show you what it looks like. Just this 18 month journey in FHL. So have a look. Oh, I'm just waiting for it to mirror. So... Alright, cool. So, basically, this is what I was talking about with where customers, if they refinance out from fox home loans within 18 months. We get clawback and we lose them off of the loan book, so we want to try and build out a process that allows us to nurture them and take them through, adding value at each stage. So the reason why this popped into my head is because at all these different touch points, like, Uh, 3 months in, for example. Uh, it's probably more 6 months. Is this in place or these are your ideas?
+
+**Njin:** These are what I want to put into it. Yeah, cool.
+
+**Client:** Yeah. Here. So 9 months in is where I saw was the best timing as far as opportunity for them to potentially go across to Fox Finance Group or maybe let us do something with them within Fox Home Loans. And I broke it into like different packs based on the kind of customer, so new purchase, 1st home buyer, investor, refinancer, for example. This, what I've got here is all human driven. This is like the team calling out, putting bits and pieces together and doing this for the customer. But I wasn't sure whether this is something that links in with what you're creating with this project or not or if it sits outside of it.
+
+**Njin:** Yeah, definitely. So do you want us to walk you through from the start, so you got a proper feel for it?
+
+**Client:** Yeah. So it's just for one business or both? Pass for both? But it's really driven by, it's the home loans journey. It's to solve the problem of a customer leaving us before 18 months. So, one month, we call out, touch base with them, just confirm any key dates around their repayments. Validate if they've got any accounts like offsets and those sorts of things that they've been opened correctly and they've got access to it. If there was any notes that the customer gave us during the process where they said I was interested in X, Y, Z, we can talk to them about that in one month as well. And sometimes lenders have got additional conditions and things which you also need to follow up on. So we use one month just as a real quick way to tie everything off neatly. And all these conversations, as you mentioned before, they're recorded but through your... Yeah, through 3CX, 3CX, yeah. Yeah. So, customer facing outcome is there here and everything set up correctly. This is where we're also letting them know they get access to the Fox Finance group asset team, our for a friend program, and I wanted to introduce in here our affiliate partner network that they get access to as well. We're talking about plugs into POLR. around accountants and all those sorts of things. Yep. And start setting expectations around the fact that we're not just going to disappear. We're gonna continue to work with them and help them achieve bits and pieces. Yep. And then that kind of caps that off. If we can't get them on the phone, we're sending an email and sending a text message. But this was more of a question for you, as in how would you work something like that into the automation that we've got going on?
+
+**Njin:** It's just as exactly as you've got it, right? Yeah, there's no you would just do it. The system sends the email out automatically at one month. Yeah. Um, so probably I would prefer it SMS or um, email an SMS at the same time. And depending, like, what I'd want to know from you is, I mean, most people don't get a very good hit ray on emails. No matter how good their domains are, because people, I mean, hate emails.
+
+**Client:** No, we just use emails to let people know that we've tried to contact them. We don't ever try and give them any key information or anything over an email. It's just a follow-up mechanism. Yeah. As opposed to like the main instigator of contact or anything like that. Being a core. Yeah. So that's just one month, right? But when it gets to 3 months, just a quick question. So you always want your humans to do the phone call. at this stage, but we could be persuaded to go other ways if we had better understanding of how agents and bits and pieces could plug into it.
+
+**Njin:** Yeah. Probably for one month, follow-up, call that something that would be good for an agent to be able to do because it's not as, it's not as key as in the, you'll see when we do the next parts, it's all about the value that we've been building for the customer in the background. Yeah.
+
+**Client:** So as I'm talking through it, try and picture like you've gone somewhere, you've got your home loan and you think like that's the end, but then this is all the bits and pieces that you're getting provided on top. Yep. So then 3 months later, so 4 months after the loan settles, sort of sat down and thought most people at this point, they want to feel reassured that they've made the right decision, particularly if you're talking about 1st home buyers or a new purchase or something like that, even refi. You still want to know that you've done the right thing? So what we do in the background is we generate property valuation. Little small bit of detail about local growth and what's forecasted in the area for wherever their property is so they can start to get a bit more excited about it. and equity position baseline that they can use and then we can use that to build off of over the next 12 months as we take them towards the next goal, which ultimately is going to be to refinance them, to be able to save the money.
+
+**Njin:** How long does that take to put it together?
+
+**Client:** This would be very quickly. Like property evaluation, we just pull straight from totality, reports the same. You plug some numbers into a PDF. This would be a PDF template that we would put together and be able to provide across to a customer as extra tangible value to go, here you go. Yeah. Rather than just talking on the phone. was my thoughts. But I'm open to your thoughts on it if you think there's a better way to go about it.
+
+**Njin:** I mean, I, I just prefer dynamic links these days than PDFs. because you can send it, if it's mobile responsive as well, you can send it via SMS, they get it, they can open it on the phone, they can see it, click on the iPads.
+
+**Client:** That's a better way to do it. Do it as a dynamic link instead.
+
+**Njin:** Yeah. they're very easy to do. Yep. And all of this can be completely automated, assuming there's an API for the property valve.
+
+**Client:** Yep, there is. The report on local growth and forecasts, dude, is that growth rate? Is that um...
+
+**Njin:** It's just like similar to what you get when you've got like a proper paid subscription to realestate.com. pretty similar. Is it an API as well that you use for that?
+
+**Client:** I have to check.
+
+**Njin:** Yeah. I mean, you plug it all in, you press a button and, well, you didn't even have to press a button. It could just trigger 90 days, put that all together. In the initial stages, I would say, have a human review it, but once you're happy that it's not making any mistakes, you can just have it completely automated. Don't even have to look at it.
+
+**Client:** Fuck yeah. Because then what it is, is it's giving people something physical, tangible, they can see it. They can see where they've started from. It's continuing to set the expectations around what we're going to do with them as well. But this is where like the ICAs come into it because you can see for a 1st home buyer, it might look different because it might be out of valuation, benchmark, and then getting them to understand the additional costs and bits and pieces involved in buying a house. Like we have spreadsheets and tools and bits and pieces like that that we've we've built. For an investor might be more about being able to give them something where they can track their rent expense and they can actually see how they're tracking with the property and yields and bits and pieces, things like that. One of our referrers that we work with does bits and pieces with his investor clients because he basically goes, if you want to be earning this much income, here's how many properties you need to acquire over this amount of time, you know, like a data driven buyer's agent kind of situation. Yep. So there's bits and pieces from him. We could, we can steal is the wrong word, but use. And then for refinancing, again, it's like valuation benchmark, but it's showing the difference as in like the savings that they're going to be able to see from their refinance. Just as something tangible to be able to provide. Let me show you something quickly. Um, we won't go into it, but I just want to show you. Just as a quick glance.
+
+**Njin:** So, when I talk about monetising IP, and you're just talking about it now, all of those things under those bullet points, those 3 headings and the bullet points for each ICA, they're also something that you've already got an asset. And it is unbelievably, I don't know, underplay myself here, but with, I should say, with the stuff that I've built, it's unbelievably easy to turn that into something dynamic, right? So, you know, like, um, that whole checklist rates, insurance, maintenance buckets, and you could have that as dynamic because you already know what their prices are, plug it in and it automatically populates it rather than give them a spreadsheet. And this is kind of what we did here. So this is LBT, LBT. So this is me, but this one, this one, and this one are things that Emma has in PDF format, right? So how to do your LinkedIn brand, your user manual and the Blindspot quiz. These are assets that they have. Yep. And so now what we're looking at is, um, every new LBT, we're still finishing up. Every new LBT applicant enrol, whatever student, is going to have access to this prior to LBT starting, then they can create a ton of voice, then they can optimise their personal brand on LinkedIn. They can have a look at the leadership manual.
+
+**Client:** And That's pretty cool.
+
+**Njin:** And like, it's like this. like this, this is, it was, you know, a PDF, right? And you put it all in, and then it goes and generates the blueprint and it goes through all of those processes. Yep. And so exactly the same. This is why I'm so pro the software because With GHL, we could send all these things out. But you couldn't dynamically populate a spreadsheet, right? You would be spent sending a template over to them, which you then think that how many people are actually going to open it. They will go, oh, fucks are awesome. Look at this thing that they've sent me that I'm never going to use.
+
+**Client:** Yeah, I'll never read it. I just get it.
+
+**Njin:** Whereas if you if you send them something this that's already pre-populated all their information and it's just like, bang, they'll go, I'm going to log in here again. And then that's where you put other shit.
+
+**Client:** Yeah, well, ultimate vision for all this stuff, and I hadn't put it in here because I thought it was too far away, but it's probably worthwhile talking about. is this lives in POLR. This is part of the customer portal.
+
+**Njin:** Exactly, yeah.
+
+**Client:** That they get access to. Like the one month follow-up is here's your access. 3 months is here's what we've just put into the portal for you. But there's going to be a time period before that. I know I know that I can't push Nathan too hard because he's going to want to see proof of the pudding in the ET. You can talk to him about it, though. Because the customer portal is something that we both are big on because that's where the whole path of police resistance comes from. Like, until the customer has access to it and a way for us to be able to communicate and provide them value through that, it's not a path at least resistance yet. It's, um, working its way there.
+
+**Njin:** Yeah, close. But I mean, if you if you get something that they know they can log into, that's that's a whole place for upselling, cross selling.
+
+**Client:** Yeah, exactly. That's the one. It's gonna be huge. Hope so. I'm pretty excited about. So 6 months, proactive repricing review, so we go and run the repricing in the background, doesn't take long to do that. And we can call it out to the customer at 6 months and let them know that we've been able to get them repriced, and this is what it looks like, and this is when their extra payment is going to happen, and this is what it's going to be. Or if we couldn't do it, we can explain why and what we need to do so that we can reprice and then normally that's like a 3 month process from there to be able to do it. So it's another touch point just so they feel like we're still in the background. We're thinking about them, we're working to get stuff done for them. They not just left to their own devices. Then 9 months was that big crossover opportunity where this is where someone might go from FFG, FHL to FFG, for example. So again, I did it with Pax with like the new purchaser versus 1st home blower investor refinancer. You know, for a new purchase. It might be looking at these bits and pieces around the home, might be upgrading cars, might wanna go travel, all that sort of stuff. And this was me trying to work with AI. So I've had to cut and paste and move stuff out and delete it because it got some stuff pretty wrong. But generally the format it was in was like 3 or 5 scenarios that are really relevant to that particular ICA. A checklist for when they move forward with those, how we can make sure we can keep it smooth and quick and easy to get them approved quickly. Yeah. And then a readiness, like, list of the documents and things that we're going to need so we can start. Yeah. And my big thing with this was that it doesn't feel like what's going on in your life and what do you want next. It's like, we know you, people in your position normally looking at these things. Here's what that would look like for you.
+
+**Njin:** Yeah, yeah. But it's based around ICA. Which is kind of coming from the loan type that the customer's gone with. It doesn't matter. We can, we can, like, in there, again, it's easier in the custom solution. We can just highlight who the ICA is and then just always have a set. communication pack for them. And then maybe.
+
+**Client:** Yeah, well, that's what this is.
+
+**Njin:** Yeah, exactly right. Maybe we have to have ways in which we can trigger, you know, obviously if a new home buyer then buys a 2nd property or, I don't know, do they do they cease to be a new home buyer if they refinance? they got enough skills or is a, or are they still in that ICA until they've bought a 2nd property?
+
+**Client:** Yeah, that's a good question. I think they're 1st homebuyer until they're buying the next property. Yeah, follow the same kind of journey. Because the big differentiator is if someone's not a 1st home buyer, you think about the kind of things they're might be willing to spend money on them might be an investor, if not a 1st home buyer. Yes. And then if they're an investor, rather than cars and all those sorts of things, maybe they want cash so they can upgrade the investment property or they can invest money somewhere else. I know Nathan got rid of his financial planning gig. Yep. But I would like I'd like to have that kind of overarching vibe about what we do here. Yep. So we're not trying to be a function.
+
+**Njin:** Yes, exactly.
+
+**Client:** We're not trying to be financial planners, but everything that we do has like a bit of an understanding of what their goals are. Yeah. Um, it's, it's all, this for me is driven from the place that before I started working here, I had no fucking idea about finance. Like my parents were like, if you can't afford to pay for it out of your own money, don't don't buy it. Not mean to. And then I was in here for like a week, realised you can use it to actually build wealth and do all these really cool things. Most Aussies will go through their life, struggling. Maybe they'll afford to buy a property, maybe. And that's it. Whereas there's all these other bits and pieces, the things that they could be doing to be successful and build wealth and security, and we're not financial advisors, but we can use we can give them guidance with what they can use finance for to help them achieve those. things. Yeah. And this whole pathway, it simultaneously allows us to continue building the relationship with the customer, but we're moving them towards that. Like I've built this whole thing around like a roadmap of helping them achieve what the next thing is they want to achieve. So I've just bought it home, we know they're going to be on a higher rate, 12 months down the track, they're probably going to be in a position where we can refinance some of the properties built equity, all that kind of stuff. If they're an investor, maybe they only want to be in this property for 12 months and they want to sell it and they want to buy the next one with a better yield. for example. So, we're kind of trying to base all of these bits and pieces around that to steer them towards being able to build wealth security and build a lifestyle they want with the financial services that we provide. So, yeah, I gel with what you're talking about as in, like, we're not advisors, but we're kind of trying to wrap that blanket around people.
+
+**Njin:** Yeah. Does that mean there's the whole world of finance, most people just don't have a fucking clue. I mean, my dad's a very good accountant, turned financial director of property and development, international property development firm. But what I wish, he'd have teached, taught me, which he doesn't do himself, which is the problem, right? So he's always earned enough money, but he's never had to do like proper savings, right? And, you know, the concept of savings, you know, in our household was putting money away, maybe premium bonds or something like that. Because he's a, he likes the concept of in in the UK premium bombs, you, you essentially like a little lottery. Yep. I don't know if it's like that over here.
+
+**Client:** Not as much.
+
+**Njin:** And then, but I mean, I, you know, it was only a few years ago, really, like 5 or 6 that I learned the concept of, you know, if you just put a certain small percentage of your money into, like, any of, like, the decent shares or, like, ETFs or anything like that. Just left it there. If you'd have been doing that since, you know, you were 18. Yep, you'd be a millionnaire by the time you were 14. You made no, if you just had a shitty salary. Yeah, you just but you let it sit there. Yeah, and just let it compound. Compound, compounding. No, I was not taught about compound. No, no one is. And these are the kind of things like once you get, you can do all of these things without it costing you other than what you want. Yeah, it's not free. But I mean, like, it doesn't cost you to do it individually, right? Once you built it once, it's there. Yeah. And then it's just a little bit of a running cost with the with the AI and the servers. Not a huge thing. But you're providing such insane value.
+
+**Client:** Yeah. Well, I thought about it from like the perspective of, I don't have kids yet. But if I have a son or a daughter and they're going through school and they finish school, they're 18, they're at that point where they're thinking about finance and they go and get their 1st car loan and then say I didn't have a finance background and they were being educated throughout that for how they could then use finance and leverage that to get into a house and then how they could use the equity built from the house to go and do this. And we can plug referras into it, like Nick from Quantum, for example. He's got a whole custom app that he's built that tracks the equity being accrued in the property and all those sorts of things, like a dashboard, he's smart guy. You'd actually really like him. This clever dude. But like, that's massive value for someone, consuming they just started off saying, oh, we're going to loan for a car. Yeah. That's kind of the way I looked at it, is because then we're helping my wise to help people, but I think as I've gotten older, it's been to help people be not just happy or healthy, but be successful. Like, live a good life. live a shit life. Yeah, yeah. That's why I like, there was a new breed of financial planners that came about where they, they, all the questions they asked were like, where do you want to be? What's your relationship with money? They got really to know. It felt like a lot like a life coaching pick at the start. And then they, they, the one that I had, like, mapped out everything from, you know, my cash, cash flowing, you know, where we've got all of those accounts and we give, give each other an allowance. It's supposed to be aligned to what we spend, all of that kind of shit. Like that's just really smart stuff.
+
+**Njin:** Yeah, but it's basic stuff too. Not hard to do. I love this. Yeah, this is all very doable. Cool. And then, yeah, it's just built off of different ICA, different pack that relates to what's probably going to be most relevant for them at that time. And the whole time it walks them through so that by the time we get to 12 months, we're looking at our roadmap for what's next, whether it's we've locked in, that we're going to refinance, whether it's we've locked in, we're going to pull equity out, to go and build deck or put a pool in at the property or buy the next property, whatever it is. And then like you're talking about, the whole planning side of things, it's going, well, here's what we're going to do over the next 12 months. I get it that not everyone's going to want someone to be that hands-on, and that's why if they don't want us to be that hands-on, we just provide it. and if they don't use it, they don't use it. But I think a lot of people would be pretty receptive to it and it takes away the whole I'm gonna go and speak to another broker because I feel like I'm paying too much or Johnny down the road's now on 3%, which they're not. With the ultimate goal being 15 months out, we're ready to start looking at refi and we're putting it and pieces in place to make sure that it can happen smoothly. Didn't you say it happened much quicker, though, refinance?
+
+**Client:** Uh, equity, like an equity drawer or release can happen a lot sooner. Actual refinance of a loan? No, not in home loans.
+
+**Njin:** Oh, no, you would. Because if we refinance within 18 months, we claw ourselves back on the commission.
+
+**Client:** Yeah, yeah. What you can do, there was something that you said that you could do with the existing Repricing, which we I've built into here at 6 months. That's that proactive thing I was talking about where we go and talk to the lender. So say 3 months with your loan with us. We've already gone, spoken to them. They gone, yeah, the property's increased in value. We're actually going to allow you to reprice now down .3% lower. It'll be us calling up and letting you know that we've already been able to do it. Rather than, hey, call me back so that I can do this. hey, this is what we've done. I just need you to call back so I can finalise it.
+
+**Njin:** Yeah. Because we I can't I can't hit the button. No, of course. unless you go, yeah, cool reprice. But I can send all that to you now because I'm comfortable with where it's at. It's not perfect and there'll be bits and pieces we need to change, but it'll start giving you the broad brush. Yeah, strokes on what it looks like. Let me have a quick look at what the questions I had for you. Because I guess where that sort of leaves me is I've just got to figure out what the bare minimum ICAs are that exist between both businesses. Yeah. Any suggestions on how to do that?
+
+**Client:** Well, you've got three clear ones there, right? Yep. Um, this is, I guess, this is more like a... Is this isiator or is this where just choosing a journey based on, I guess it is, because their loan type helps determine the kind of custom avatar they are. I think it's fine to be broader in this process. If we were talking about advertising, right? The ICA would be, you know, what kind of job, what's their age bracket, even like male female, all of that kind of stuff. Like you'd be honing in onto a real ICA.
+
+**Njin:** So do you think maybe ICAs within POLR could just be as simple as the loan type that they've gone for? And maybe some other basic information. Because if that's the case, it's way easier for us to map it out.
+
+**Client:** Yeah, I think so. I think for us, we, it's just, it just needs to be situational. Because, I mean, a 1st home buyer could be a 20 year old, it could be a 40 year old. But the situation they're in is the same regardless. And we're normally still trying to cross them across to the other business. Like if someone comes through as a 1st, hasn't bought a home before, we'll still try and get them from FFG to FHL and put them on track for that. Yeah. Or if they've come through and they've got multiple properties, we'll still try and get them across the home loans to go, hey, this review the rate. See if we can get you a better deal. So you can probably simplify it a little bit and just do it, like you said, based off situation. So the way that this put it together for, um, home loans was 1st home home buyer. Yep. property investor or commercial client. And then a segment C, which was an existing FFG asset finance client. Um, that's all it had. But then when it did the full demographic thing. So, 1st home buyer, Taylor, his name, could be her, I suppose. Um, 28, 38, um, PAYG full-time, somewhere between 70 and 150 K with the thing saying needs validation. Um, location, Queensland, property, 1st purchase, um, loan size, I think it's too small. I'm looking at 400 K to 800 K, so and then it goes into psychographics, buying triggers, brief objections. So, I mean, like, yeah, because that's built off the tailor asset by CI that we sent across, I think.
+
+**Njin:** Right, okay, that would be. Yeah, but it's extrapolated out to home loans by the sounds of it.
+
+**Client:** Yeah, of course. Yeah, because it's the primary that was the one for FFG, wasn't it?
+
+**Njin:** Yeah. Yeah. Because I can see that here, Taylor, the prime consumer avatar. But maybe we've just got to think of it more as what do the journeys look like that we want to take people through? Instead. So, like, someone coming into asset that doesn't have a home and taking him across to Fox home lines for their 1st home or someone coming across to asset who have got a property and they want to upsize. Maybe they want to, they come into asset and they want to refinance to see if we can save them some money or they're an investor. Yeah. That might be the easier way to determine it.
+
+**Client:** I think so. Because the only other, only other variable that sits in there with that is they just crisscross. Like if someone comes to us for a car loan, the next thing they're probably going to do for them is going to be some kind of personal loan. And vice versa. If someone comes in for a personal loan, normally they'll come back and we'll do a loan for a vehicle for them next.
+
+**Njin:** Why would somebody get a personal loan after a people?
+
+**Client:** Lots of different reasons? Depends. Sometimes I do it to actually put accessories and bits and pieces on the car, which is pretty common. Really? They start to understand they can use finance for travel and bits and pieces like that, so they'll come back and get a personal loan because we're talking to them about that when we do their application as well. Because personal life is going to be used for anything. Literally anything. Okay. All right, questions for you. Or a consolidate. That's the other one that they come back for. But yes, far away. Monthly settlement volume, how many deals per month is FFG settling right now?
+
+**Njin:** On average, they settle 90 loans a month. Last month, they sold 108. Oh, nice. FHL, on average, settle around 16 to 17 a month.
+
+**Client:** How many inbound leaves is FHL getting per month?
+
+**Njin:** Uh, we aim for 55 Specific. Yeah. And Fox Finance group per month, 375. Cool. What's the upfront commission rate? What's the average upfront on asset finance deals?
+
+**Client:** I aim for 2300.
+
+**Njin:** Trial commission rate?
+
+**Client:** Trail's a bit different because it can vary from lender to lender, but generally it's .65% of NAF. Cool. All right, well, I think we got all of your monthly spend for MADs already, didn't we?
+
+**Njin:** Yeah, because it's fuck all. Yeah. And Jared's left.
+
+**Client:** Jared's left. Is it still going?
+
+**Njin:** What's that? The ads still running? Yep. In the background. Part of what I've got to talk to you about is, and I know that what time is to be out of here by 145. Yeah, but if I go at two, it just means I have to go pick up my son from school.
+
+**Client:** Okay. Rather than drop the car off. Yeah, because I've got questions for you around that. Okay. Um... Average loan size for FHL.
+
+**Njin:** Homelands? It's probably like 600 K at the moment. Okay. It's going to continue to grow though. I would say that it's probably going to be close at the 700 and not too long, just based off of the purchase price of property. Total active trail book size. As in dollar amount?
+
+**Client:** Yeah. in front of me at the moment.
+
+**Njin:** What does each broker average? Deal wise. Average income per deal? In home loans?
+
+**Client:** Yeah. 5225.
+
+**Njin:** Okay.
+
+**Client:** Right now they're probably closer to 4750, but that's the new target that we've set ourselves based on the growing purchase price for property.
+
+**Njin:** What percentage of loans get clawed back?
+
+**Client:** Mm. Industry is like 10 per, you're talking about trail book runoff or like clawed back, as in we? At the moment, I don't know, the percent, but I'd say that we're getting maybe like minimum one or 2 a month potentially. This year so far. Yep. Like we had 3 get clawed back in January and then none get clawed back last month. So, yeah. Minimum, I'd say, normally of like one a month.
+
+**Njin:** Do you ever charge fees for complex deals?
+
+**Client:** Yep, we charge a broker fee.
+
+**Njin:** What's the circumstances?
+
+**Client:** We charge a fee for every deal.
+
+**Njin:** Oh, right.
+
+**Client:** It's just the fee varies depending on the loan amount. If it's consumer, commercial, how complex it is, and if the customers already been a customer of ours in the past.
+
+**Njin:** Okay, give me an example for
+
+**Client:** So if you've got a complex commercial deal, we can do a thing called a mandate. But it's only for complex, right?
+
+**Njin:** What do you mean? The fate?
+
+**Client:** Yeah. No, it's still charge a fee for a normal deal. It just drops in the amount.
+
+**Njin:** Okay. Can you give me the normal deal circumstances?
+
+**Client:** A vanilla deal would be someone that's had a property before. They're just looking to upsize. They've just got normal income. Yeah. They're not short-term employed. They don't have complicated credit history. That sort of thing.
+
+**Njin:** Yeah, and then what? And what would the fee be? Like, 990? For you to even start talking to them?
+
+**Client:** No, no, no. So the fees aren't payable until the loan sells.
+
+**Njin:** Right, okay. Gotcha. So it's just a fee.
+
+**Client:** Yeah, okay, I understand. FIFA service, so what happens is the customer can come to us, so you can come to us, we could look at absolutely everything for you, put all the options together, submit it to the lender. Something goes terribly wrong and you go, you don't want to go ahead anymore. is you haven't have to pay a set.
+
+**Njin:** Right. Only when the loan settles. And how does it come through to them? Is it, like, you obviously can't take out the loan, right? It's just, is it an invoice that they get?
+
+**Client:** we have to get any choice. Yeah. But if it's commercial, we can do a thing called a mandate, which is where the lender effectively puts the fee into the loan amount. All right, okay, that's fine. I'll disperse that direct to us. Yeah, that's good. So if a commercial deal, complicated commercial deal, we'll charge like a $2000 mandate, for example. which the customer never pays out of their own pocket. The lender pays direct to us.
+
+**Njin:** Cool. Yep. Uh... FHL team headcount at the moment.
+
+**Client:** Three. Call it 4 if you count, Bill.
+
+**Njin:** For some reason, my AI went beyond bill and page, who else is on the lending team?
+
+**Client:** I don't know how a court, Bill and B.
+
+**Njin:** Wow, that's smart.
+
+**Client:** So it's the full-time team out there now are Paige, Angel, and Jess. Gotcha. Yeah. So, three. Receive or pay any referral fees at the moment.
+
+**Njin:** Yep. We track them all on a big spreadsheet that I put together. Where are we? Home lending. That's paying out. Is it?
+
+**Client:** Yeah, yeah, we track it. So, but you don't you don't receive any because you don't you don't like doing this.
+
+**Njin:** We get paid referral fees from a conveyancer that we refer people through to. It's like $200 a deal. So like last month, That's broker fees paid. But these are referral fees. So, previous customer of ours referred somebody else in, so we give them a $100 gift card. That's a referral fee. Yeah. And then there you go. There's a clawback. So someone that's gone away from us within the 18 months. And the rest are just gift cards. So, yeah. Cool. Um. Who are gonna be the owners of cross selling in each respective business?
+
+**Client:** What do you mean?
+
+**Njin:** So, usually you'd have like a pipeline owner, somebody that's gonna be responsible for, you know, like vetting it. You know, you do that thing where you look in on them and you, you know, checking visually. Um, I got no idea um, why it said this, but it thinks Sam Drew for FFG, Bill Rob for FHL.
+
+**Client:** Pick the 2 leaders. Yeah. In the home loans team, it'd be the home lending associate, because their job is actually to maintain lead generation and the front-end conversation part. Yeah. In the asset team, it'd be dependent on the lending specialists because if it'd probably be like their own customer. So like if Sam selled a loan for John and 12 months goes past, he'll reach back out to John because he's the person that wrote the loan.
+
+**Njin:** But you still want one person that's going to be accountable internally.
+
+**Client:** Don't have it. It'd be each person would be accountable for their own customers at this stage. Unless, and this is what we were talking about previously, we put a client services role that sat in there. which we still think will be the ultimate way to do it. But right now with no crystal clear system for that person to operate out of, we just can't do it.
+
+**Njin:** Okay. So maybe what it is, is once the system's integrated in and it's working, that's when we would be able to train someone on it and have someone that owns the responsibility and holds the gold.
+
+**Client:** Okay. Yeah. Nathan's cross-sowing target per month.
+
+**Njin:** We haven't really sat down yet to think about what that would actually be.
+
+**Client:** Okay. Just let me know when you know. And then the split, which way?
+
+**Njin:** Per month, cross selling, like at the moment, we aim for 10 intra-company referrals, both ways.
+
+**Client:** Yeah, that's what I picked up.
+
+**Njin:** Yeah. So as far as growth goes, we kind of want 3 times ROI on bits and pieces. So, yeah. I'd say if we could double that. That would be a good start. What's the what's the property valuation tool called?
+
+**Client:** totality. With a C. Yep. Cotality. Totality.
+
+**Njin:** Um, Do you have competitor lists for both businesses?
+
+**Client:** Yes, really? Maybe just email those. That would be great. I might have to go digging for them, so I'll just make a note for myself on that.
+
+**Njin:** Yeah cool. Do you handle complex structures like trusts and company application?
+
+**Client:** We absolutely do. It's one of our strong points actually.
+
+**Njin:** Oh cool. What's his competitor lists? What's the what's the split between, um, retail and commercial?
+
+**Client:** In the home lending team, probably 70% residential, 30% commercial. But growing rapidly. In FSG, as in the commercials growing rapidly.
+
+**Njin:** Yeah. Is that is that the amount of deals or the monetary figure?
+
+**Client:** Deals, but then that fades into the monetary figure as well. On average, a commercial deal is worth a lot more. Exactly. So you're probably, even with 30%, you're probably earning more from commercial than you are. Okay. Because you think if you just got vanilla residential deals coming through where we charge a 990 brokerage and we get our little bit of upfront off of the 550, 600, we finance, if we do a commercial deal for 1800000 and then we charge a mandate thing in there as well. Yeah, that changes things a lot.
+
+**Njin:** A do property development deals?
+
+**Client:** Yep. We haven't done many of them, but we've done a couple, and it's something that the team are actually doing additional training on at the moment.
+
+**Njin:** What's the biggest deal you've done?
+
+**Client:** Couple of mil. Yeah. Yeah, I think it was, like, 3.5 . Oh, yeah, yeah. That's and that was for development.
+
+**Njin:** Yeah, yeah. Development funding.
+
+**Client:** Yeah. There's another one in there at the moment with a guy. He actually an asset customer that I helped, like, 6 years ago, and he's just continued coming back through us, like perfect example of that whole lifecycle. And he's in there now wanting to build a $750000000 development that he's got the land for because they're adding like, um, what's that place that starts with T that's down south? Where the country music festival is. No, I'll think of it. Itll come back. Tamworth. He lives in Tamworth. They've got massive big land out there and he wants to build, yeah.
+
+**Njin:** Do you development? Usually like with development deals, you tend to have like a primary, which would be one of the big banks and then like a secondary and then obviously some of it that you've funding before. What was it called, mezzanine financing or something? Do you do that all of that? All of it. Yeah. So you'll put together a full deal with multiple lenders.
+
+**Client:** 100%. It's not something that's easy to do, but we've kind of, when you think about it, right, like the big banks, there's vanilla deals that make us no money, that's what the big banks are doing like every day. Yeah. Where they don't want to get their hands dirty now as in trust lending, like you would have seen, there's all these regulations now that stop them from doing that. And a lot of the alt.commercial space, they don't like doing anything that's really high debt to income ratio. They don't like doing. So they're kind of like narrowing down. So stuff outside of that is where we can actually really focus in on with homeowners business.
+
+**Njin:** Do you, um, now I'm thinking personally away from the strategy. Do you, uh, do you, um, uh, have refill, like nice refill programs for people to bring in big commercial deals?
+
+**Client:** We haven't, as in like, we have referral programs, but you're talking about people bringing in big commercial deals?
+
+**Njin:** Yeah, in like nice, did you ever do any kind of like percentages or anything like that for big commercial deals?
+
+**Client:** We've done, because no one's ever introduced us, a big commercial deal like that before, but we have had other referrals come through for larger amounts where we've done like a different arrangement than the regular referral fee. Yeah. Yeah. Interesting. Could make some money.
+
+**Njin:** So if you want to know. Just talk to us about it. Yeah. I might put you in touch with the owner of the property development firm because he's doing some big deals. Like the latest one is, I think it's like a $20 million deal in Hamilton, Brisbane.
+
+**Client:** Shit. Yeah. They're kind of working out whether they want to, you know, they all be the biggest that they've done. Um, I think, um, like they've also done like their residential property like Ravenwood, Noosa, that area. Okay, anyway, let's finish off the questions. Joe's replacement. Any plan for that?
+
+**Njin:** In the short term, we're not gonna find someone to be able to bring him into the business and train him up. It took 12 months to get into it. He was and me stepping in now and looking at what he's been doing, there's still heaps of gaps in it. Yeah. So I think it's long term and I'd be interested for your feedback on it. I think it's something that we just need to automate and outsource. And by outsourcing work with you guys.
+
+**Client:** Yeah okay.
+
+**Njin:** So you had questions for me on that?
+
+**Client:** Yeah, so part of our content strategy around that's writing a blog or 2 blogs each month for each business that's relevant to something. I don't have time to write that. Nathan doesn't know one else in there does. Yep. So I sat down and used chat to try and build like a custom GPT to actually do it. But I asked it to put together a plan 1st of like, what would I need to provide it with, what order show I provided in and getting heaps, like, took me days to go through it. But it, like, full site map and everything for all the internal links and all the monetary pages and the calculators and stuff like that. So it's got all of that.
+
+**Njin:** Yeah. So I've built it and I know the other day he said that if we've done something like that and spent the time, it's easier for you guys looking at it to actually make it function properly. That's at a point where I would take my hands away and go, what are you thinking? How can I make it better? Because we need to try to get something automated pretty quickly on that. Yeah. I mean, if it's going on a new website, which is react-based, like you can just plug in your agents so that they feed all everything in via APIs. It's a little bit more complicated if it's like a WordPress side, but still very doable. Yep. Did you want a human in the loop? To proofread it and make sure it's okay?
+
+**Client:** Yeah, before it goes live. At this stage.
+
+**Njin:** Yeah. Did you want it to be proofread inside of the website or is it more of like a document proofread?
+
+**Client:** Hasn't put any thoughts together around that. Big pros and cons are...
+
+**Njin:** If it's a document, then you can obviously, like a Google Doc or even where they do comments and stuff like that. Yep. If it's in the website, then you can edit it, but um,
+
+**Client:** Probably do as a dock then, because I know that WordPress is a pain in the arse.
+
+**Njin:** Yeah. Quicker you get the new website, so for better. Yeah. Because you could be, we could even build that, like, what we're doing at the moment with custom CMSs is, we're building the generation directly into the custom content management system that we're building for each of our website. Oh, fuck. pretty cool. So you could feed something like that and you could have a plan, you have a camband board, it will create the documents directly in there. You could edit it, press okay, would populate it directly into the site, all done near enough automatically.
+
+**Client:** Okay. My 2nd question for you is that as far as our marketing function goes, sorry, how's it going? Yeah, it'll be really quick. We basically need to try and find a way to, like I said, either automate it or outsource it. like all of it. Because we don't really do anything with paid ads at the moment and we're not qualified to know we have that successful in the past. It's not on the top of our list, but we need to make sure we're thinking about it. SEO wise, like I'm watching at the moment that our position's moving around a fair bit and keywords are coming in and dropping off and coming back and those sorts of things and if we're not sure on that strategy and we get that right, I think that's the kind of thing where we're just going to slowly start to drift away. And then even though we rely heavily on repeat referral, all that stuff, and POLR, we still have a percentage of organic. And that's our new customers that we're attracting to bring in and feed into the automation anyway. So I really need to start thinking about how we can do that better.
+
+**Njin:** Yeah, I mean, once you vibe code it, 2 articles per month is really like a low amount. Yeah. Like, you know, I did, I did like, when I built these websites, did it in a weekend and it was like 50 pages deep? And so you start to think about the, like, and it's not just about blogs, right? Blocks are actually the worst for SEO. Um, but they're the easiest to deliver. That's why people do it.
+
+**Client:** What's better?
+
+**Njin:** Like, things like comparisons, things like picture any kind, like a blog, a blog is just an archive of those blocks. and then the individual blogs. Think of that concept and related to anything. It's like it could be home known tools. People do like definitions. Comparison, this versus this, this versus this. It doesn't have to be competitive, Fox versus that could be like, should I get this type of mortgage or this type of mortgage? you know, fixed. My wife's saying that, I need to go. Can I just pick this up?

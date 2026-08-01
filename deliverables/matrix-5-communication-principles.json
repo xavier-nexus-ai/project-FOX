@@ -1,0 +1,602 @@
+[
+  {
+    "stage_id": "fhl-month1-welcome",
+    "intent": "Establish ongoing relationship. Prove Fox stays post-settlement. Confirm setup is working.",
+    "tone_pillar": "human_relatable",
+    "format_primary": "call",
+    "format_secondary": "email",
+    "frequency": "one_time",
+    "ica_messaging_variation": {
+      "young_practical_motor": "Warm, celebratory. 'Congrats, you did it.' Reassure everything is working. Simple language. Avoid financial jargon.",
+      "established_personal_finance": "Professional and efficient. Respect their time and experience. Quick confirmation, then value-add (POLR features).",
+      "prime_convenience_repeat": "Brief and easy. 'Everything is sorted, here's your portal, we're here if you need us.' Don't over-explain.",
+      "business_asset": "Businesslike but personable. Confirm structure, highlight tracking features. Connect personal and business finance.",
+      "prime_vehicle": "Friendly and direct. 'All good? Great. Here's where to find everything. Call us anytime.'"
+    },
+    "purchase_type_variation": {
+      "first_home_buyer": "Extra warmth. This is their biggest milestone. Celebrate it. Walk through everything patiently. They may have questions they're embarrassed to ask.",
+      "new_purchase": "Acknowledge the move/upgrade. Check old property arrangements if relevant. Slightly less hand-holding than FHB.",
+      "refinance": "Lead with the win. 'Your new rate is active and saving you money.' Confirm the transition was seamless.",
+      "investor": "Structured, portfolio-minded. Confirm investment loan specifics. Less emotion, more efficiency.",
+      "commercial": "Formal but warm. Confirm business lending details. Acknowledge the complexity of commercial transactions."
+    },
+    "client_vs_nonclient": "N/A — clients only. Non-clients enter via POLR onboarding sequence instead.",
+    "compliance_boundaries": "Call is factual setup confirmation only. No advice on loan structure changes. If client raises hardship, escalate to lender hardship team. Do not discuss investment performance or property market predictions. AFSL/ACL disclaimers in written follow-up only (not required verbally but good practice to reference).",
+    "forbidden_phrases": [
+      "financial advice",
+      "we advise",
+      "guaranteed",
+      "guarantee",
+      "financial hardship",
+      "you should",
+      "we recommend",
+      "best option",
+      "delve",
+      "leverage",
+      "navigate",
+      "unlock",
+      "landscape",
+      "robust"
+    ],
+    "example_message": "Hi [Name], it's [Broker] from Fox Home Loans. Just checking in now your loan has settled — I want to make sure your repayments are coming out correctly and your offset is working. Everything good? Great. I've also sent you login details for POLR — it's your personal dashboard where you can see your loan details and property value anytime. Save my number — I'm your broker for the long haul, not just for settlement."
+  },
+  {
+    "stage_id": "fhl-month3-confidence-pack",
+    "intent": "Deliver proactive value. Build confidence in property position. Establish Fox as an active partner.",
+    "tone_pillar": "empowering_not_controlling",
+    "format_primary": "email",
+    "format_secondary": "polr_notification",
+    "frequency": "one_time",
+    "ica_messaging_variation": {
+      "young_practical_motor": "Encouraging, educational. 'Here's what owning a home really costs — and why it's worth it.' Break down equity in simple terms. Use weekly/monthly dollar figures.",
+      "established_personal_finance": "Data-rich, analytical. Portfolio snapshot with market context. They want depth. Include comparison data.",
+      "prime_convenience_repeat": "Headline first, detail optional. 'Your property is worth $X. You've built $Y in equity. Full report in POLR.' Quick and scannable.",
+      "business_asset": "Business-relevant framing. How property equity supports business ambitions. Connect dots between personal and commercial.",
+      "prime_vehicle": "Visual and practical. One big number (equity built). One clear takeaway. Link to POLR for detail."
+    },
+    "purchase_type_variation": {
+      "first_home_buyer": "Cost-to-own module dominates. Compare to renting. Show them the wealth they're building. This is their first time seeing equity grow — make it meaningful.",
+      "new_purchase": "Property value movement since purchase. If portfolio, show combined position. Market context for their area.",
+      "refinance": "Savings proof: show actual dollars saved since refinancing. This validates their decision and builds trust.",
+      "investor": "Rental yield data. Equity leverage position. Tax-time preparation notes. More analytical, less emotional.",
+      "commercial": "Commercial valuation update. Business equity position. Market comparison for commercial properties in area."
+    },
+    "client_vs_nonclient": "N/A — clients only.",
+    "compliance_boundaries": "Cotality valuations are estimates, not formal valuations — disclaimer mandatory. Do not state equity as confirmed (use 'estimated'). Property value information is general and indicative. Do not imply investment returns. Do not recommend actions based on equity position.",
+    "forbidden_phrases": [
+      "financial advice",
+      "guaranteed",
+      "guarantee",
+      "you should invest",
+      "we recommend",
+      "financial hardship",
+      "definite",
+      "certain",
+      "locked in",
+      "delve",
+      "leverage",
+      "navigate"
+    ],
+    "example_message": "Subject: Your 90-day property update is ready\n\nHi [Name],\n\nThree months in, and here's where your property stands:\n\nEstimated value: $[X]\nYour loan: $[Y]\nEquity built: $[Z]\n\nWe've also put together a [personalised module name] based on your situation — it's in your POLR portal.\n\n[View in POLR]\n\nQuestions? [Broker] is a call away.\n\n*Property values are estimates provided by Cotality. This information is general in nature.*"
+  },
+  {
+    "stage_id": "fhl-month6-pricing-review",
+    "intent": "Prove ongoing value. Demonstrate Fox works for the client unprompted. Build loyalty through action.",
+    "tone_pillar": "calm_reassuring",
+    "format_primary": "call",
+    "format_secondary": "email",
+    "frequency": "one_time",
+    "ica_messaging_variation": {
+      "young_practical_motor": "Make the saving tangible. '$47 a month — that's a tank of fuel every fortnight.' Weekly/monthly framing. Celebrate the win.",
+      "established_personal_finance": "Show the rate differential, annual saving, and comparison methodology. They appreciate transparency in the process.",
+      "prime_convenience_repeat": "Lead with the outcome, skip the process. 'Done. Your rate dropped. You save $X. Nothing for you to do.' They love zero-effort wins.",
+      "business_asset": "Business cash flow framing. '$X back in your cash flow this year.' Connect to business planning and budgets.",
+      "prime_vehicle": "Simple and positive. 'We got you a better deal. Here's what you'll save.' No overexplaining."
+    },
+    "purchase_type_variation": {
+      "first_home_buyer": "Explain what repricing is — many FHBs don't know this service exists. Frame Fox as their ongoing advocate. Celebrate any saving.",
+      "new_purchase": "Standard repricing delivery. Note any LVR improvement that strengthened the negotiation.",
+      "refinance": "Careful: they just refinanced. Frame as 'we keep watching even after settlement.' Shows ongoing care, not another change.",
+      "investor": "Yield improvement framing. Lower rate = better net yield. Returns language.",
+      "commercial": "Commercial repricing is harder — acknowledge this. Focus on margin reduction achieved."
+    },
+    "client_vs_nonclient": "N/A — clients only. This is a key retention differentiator that non-clients don't receive.",
+    "compliance_boundaries": "Repricing is a service, not advice. Do not recommend switching lenders at this stage (that's Month 15). Rate comparisons must use current published rates. Savings projections must disclaim variable rate changes.",
+    "forbidden_phrases": [
+      "financial advice",
+      "guaranteed savings",
+      "guarantee",
+      "always save",
+      "financial hardship",
+      "we advise you to",
+      "best rate",
+      "delve",
+      "leverage"
+    ],
+    "example_message": "Hi [Name], it's [Broker] from Fox Home Loans. Good news — I checked your rate against what [Lender] is offering right now, and there was a gap. I've already called them and got it reduced from [X]% to [Y]%. That saves you about $[Z] a month. You don't need to do anything — it's done. I've updated POLR too. How's everything else going?"
+  },
+  {
+    "stage_id": "fhl-month9-ffg-momentum",
+    "intent": "Cross-sell to FFG. Educational, permission-based. Position FFG as natural extension of trusted Fox relationship.",
+    "tone_pillar": "empowering_not_controlling",
+    "format_primary": "email",
+    "format_secondary": "polr_notification",
+    "frequency": "one_time",
+    "ica_messaging_variation": {
+      "young_practical_motor": "Aspirational but accessible. 'You've been building equity — now let's talk about getting into the right car.' Encouraging, no pressure. Focus on affordability and Fox handling everything.",
+      "established_personal_finance": "Strategic framing. 'Smart ways to structure your next move.' Debt consolidation, personal loans, equity release. Informed and respectful.",
+      "prime_convenience_repeat": "Convenience-led. 'One team, one portal, zero hassle. Let Fox handle your car finance too.' Minimal effort messaging.",
+      "business_asset": "Growth-focused. 'Your property equity could support your next business investment.' Equipment, fleet, cash flow. Professional.",
+      "prime_vehicle": "Direct and confident. 'Thinking about a new car? We already know your financial picture — fast approval, great rates.'"
+    },
+    "purchase_type_variation": {
+      "first_home_buyer": "Equity education angle. 'You've been building equity since day one. Here's how it could help with your next goal.' Not aggressive.",
+      "new_purchase": "Standard ICA pack. Strong equity likely. Frame FFG as the next logical step.",
+      "refinance": "Optimisation mindset. 'You saved money by refinancing. Now let's look at other ways to get ahead.'",
+      "investor": "Returns-focused. 'Your investment property is building equity. Here's how to put it to work.' Sophisticated.",
+      "commercial": "Business expansion angle. 'Your commercial property equity could fund equipment or fleet — without touching cash flow.'"
+    },
+    "client_vs_nonclient": "N/A — clients only. Both-settled clients receive portfolio deepening instead of cross-sell.",
+    "compliance_boundaries": "Cross-sell must not be financial advice. No guarantees about FFG approval or rates. Equity release content MUST note that accessing equity increases total debt and repayments. General information disclaimer required.",
+    "forbidden_phrases": [
+      "financial advice",
+      "guaranteed approval",
+      "guarantee",
+      "guaranteed rates",
+      "risk-free",
+      "no risk",
+      "financial hardship",
+      "you should",
+      "we recommend",
+      "delve",
+      "leverage",
+      "unlock"
+    ],
+    "example_message": "Subject: Your home equity could open new doors\n\nHi [Name],\n\n9 months in, and your property is doing well:\n\nEquity built: $[X]\n\nDid you know Fox Finance Group helps with [car/equipment/personal] finance? We already know your financial picture, so it's quick and easy.\n\nWe've put together a short guide for you: [ICA pack name]\n\n[View in POLR]\n\nNo pressure. Just good information from a team that already knows you.\n\n*General information only. Does not constitute financial advice. Finance subject to approval.*"
+  },
+  {
+    "stage_id": "fhl-month12-annual-review",
+    "intent": "Signature review. Comprehensive assessment. Strengthen relationship. Surface forward strategy.",
+    "tone_pillar": "clear_not_clever",
+    "format_primary": "call",
+    "format_secondary": "email",
+    "frequency": "one_time",
+    "ica_messaging_variation": {
+      "young_practical_motor": "Celebratory first-year tone. Show equity growth simply. Introduce future concepts (offset, extra repayments) without overwhelming.",
+      "established_personal_finance": "Detailed portfolio review. Market comparisons. Strategic options presented with data. They want substance and analysis.",
+      "prime_convenience_repeat": "Quick 5-minute call option. Headline summary: 'Property up X%, equity at $Y, rate still competitive.' Respect their time.",
+      "business_asset": "Business planning angle. How does property equity support next year's business plans? Connect dots.",
+      "prime_vehicle": "Practical and direct. Property doing well? Rate good? Any needs coming up? In and out."
+    },
+    "purchase_type_variation": {
+      "first_home_buyer": "First anniversary celebration. Show LVR improvement, equity built. Introduce next steps gently (renovate, invest, upgrade).",
+      "new_purchase": "12-month value assessment. Portfolio performance if multiple properties.",
+      "refinance": "Total savings since refinancing. Current rate vs market. Future refinance potential.",
+      "investor": "Investment performance review. Yield, equity growth, portfolio leverage. Year 2 strategy discussion.",
+      "commercial": "Commercial property performance. Business plan alignment."
+    },
+    "client_vs_nonclient": "N/A — clients only.",
+    "compliance_boundaries": "Review is informational, not advice. Strategy options are general. If recommending structural changes, must go through formal application. All written materials carry disclaimers.",
+    "forbidden_phrases": [
+      "financial advice",
+      "guarantee",
+      "guaranteed returns",
+      "financial hardship",
+      "we advise",
+      "best investment",
+      "certain",
+      "delve",
+      "leverage",
+      "navigate"
+    ],
+    "example_message": "Hi [Name], it's [Broker]. It's been 12 months since your loan settled — time for your annual review. Your property has moved from $[original] to $[current], so you've built about $[equity] in equity. Your rate is still competitive at [X]%. I've loaded everything into POLR. Any goals for the year ahead I should know about?"
+  },
+  {
+    "stage_id": "fhl-month15-refinance-pathway",
+    "intent": "Empower with options. Present three clear pathways with real numbers. No pressure — inform and let them decide.",
+    "tone_pillar": "empowering_not_controlling",
+    "format_primary": "email",
+    "format_secondary": "polr_notification",
+    "frequency": "one_time",
+    "ica_messaging_variation": {
+      "young_practical_motor": "Focus on pay-down and refinance paths. Simple comparisons: 'An extra $50 a week saves you $X.' Investment path too advanced for most.",
+      "established_personal_finance": "All three paths with full modelling. Tax implications for investment. They can handle complexity and want it.",
+      "prime_convenience_repeat": "Lead with the lowest-effort option. 'You're in a good spot' or 'We can handle a switch for you.' Minimal reading.",
+      "business_asset": "Business investment framing for Path 2. Cash flow improvement for Path 1. Rate optimisation for Path 3.",
+      "prime_vehicle": "Monthly dollar terms for each path. Which frees up more cash? Which builds more wealth? Let them pick."
+    },
+    "purchase_type_variation": {
+      "first_home_buyer": "Path 1 emphasis (pay down). Path 2 introduction. Path 3 only if rate gap is meaningful.",
+      "new_purchase": "All three paths relevant. Tailor based on portfolio size.",
+      "refinance": "Sensitive — they already refinanced. Frame as check-in, not push. Path 1 and Path 2 preferred unless rate gap is large.",
+      "investor": "Path 2 emphasis (invest). Portfolio expansion focus. Path 1 less relevant.",
+      "commercial": "Business variants: Path 2 = expansion, Path 1 = reduce exposure, Path 3 = optimise rate."
+    },
+    "client_vs_nonclient": "N/A — clients only.",
+    "compliance_boundaries": "Clearly labelled general information. Scenario modelling assumptions must be disclosed. Investment path requires risk warnings. Refinance path must note switching costs and break fees. Not financial advice.",
+    "forbidden_phrases": [
+      "financial advice",
+      "guaranteed",
+      "guarantee",
+      "you should",
+      "we recommend",
+      "risk-free",
+      "financial hardship",
+      "certain returns",
+      "delve",
+      "leverage",
+      "unlock"
+    ],
+    "example_message": "Subject: Three paths forward for your home loan\n\nHi [Name],\n\n15 months in, and you're in a stronger position. Here are three paths:\n\n1. Pay down faster — Extra $[X]/week saves $[Y] in interest\n2. Use your equity — $[equity] available for investment\n3. Refinance — Could save $[savings]/month by switching\n\nNo rush. We've loaded a full comparison into POLR.\n\n[View your pathways]\n\n*Scenarios are illustrative, based on current rates and assumptions. Not financial advice.*"
+  },
+  {
+    "stage_id": "fhl-month18-action-window",
+    "intent": "Trigger-based action. Only reach out when there is a real reason. Timely and relevant.",
+    "tone_pillar": "calm_reassuring",
+    "format_primary": "email",
+    "format_secondary": "call",
+    "frequency": "trigger_based",
+    "ica_messaging_variation": {
+      "young_practical_motor": "Guide them through the trigger. 'Your fixed rate is ending — here's what that means in simple terms.' Hold their hand through the decision.",
+      "established_personal_finance": "Detailed trigger analysis. The 'why' behind the outreach. Implications and options with data.",
+      "prime_convenience_repeat": "'We spotted something. Here's what we suggest. We can handle it all.' Minimal effort required from them.",
+      "business_asset": "Business impact framing. 'This rate change affects your cash flow by $X/month. Your options are...'",
+      "prime_vehicle": "Practical and direct. 'Something changed with your loan. Here's what it means and what we can do.'"
+    },
+    "purchase_type_variation": {
+      "first_home_buyer": "Extra explanation of what fixed expiry means. Many FHBs won't understand without guidance.",
+      "new_purchase": "Standard trigger response. Factor in multiple properties.",
+      "refinance": "Tread carefully. Focus on repricing first, refinance only if gap is large.",
+      "investor": "Investment analysis: how trigger affects yield, cash flow, tax.",
+      "commercial": "Business lending cycle context. Cash flow implications."
+    },
+    "client_vs_nonclient": "N/A — clients only.",
+    "compliance_boundaries": "Trigger-based outreach is informational. Actual changes require formal application. Fixed rate comparisons must include all options without recommending one. Variable rate disclaimers on all projections.",
+    "forbidden_phrases": [
+      "financial advice",
+      "guaranteed",
+      "guarantee",
+      "you must",
+      "act now or lose out",
+      "urgent",
+      "financial hardship",
+      "delve",
+      "leverage",
+      "navigate"
+    ],
+    "example_message": "Subject: Heads up — your fixed rate expires in 8 weeks\n\nHi [Name],\n\nYour fixed rate of [X]% expires on [date]. After that, it reverts to [Y]% variable, changing your repayment from $[current] to about $[new].\n\nYour options:\n1. Refix at [rate]%\n2. Go variable at [rate]%\n3. Refinance — market best: [rate]%\n\nWant to chat? [Book a call with Broker]\n\n*General information only. Not financial advice.*"
+  },
+  {
+    "stage_id": "ffg-month1-welcome",
+    "intent": "Confirm setup. Introduce POLR. Plant soft FHL seed. Establish ongoing relationship.",
+    "tone_pillar": "human_relatable",
+    "format_primary": "call",
+    "format_secondary": "email",
+    "frequency": "one_time",
+    "ica_messaging_variation": {
+      "young_practical_motor": "Excited, celebratory. 'Congrats on the new ride!' Keep it fun. Quick POLR intro. Very soft FHL mention.",
+      "established_personal_finance": "Efficient, respectful. Confirm setup, POLR features, brief FHL mention. Don't waste their time.",
+      "prime_convenience_repeat": "Fast and easy. 'All sorted. Here's your portal. We'll check in at 3 months.' Minimal.",
+      "business_asset": "Professional. Confirm equipment/fleet setup. Tax and structure notes. FHL for commercial property.",
+      "prime_vehicle": "Friendly, straightforward. 'Loan's set up. Enjoy the car. Here's POLR. Call us anytime.'"
+    },
+    "purchase_type_variation": "N/A — FFG stages do not have FHL Purchase Type variations. Messaging varies by ICA only.",
+    "client_vs_nonclient": "N/A — FFG clients only.",
+    "compliance_boundaries": "Factual loan confirmation only. No financial advice. Early payout not discussed at this stage. AFSL/ACL disclaimers in written materials.",
+    "forbidden_phrases": [
+      "financial advice",
+      "guarantee",
+      "guaranteed",
+      "financial hardship",
+      "you should",
+      "delve",
+      "leverage"
+    ],
+    "example_message": "Hi [Name], it's [Broker] from Fox Finance Group. Just making sure your [car/equipment] finance is all sorted — repayments coming out right? Great. I've set up your POLR portal too. And just so you know, Fox Home Loans handles mortgages if that ever comes up. Enjoy the [car/equipment]!"
+  },
+  {
+    "stage_id": "ffg-month3-health-check",
+    "intent": "Nurture with education. Build brand loyalty. Introduce referral program.",
+    "tone_pillar": "optimistic_grounded",
+    "format_primary": "email",
+    "format_secondary": "polr_notification",
+    "frequency": "one_time",
+    "ica_messaging_variation": {
+      "young_practical_motor": "Lifestyle tips: car care, insurance, budgeting. Fun and relatable. Referral: 'Got mates who need a car loan?'",
+      "established_personal_finance": "Financial planning content. Debt management, credit building. Referral: professional network angle.",
+      "prime_convenience_repeat": "Quick tips. Autopay, early payout basics. Referral: 'Love the experience? Share it.'",
+      "business_asset": "Business finance tips. Depreciation, tax timing, fleet management. Referral: business network.",
+      "prime_vehicle": "Vehicle value tracking, upgrade timing, gap insurance. Referral: friends and family."
+    },
+    "purchase_type_variation": "N/A — FFG stages do not have FHL Purchase Type variations.",
+    "client_vs_nonclient": "N/A — FFG clients only.",
+    "compliance_boundaries": "Educational content only. Early payout info must reference contract terms. No financial advice.",
+    "forbidden_phrases": [
+      "financial advice",
+      "guarantee",
+      "guaranteed",
+      "financial hardship",
+      "delve",
+      "leverage",
+      "navigate"
+    ],
+    "example_message": "Subject: 3 months in — tips to get the most from your finance\n\nHi [Name],\n\n[ICA-specific tips]\n\nKnow someone who needs car or equipment finance? We'd love to help: [referral link]\n\nFox Finance Group"
+  },
+  {
+    "stage_id": "ffg-month6-next-need",
+    "intent": "Surface next opportunity. Cross-sell to FHL for homeowners. Next asset for non-homeowners.",
+    "tone_pillar": "empowering_not_controlling",
+    "format_primary": "email",
+    "format_secondary": "polr_notification",
+    "frequency": "one_time",
+    "ica_messaging_variation": {
+      "young_practical_motor": "Aspirational homeownership angle (if renting) or mortgage check (if homeowner). Encouraging, no pressure.",
+      "established_personal_finance": "Sophisticated cross-sell. 'You trust Fox with your finance — have you considered what we could do with your mortgage?'",
+      "prime_convenience_repeat": "One-stop-shop angle. 'One team for everything.' Convenience drives the cross-sell.",
+      "business_asset": "Business expansion: more equipment, commercial property. Growth-focused.",
+      "prime_vehicle": "Vehicle upgrade or FHL rate check. Direct and practical."
+    },
+    "purchase_type_variation": "N/A — FFG stages do not have FHL Purchase Type variations.",
+    "client_vs_nonclient": "N/A — FFG clients only. Both-settled clients get portfolio view instead.",
+    "compliance_boundaries": "Cross-sell to FHL must not be mortgage advice. No approval or rate guarantees.",
+    "forbidden_phrases": [
+      "financial advice",
+      "guaranteed approval",
+      "guarantee",
+      "guaranteed rate",
+      "financial hardship",
+      "delve",
+      "leverage",
+      "unlock"
+    ],
+    "example_message": "Subject: What's next for your finances?\n\nHi [Name],\n\n6 months ago we sorted your [car/equipment] finance. What else can Fox do for you?\n\n[Homeowner]: Fox Home Loans could check your mortgage rate — no obligation.\n[Non-homeowner]: Planning your next move? We can help.\n\n[See your options in POLR]\n\nFox Finance Group"
+  },
+  {
+    "stage_id": "ffg-month9-value-delivery",
+    "intent": "Deliver loan progress. Surface payout options. Second FHL cross-sell for homeowners.",
+    "tone_pillar": "clear_not_clever",
+    "format_primary": "email",
+    "format_secondary": "polr_notification",
+    "frequency": "one_time",
+    "ica_messaging_variation": {
+      "young_practical_motor": "Visual loan progress. 'You've paid off $X of $Y.' Upgrade teaser. FHL: 'Ready to buy a home?'",
+      "established_personal_finance": "Detailed performance: interest vs principal, amortisation comparison. Strategic remaining-term options.",
+      "prime_convenience_repeat": "Headline summary only. '$X remaining. Payout date: [date]. Need anything? We're here.'",
+      "business_asset": "Equipment depreciation vs loan balance. Tax implications. Next equipment cycle.",
+      "prime_vehicle": "Vehicle value vs loan balance. Upgrade timing. Practical."
+    },
+    "purchase_type_variation": "N/A — FFG stages do not have FHL Purchase Type variations.",
+    "client_vs_nonclient": "N/A — FFG clients only. Both-settled get combined portfolio.",
+    "compliance_boundaries": "Early payout figures are indicative. Do not advise on whether to pay out. Vehicle valuations are estimates. Reference loan contract for actual payout terms.",
+    "forbidden_phrases": [
+      "financial advice",
+      "guarantee",
+      "guaranteed",
+      "financial hardship",
+      "you should pay out",
+      "delve",
+      "leverage"
+    ],
+    "example_message": "Subject: Your loan at 9 months\n\nHi [Name],\n\nLoan snapshot:\n- Original: $[X]\n- Current balance: $[Y]\n- Paid off: $[Z]\n- Payout figure: $[payout]\n\n[For homeowners]: Fox Home Loans could save you on your mortgage. [Learn more]\n\n[View in POLR]\n\nFox Finance Group"
+  },
+  {
+    "stage_id": "ffg-month12-annual-checkin",
+    "intent": "Retain. Annual milestone review. Replacement cycle detection. Referral push.",
+    "tone_pillar": "optimistic_grounded",
+    "format_primary": "email",
+    "format_secondary": "polr_notification",
+    "frequency": "one_time",
+    "ica_messaging_variation": {
+      "young_practical_motor": "Celebrate the milestone. Progress visual. Referral: 'Got mates who need finance?' Upgrade tease.",
+      "established_personal_finance": "Comprehensive review. Interest paid, principal reduced, schedule comparison. Forward 12-month planning.",
+      "prime_convenience_repeat": "Quick snapshot. 'Year one done. On track. Need anything?' Referral nudge.",
+      "business_asset": "Business review. Depreciation schedule. Replacement planning. Tax implications.",
+      "prime_vehicle": "Vehicle annual review. Market value, loan progress, upgrade timing."
+    },
+    "purchase_type_variation": "N/A — FFG stages do not have FHL Purchase Type variations.",
+    "client_vs_nonclient": "N/A — FFG clients only.",
+    "compliance_boundaries": "Informational only. Replacement timing is indicative. No financial advice on replacement decisions.",
+    "forbidden_phrases": [
+      "financial advice",
+      "guarantee",
+      "guaranteed",
+      "financial hardship",
+      "you must upgrade",
+      "delve",
+      "leverage"
+    ],
+    "example_message": "Subject: Happy anniversary — your loan at 12 months\n\nHi [Name],\n\nOne year done! Paid off: $[X] of $[Y]. On track to finish: [date].\n\nPlanning an upgrade? Let us know.\nKnow someone who needs finance? [Referral link]\n\nFox Finance Group"
+  },
+  {
+    "stage_id": "ffg-month18-replacement-cycle",
+    "intent": "Proactive upgrade prompt. Pre-approval offer. Keep them in the Fox ecosystem.",
+    "tone_pillar": "optimistic_grounded",
+    "format_primary": "email",
+    "format_secondary": "polr_notification",
+    "frequency": "one_time",
+    "ica_messaging_variation": {
+      "young_practical_motor": "Exciting upgrade content. 'What could you step into next?' Pre-approval amount. Aspirational but grounded.",
+      "established_personal_finance": "Strategic timing analysis. Depreciation curves. Net cost of ownership. Optimal replacement window.",
+      "prime_convenience_repeat": "'Pre-approved in 24 hours. Same great experience, new car.' Zero hassle.",
+      "business_asset": "Tax-effective timing. EOFY considerations. Fleet planning.",
+      "prime_vehicle": "Direct: 'Your car is 18 months old. Here's what an upgrade looks like. We can move fast.'"
+    },
+    "purchase_type_variation": "N/A — FFG stages do not have FHL Purchase Type variations.",
+    "client_vs_nonclient": "N/A — FFG clients only.",
+    "compliance_boundaries": "Pre-approval is indicative, subject to full application. Trade-in values are estimates. No financial advice on timing.",
+    "forbidden_phrases": [
+      "financial advice",
+      "guarantee",
+      "guaranteed approval",
+      "financial hardship",
+      "must upgrade",
+      "delve",
+      "leverage"
+    ],
+    "example_message": "Subject: Time for an upgrade?\n\nHi [Name],\n\nYour [car/equipment] is 18 months old. Current balance: $[X]. Estimated value: $[Y].\n\nWe can pre-approve your next loan quickly — minimal paperwork since we know your picture.\n\n[Get pre-approved] | [Chat with your broker]\n\nFox Finance Group"
+  },
+  {
+    "stage_id": "ffg-year2-plus-nurture",
+    "intent": "Stay top of mind. Low-frequency. Trigger-ready.",
+    "tone_pillar": "human_relatable",
+    "format_primary": "email",
+    "format_secondary": "polr_notification",
+    "frequency": "quarterly",
+    "ica_messaging_variation": {
+      "young_practical_motor": "Lifestyle content: car tips, driving costs, insurance reminders. Light and engaging.",
+      "established_personal_finance": "Market insights, rate trends, strategic content. More depth.",
+      "prime_convenience_repeat": "Quarterly summary only. One email. Don't over-communicate.",
+      "business_asset": "Business finance content. EOFY, equipment trends, fleet tips.",
+      "prime_vehicle": "Vehicle market updates. New models, trade-in trends, fuel costs."
+    },
+    "purchase_type_variation": "N/A — FFG stages do not have FHL Purchase Type variations.",
+    "client_vs_nonclient": "N/A — FFG clients in post-lifecycle phase.",
+    "compliance_boundaries": "Standard disclaimers. Educational only.",
+    "forbidden_phrases": [
+      "financial advice",
+      "guarantee",
+      "guaranteed",
+      "financial hardship",
+      "delve",
+      "leverage",
+      "navigate"
+    ],
+    "example_message": "Subject: Your quarterly Fox update\n\nHi [Name],\n\n[Seasonal content]\n\nLoan snapshot: $[balance] remaining, on track for [date].\n\nNeed anything? [Broker] is here: [number].\n\nFox Finance Group"
+  },
+  {
+    "stage_id": "nc-polr-onboarding",
+    "intent": "Welcome. Build trust. Profile the user. Deliver first value.",
+    "tone_pillar": "clear_not_clever",
+    "format_primary": "email",
+    "format_secondary": "polr_notification",
+    "frequency": "one_time",
+    "ica_messaging_variation": {
+      "young_practical_motor": "Welcoming, no jargon. 'Not sure how car finance works? We'll explain it simply.' Focus on tools and calculators.",
+      "established_personal_finance": "Professional onboarding. 'See how your finances stack up.' Comparison tools and rate data.",
+      "prime_convenience_repeat": "Speed-focused. 'Get pre-approved in minutes.' Quick value delivery.",
+      "business_asset": "Business finance tools. 'Explore equipment and fleet finance for your business.'",
+      "prime_vehicle": "Vehicle finance focus. 'Find out what you could borrow and what it costs.'"
+    },
+    "purchase_type_variation": {
+      "first_home_buyer": "FHB tools: stamp duty calculator, borrowing capacity, FHB grant info.",
+      "new_purchase": "Property search tools, borrowing capacity, pre-approval pathway.",
+      "refinance": "Rate comparison, savings calculator, 'could you save?' messaging.",
+      "investor": "Investment calculators, rental yield tools, portfolio planning.",
+      "commercial": "Commercial lending options, business borrowing capacity."
+    },
+    "client_vs_nonclient": "This is the NON-CLIENT entry point. Clients skip this entirely and enter FHL or FFG lifecycle tracks.",
+    "compliance_boundaries": "Calculators are indicative. Do not collect sensitive data without consent. Privacy policy must be prominent.",
+    "forbidden_phrases": [
+      "financial advice",
+      "guarantee",
+      "guaranteed",
+      "financial hardship",
+      "you should",
+      "delve",
+      "leverage",
+      "navigate",
+      "unlock"
+    ],
+    "example_message": "Subject: Welcome to POLR — your finance dashboard\n\nHi [Name],\n\nWelcome to POLR. Here's what you can do:\n- Borrowing calculators\n- Market rate tracking\n- Finance planning tools\n\nFirst step: complete your profile so we can personalise your dashboard.\n\n[Complete your profile]\n\nFox Finance Group"
+  },
+  {
+    "stage_id": "nc-value-delivery",
+    "intent": "Ongoing education. Build trust over time. Keep Fox top of mind until ready.",
+    "tone_pillar": "optimistic_grounded",
+    "format_primary": "email",
+    "format_secondary": "polr_notification",
+    "frequency": "monthly",
+    "ica_messaging_variation": {
+      "young_practical_motor": "Budgeting tips, car buying guides, first-time borrower education. Friendly, accessible.",
+      "established_personal_finance": "Market analysis, rate trends, strategic content. Sophisticated.",
+      "prime_convenience_repeat": "Monthly summary with one key insight. Don't over-email.",
+      "business_asset": "Business finance trends, equipment updates, tax planning.",
+      "prime_vehicle": "Vehicle market, new models, finance comparison tools."
+    },
+    "purchase_type_variation": {
+      "first_home_buyer": "Property market updates for target area. FHB guides. Grant updates.",
+      "new_purchase": "Market trends, borrowing capacity updates, pre-approval info.",
+      "refinance": "Rate movement updates. 'Rates moved — here's what it means for you.'",
+      "investor": "Investment market, rental yield data, portfolio strategy.",
+      "commercial": "Commercial market, business lending trends."
+    },
+    "client_vs_nonclient": "Non-clients only. Different from client lifecycle content — less personalised, more educational.",
+    "compliance_boundaries": "Educational only. Rate information must be current and sourced.",
+    "forbidden_phrases": [
+      "financial advice",
+      "guarantee",
+      "guaranteed",
+      "financial hardship",
+      "delve",
+      "leverage",
+      "navigate"
+    ],
+    "example_message": "Subject: Your monthly POLR update\n\nHi [Name],\n\n[Market update]\n\nNew in POLR: [feature]\n\n[Tip or guide]\n\nReady to chat? [Book a free call]\n\nFox Finance Group"
+  },
+  {
+    "stage_id": "nc-conversion-signal",
+    "intent": "Convert. Trigger personalised outreach when behaviour indicates readiness. Timely, not pushy.",
+    "tone_pillar": "calm_reassuring",
+    "format_primary": "polr_notification",
+    "format_secondary": "email",
+    "frequency": "trigger_based",
+    "ica_messaging_variation": {
+      "young_practical_motor": "No-pressure encouragement. 'We noticed you've been checking car finance options. Want to see what you could get? 2 minutes, no commitment.'",
+      "established_personal_finance": "Data-driven respect. 'Based on your research, you might be ready to compare. Here's a personalised summary.'",
+      "prime_convenience_repeat": "Speed and ease. 'Ready? Pre-approved in under an hour. One application, done.'",
+      "business_asset": "Opportunity-focused. 'Exploring equipment finance? Let's find the best structure for your business.'",
+      "prime_vehicle": "Direct and confident. 'You've been looking at vehicle finance. Let's get you a number — no obligation.'"
+    },
+    "purchase_type_variation": {
+      "first_home_buyer": "'You've done the research — let's see what you could afford. The hardest part is starting.'",
+      "new_purchase": "'Found a property? Let's get your borrowing sorted so you can move fast.'",
+      "refinance": "'You've been checking rates — you might be paying too much. Want us to run the numbers?'",
+      "investor": "'Ready to add to your portfolio? Let's look at your capacity.'",
+      "commercial": "'Exploring commercial finance? Let's talk structure.'"
+    },
+    "client_vs_nonclient": "Non-clients only. This IS the conversion trigger from non-client to prospect/applicant.",
+    "compliance_boundaries": "Do not imply pre-approval without application. Calculator results are indicative. Behavioural tracking must be disclosed in POLR terms. Privacy-compliant.",
+    "forbidden_phrases": [
+      "financial advice",
+      "guaranteed approval",
+      "guarantee",
+      "pre-approved (unless with disclaimer)",
+      "financial hardship",
+      "act now",
+      "limited time",
+      "delve",
+      "leverage",
+      "unlock"
+    ],
+    "example_message": "Subject: You've been doing your homework — ready to see real numbers?\n\nHi [Name],\n\nWe noticed you've been exploring [topic] in POLR. Want to see what Fox can do?\n\n1. Quick chat (10 min, no obligation)\n2. We run real numbers based on your situation\n3. Clear answer — what you can borrow, what it costs\n\n[Book a free chat] | [Get pre-approved online]\n\nNo pressure. We're here when you're ready.\n\nFox Finance Group"
+  },
+  {
+    "stage_id": "both-portfolio-sync",
+    "intent": "Retain. Unify experience. Prevent communication fatigue. Show complete Fox relationship.",
+    "tone_pillar": "human_relatable",
+    "format_primary": "email",
+    "format_secondary": "polr_notification",
+    "frequency": "quarterly",
+    "ica_messaging_variation": {
+      "young_practical_motor": "Simple combined view. 'Here's everything Fox is helping with — home and car, all in one place.'",
+      "established_personal_finance": "Portfolio analysis. Total debt, equity, net position. Sophisticated and data-rich.",
+      "prime_convenience_repeat": "Quick snapshot. 'Home loan $X, Car loan $Y, Equity $Z. All good.'",
+      "business_asset": "Business + personal combined. 'Your Fox portfolio: property, equipment, and everything in between.'",
+      "prime_vehicle": "Clear, practical combined view. Both loans at a glance."
+    },
+    "purchase_type_variation": "N/A — combined view transcends individual purchase types.",
+    "client_vs_nonclient": "Both-settled clients ONLY. This replaces duplicate touchpoints from separate lifecycles.",
+    "compliance_boundaries": "Do not aggregate data in ways that imply net worth calculations (financial advice territory). All valuations are estimates. Combined view is informational.",
+    "forbidden_phrases": [
+      "financial advice",
+      "guarantee",
+      "guaranteed",
+      "net worth",
+      "financial hardship",
+      "total wealth",
+      "delve",
+      "leverage"
+    ],
+    "example_message": "Subject: Your Fox Finance portfolio — quarterly update\n\nHi [Name],\n\nHome Loan (FHL):\n- Property: $[X] | Loan: $[Y] | Equity: $[Z]\n\nAsset Finance (FFG):\n- [Asset]: $[balance] remaining\n\nEverything tracking well. Full dashboard: [POLR link]\n\nAnything changing? Your Fox team is here.\n\nFox Finance Group & Fox Home Loans"
+  }
+]

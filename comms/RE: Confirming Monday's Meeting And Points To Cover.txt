@@ -1,0 +1,164 @@
+Hi James,
+ 
+I have provided below for you the answers to your questions and attached the relevant files to support these as well, including the FFG post-settlement journey, as well as the ICA matrix to support cross-sell. 
+ 
+I hope the amount of time and effort is visible in the nurture sequence document. This is so much more than just some ideas to send in an email. So, I ensured the strategy is built on real information from the businesses and our customers and incorporates real educational content in the form of blogs that are currently live on both businesses' websites.
+ 
+It is also stepped out for each of the 5 ICA’s, while incorporating repeat lending opportunities and cross-sell.
+ 
+You’ll also see in the document outlined how are Marketing & Intelligence system could work alongside GHL, this is something I would be keen to understand better, especially when it comes to our ICA’s, language and using AI within GHL’s system.
+ 
+I hope that this allows you and the team a super solid platform to work from so that we can smash this project out of the park.
+ 
+ 
+For the other points:
+ 
+ 
+ICA Field Audit:  The following are what I would consider important to qualify the ICA and highlight repeat/cross-sell opportunities.
+ 
+- Broker
+- App type
+- Loan type
+- Lender
+- Loan tier
+- Loan rate
+- Term
+- Amount to finance
+- Gender
+- Marital status
+- Dependents
+- Business name,
+- Asset type
+- Asset year
+- Asset Make
+- Asset Model,
+- Lead source details
+- Referrer
+- Applicant phone
+- Applicant email
+-Applicant DOB
+- Employment type
+- Residential status
+- Asset backed
+- Investment property
+- Mortgage balance
+- Credit cards
+- Credit cards balance
+- Credit card limits
+- Personal loans
+- Personal loans balance
+- Remittance date
+ 
+ 
+Cross-sell matrix v1 for both FFG and FHL
+ 
+(Assume this means where in the process the cross-sell happens/is triggered?) – 9-12 month mark, and at settlement if opportunity identified.
+ 
+ 
+FFG nurture sequence documented (leaner version, to pair with the FHL one we already have)
+ 
+Attached in the PDF.
+ 
+ 
+Weekly Ambition CSV extract confirmed and LMG API update
+ 
+Csv extract confirmed for FFG through Ambition and FHL thorugh Infynity, LMG off the table for now. Have not supplied supports as they contain sensitive customer data.
+ 
+ 
+Lead magnet shortlist
+ 
+This is simple for the moment, we need one for commercial vehicle and commercial equipment, and one for consumer personal loans and consumer vehicle loans
+ 
+ 
+SendGrid access sorted for Xavier
+ 
+Just need to confirm the best way to go about this, sharing vs setting up with his own logins.
+ 
+ 
+Thank you,
+ 
+image001.png
+image002.png
+Fox Finance Group
+Phone 1300 665 906
+ABN 46 120 502 392
+ACL Number 382952       
+A blue circle with white text and blue leaves
+
+AI-generated content may be incorrect.
+A white circle with orange outline and text
+
+AI-generated content may be incorrect.
+image005.png
+Fox Property Finance
+Phone 07 3505 3099
+ABN 28 648 057 498
+ACR Number 535038
+Suites 13 and 14, The Corporate Centre, 13 Norval Court, Maroochydore, Qld 4558
+Websites:  foxfinancegroup.com.au and foxhomeloans.com.au
+IMPORTANT NOTICE: The information in this email is confidential and may also be privileged. If you are not the intended recipient, any use or dissemination of the information and any disclosure or copying of this email is unauthorised and strictly prohibited. If you have received this email in error, please promptly inform us by reply email or telephone. You should also delete this email and destroy any hard copies produced.
+ 
+ 
+From: James Killick <james@njin.co>
+Sent: Monday, 27 April 2026 8:41 AM
+To: Rowdie Lang <Rowdie@foxfinancegroup.com.au>
+Cc: Nathan Drew <nathan@foxfinancegroup.com.au>; George Votava <george@njin.co>; John Xavier Ybanez <xavier@njin.co>
+Subject: Re: Confirming Monday's Meeting And Points To Cover
+ 
+Thanks mate!
+ 
+I have popped the meeting in the calendar.
+ 
+Moving forward please always CC Xavier and George into the comms. Xavier will be PMing this project so he needs to be abreast of everything.
+ 
+Although we did work to account for the GHL Vs custom discussion, from our internal Project Management Office’s point of view, we are yet to actually kickoff.
+ 
+The next stage is to run the project plan by you guys with timelines. This process will answer most of what you had below.
+ 
+Just flagging one concern - we are still yet to get that info from you that was requested last week so the project plan that we have in draft is incomplete.
+ 
+We tend to not move forward until we have everything in hand because we want to have a clear runway once we assign our resources (aka void them getting blocked).
+ 
+In terms of content - we will be reviewing everything - it’s likely that much of what you’ve provided will change (could be minor or could be major). 
+ 
+Are you able to provide the remaining stuff for 9am?
+ 
+Cheers,
+James Killick
+Njin AI
+Co-Founder & AI Product Specialist
+📧 james@njin.co
+📱 +61 450 118 967
+🌐 njin.co
+💼 LinkedIn
+TRANSFORM YOUR BUSINESS WITH AI
+GET THE FREE AI BUSINESS BLUEPRINT
+Become an AI-powered organisation.
+
+
+On 24 Apr 2026, at 11:04 pm, Rowdie Lang <Rowdie@foxfinancegroup.com.au> wrote:
+ 
+Hi James,
+
+I got your message later today, thank you for getting back to me. I hope you ended the day on a high note after the challenges you’ve been facing this week.
+
+Just confirming Nathan and I are locked in for Monday at 11am and looking forward to catching up. Will you be coming to the office, or will this be via zoom?
+
+I’m still working my way through things here and will send through everything prior to our catch-up. As I’m sure you can imagine, it’s been a decent amount of content to create.
+
+I wanted to send a few things through ahead of time so we can hit the ground running and nothing catches either of us off guard on Monday. These are genuinely just questions I want to work through with you so we're both clear on where things are heading and what’s expected moving forward. This project is critical and I want to make sure I’m allocating the right amount of time to it, without impacting my ability to run the other day-day operations of the teams and businesses. 
+
+A few things I'd like to cover:
+
+I wanted to get some clarity around using Claude to work through the ICAs. I'm just not entirely sure whether that sits in the initial data organisation phase or whether it's more of an ongoing maintenance thing, and what I’m trying to achieve with this.
+ 
+I'd love to get a clearer picture of what Njin is building on the nurture side of things. I've put together all the content myself so far, and I just want to make sure I understand where the line sits between what I'm responsible for pulling together and what comes from Njin.
+ 
+Based on the prep list and where we are up to in the project, it looks like there will be more content needed from me moving forward to complete things. A simple FFG nurture sequence is far from the personalised journeys we have been speaking about previously, and I feel like based on progress so far that this is also going to end up as something I need to complete. I just want to get a sense of how that’s going to work. At what point do you and your team step in and take over, or is the model more that you're taking what we build and setting it up in GHL?
+ 
+On GHL itself, I'd love to understand a bit more about what we have available to us. It was originally sold as having some strong capability, and since moving away from the custom build it feels like we've lost some of that, with me being responsible for bridging the gap. 
+ 
+More broadly, I just want to have an honest conversation about where things are up to, where we are headed next with the project, and what support we are getting moving forward. I want to make sure we're both getting what we expected out of this, and I'd rather raise it now than let it sit.
+If we can get this project right, we have some great potential to work together on lots of other key projects across both businesses, and to position you and Njin as key external partners moving forward. So, I hope the clarity from our catch-up helps to keep things on track for everyone.
+ 
+Looking forward to Monday so we can keep moving forward together and deliver on this highly impactful project.

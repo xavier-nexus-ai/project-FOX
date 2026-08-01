@@ -1,0 +1,85 @@
+Category,Question,Answer,Njin Followups
+Data & Segmentation,"Which financial life events do you consider meaningful triggers for communication? (e.g., job change, vehicle anniversary, insurance renewal, refinancing).","If there are rate cuts in the market so for example the RBA announcements, refinancing opportunities, debt consolidation after the holiday time, end of financial year, Easter/Christmas.
+
+We currently also follow up the customer one month after settlement, and every 12 months following this.
+
+(how would we identify things like job change etc? It would be good to get a better understanding of what you are trying to achieve when you say customer financial life events) ","Ideas on how we could do it:
+
+- We ask customers at planned check in moments so they update their details.
+- We track behaviour signals like opens clicks and form starts that show intent has shifted.
+- We use existing data fields like employment loan dates and LVR to trigger the right journeys.
+- We send simple one question prompts so customers can update key info quickly.
+
+The goal is not to detect personal events, it's spot the moments where a new financial product becomes relevant and helpful.
+
+This will all become clearer as we go deeper into the product"
+,What is the average time between one loan and the next for returning customers?,"somewhere between 6-12 months would be most common, with us ideally continuing to help them each year/every second year.",
+,"Are there customer segments with historically higher cross-sell potential? (e.g., personal loan → home loan).","Not necessarily higher, it's more a case of different loan types/segments will have a higher conversion rate for cross selling e.g a personal loan for a customer in asset with a mortgage, being referred to our home loans team for an investment property, vs someone getting their first car loan being referred to our home loans team for a plan to purchase their first home. Typically, customers that have a current mortgage have more options for cross selling, because you can look at refinance, as well as new property acquisition. Where as someone who doesn't have a mortgage, is only going down the new property purchase pathway, and depending on.how far through their journey they are for a home loan, this cross sell can either be for a legitimate enquiry they are looking to proceed with now, or mapping out a journey they may proceed with in the future. ","This is GOLD and exactly why we need a proper customer profile and scoring system in the CRM.
+
+Looks like different loan types do not give you higher value customers by default. What matters is the combination of products the customer already has, how far they are through their journey and what their next likely step is.
+
+A scoring model lets us rank customers by cross sell potential using simple signals like
+
+- has a current mortgage
+- time since last settlement
+- credit position
+- engagement with content
+- stated future goals
+- loan type mix
+
+Once this score exists the CRM can surface the best cross sell opportunities automatically. "
+,Which data fields would you like to track but currently don’t exist in SendGrid or in your LMS?,"- Data relating to the customer application information that is currently housed in the two LMS's, so that either team can access up to date notes and information on the customer without accessing the LMS.  For example information captured on the application includes, personal details, residential details, loan details, employment details, assets & liabilities. This information will be critical to constructing the ICA's and appropriate journeys. - Data relating to engagement with content customers are sent so that we can accurately lead score and nurture.  Data relating to the automation sequence and their lead scoring","Internal note:
+
+Along with pulling application data out of both LMSs we also need a few extra fields in the CRM that do not exist today but are essential for cross sell scoring and journey building.
+
+Eg:
+
+- a clear product history for every customer across both businesses
+- loan status fields that update automatically after settlement
+- time based fields like loan age and fixed rate expiry
+- simple flags for things like homeowner status refinance ready equity position or 90 day plan
+- engagement fields for opens clicks replies and page views
+- a unified lead score that updates as behaviour changes"
+,Do you track any form of LT or LTV metric by loan type today?,"We currently don't, however this is information that can be retrieved from the LMS's and could be useful. For example, in home loans if the original LVR is above 80%, we know this customer is a refi opportunity after building equity, as below 80 LVR =  no LMI and better rates. ",
+Current Journey,At which specific moments in the journey do customers tend to drop off or stop responding?,"This is difficult to estimate, as customers that go into automations prior to settlement that we lose, will engage differently to customers that go through our entire process and settle. On average across the 12 most common automations within FFG & FHL, 6 months seems to be the drop off point, where we start to get a open rate somewhere between 15-20%, this is after starting in the first 2 emails in the automation with an open rate closer to 50-75%",
+,"When a customer returns years later, can the team see their full interaction history, including past cross-sell attempts?","Yes - We can see all notes but this is only in the individual LMS's. For example, if the customer settles in our asset team, is helped by our home loans team, then returns again to our asset team, the asset team member will have no notes about their last interaction or updated details with the customer when they got their home loan. ",
+,"Do you currently have any manual cadence or ritual to re-engage customers after 3, 6 or 12 months?","We contact customers manually via phone email and text 1 month after settlement, and then every 12 months after that. We also have EDMs that go out to our customers manually throughout the month, based on the blog content created. However, this is not tailored to individual journeys and customer segments, and is very broad with low impact. ",
+,"Which types of messages tend to get replies, even if rarely?","We do get responses to the monthly content EDM's sent out manually, this is quite often how customers reengage off the back of this rather than applying again. However, typically from a send of close to 1000 customers, we might get 2-3 responses. There is an automation for 90 day plan customers, which are customer we can't help right now, but if they make some changes we can help them in 90 days. This automation at the completion of the 90 days prompts the customer to reapply, and this gets lots of responses. ",
+,Are there situations where one team speaks to a customer and the other team never finds out?,"Our asset team can see everything but if a customer speaks to someone on our asset team and then calls into our home loan team, our home loan team wouldn't know that unless the customer said something, or if team member went and spoke to our asset team directly. It's worth mentioning, none of our team can see anything to do with what automations customers are in, as well as their interaction with the content sent out. ",
+Operational Cross-Sell Rules,How do you define an active customer vs an inactive customer?,"Active customer: Engages with your brand through recent purchases, regular product/service use, or interaction with communications within a defined period.
+
+Inactive customer: Hasn’t transacted, used, or engaged with your brand for a set period, showing little to no activity or response.",
+,"What are the obvious cross-sell triggers you already recognize? (e.g., Customer finishes a car loan → potential for home loan).","1 month into their loan, every 12 months after, we don't really have a specific cross sell journey at these points, the team more offer all the options to the customer, this is something we need to improve on, so that we can take the customer through their specific journey, rather than taking a blanket approach.",
+,"Are there products that should not be offered in certain scenarios for compliance, score or risk reasons?","The only ones that stand out to me are commercial refinance within the first twelve months, as this tends to have early payout fees, and refinancing in home loans before 18 months, as this normally entails clawback. ",
+,What is the minimum healthy interval before offering a second product without sounding pushy?,"This would depend on whether they had mentioned in the application about looking in to future finance opportunities, sometimes this can mean we are helping out as quickly as within a month with other finance. On average though,  this would be somewhere between 6-12 months, however the product would need to be different and match their journey. For example, settles car loan, 6 months later gets personal loan for a holiday/consolidate debt. ",
+,What separates a “not ready now” customer from a “permanently disqualified” customer?,"Not ready customers are able to go into a plan where they need to work on certain things like not withdrawing a certain amount from ATMs or stop using pay advances, etc. 
+
+Permanently disqualified customers We don't normally permanently disqualify customers unless they are suspected as fraudulent or doing something non compliant that means we wouldn't assist the customer in the future due to the risk. ",
+Messaging & Tone,Which brand currently has the stronger voice: Fox Finance or Fox Home Loans?,Fox Finance Group,
+,Do you prefer explicit cross-sell messaging (“We can also help you with…”) or a more human-led approach (“What are your next goals?”)?,Human-led approach,
+,Are there any compliance-restricted words or phrases you cannot use in communications?,"We can't offer advice so we avoid using that wording, also avoid anything to do with guaranteeing. We also can't assist when someone is in financial hardship, this wording should also be avoided. ",
+,"Do you prefer a more advisory tone or a more direct, concise tone?","Advisory tone - we use wording like guidance, we also heavy base our content around the storybrand framework, which sees us position the customer as the hero, and us as their guide. ",
+,"What is the FOX “hook” that always works – a question, phrase or benefit that consistently gets engagement?","We don't have one specific hook, however, we do have phrases that customers typically resonate well with that we use in our positioning statement and web copy. These are things like:  We do the heavy lifting and leg work to compare 100's of options from 50+ lenders, to find the best rates and deals on the market. This process doesn't impact your credit score or commit you to anything, and you are in control the entire way.",
+Compliance & Risk,Are there any limitations when suggesting products across entities (asset → home loans)?,"Not really, even if a customer is not ready to move ahead right now, we should still be able to at least start them on their journey with the other business taking them off the market and giving them a plan and journey that keeps them in our ecosystem.",
+,Are there blocks of sensitive information that cannot be shared between the two teams?,"No, we have a signed privacy and consent from customers, which means the data can be shared between the two safely and compliantly. ",
+People & Process,Who inside the team is currently responsible for spotting cross-sell opportunities?,"We provide the team with a framework for when to contact the customer, as well as scripting to try and identify the cross selling opportunity, however as mentioned before, this is very general and as a result doesn't get the highest conversion possible, and is subject to how well the team member is trained to deliver the scripting and how it is delivered on the day. ",
+,Who decides which customer receives which offer?,"Our team presents the options to the customer, and the customer ultimately decides.",
+,What is the ideal SLA to respond to existing customers (not new leads)?,immediately - worst case within 10-15 mins,
+,"What happens when a customer reaches out through the wrong channel (e.g., calls the asset team but needs home loans)?",The team can transfer a call to the home loan team and vice versa,
+,"Do you have any internal cross-sell targets, even informal ones?","Yes, right now they are 10 from each team (20 in total per month between FFG & FHL)",
+Technology & Integration,"Can your LMS emit triggers such as settled, missed payment, loan expiry or renewal date?","The individual LMS's do not trigger any additional notifications post settlement, outside of tasks the team set, which they can set for specific dates and use the appropriate titles.",
+,Do you have an ideal customer record layout defined (required fields plus notes)?,"Yes, when looking at the data that is possible to pull out of our LMS's, there are 42 fields that contain key customer avatar information plus notes. We can show you these on our call, and understand what is most valuable as we know this is a large number of fields.",
+,Are there data points currently flowing through Zapier that should ideally land directly in the CRM?,"Yes, right now Zapier sends information from completed gravity forms into sendgrid. This would stop as the data from the completed forms would go straight to the CRM. Also, our typeforms that we use for applications on our website, would be integrated into go high level potentially. ",
+,Will the new website have its own native forms or should everything migrate to GHL forms?,,
+Social Proof & Content,Do you have real stories or testimonials from customers who used two products with you? (video or written).,Yes - Written reviews - almost 1000,
+,Are there knowledge gaps that prevent customers from being open to cross-sell?,"Yes, they often don't realise the potential benefits, but also how easy things can be, e.g. someone interpreting they are years off a home loan, when they only need 5% deposit.",
+,Which topics tend to bring customers back faster?,"Car loan, debt consolidation, and refinancing",
+,What style of content builds the most trust for your audience?,"Blogs as we are able to provide more information and present a problem and how FFG and FHL can be their guide, in addition to reviews and testimonials", 
+Commercial Strategy & Revenue,Does the sales team receive any incentive for cross-sell today?,"Yes, they receive a gift card when the loan settles ",
+,Which product has the highest margin available for reinvesting in communication?,Unsure of what this question is asking for. ,
+Hidden Opportunities,"Are there customer clusters with predictable patterns (e.g., car replacement every 3 years)?","Yes there are, however we don't use these as effectively as we could, because the journeys aren't mapped out. to be relevant to individual ICA's and loan types.",
+,"Do you identify life-stage moments such as marriage, kids, new home or job changes?",How would we identify the data post settlement/application?,
+,"For bad credit customers, how long do they usually take to return after fixing their situation?",90 Days,
+,"On average, how long does it take for a customer to take a second personal loan?","12+ months, this might be a combination of refinancing their current loan, and getting additional funds on top",
+,"What are the weak signals of intent you already notice (short replies, multiple email opens, visiting the blog)?",In general most signals we receive off our automation are weak signals,
+,"What does the ideal “cross-sell now” customer look like, and what does the ideal “long-term nurturing” customer look like?","This looks different for different. ICA's. Two easy example would be someone getting their first or second car loan, and then setting them on a journey to get their first home loan, as well as someone with a mortgage buying a new car, and being referred to home loans for refinance. Long term nurture looks like a mix of new asset purchase, refinance to save money, consolidation to lower repayments, new asset purchase with the money saved, funds to travel/holiday, funds to renovate/purchase an investment, etc. ",

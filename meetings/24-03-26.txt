@@ -1,0 +1,541 @@
+Summary
+
+### Action Items
+
+- [ ]  James to prototype V1 of Polar focusing on 18-month FHL nurture sequence
+- [ ]  James to build comparison demos in both custom system and GHL to show Nate
+- [ ]  James to vibe code a semi-operational prototype to demonstrate simplicity
+- [ ]  Rowdie to provide mock customer data with all key data points for system design
+- [ ]  Rowdie to convince Nate about custom system advantages over GHL
+- [ ]  Meeting with Lone Market Group (LMG) aggregator on Thursday 9am to discuss API capabilities
+
+### Key Decisions
+
+**Simplified V1 Approach Agreed** 
+
+- Focus exclusively on FHL 18-month nurture sequence first
+- Shelve pre-sale playbook for now (only needed if running ads immediately)
+- Add FFG cross-selling features in V2 after V1 proves value
+- Polar recognized as two separate playbooks: customer success and cross-selling
+
+**Custom System vs GHL Debate** 
+
+- James strongly recommends custom system over GoHighLevel due to complexity requirements
+- GHL cannot handle the level of dynamic customer journey personalization needed
+- GHL dashboarding is poor and system becomes messy with complex logic
+- Nate remains cautious due to past negative experiences with technology partners and wants quick wins
+
+**Risk Mitigation Strategy** 
+
+- James offers: prototype the middle path, and if Nate doesn't like it, will build in GHL at no extra cost
+- This gives Nate visibility before commitment while demonstrating feasibility
+
+### System Design Discussion
+
+**Polar System Scope Clarified** 
+
+- Polar is the entire ecosystem, not just one database or playbook
+- Includes aggregator platforms, scripting, nurture sequences, and cross-business systems
+- Core value proposition: positioning Fox as "the guide" to keep customers sticky long-term
+- This is critical for staying relevant as loan services become more automated
+
+**Customer Journey Complexity** 
+
+- 18-month FHL nurture sequence is the "moneymaker" with repricing, refinancing touchpoints
+- FFG journey is lighter/lifestyle-focused with less hand-holding needed
+- Goal: everyone enters through FFG or FHL, gets nurtured, then crosses to other business at 9-month mark when credit score improves
+- System needs to be dynamic and account for multiple ICAs, not cookie-cutter single journey
+
+**ICA (Ideal Customer Avatar) Framework** 
+
+- Five ICAs defined for FFG, mapped to corresponding FHL purchase types
+- Prime convenience borrower (unsecured loans $30k+) identified as highest-value ICA
+- Provides best ROI due to speed, smooth experience, and ability to create raving fans
+- All customer data captured during application process via Ambition (current aggregator)
+
+### Technical Considerations
+
+**Data Capture & Integration** 
+
+- Current aggregator (Ambition) provides extensive customer data for asset finance
+- Home loans aggregator lacks similar reporting capabilities
+- Considering switch to new aggregator (LMG) - need to confirm API capabilities Thursday
+- Team can capture ICA-relevant data upfront during application to improve nurture targeting
+
+**AI & Automation Tools Discussed** 
+
+- James demonstrated Claude Code workflow using folder-based methodology with pre-prompted agents
+- Rowdie building operational AI agent system for business functions (marketing, leadership, HR, L&D)
+- Both using vibe coding for rapid prototyping and stakeholder buy-in before full development
+
+### Strategic Context
+
+**Pre-Sale Playbook Research** 
+
+- Most finance businesses in this sector rely purely on referrals/word of mouth
+- Online conversion rates typically 2-5% - industry just accepts this
+- Fox is set up for hot leads but struggles with ads because cold leads need different nurturing
+- Calculator-based lead magnets identified as strong entry point if ads are pursued
+
+**Reactivation Identified as Biggest Opportunity** 
+
+- Reactivating existing leads and clients is the largest untapped opportunity
+- Two types: reactivating cold leads and reactivating past clients
+- Client-side reactivation overlaps with customer success playbook
+
+**Competitive Positioning** 
+
+- Digital product (Polar) is the "real thing that will keep people sticky"
+- Question driving strategy: "How do we stay relevant when loans can be fully automated?"
+- Answer: Provide ongoing value as a guide, not just transactional loan service
+- FFG is the best lead magnet for FHL since home loans are harder to advertise directly
+
+Notes
+
+Transcript
+
+because that nurture sequence is all around You just got your home, here's your valuation, here's your pack to make sure you're staying on track and ahead. Whereas the nurture sequence here is about taking them from being an asset customer to ready to becoming a first home buyer. So when I wrote it down and like you said, I just had to visualize it man. I was sitting here just getting overwhelmed going, how many ICAs, how many journeys, where do they click and link and how does it come together?
+
+What I got in my head is that this is all happens in the one system. So technically, like what you said, the nurture sequences for every single one as soon as they hit the system. But it's kind of like the 18-month Fox Home Loans nurture sequence is... the moneymaker. That's the goal for if we're talking about positioning ourselves as like a guide. Because that's where we can do the repricing, where we can do the refinance ultimate action point, which I think you've captured in here.
+
+But also offer like the finance and the funding menu and things nine months in because that whole journey is about building wealth. Whereas in Fox Finance Group, it's a bit lighter. Because it's lifestyle. It's fun. Maybe it's more serious and I've got a car so they can stop sharing one car But they don't need the same kind of detailed touch points and hand-holding that someone in this nurture sequence would need.
+
+Yeah, so when I sat down and thought about it I went our goal is everyone comes in through these ones get it's not just to go to you. Everyone that comes in through this one gets nurtured so that at the nine month mark, which is where it's most common, they can be pushed across into FFG to match the right ICA, if that makes sense. That's where I kind of got to in my head when I mapped it all out. And that was the only way for me to make kind of like conceptual sense of it because there's so much going on.
+
+There is a lot going on.
+
+But if you get it right, it's fucking awesome. So I don't know how that kind of sits with you after me explaining it out loud.
+
+Yeah, I mean, I'm... There's a part of me that's wondering whether... I don't know. We... If we can... We could bring it all back to FHL. butWhat's your name? Like you're saying how it all comes back here.
+
+They can start here and they go on nurture sequences here, but ultimately when we get them into the FHL nurture sequence, that's where we can really build ourselves around them as the guide.
+
+So what I was trying to do with this is get it So that it's dynamic in a way that... It takes into consideration all three of these things, well, two of these things. So if they've had an an asset loan was that fhl or ffg so if they if they've done something with assets and they've done something with home loans then they get a certain communication if they've only done uh no i mean i try it when i logged in had the same issue where it just did not want to give me internet again what the okay i'm just connected to my phone at the moment okay That's cool.
+
+Did you want to drive through this then on my computer so we can kind of talk it through? Because what you're saying is Very similar in that it's about recognising when they come in which ICA they are. Yeah. Ultimately, automation all the way down the line.
+
+You know, and as their goals evolve, key triggers, because, I mean, this accounts for 18 months, but, you know, if we're really thinking about the possibilities here, you're talking about years and years with these people. And so every, you know, like, okay, they get their home. Yeah, it could be their first home. But then the next thing is, what about an investment property? Yeah. Okay, maybe when we started, the goal was to...
+
+Travel, I don't know. Now it's like to settle. They met somebody while they were traveling. Now the goal is to, yeah.
+
+So that's kind of what I was thinking. Does that resonate? Yeah, 100%. Yeah, okay, cool. It's... This is just me trying to get what was in my head onto paper so I had something I could actually explain properly because before we even did this on paper it was so hard to try and explain it. Yeah. So I like the way that you're talking about it because it's taking the same thing which is that It's going, this is where we want to get them into FHL, for example, coming into FG, but what does that journey look like?
+
+Well, we've got to tailor it to them. And finding out what they would want to do, that's all going to come from talking to the team. Realistically. Well. Isn't it? Could, could be. Could be talking to Polar AI. Yeah. But that will take time to accumulate and understand, won't it? So before it knows all those things we would need. Thank you.
+
+Well, I mean, it's the same. It's the same as with the team, right? Even if you were talking to the team, you would still have to... take time to gather all of this information. Unless they were going four alone, which could be gathering it all in one spot. That's a reason.
+
+Part of this was getting the team to understand what the ICAs are and then we can put some steps in the application stage so we can flag some things early on and get them thinking about it. Yeah. So that we can actually position them throughout the application to make this smoother. Yeah. Rather than, I've come from car loan, car loan, car loan, car loan, loan settles, and then we go, hey, by the way, and throw all this shit at them.
+
+Yeah. Kind of getting them to understand throughout the app. Yeah. Which is totally separate to how this functions, but just sets this up. Yeah. Better. So that would be one way for us to get better intelligence about the customer up front and then the systems learning and everything I guess is the other way. Which makes sense.
+
+And we can just pull all of that information, right?
+
+Which info is that?
+
+From the team. Anything that they gather. Yeah. It all sits in the system. So I'll show you.
+
+Something like Ambition and we're considering having a meeting not tomorrow, the day after with another company, another aggregator for home loans because we're looking at it thinking that potentially The pain of shifting aggregator right now might be less than the pain of us not doing it and being hamstrung with a few things in the future. But for ambition, for This one, if I go into reports, I can basically generate a report.
+
+Ambition is...
+
+Finance, right? Not home loans. This is for asset, yeah. So I can generate a report, but I can go through here and add stuff in.
+
+So I can go like applicant dimensions, Emails, phone numbers Gender, marital status, dependent, date of birth, address, postcode, if they've got a mortgage with a finance series, employment status type, monthly net income, residency status. They've got investment property, mortgages, the value, credit cards, loans. credit scores And I used this to get the ICAs. Yeah. Because it's the most... accurate I could possibly get with all these different data points to get something that's really feasible that we can go that's that person or that's that person.
+
+Home loans is nowhere near as good as this is. The aggregator that we're looking at changing to. This one has. And that's one of the questions I've got to post to them on Thursday.
+
+I mean if you ever wanted to build your own platform My mom doesn't like this No, I would be that as well.
+
+Yeah Yeah Yeah So then based on this and what your thoughts are with how we customize it to match the person How do we do that? So We're going to have to agree What a, like...
+
+cool pieces of information that are collected for both journeys and then how does that manipulate it's going to be an exponential figure right like if we choose 10 and 10 it's going to be like 100 different factors that we're going to need to look at so we probably want to scale that down as best we can and decide what those are can we do it again if we're going down the first simply I mean I'd like to be put on this like which is if you if you picture like I know that we're saying we want to know exactly what the customer wants or matrix which is where I started to get default here setting It's like, I want a young vehicle borrower to be like, they're not going to have a hard time learning.
+
+tick tick cross cross whatever like so rather than it be like this is a you know a young vehicle by a Right, because he might have taken, he might have, I don't know. Credit card might be important. But even in that ICA, there's different variations. So I want it to be like, right, here's the core pieces of information that we're going to check. I've got FHL on one side, Fox Finance on the other. It's like it checks it out.
+
+Where does it stand? And then that becomes the picture that allows us to work out how we're going to nurture them. It's just going to be more complicated. But more complicated for us, but simpler for the client. It will be more relevant to the client, right? We run the risk. If we just pick ICAs and we go bang, bang, bang, we run the risk of being like, you know. Yeah, well, I mean, I would throw this all out of whack, right?
+
+Because I've... I don't know whether novated lease counts, but I've never had a loan. But I do have a mortgage, but not for the property I live in, for an investment property. So I'm like, I'm all over the place. You would be hard to ICA me. You'd probably come in underneath if it was for a vehicle.
+
+That one? Or a few coming through? What was that one? Okay. Because that ICA is all about the fact that they own some kind of property. Whether it's investment, whether it's owner-occupier, whatever, it doesn't matter. It's just about the fact that they've got some kind of established credit that puts them into a prime market. Your prime convenience borrower is the same thing, but it's someone coming through for you unsecured loan.
+
+So why does somebody take an unsecured loan?
+
+There's a thousand different reasons for it.
+
+At a glance, Debt consolidation is probably a real big one. funds to go travel can be another one Sometimes someone might get an unsecured loan because they want to buy like a classic car and because of how old it is.
+
+What's the definition of an unsecured loan? That's where they don't have to put any security up.
+
+Yeah. So in an unsecured loan, like if you came to us today and said you want a personal loan, we assess it. Everything checks out. We submit to the lender. You get approved. The contracts go to you. You sign. It settles. The funds go straight into your account. Now it happens very quickly, no security involved, the money just goes straight to you. can work really well because if you've got a really good credit profile, the lender gives you a rate based solely on you.
+
+So if you're a good head and you've got a good credit profile, they'll give you a really good rate. So for something like an older car or something like that where a lender would normally consider that and then give you a higher rate, it works out better to do it as an unsecured loan because it's going just off of you. So they're the quickest, they're the easiest. The reason why the prime convenience borrower is what, I we pulled out being the most valuable ICA is because that's the kind of loans they want.
+
+Like you go from an ROI perspective, a secured car loan might potentially have a higher income value, potentially, because you're getting paid a higher commission and those sorts of things. But they typically take longer to settle. They're more involved and they're actually harder to make a super smooth experience for a customer. Like I'll give you an example. If you come to us, you found a car at a dealership.
+
+We get you approved, we go to the dealership and the dealership decides to play hardball and not send us the invoice straight away. We have to go back and forth with them and try and figure it out. They send us the invoice and they put something on the invoice that's wrong. The lender goes, we can't sell the line, they do another invoice and pulls it all back. That's not a fun experience. And we try and minimize that and avoid it.
+
+But with a personal loan, because there's no other third parties involved in that, it's It's just you ask the reminder. It's smooth and quick. That is why this is the highest value I see that sits in there because the experience is really easy to make them a raving fan out of. Yeah As long as it's for a NAF that's kind of above $30,000, NAF being like the amount that they're borrowing, plus fees and everything.
+
+We still get a small commission amount and can charge a brokerage fee which the lender funds. So for an ROI for us as well, it works out pretty good, particularly from a time perspective because I can take your application this morning, assess it, submit it to the lender, give you an unreal experience. We still get decent income settled off the back of it. Rinse, repeat. Whereas a car loan, we still chase that and that's still an important ICA, but that process just due to the fact that the vehicle's involved in other steps, it looks a little bit different.
+
+Yep. Does that make sense? Yep.
+
+So I might be highlighting what the attribute points are for these ICAs. It may well be that I've gone too far and I just need to pull it back and just simplify with these. It could be that There's still something about this that we can implement but maybe just honing more into these ICAs.
+
+I'm happy to go because you've got the knowledge and experience with this. Like I've got the finance info I can plug into the back to make it make sense, but you're going to be able to visualise. how to pull this together into a nurture sequence that's going to do what we want it to. So I'm happy to go with what you think is going to work best or whatever's going to help you.
+
+Yeah, I mean, look, this nurture sequence, this whole thing is custom, right? We... In my time with Engine, I've never done anything like this. I've done it with my product consulting work because products take users it's much more like a product like an app than it is like a service-based business nurture sequence yeah I get it so I have experience here but this is not how we typically build out nurture sequences it's even the other thing that just could I take a quick caveat so So the Pre-sale playbook is interesting.
+
+So I did quite a lot of research into what people are doing with it. And I think this is... very much aligned to where you're at. Most businesses in your sector just live off referrals, word of mouth. Yeah.
+
+Keep going, you're good. And as such, they...
+
+They don't really need a pre-sale playbook.
+
+They just trade online as it comes in. I've got a friend that works at Stratton and their online conversion sits at like between 2 to 5% on a good day. And they just accept that as a fact. They position themselves to rank for keywords with high volume, high commercial intent, but they just don't. That's just what the market's like right now.
+
+Well, I actually-As I got deeper, what I found was people don't know how to transition from a model where they're getting short things from referrals, word of mouth, to a model where they have to work for it. And it's probably why you haven't had a massive amount of success in ads because you are completely set up for hot lead. Like, your guys are so regimented the moment that the application comes in.
+
+You guys don't stick around. You get it in. You have those really high rates of getting the application done in the same day, all of that kind of stuff. But that won't work for ads-related stuff where you actually... You actually have to build the credibility, the rapport, in order to get the application in. So, One big question I had with relation to this is, you know, did you see the stuff I sent through on the ads?
+
+Yeah. I haven't had a chance to go through all of it, though.
+
+Did you watch his loom?
+
+No, not the loom, yeah.
+
+Okay. I read through the presentation. Have a look at the loom, because he kind of takes you through it. You can skip the first couple of minutes where he's just kind of jitty-chatting. He's a typical Brazilian, likes to talk. But he goes through a lot about the websites as well. calculator the the user journey I think it's all things you already know because you want to change your websites but he hones in on that then then the big one is How are you going to He loves the calculators.
+
+He's like, these things are gold. So if we build a couple that are easy to find, that are on their own dedicated landing page, it's easy to navigate to, that is a way in which you can bring people into the pre-sale playbook. Yeah, that makes sense. What I need to know here and now is, how important ads are because it will really change my strategy. Like, essentially I've got to the point with, as the business stands right now, if you weren't running ads, pre-sale playbook is essentially non-existent.
+
+There would be, I'd chuck in some reactivation, which we've talked about. I think that's the biggest opportunity in the whole business. Reactivate, reactivating your existing, we've talked about it as well. Like, so the reactivation will be a subset of the pre-sale playbook what you're doing. And even in that, there's two types of reactivation. There's reactivating leads and there's reactivating clients.
+
+On the client side, that's more customer success. So where I've gone with this is where Polar blends kind of... Cross-selling and customer success into one very unique playbook. Pre-sale sits outside of Polar, but You can have Polar can have its own mini pre-sale playbook when somebody shows intent, but they don't actually go through with it, right? So Polar can have its own, like, you've got to get into Polar.
+
+And that's the goal of the pre-sale playbook. Once it's done that, you're kind of counting that the entry into Polar and into that ecosystem is job done for the pre-sale. You've got a little bit of pre-sale that can happen in your existing system, but it's only a tiny percentage that don't go through, right? Yeah. Really? Yeah. And then if you do ads though, that's a whole pre-sale playbook that's designed.
+
+Okay, you've delivered value, it could be a lead magnet. And then here's the crossover. It could be a calculator on your website, but it could be Polar. And the calculator could be inside Polar. Okay, I see what you mean.
+
+And this is why there's a lot of balls in the air, and I didn't have the mental capacity to go through this properly last week.
+
+I can understand, man. I have an idea if you're all good for me to jump in. So talking with Nate last week, similar, right? Because this is such a massive fucking thing. It encompasses so much. It's so easy to start doing a bit over here and then go, oh, but now that links to that, and then we end up in the next. I had to draw this. And we're looking at it at the moment and we're thinking like, Technology wise, because we're just starting to wrap our heads a bit more around how much AI is actually coming into our industry and I'm looking at it being like, man, we're behind the eight ball.
+
+I've jumped in and started trying to learn not how to code, but how to use tools like coworking things a bit better and actually embed that in what I do leadership wise as well. to go like Our vision of what polar looks like right now, like how much can that look different in 12 months with the way that technology and bits and pieces are evolving? Yeah. with how much this is turning into, like if we go and buy off this huge chunk and then we realize in 12 months that technology's exponentially increased and like you'd be seeing it, like it's nuts, right?
+
+How much stuff's taking off. What we look at and go is epic right now for Polar, maybe in like 12 months. It looks different. So to simplify it for us, we pulled back and we went, you know, polar isn't just like Our database, it's not just our pre-sales playbook, it's not just a nurture sequence, Really when we zoom way out, Polar is actually like all of the systems that sit in our business that help us to do that.
+
+So it's like our Scripting like the stuff I've sent you that's not even to do with the nurture sequence It's to do with how we take the application and bring them into this accurately. Yeah, it's to do with the Aggregators and the platforms that we use to make that transition into the post-sale journey smoother So then when we zoomed out to that we were like, holy shit, this is huge and if you try and just tackle this in one or two playbooks like it's gonna be difficult So what Nate sort of said to me when I was talking to him last week, and I'd be keen to get your thoughts on it because I think it might help us to kind of get running because at the moment we've got so much on the go.
+
+Yeah. Trying to find one thing to lock in on, go, let's deliver that so we can leverage off of that. That's going to help because then we're going to have one thing nailed down and we can go, well, it's really clear now what the next thing is we need to do. Like when I got put into the learning and development across the group, I did this. I went, "Holy shit, do we start with leadership frameworks?
+
+Do we start with team development? Do we start with training? Do we start with onboarding? Like which one of these things is gonna be best to start with?" And I just had to lock in on one and go, team frameworks because we can use those now and then it made it really clear off the back of that to go okay I know now based on that onboarding is what I have to focus on because it feeds directly into this.
+
+So if we pull this back a bit and we go, Polar isn't just the bespoke system, Polar is like this whole thing we're building to be able to be the guide for someone moving forward. And we just lock in and go, if we want to just nail the nurture sequence and get this right the way that this works right now so that customers post settlement Get the proper nurturing, go between the two businesses. Like this will move the needle tomorrow if we do it right.
+
+And this already starts to position us as the guide and gives us that framework. So rather than trying to do everything all at once, and I know sometimes doing the playbook simultaneously helps in our instance, because even our nurture sequence, like you said, it's pretty complicated because we're not doing a cookie cutter. We're not just going like one fucking journey and that's the same for everyone.
+
+If we pull it back and we go deliver this, you just in like GHL rather than going full bespoke system and everything else that that looks like right now. That gets us off the ground. And then it gives us a chance to look at where's the next big thing that we're going to get value out of. Is it from the pre-sales and bringing in ads or is it from going further forward with AI and what that's going to look like and bringing that in.
+
+Because what Nate's thoughts were was if we at least deliver this and get this done in GHL, Then when it comes time to polar we can get a bit better understanding around technology and the customer journey and what's working with this and what's not and then we can build it right from the start. We're a little worried that with everything on the go at the moment it'll be really easy for Polar to just become, I'm calling it Polar now, but the bespoke system to become something that's just like a monster and then we just keep kind of getting bits ticked off but not really delivering one thing in total if that makes sense.
+
+It makes sense, but I think this is bred out of a concern of the unknown.
+
+This is much harder to do in GHL. This is why I don't want to do it in GHL.
+
+Can you, 'cause I'm basically gonna have to convince Nate not to use GHL because he's down the headspace. And remember, like, you've only got to catch up with him twice now and then he's been away so you and I have been working together and it's been a bit tricky, right? But last time we spoke to him, I think was on the phone probably and that's when he was all like back and forth going, I don't know whether this is the right way for us to go or this is the right way for us to go.
+
+So he probably just needs a better understanding of if this is gonna be more difficult to do in GHL, why that is so that he can lock in and go, okay, I totally understand why this is what we need to do. Because what he said to me going into this meeting was, no, we just want to build it in GHL because he's thinking... We'll lock in on one thing, we'll get it done, we'll have something that we can use that's going to create value now, and then it gives us time to start looking into Polar.
+
+and getting it right from the start. But it sounds like you kind of look at it from a different angle.
+
+Yeah, I mean, where my brain went the first time is where it stays. I see no value in setting up in GHL. You'll outgrow it near enough instantly. We won't be able to... It's really hard to do this level of customer journey. with something as rigid as GHL. Bye.
+
+If that's the case, is there a way then, if that was the avenue that we were going to go down of doing it through the bespoke system, that we just kind of like cut all the other bits and pieces out for the moment and just focus on making it kick ass with this...
+
+Yeah, I mean, I'm not, I'm only concentrating on the two things, the pre-sale and this journey here. I reckon because of how big this has turned out to be, it's probably going to just focus on...
+
+This to start with.
+
+Yeah, well, I mean, if we're gonna run ads, But we're not going to run ads right now. I would shelve the... As I said, this is actually two playbooks here. Is it really? This is customer success and this is cross-selling. Gotcha. That makes sense as to why it's so... Yeah. There's just a lot of overlap. Okay. Yeah, because you want...
+
+Because if you were able to, if it was literally a case of this awesome nurture sequence that we want to create, which we know will change things for the business, like without anything else. Not saying that that's anything we would do, but like realistically the fact we don't have this right now, we're... Doing ourselves a disservice. Yeah. That's why I'm putting my foot on it. And Nate as well. But if we went, we couldn't actually build this nurture sequence and create this within GHL, that takes our life off the table entirely, right?
+
+Let me just have a moment and think about how I'd do this in GHL.
+
+Oh, I'd be so messy. You'd have to... So you'd highlight where they started. Yep. And then you'd also have to highlight if they're a client of both. Yep. Then, yeah. Yeah. F***ing Dax. I did. I just see all of the immense problems. The more complex you try to do something in GHL, the more it goes wrong. Okay. And... Even just explaining this nuance to a GHL developer versus a developer developer is difficult.
+
+Okay.
+
+So if we just locked in and keep in mind, I'm gonna I'll have to call. Well, I'm gonna call Nathan after this anyway, but I'm gonna go to him and be like, I know this is what you said you still want to do, but Here's what after talking with James is the realistic the reality of like oh back you on that I'm just trying to change his mind on that, if that's the case. Why don't we do this?
+
+Rather than try and do this, which is I think gonna be fucking cool, but Maybe this is one step too far. Why don't we literally do it First off, why don't we just do this, the middle path, just for now. just to show Nath what it looks like and how simple it can be. Okay. And, I can do you a deal. that if we prototype this and he doesn't like it, I'll go to GHL, no extra cost. Okay. then it's just this simple he can see because that's what he wants he wants he doesn't want us to think about this and and spending months building it he wants to get a quick win Part of it.
+
+But I know that if we build this and we start bringing the data in, Then adding these Pretty easy. Yep, then adding all of that data that you showed me from both of the platforms. You just enriching. Yeah And then we can start doing more custom stuff. Okay And we can just take it one step at a time. Yep. Okay. Which is probably...
+
+A better way to do it?
+
+Probably. I mean, it's not as fun, but... I'm with you, man. I stayed up last night until fucking midnight playing around with stuff on there. But that makes sense.
+
+'Cause look, I think I told you last time, like the biggest thing is just, Technology partners we've worked with in the past Burned.
+
+Yeah, of course.
+
+And not set us up for success, unfortunately.
+
+So, just very cautious and careful of that. And this obviously means a lot. It's like critical to the business. So I can understand why putting all the thoughts into it. And when you, like we both just sat back and talked about everything that sits within the Sego system and went, "Holy shit, that's fucking everything."Yeah.
+
+It's a lot. This is your digital product. This is the real, the real thing that will keep people sticky.
+
+It is.
+
+When I sat in here with Nathan, we were going back and forth on it last week, The question that got asked was how do we stay relevant? And that's the whole journey, right? That's the positioning self as the guide is staying relevant. You don't just provide a loan service or something that can be fully automated in the future. You've got to provide something else. Yeah. So... That makes sense. So you think we could just tackle this part and get some good traction, some quick wins in place with this so that it works effectively and then bring these into it so that we get a nice full nurture sequence and it's kind of like iterating on polar as opposed to going we're going to build polar brick by brick.
+
+We're going V1 polar looks just like this. And V2 polar looks like we can add this. The only thing that I'll need you to help me with is what you explained before so I can get that across to Nate then we can get him to go I'm comfortable to see what that's going to look like if we build it with this. Yep. How long do we have? What do you mean? To convince him.
+
+Do we need to convince him today, tomorrow, got to the end of the week?
+
+I would say you can convince him whenever you're... I can go back and try and convince him. We can try and convince him today. But if you think, what are you thinking in your head? I could, okay, let me show you this.
+
+I'm not trying to make your life more complicated either by the way.
+
+No, no, I don't mind. I see what he wants and I think it's probably the safer option. We'll get to where we want to go. Yeah, we will. We just need to jump through a few hoops. That's fine. I'm not worried about doing that. He needs to see something. He needs to see that it's as simple as I have it in my head, that it's not... And it's probably this two weeks of being, I mean, I could tell by his email, the two weeks of not being communicative, not making progress, is making him think, is it all too complicated?
+
+Potentially. Yeah, but it wasn't that. It was just...
+
+being ill, having kids ill and just losing half of my time essentially. I don't actually think that it was, like that was the main reason. I think it's because he'd been seeing how much this has been growing and what it looks like it's becoming and then going, whoa, what's that gonna be? in 12 months time, especially when we're talking to him and I'm getting his head around bits and pieces with how we can use AI better in business, for example.
+
+Yeah, fair. If I have some time, I'll show you what I'm doing with that as well. That'd be cool, man. So... This is how I saw it. So we've been having a project management issue, hopefully.
+
+There's loads. Oh, in your business? Yeah. Okay. Sorry to hear that. Yeah, well we've been through four project managers now and onto our fifth. They just can't really keep up or do what we wanna do. 'Cause of your volume or your pace you're trying to work at or what's burning out? Pace? complexity the fact that Engine sits with a sister company. We have shared resources with that sister company. There are some complexities.
+
+I get it. We have similar. Yeah. 100%. And we... The way that we've been, and it's been infuriating me and George, my co-founder, it's like we're very reactive when it comes to stuff. And I pushed him into Notion, which I love. I'm hearing your thoughts on it. He hates.
+
+Oh, okay.
+
+He hates the user. I love the fact that you can build databases, you can interrelate them. You can essentially do something without doing development. It's supposed to be here, but it's a no-code platform, right? Imagine there's something cool there. So this is just the dashboard. And then the way that we structure things is like, okay, we've got tasks. Tasks live with initiatives, which live with epics.
+
+I actually think it should be initiatives above epics. But anyway, this was all designed just to give my co-founder essentially the confidence that we could build this. I just built it over a couple of weekends. So it's got a lot of stuff in it, like how to organize your sprints.
+
+Do you do this in a process when you vibe code this sort of stuff?
+
+Yeah, because I'm a product person, so I design user stories into all of this kind of stuff. So I just talked to AI for ages, planned it out. I know when to start a project, and it's got to have all of the fundamentals. And that's what we're building here. And this has a fully operating client portal. The client can see all of that. Come on into the.. And then it's like, OK, so we can dilute it. based on this.
+
+So this is the current and then it goes, okay, apply dilution. And so that just extends, that pushes the whole project out. And what I was able to do with vibe coding, and it's all of this, like it's like, how do you manage your teams and how much availability do all the teams have? I wish this was loading faster.
+
+Bits are up.
+
+Seeing your team members this morning, they did the same thing.
+
+and And then we pop it in a place where we can actually... So there's all time tracking. So we understand what's the estimate versus what's the reality. And then let's have a look at this in terms of analytics, financials for the business. This is all dummy data, but it actually works. I could start a timer right here and it would actually go. Yeah. And so he was able to visualize this and go, ah, Okay.
+
+And he's gonna go play with it again. I did another iteration over the weekend 'cause there was a few things I wanted to do. But that, it's like, okay, now I see it. Once it gets to this stage, it's not actually that hard to implement it. And so, with my dev agency, I used to design stuff on Figma and give them that over. Now I vibe code the front end. They still think the code, I think I've told you this, they think the code is shit and they redevelop it anyway.
+
+But it's interactive from day one. So they get to see the vision. So if I was selling you software development, I would be vibe coding something and going, let's have a play with it. Let's get your feedback. Let's record the session. Then I would use that feedback to enhance this. Then when you're happy with it, give it to the devs. They'll pull bits of code out of it and they'll recode what they need to.
+
+Yeah, I've been seeing more and more that's what people are doing, is getting like a concept to the point where you go, this is usable, there's value in it, and then they go on, here you go. Yeah. Yeah.
+
+So that's what we'll do, in my opinion. I'll vibes code something, it will be semi-operational, we'll show him so he can have a view that it's not overly complicated. And we can start with FHL. Getting our 18 month nurture sequence down.
+
+'Cause the problem this solves immediately is it creates Better referral opportunity across into FFG but it also prevents us from having drop-off and losing customers out of our loan book. Which is an immediate problem that that would solve. And then these all fade into it anyway, so. Can I have another one?
+
+The only other thing about this that I was thinking is...
+
+Will people always start here? Always start where? At the start. They'll come in as one of these. But will that always take them on the same journey?
+
+Uh, it's...
+
+Slightly. It's a little bit different.
+
+So like the parts that would be the same is that One month we would always be doing the same thing which is calling them up and letting them know, making sure everything's all good. letting them know that they've now got access blah blah blah. And is that in your workflow as it stands right now? One month follow-up is? Yeah. But not the full introduction to like...
+
+the system and that kind of stuff. That's not.
+
+But we're thinking we're not gonna have a system at this point. This is gonna be a back end system to nurture rather than--This is still gonna be an intro to it because we're gonna take more ownership over the fact of like, here's your home loan journey that we're gonna take you on over the next 12 months, for example.
+
+as opposed to right now would just be the housekeeping stuff and then letting them know that we're gonna touch base in 12 months, for example, to see how they're going and make sure they're still on the best deal. All that stuff in the middle is missing right now, which is why I wanted to put this together.
+
+So I would in that sense then have, I'd still have an interface for them.
+
+I think if you're gonna do this and you're talking about having it so we just have this, having an interface where we can send them the property evaluation and we can send them these things and start to get people using that, If it's not difficult to do, that makes sense because sending them a PDF or an email or something like that sucks. Yeah, agreed. I'm on that track. Cool. So what I need then, okay let's think about this.
+
+So what do you need from me?
+
+Have you given me these? Five?
+
+These five are just associated with these five.
+
+We tried to keep it simple and use ICA data only from FFG because it's the most detailed and then off of that basically like extrapolated out to go what would that person most likely Be going through FHL as a purchase type for what's the difference between a new purchase and a first-time buyer? New purchase to someone that currently owns property but wants to buy another house.
+
+Oh and it Could be like an additional purchase.
+
+Yeah, they could be buying up.
+
+They could be upsizing for example Is there any reason why you put it on top above first-time buyer?
+
+NoThat's where I stacked it.
+
+Yeah, fair, fair. 'Cause again, in my hierarchy, the first home buyer is kind of like, the initial.
+
+Yeah, and when you think about it, like where this starts to really compound and be like the backbone of what we do is when we're capturing people at first home wire. Then they're getting a full journey through the full ecosystem from start to finish. Communication cadence, does that say? Yep.
+
+What's the top one there? Intro. Facil.
+
+This will be Intro Pack. Which, if it's a first home buyer, it's all about them adjusting, you know, this is what's in that 18-month journey thing that I sent you, where it's all about giving them something so that they can... see the impact that extra repayments are going to make on their loan or something that's going to help them to budget now that they've got to have rates and electricity and all that stuff they probably haven't had before.
+
+If it's an investor, it's a pack tailored towards what they're gonna want as an investor. I didn't go into way too much detail on that because even at what it's at right now, it still took a fair bit. But it was just like a vague concept of going at three months, we're giving them some value add. And that value add is a pack that's relevant to their purchase time. Okay, so we just need five packs and we can display that inside of Polar.
+
+Thank you. That's it. Simple as that.
+
+Cool. And six months is repricing, which is on us.
+
+Nine months is the... Thank you. real like junction point where depending on the purchase type would depend on what kind of angle we're steering them on And the issue that's there is that there could be multiple things that potentially that they'd be interested in. I'm just trying to make it really black and white and go, I think that's probably what's most relevant. And I'm saying I, but I also know from pulling out data that that supports that.
+
+But that doesn't mean that that's the only option they might go with. And what we're trying to do there is rather than going, here's the whole world on a plate and pick which way you want to go, we're trying to go, hey, Based on you and what we know about you, we know this is what people are normally looking for to make it more tailored. Because what everyone does is calls out and goes, hey, how's it going?
+
+Do you need any more clients? Now go away.
+
+Let me just double check so I think it was the updated jobs, FHL. 18 months. Do I? Oh yeah, that's right. Cool, I've got that. That's the main one. Keep getting confused whether I've got FHL or FHG. You don't have an FHG one and you're not gonna create one now because you're thinking that this just plugs in. Yeah. Or at least for now. Well, the thing is, like... FFG right? We go and do a loan for you today, you get a personal loan to go travel?
+
+There's not a huge amount that we can really do outside of that guidance wise for you other than in 12 months see if we can refinance it to get to your debt deal which is cool that works but we can't reprice like we can in home loans and it's not an appreciating asset that we can go and tap to get equity out of. So the Fox Finance Group journey is a little bit different. And that's why ultimately what our goal should be with this system is, if you think about for home loans, and I'm not trying to derail, I'm just trying to make this have sense.
+
+Really hard business to try and actually bring inquiry through for because home loans is direct competition with banks and banks will spend two mil a month to get visibility and exposure. So paid advertising in that space is difficult unless you do it with local search intent, which is what we're basically aimed at from an organic perspective. So to bring in big numbers organic intent doesn't have big numbers, but it does convert high.
+
+The best lead magnet we have for that business is FFG because technically everyone that goes through FFG has the ability to go into home loans. Because if they don't have a home loan, we can help them sort that out and put them on a plan to be able to get their first home loan. If they have one, we can look to refinance it and save them money. If they want to buy a new property, we can send them through there so they can buy a new property.
+
+13 month nurture sequence, it's more hands on, more value add, more involved in the portal. that really locks them in with us longer term. Cool, that makes sense.
+
+All right, I'm gonna change my strategy then. Sorry. No, no, no, it's gotta be right for you, and it's making a lot of sense. Bye.
+
+I hope it is. Put a lot of thought into it.
+
+I mean, we can still in the future look at nurture sequences for these, but as you say, it's much harder. Like if all roads point to FHL, And then there are just little, I get it now, this is the main road, and then there's going to be little turns off to FFG along the way. We can.
+
+nine months, sorry to cut you off, is normally they've had the loan long enough that the impact that making the inquiry on their credit file had has gone away and they've probably actually got a higher credit score now. There's a couple of factors that come into it. But this is also from our data when people seem to actually go for their second loan most between there and there. Cool.
+
+I just think I'm thinking now then so Polar will be a place where their loans sit. Right. And what we want to do is make it a place where it's loan agnostic. Fox loans, yes. But other loans, yes. Get them to, obviously, Fox loans we want automatically added in. What do you mean? Like anything that comes from you guys. Yeah. So that wants to go automatically in. But somebody that comes to Polar with a loan that isn't from you guys, we want them to be able to put those details in and get the same amount of value because that's the way that you'll convert them.
+
+Yeah. That loan details to, and it could, as I said to you before, it could be that they have a home loan with you, but they have asset finance with someone else, unsecured loan somewhere else. So we need, they need to be able to fill out their portfolio, there needs to be a reason to fill out their portfolio. So we would get that up here though, right? Like if we talk to someone at Asset, we do a full application?
+
+I'll show you what it looks like.
+
+So you get all of their information regardless of whether you did the loan? Yeah, I did.
+
+What about the same for homeowners? Right. This is why I was saying the team can capture this data up front if I give it to them in the right way. If I take someone...
+
+I should have gone to a customer that's got a mortgage. Let's go to... We still want to be able to cater for them to put their information in because some people might not want to talk. Yeah, and we've got an online application form at the moment through this system we use but that's also something that we could potentially build out from that.
+
+Yeah, we could just collect the information here in API into that.
+
+Yeah, but we as part of our application collect their addresses so you can see I've got his address, How long he's been there, what the value is, who the financier is, repayment amount. We'll ask him about the rate but normally the answer is I don't know. So we capture this in the application. It's part of our process because we actually have to disclose this stuff to a lender. So this is why when I was putting these together, and maybe this now starts to make more sense, We can flag up front to go, "Okay, this guy's got a property.
+
+He doesn't have any other investment properties though that we've captured so we know right now that based on that he's most likely to be going through either a new purchase, a refinance or an investor. And based on this I know straight away that without him giving me any indications of he's looking to purchase a new property, which would be for a new purchase or an investor, Refinance is the avenue that's going to be most relevant to him because win, lose or draw, Everyone wants to try and save money.
+
+So I know that that's where I would be sending him to have a book out. What, um... So the home loan aspect of it. Yeah.
+
+You gather the data, but there's not going to be an easy way to get it into Polar. Uh... It just depends if we change aggregator or not. And how long would that take? It's got to be a quick process, a month max. When will you know that? We'll probably figure that out by the end of this month.
+
+Quick decision needs to happen on that one, I would say. Okay, so timeline-wise, we can do just a prototype, but we should not do anything until we know the answer to that.
+
+I was wound up building something and then rebuilding it.
+
+What's your thoughts on, say we stuck with the aggregator that we're with right now, you're going, data's hard to get into. If you're going to change, please change. I'm always an advocate of open systems. Just check the APIs. I've got a flame one of my I sent them a big list of questions I want them to be able to answer when we go to this meeting and one of them in there was what's the system look like as far as API's When is the meeting?
+
+Thursday. 9 o'clock on Thursday.
+
+Lone Market Group, LMG is the name of the company. Mm-hmm.
+
+So I'm feel hopefully you're feeling heaps better going like we zero in on and we get this right, 'cause then these naturally plug in and then everything else naturally plugs in on top. Yep. and it simplifies it for us because we're not even if it was just one business right that's probably the thing we keep forgetting is that there's two businesses and then you said there's two playbooks so this is just this is fucking four playbooks simultaneously realistically so and we're not simple businesses with the way that we run things and the level of detail that we want to go to and things like we're a headache for a lot of people because We hold people accountable and Because we try and make sure we are aware of things like we try not let people pull the wool over our eyes.
+
+It means that this stuff is a bit harder to build out because it's got to be done right. But if we just lock in and do that, the only thing you've got is that Nate says that he's coming in here, we're moving ahead with GHL. So you've just got to make sure you can get across to him why, not even that this is the best option, just like that this is really all we can do. as in building outside of J.H.L.
+
+If we're just doing that middle line, I could build that in GHL. I don't want to be dishonest. I just...
+
+What happens when you plug these in?
+
+It just becomes messier and messier and GHL isn't the... It's not got the best user interface. You'll get lost. You'll get lost. All the clients that are complex clients, they get lost. Okay. And the dashboarding inside a GHL is shit. Um Let's prototype it. This first bit, show what it could be and then we'll just put it side by side. It's like, this is exactly the same. This is what you can get. This is what it'll look like.
+
+You'll have the client interface or you can deal with this. We can just go through GHL and he can see for himself. Okay. If he wants to make the call and go to GHL, it's his business.
+
+Yeah, ultimately I'll push as hard as I possibly can, but at the end of the day, it'll be a nice decision.
+
+I think the best--But he'll take into account, right?
+
+As long as you can explain why this option is gonna be the better option, and I think A being the two is probably a good thing, It's hard conceptually and like Unless you're a creative person and him and I are not data driven people in every process. Until I can see in front of me, it's this. hard to Kind of going, yeah, that's the way that makes sense or this is the way that makes sense. Okay, can I have, um...
+
+A mock example of one of these, so all of the different data points, Don't give me real data. What do you mean? Like a customer? Yeah. and everything you... Maybe not everything you collect, but all of the main things that you want to put into either GHL or this. Because I can set something up in GHL as well and just show you what that will look like versus what it could look like. I think that's...
+
+As long as that's not going to be a massive pain in the ass for you, I think that's a good step because it gives really good clarity on which direction you're going.
+
+Yeah, I think if this was going to be a small engagement, I wouldn't do it. I'd probably just dive into GHL and be like, that's that. What you're helping us... build and this V1 iteration of Polar.
+
+This is gonna be... This is how I'm selling it to myself anyway, and I believe it. In 10 years time when everything has shifted and changed and moved around, this is the reason why we'll still have a business. Agreed. Just give you like a level of how much importance I place on it. I know Nate's in the same boat, but. I go home every night thinking about it because I'm like, fuck, we've got to make sure we stay ahead and we've got to...
+
+We've got a good place to start from, but we've got to do some things with that.
+
+Very quickly, let me show you this, and then I've got to run. So, this is co-work, as you can tell, 'cause you've been using it. Yes, I've got co-work. And I use Cloud Code for most of my stuff, so if we go here, Yeah. I was just intimidated by the terminal, but... I mean, what do you view as co-work? You're using the same thing, right? So essentially, you're a folder on my computer, and inside that folder is my methodology, which is these top three.
+
+This is... applying all of my knowledge, all of my IP, and then I use it to do stuff like create, well it's not there anymore, but create that thing, create the playbooks, the content. I'm still driving it, I'm still reviewing it, I'm still talking to it, but it's my years of experience doing this shit. That's pretty cool, man. And so I have, Just for reference, I just changed out all the file structure recently.
+
+Charge, you have a dev.
+
+So I have these tools. These are my frameworks. This one is for building websites. This one is for building AI IP. This one is what we do for the sales agency, the one that I'm in. These two are random ones about getting open claw. And this one is how I vibe code software, which is probably what I'm going to use for this. So I have all of these frameworks.
+
+That's a folder that you've got in there that Cowork pulls from? Yeah. Well, not Cowork.
+
+So what I do is I go projects, clients, I'll create a client. And then what I'm going to do here with you is I'm going to create another one, which will be Fox-Vibe. Then I'm going to open it up here and I'm going to copy and paste my methodology. I'm going to initialize it. It's going to do some setup and it's going to get us going. Now, I love working in that for this. What I use Cowork for is I get Cowork to work in the parent folder where all the projects sit.
+
+And I go, create me a project management. I want you to review all of these projects, see where we're up to. I've got an MCP into Notion where our current project management is. And I say, also pull all the tasks out of Notion. I've got an API into Reclaim, which is my task management system. Also pull all that information. I called it a COS, Customer Operating System, or Context Operating System. And there's a YAML file.
+
+There's cos.yaml, right? And so I went through and this was it, helping me get my priorities for the week. But what I also did is I've created it dynamic. So as it updates the YAML file, it also updates... Um... This dashboard. Which is essentially a static dashboard, but a static dashboard that actually has all of the information I want because it's pulling it out of that YAML. And so this is the thing.
+
+If you're doing this, anytime you build something, you get the context, you use CoWork to pull all of your different files. So having... I don't know about you, but we've gone from having everything on your computer to having everything in something like Google Drive or whatever you use. Yeah, Android or whatever.
+
+Yeah, I've just realized that over the last two weeks. And then you get your file structure right. What you start doing is the methodologies.
+
+You work out For a home loan client, I do this thing, this thing, this thing, and this thing. Let's call it four things. Create an agent for each of those four things. Pre-prompt it. And then later down the track, you can create skills for those agents. And like, the amount of agents that I have now, like, So the engine methodology has that many agents. I think it's about 22 or something. And then each one of those are pre-prompted to work with those skills, of which there's probably even more.
+
+And so you just use Claude Co. work or Claude Co. to actually build your agents, your framework. So then when you get a new client and you need to work with them, or it could be a new staff member, it's probably more relevant for you, right?
+
+Yeah. So you have like a staff operating system. You need an onboarding agent, you need a compliance agent, blah, blah, blah.
+
+So you add a new folder, And then you pull the methodology in there and you use it inside that folder. And so it will start giving outputs like here's the performance, here's this, this, this, this, this. And then you come to co-work and you go, I want to visualize this. And you just pop it in. Can I show you something? Yeah, of course. So, Started off by me trying to solve that marketing problem.
+
+And the rabbit hole that ended up taking me down is I put in copious amounts of data, ICAs, brand guidelines, all sorts of stuff. and went down that avenue, man, built it out, and I've got... basically like an orchestrator that oversees all of it and prioritizes the task accordingly. a reporting agent that goes and pulls the data via API from SEMrush, GF4, Search Console. And SEO audit that then interprets the report and puts that through to what pages need the most attention and what content we should create.
+
+EDM agent, social agent. And then I put into this something as well, which was a strategic intelligence agent, which is kind of looking at what people are searching for with finance and things like that and making sure our long-term vision aligns to that. And then a memory agent that lets it all compound and build because I didn't know any of this shit. I just got down a rabbit hole and started asking millions of fucking questions and was like,Let's give it a crack.
+
+Yeah. So I'm at the stage now where I'm going through and I'm just reviewing these line by line in the MD after all of the work I've put into it so far. But the one I'm excited about is that I've basically started building out our operational function as a business in here with agents for, what did it come across? Because I've only got the orchestrator in there at the moment. It is... Is there a document in there for it?
+
+Might be. No, that's all right. But it basically covers off on like... Is it under team? Leadership? Oh, yeah. No, I think that's going to be my individual team. same members hold on i'll just grab it back from in here You need to get the desktop out. I've got the desktop app. Okay, good.
+
+Had to give it so much for it to put together, the orchestrator, hey, fucking hell.
+
+It's good that you, I mean, that's what I call my, um...
+
+The business that we have that teaches people how to build out, take their IP and Essentially, productize it with AI. We called the AI orchestrators. That's pretty cool. That's very cool.
+
+Sorry, man. I'm just going to go to the very top. Is this a chat or is this a co-work? This is the chat. Putting it together to put into co-work. Gotcha. Yeah, yeah, yeah. because I've researched how to get the best out of it. You're not following me.
+
+I don't know how it works here Yeah, start controls. Yeah. Follow the structure. Yeah. Just trying to find where it came back with the full structure. Just so I can show it to you.
+
+Was that a document or was it chat?
+
+That's the Thames. Might be this one.
+
+Oh, here it is. So I'm in the process of building this out.
+
+at the moment because I thought if I can take our entire operations as a business and get it in here so that I can from my phone with dispatch go, "Hey, for marketing team, for example, Write a blog about this this and this and then come back after the meeting and it's in there ready to go like how much further ahead I am on stuff. Mmm. I love Do I tell you how I set out my day now? No. So...
+
+Every single morning it starts with this same thing. MIT planning, most important task planning. And so effectively what I do is I go in and I work out what I'm going to be working on that day. And I load up all of the different iterations of Clog code. And I go, right, what am I working on for each one of these? And I go, right, I start a planning function. So forwards, I don't know if you can do it in Clog.
+
+I think you can, yeah. So in Clog co-work, it's... When you're talking, Or maybe he can't. So in, in, This is why I like cold code better than Coward. It's like it's literally just a You literally go forward slash plan. and it puts it into planning mode and before it does anything it creates plans. So I might be working on four or five projects that day and so I'll get them all jacked up with plans.
+
+Oh, heck do.
+
+And then usually I'll start initiating those plans and that's my first hour of work. And so then I leave it, just it's done, right? And then when I get to the point in my day where I'm working on that project, Then I'm reviewing a plan already. And then rather than, it takes a bit of a mindset shift. Rather than doing like lots of deep work where you're doing like two hours on a thing, you actually have to do more like half an hour slots.
+
+You go half an hour on this, you refine it, you do it, you add the set. Another plan or you just go get the iterations and you move on to the next one. Yeah. And--Makes sense though, man. This is the new, yeah, this is MYMC.
+
+Effectively, What this ended up being is it's like there's a leadership function which has got all of our leadership training and documents and everything in it. There's a HR function in there. There's a learning and development function that's in there as well. And the way it all works, I wanted it, is so that whatever's going on, because I've got lots of stuff we're in meetings about, I can flick it through and dispatch and it'll assign it to the right agent and it'll put together what I need for that.
+
+So when I come back from it, it's already starting to work on it. But the orchestrator... I've built out so that all of our team's quarterly intentions and all those sorts of things live within it and what it can do is reference the weekly emails that the reporting agent sends out and look for how that relates to the team and their progression so that rather than me needing to do a deep hour of work to pull through pipelines and understand where team members are at, it'll flag it all down.
